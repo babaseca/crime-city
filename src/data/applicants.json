@@ -1,0 +1,986 @@
+[
+  {
+    "id": "app-lume-coral",
+    "codinome": "Lume Coral",
+    "nomeCivil": "Nara Belmiro",
+    "idade": 24,
+    "arquetipo": "suporte luminoso",
+    "poder": "emite sinais de luz solida para orientar multidoes e selar rotas perigosas",
+    "biografia": "Ex-tecnica de teatro comunitario que aprendeu a transformar palco em rota de fuga. Fala pouco, mas todo mundo encontra a saida quando ela aponta.",
+    "atributos": {
+      "forca": 3,
+      "mobilidade": 7,
+      "controle": 8,
+      "investigacao": 5,
+      "carisma": 8,
+      "resistencia": 5
+    },
+    "tracosPositivos": [
+      "calma",
+      "didatica",
+      "corajosa"
+    ],
+    "tracosNegativos": [
+      "evita confronto",
+      "culpa facil"
+    ],
+    "expectativaSalarial": 6200,
+    "custoContratacao": 15000,
+    "riscoComportamental": "baixo",
+    "compatibilidade": 86,
+    "imageUrl": "",
+    "status": "novo",
+    "availableFromDay": 1,
+    "hiddenInfo": "Tem um historico de pânico em locais completamente escuros, mas sabe pedir cobertura antes de travar."
+  },
+  {
+    "id": "app-santo-sprint",
+    "codinome": "Santo Sprint",
+    "nomeCivil": "Leo Anselmo",
+    "idade": 19,
+    "arquetipo": "velocista de resgate",
+    "poder": "acelera em linhas curtas e cria deslocamentos de ar para abrir caminho",
+    "biografia": "Entregador de remedios de emergencia que virou noticia por atravessar uma enchente com uma mochila acima da cabeca.",
+    "atributos": {
+      "forca": 4,
+      "mobilidade": 10,
+      "controle": 4,
+      "investigacao": 5,
+      "carisma": 7,
+      "resistencia": 6
+    },
+    "tracosPositivos": [
+      "generoso",
+      "rapido",
+      "engracado"
+    ],
+    "tracosNegativos": [
+      "imprudente",
+      "fala demais"
+    ],
+    "expectativaSalarial": 5400,
+    "custoContratacao": 12000,
+    "riscoComportamental": "medio",
+    "compatibilidade": 74,
+    "imageUrl": "",
+    "status": "novo",
+    "availableFromDay": 1,
+    "hiddenInfo": "Mentiu sobre nunca ter perdido uma corrida. Perdeu uma importante e ainda carrega a culpa."
+  },
+  {
+    "id": "app-doutora-sutura",
+    "codinome": "Doutora Sutura",
+    "nomeCivil": "Vera Zanin",
+    "idade": 37,
+    "arquetipo": "medica de campo",
+    "poder": "acelera cicatrizacao leve e estabiliza sinais vitais por contato",
+    "biografia": "Cirurgia de trauma, plantao noturno e uma paciencia que assusta ate os bombeiros. Quer voltar para a rua com uma equipe que escute.",
+    "atributos": {
+      "forca": 3,
+      "mobilidade": 5,
+      "controle": 8,
+      "investigacao": 7,
+      "carisma": 8,
+      "resistencia": 9
+    },
+    "tracosPositivos": [
+      "precisa",
+      "empatica",
+      "veterana"
+    ],
+    "tracosNegativos": [
+      "severa",
+      "pouco flexivel"
+    ],
+    "expectativaSalarial": 9800,
+    "custoContratacao": 22000,
+    "riscoComportamental": "baixo",
+    "compatibilidade": 91,
+    "imageUrl": "",
+    "status": "novo",
+    "availableFromDay": 1,
+    "hiddenInfo": "Pode reduzir tempo de ferimento de herois se a enfermaria for expandida futuramente."
+  },
+  {
+    "id": "app-mola-cinza",
+    "codinome": "Mola Cinza",
+    "nomeCivil": "Juca Ramires",
+    "idade": 28,
+    "arquetipo": "controle cinetico",
+    "poder": "absorve impacto e devolve parte da energia como salto ou empurrao",
+    "biografia": "Dublador de cenas perigosas. Diz que se machuca pouco, o que e tecnicamente verdade e emocionalmente discutivel.",
+    "atributos": {
+      "forca": 7,
+      "mobilidade": 8,
+      "controle": 5,
+      "investigacao": 3,
+      "carisma": 6,
+      "resistencia": 8
+    },
+    "tracosPositivos": [
+      "divertido",
+      "resistente",
+      "leal"
+    ],
+    "tracosNegativos": [
+      "vaidoso",
+      "subestima risco"
+    ],
+    "expectativaSalarial": 7200,
+    "custoContratacao": 16500,
+    "riscoComportamental": "medio",
+    "compatibilidade": 78,
+    "imageUrl": "",
+    "status": "novo",
+    "availableFromDay": 2,
+    "hiddenInfo": "Tem rivalidade antiga com uma equipe privada de resgate que pode aparecer em eventos."
+  },
+  {
+    "id": "app-argila-brava",
+    "codinome": "Argila Brava",
+    "nomeCivil": "Katia Nobre",
+    "idade": 31,
+    "arquetipo": "defesa moldavel",
+    "poder": "reveste o corpo com argila mineral e cria apoios temporarios",
+    "biografia": "Construtora de encostas populares. Entrou na triagem depois de segurar um muro com as costas e reclamar do cimento.",
+    "atributos": {
+      "forca": 9,
+      "mobilidade": 4,
+      "controle": 7,
+      "investigacao": 4,
+      "carisma": 5,
+      "resistencia": 9
+    },
+    "tracosPositivos": [
+      "franca",
+      "protetora",
+      "pratica"
+    ],
+    "tracosNegativos": [
+      "teimosa",
+      "impaciente"
+    ],
+    "expectativaSalarial": 8200,
+    "custoContratacao": 20500,
+    "riscoComportamental": "medio",
+    "compatibilidade": 83,
+    "imageUrl": "",
+    "status": "novo",
+    "availableFromDay": 2,
+    "hiddenInfo": "Quando alguem chama civis de 'dano colateral', ela perde a paciencia imediatamente."
+  },
+  {
+    "id": "app-verbo-nove",
+    "codinome": "Verbo Nove",
+    "nomeCivil": "Miro Fagundes",
+    "idade": 42,
+    "arquetipo": "negociador cognitivo",
+    "poder": "percebe padroes de fala e encontra palavras que reduzem escalada emocional",
+    "biografia": "Mediador de conflitos coletivos. Seu superpoder oficial e ouvir ate o fim, uma habilidade rara em radio de emergencia.",
+    "atributos": {
+      "forca": 2,
+      "mobilidade": 4,
+      "controle": 6,
+      "investigacao": 8,
+      "carisma": 10,
+      "resistencia": 6
+    },
+    "tracosPositivos": [
+      "paciente",
+      "persuasivo",
+      "observador"
+    ],
+    "tracosNegativos": [
+      "hesitante",
+      "absorve culpa"
+    ],
+    "expectativaSalarial": 10500,
+    "custoContratacao": 24000,
+    "riscoComportamental": "baixo",
+    "compatibilidade": 88,
+    "imageUrl": "",
+    "status": "novo",
+    "availableFromDay": 2,
+    "hiddenInfo": "Ja conversou com um vilao reformado que pode indicar um caso do Arquivo."
+  },
+  {
+    "id": "app-pino-fantasma",
+    "codinome": "Pino Fantasma",
+    "nomeCivil": "Biel Arco",
+    "idade": 26,
+    "arquetipo": "infiltracao urbana",
+    "poder": "desloca o proprio som alguns metros para distrair ameacas",
+    "biografia": "Especialista em manutencao de predios vazios. Entra por lugares impossiveis e sai fingindo que a porta estava aberta.",
+    "atributos": {
+      "forca": 3,
+      "mobilidade": 9,
+      "controle": 6,
+      "investigacao": 9,
+      "carisma": 4,
+      "resistencia": 5
+    },
+    "tracosPositivos": [
+      "discreto",
+      "inventivo",
+      "analitico"
+    ],
+    "tracosNegativos": [
+      "evasivo",
+      "desconfiado"
+    ],
+    "expectativaSalarial": 7600,
+    "custoContratacao": 18500,
+    "riscoComportamental": "alto",
+    "compatibilidade": 66,
+    "imageUrl": "",
+    "status": "novo",
+    "availableFromDay": 3,
+    "hiddenInfo": "O sobrenome no curriculo e falso. O motivo ainda nao parece criminoso."
+  },
+  {
+    "id": "app-grua-doce",
+    "codinome": "Grua Doce",
+    "nomeCivil": "Marta Calisto",
+    "idade": 45,
+    "arquetipo": "resgate pesado",
+    "poder": "projeta bracos de campo elastico para içamento e remocao",
+    "biografia": "Operadora de porto que salvou colegas durante um colapso de conteineres. Chama todo novato de 'filho' e todo guindaste de 'teimoso'.",
+    "atributos": {
+      "forca": 8,
+      "mobilidade": 5,
+      "controle": 8,
+      "investigacao": 4,
+      "carisma": 7,
+      "resistencia": 8
+    },
+    "tracosPositivos": [
+      "maternal",
+      "forte",
+      "calma"
+    ],
+    "tracosNegativos": [
+      "superprotetora",
+      "lenta para recuar"
+    ],
+    "expectativaSalarial": 9200,
+    "custoContratacao": 21000,
+    "riscoComportamental": "baixo",
+    "compatibilidade": 90,
+    "imageUrl": "",
+    "status": "novo",
+    "availableFromDay": 3,
+    "hiddenInfo": "Tem uma lista de nomes de civis que salvou e liga para todos no aniversario."
+  },
+  {
+    "id": "app-nuvem-ferro",
+    "codinome": "Nuvem Ferro",
+    "nomeCivil": "Ari Cerdeira",
+    "idade": 33,
+    "arquetipo": "controle atmosferico",
+    "poder": "condensa particulas metalicas no ar para criar cortinas e escudos",
+    "biografia": "Meteorologista de bairro industrial. Sabe a diferenca entre chuva acida e desculpa de oficina.",
+    "atributos": {
+      "forca": 4,
+      "mobilidade": 6,
+      "controle": 10,
+      "investigacao": 7,
+      "carisma": 4,
+      "resistencia": 6
+    },
+    "tracosPositivos": [
+      "metodico",
+      "curioso",
+      "preciso"
+    ],
+    "tracosNegativos": [
+      "frio",
+      "pouco sociavel"
+    ],
+    "expectativaSalarial": 8800,
+    "custoContratacao": 23000,
+    "riscoComportamental": "medio",
+    "compatibilidade": 79,
+    "imageUrl": "",
+    "status": "novo",
+    "availableFromDay": 4,
+    "hiddenInfo": "Pode criar atrito com herois impulsivos, mas melhora muito missoes quimicas."
+  },
+  {
+    "id": "app-bate-ponto",
+    "codinome": "Bate-Ponto",
+    "nomeCivil": "Nando Quiles",
+    "idade": 39,
+    "arquetipo": "veterano operacional",
+    "poder": "antecipa microfalhas mecanicas poucos segundos antes de ocorrerem",
+    "biografia": "Trabalhou vinte anos em manutencao de trilhos. Reclama de tudo, principalmente de gente que nao le manual.",
+    "atributos": {
+      "forca": 5,
+      "mobilidade": 5,
+      "controle": 7,
+      "investigacao": 9,
+      "carisma": 5,
+      "resistencia": 8
+    },
+    "tracosPositivos": [
+      "veterano",
+      "confiavel",
+      "protetor"
+    ],
+    "tracosNegativos": [
+      "rabugento",
+      "fatalista"
+    ],
+    "expectativaSalarial": 8400,
+    "custoContratacao": 19000,
+    "riscoComportamental": "baixo",
+    "compatibilidade": 84,
+    "imageUrl": "",
+    "status": "novo",
+    "availableFromDay": 4,
+    "hiddenInfo": "Perdeu antigos parceiros em um acidente de trilhos; protege novatos de forma quase agressiva."
+  },
+  {
+    "id": "app-sereia-de-asfalto",
+    "codinome": "Sereia de Asfalto",
+    "nomeCivil": "Laila Rios",
+    "idade": 27,
+    "arquetipo": "controle sonoro",
+    "poder": "modula frequencias para orientar, acalmar ou desestabilizar grupos",
+    "biografia": "Cantora de rua que virou operadora de evacuação improvisada em uma pane de metrô. Nunca chama o proprio poder de canto.",
+    "atributos": {
+      "forca": 3,
+      "mobilidade": 7,
+      "controle": 8,
+      "investigacao": 5,
+      "carisma": 9,
+      "resistencia": 5
+    },
+    "tracosPositivos": [
+      "expressiva",
+      "empatica",
+      "rapida"
+    ],
+    "tracosNegativos": [
+      "dramática",
+      "sensivel a critica"
+    ],
+    "expectativaSalarial": 7000,
+    "custoContratacao": 17500,
+    "riscoComportamental": "medio",
+    "compatibilidade": 81,
+    "imageUrl": "",
+    "status": "novo",
+    "availableFromDay": 5,
+    "hiddenInfo": "Seu poder perde precisao quando ela esta em luto ou sob humilhacao publica."
+  },
+  {
+    "id": "app-lacre-vidro",
+    "codinome": "Lacre Vidro",
+    "nomeCivil": "Enzo Parra",
+    "idade": 22,
+    "arquetipo": "barreiras rapidas",
+    "poder": "cria lacres transparentes que bloqueiam portas, vazamentos e pequenos impactos",
+    "biografia": "Inventor de garagem que salvou um predio de uma inundacao usando doze lacres, tres panelas e uma frase que ninguem entendeu.",
+    "atributos": {
+      "forca": 4,
+      "mobilidade": 6,
+      "controle": 9,
+      "investigacao": 7,
+      "carisma": 5,
+      "resistencia": 5
+    },
+    "tracosPositivos": [
+      "engenhoso",
+      "otimista",
+      "rapido"
+    ],
+    "tracosNegativos": [
+      "desorganizado",
+      "superexplica"
+    ],
+    "expectativaSalarial": 6000,
+    "custoContratacao": 14000,
+    "riscoComportamental": "medio",
+    "compatibilidade": 76,
+    "imageUrl": "",
+    "status": "novo",
+    "availableFromDay": 5,
+    "hiddenInfo": "Indica outro heroi se for contratado e sobreviver aos primeiros tres plantoes."
+  },
+  {
+    "id": "app-mbar_lento",
+    "codinome": "Âmbar Lento",
+    "nomeCivil": "Bia Quevedo",
+    "idade": 21,
+    "arquetipo": "resgate urbano",
+    "poder": "cria rotas luminosas de evacuação por poucos minutos",
+    "biografia": "Candidato de Nova Aurora com histórico em mutirões comunitários. Ainda precisa provar ritmo, mas traz repertório de rua para a Central.",
+    "atributos": {
+      "forca": 3,
+      "mobilidade": 6,
+      "controle": 8,
+      "investigacao": 4,
+      "carisma": 7,
+      "resistencia": 9
+    },
+    "tracosPositivos": [
+      "calmo",
+      "rápido"
+    ],
+    "tracosNegativos": [
+      "ansioso"
+    ],
+    "expectativaSalarial": 4800,
+    "custoContratacao": 9500,
+    "riscoComportamental": "medio",
+    "compatibilidade": 52,
+    "imageUrl": "",
+    "status": "novo",
+    "availableFromDay": 1,
+    "hiddenInfo": "Tem indicação informal de um herói veterano, mas pediu para não usar isso como atalho."
+  },
+  {
+    "id": "app-b_ssola_clara",
+    "codinome": "Bússola Clara",
+    "nomeCivil": "Renan Bastos",
+    "idade": 24,
+    "arquetipo": "controle de multidão",
+    "poder": "ouve padrões de vibração em estruturas sob pressão",
+    "biografia": "Candidato de Nova Aurora com histórico em defesa civil voluntária. Ainda precisa provar ritmo, mas traz repertório de rua para a Central.",
+    "atributos": {
+      "forca": 4,
+      "mobilidade": 7,
+      "controle": 9,
+      "investigacao": 5,
+      "carisma": 8,
+      "resistencia": 4
+    },
+    "tracosPositivos": [
+      "corajoso",
+      "paciente"
+    ],
+    "tracosNegativos": [
+      "teimoso"
+    ],
+    "expectativaSalarial": 5150,
+    "custoContratacao": 10650,
+    "riscoComportamental": "alto",
+    "compatibilidade": 59,
+    "imageUrl": "",
+    "status": "novo",
+    "availableFromDay": 2,
+    "hiddenInfo": "O currículo omite uma falha em treinamento civil que ainda pesa no comportamento em campo."
+  },
+  {
+    "id": "app-corda_solar",
+    "codinome": "Corda Solar",
+    "nomeCivil": "Olga Correia",
+    "idade": 27,
+    "arquetipo": "investigação de campo",
+    "poder": "acelera pequenos equipamentos sem fonte externa",
+    "biografia": "Candidato de Nova Aurora com histórico em rádio de bairro. Ainda precisa provar ritmo, mas traz repertório de rua para a Central.",
+    "atributos": {
+      "forca": 5,
+      "mobilidade": 8,
+      "controle": 4,
+      "investigacao": 6,
+      "carisma": 9,
+      "resistencia": 5
+    },
+    "tracosPositivos": [
+      "observador",
+      "curioso"
+    ],
+    "tracosNegativos": [
+      "inexperiente"
+    ],
+    "expectativaSalarial": 5500,
+    "custoContratacao": 11800,
+    "riscoComportamental": "baixo",
+    "compatibilidade": 66,
+    "imageUrl": "",
+    "status": "novo",
+    "availableFromDay": 3,
+    "hiddenInfo": "Mostrou potencial especial quando trabalha em dupla, especialmente com alguém calmo."
+  },
+  {
+    "id": "app-d_namo_manso",
+    "codinome": "Dínamo Manso",
+    "nomeCivil": "Vicente Neri",
+    "idade": 30,
+    "arquetipo": "suporte médico",
+    "poder": "projeta barreiras curtas de ar denso",
+    "biografia": "Candidato de Nova Aurora com histórico em oficina popular. Ainda precisa provar ritmo, mas traz repertório de rua para a Central.",
+    "atributos": {
+      "forca": 6,
+      "mobilidade": 9,
+      "controle": 5,
+      "investigacao": 7,
+      "carisma": 4,
+      "resistencia": 6
+    },
+    "tracosPositivos": [
+      "didático",
+      "resiliente"
+    ],
+    "tracosNegativos": [
+      "orgulhoso"
+    ],
+    "expectativaSalarial": 5850,
+    "custoContratacao": 12950,
+    "riscoComportamental": "medio",
+    "compatibilidade": 73,
+    "imageUrl": "",
+    "status": "novo",
+    "availableFromDay": 4,
+    "hiddenInfo": "Tem rivalidade leve com uma organização rival que pode virar evento futuro."
+  },
+  {
+    "id": "app-estalo_branco",
+    "codinome": "Estalo Branco",
+    "nomeCivil": "Silas Paz",
+    "idade": 33,
+    "arquetipo": "contenção tática",
+    "poder": "lê microexpressões e ruído social em multidões",
+    "biografia": "Candidato de Nova Aurora com histórico em clínica de plantão. Ainda precisa provar ritmo, mas traz repertório de rua para a Central.",
+    "atributos": {
+      "forca": 7,
+      "mobilidade": 4,
+      "controle": 6,
+      "investigacao": 8,
+      "carisma": 5,
+      "resistencia": 7
+    },
+    "tracosPositivos": [
+      "leal",
+      "pontual"
+    ],
+    "tracosNegativos": [
+      "impulsivo"
+    ],
+    "expectativaSalarial": 6200,
+    "custoContratacao": 14100,
+    "riscoComportamental": "alto",
+    "compatibilidade": 80,
+    "imageUrl": "",
+    "status": "novo",
+    "availableFromDay": 5,
+    "hiddenInfo": "Sabe mais sobre facções locais do que admite na primeira entrevista."
+  },
+  {
+    "id": "app-fita_de_chuva",
+    "codinome": "Fita de Chuva",
+    "nomeCivil": "Nadia Almada",
+    "idade": 36,
+    "arquetipo": "logística de evacuação",
+    "poder": "marca objetos com sinais que só a equipe enxerga",
+    "biografia": "Candidato de Nova Aurora com histórico em coletivo estudantil. Ainda precisa provar ritmo, mas traz repertório de rua para a Central.",
+    "atributos": {
+      "forca": 8,
+      "mobilidade": 5,
+      "controle": 7,
+      "investigacao": 9,
+      "carisma": 6,
+      "resistencia": 8
+    },
+    "tracosPositivos": [
+      "criativo",
+      "empático"
+    ],
+    "tracosNegativos": [
+      "desconfiado"
+    ],
+    "expectativaSalarial": 6550,
+    "custoContratacao": 15250,
+    "riscoComportamental": "baixo",
+    "compatibilidade": 87,
+    "imageUrl": "",
+    "status": "novo",
+    "availableFromDay": 1,
+    "hiddenInfo": "Tem indicação informal de um herói veterano, mas pediu para não usar isso como atalho."
+  },
+  {
+    "id": "app-garoa_forte",
+    "codinome": "Garoa Forte",
+    "nomeCivil": "Luan Torre",
+    "idade": 21,
+    "arquetipo": "mediação pública",
+    "poder": "cria rotas luminosas de evacuação por poucos minutos",
+    "biografia": "Candidato de Nova Aurora com histórico em mutirões comunitários. Ainda precisa provar ritmo, mas traz repertório de rua para a Central.",
+    "atributos": {
+      "forca": 3,
+      "mobilidade": 6,
+      "controle": 8,
+      "investigacao": 3,
+      "carisma": 7,
+      "resistencia": 9
+    },
+    "tracosPositivos": [
+      "calmo",
+      "rápido"
+    ],
+    "tracosNegativos": [
+      "ansioso"
+    ],
+    "expectativaSalarial": 6900,
+    "custoContratacao": 16400,
+    "riscoComportamental": "medio",
+    "compatibilidade": 52,
+    "imageUrl": "",
+    "status": "novo",
+    "availableFromDay": 2,
+    "hiddenInfo": "O currículo omite uma falha em treinamento civil que ainda pesa no comportamento em campo."
+  },
+  {
+    "id": "app-helix_popular",
+    "codinome": "Helix Popular",
+    "nomeCivil": "Cora Rios",
+    "idade": 24,
+    "arquetipo": "controle de energia",
+    "poder": "ouve padrões de vibração em estruturas sob pressão",
+    "biografia": "Candidato de Nova Aurora com histórico em defesa civil voluntária. Ainda precisa provar ritmo, mas traz repertório de rua para a Central.",
+    "atributos": {
+      "forca": 4,
+      "mobilidade": 7,
+      "controle": 9,
+      "investigacao": 4,
+      "carisma": 8,
+      "resistencia": 4
+    },
+    "tracosPositivos": [
+      "corajoso",
+      "paciente"
+    ],
+    "tracosNegativos": [
+      "teimoso"
+    ],
+    "expectativaSalarial": 7250,
+    "custoContratacao": 17550,
+    "riscoComportamental": "alto",
+    "compatibilidade": 59,
+    "imageUrl": "",
+    "status": "novo",
+    "availableFromDay": 3,
+    "hiddenInfo": "Mostrou potencial especial quando trabalha em dupla, especialmente com alguém calmo."
+  },
+  {
+    "id": "app-ris_de_rua",
+    "codinome": "Íris de Rua",
+    "nomeCivil": "Teo Seabra",
+    "idade": 27,
+    "arquetipo": "busca e reconhecimento",
+    "poder": "acelera pequenos equipamentos sem fonte externa",
+    "biografia": "Candidato de Nova Aurora com histórico em rádio de bairro. Ainda precisa provar ritmo, mas traz repertório de rua para a Central.",
+    "atributos": {
+      "forca": 5,
+      "mobilidade": 8,
+      "controle": 4,
+      "investigacao": 5,
+      "carisma": 9,
+      "resistencia": 5
+    },
+    "tracosPositivos": [
+      "observador",
+      "curioso"
+    ],
+    "tracosNegativos": [
+      "inexperiente"
+    ],
+    "expectativaSalarial": 7600,
+    "custoContratacao": 18700,
+    "riscoComportamental": "baixo",
+    "compatibilidade": 66,
+    "imageUrl": "",
+    "status": "novo",
+    "availableFromDay": 4,
+    "hiddenInfo": "Tem rivalidade leve com uma organização rival que pode virar evento futuro."
+  },
+  {
+    "id": "app-jangada_alta",
+    "codinome": "Jangada Alta",
+    "nomeCivil": "Mina Campos",
+    "idade": 30,
+    "arquetipo": "tecnologia improvisada",
+    "poder": "projeta barreiras curtas de ar denso",
+    "biografia": "Candidato de Nova Aurora com histórico em oficina popular. Ainda precisa provar ritmo, mas traz repertório de rua para a Central.",
+    "atributos": {
+      "forca": 6,
+      "mobilidade": 9,
+      "controle": 5,
+      "investigacao": 6,
+      "carisma": 4,
+      "resistencia": 6
+    },
+    "tracosPositivos": [
+      "didático",
+      "resiliente"
+    ],
+    "tracosNegativos": [
+      "orgulhoso"
+    ],
+    "expectativaSalarial": 7950,
+    "custoContratacao": 19850,
+    "riscoComportamental": "medio",
+    "compatibilidade": 73,
+    "imageUrl": "",
+    "status": "novo",
+    "availableFromDay": 5,
+    "hiddenInfo": "Sabe mais sobre facções locais do que admite na primeira entrevista."
+  },
+  {
+    "id": "app-lacre_verde",
+    "codinome": "Lacre Verde",
+    "nomeCivil": "Breno Luz",
+    "idade": 33,
+    "arquetipo": "resgate urbano",
+    "poder": "lê microexpressões e ruído social em multidões",
+    "biografia": "Candidato de Nova Aurora com histórico em clínica de plantão. Ainda precisa provar ritmo, mas traz repertório de rua para a Central.",
+    "atributos": {
+      "forca": 7,
+      "mobilidade": 4,
+      "controle": 6,
+      "investigacao": 7,
+      "carisma": 5,
+      "resistencia": 7
+    },
+    "tracosPositivos": [
+      "leal",
+      "pontual"
+    ],
+    "tracosNegativos": [
+      "impulsivo"
+    ],
+    "expectativaSalarial": 8300,
+    "custoContratacao": 21000,
+    "riscoComportamental": "alto",
+    "compatibilidade": 80,
+    "imageUrl": "",
+    "status": "novo",
+    "availableFromDay": 1,
+    "hiddenInfo": "Tem indicação informal de um herói veterano, mas pediu para não usar isso como atalho."
+  },
+  {
+    "id": "app-mar_de_bolso",
+    "codinome": "Maré de Bolso",
+    "nomeCivil": "Aline Prado",
+    "idade": 36,
+    "arquetipo": "controle de multidão",
+    "poder": "marca objetos com sinais que só a equipe enxerga",
+    "biografia": "Candidato de Nova Aurora com histórico em coletivo estudantil. Ainda precisa provar ritmo, mas traz repertório de rua para a Central.",
+    "atributos": {
+      "forca": 8,
+      "mobilidade": 5,
+      "controle": 7,
+      "investigacao": 8,
+      "carisma": 6,
+      "resistencia": 8
+    },
+    "tracosPositivos": [
+      "criativo",
+      "empático"
+    ],
+    "tracosNegativos": [
+      "desconfiado"
+    ],
+    "expectativaSalarial": 8650,
+    "custoContratacao": 22150,
+    "riscoComportamental": "baixo",
+    "compatibilidade": 87,
+    "imageUrl": "",
+    "status": "novo",
+    "availableFromDay": 2,
+    "hiddenInfo": "O currículo omite uma falha em treinamento civil que ainda pesa no comportamento em campo."
+  },
+  {
+    "id": "app-nimbo_seco",
+    "codinome": "Nimbo Seco",
+    "nomeCivil": "Jonas Galeno",
+    "idade": 21,
+    "arquetipo": "investigação de campo",
+    "poder": "cria rotas luminosas de evacuação por poucos minutos",
+    "biografia": "Candidato de Nova Aurora com histórico em mutirões comunitários. Ainda precisa provar ritmo, mas traz repertório de rua para a Central.",
+    "atributos": {
+      "forca": 3,
+      "mobilidade": 6,
+      "controle": 8,
+      "investigacao": 9,
+      "carisma": 7,
+      "resistencia": 9
+    },
+    "tracosPositivos": [
+      "calmo",
+      "rápido"
+    ],
+    "tracosNegativos": [
+      "ansioso"
+    ],
+    "expectativaSalarial": 9000,
+    "custoContratacao": 23300,
+    "riscoComportamental": "medio",
+    "compatibilidade": 52,
+    "imageUrl": "",
+    "status": "novo",
+    "availableFromDay": 3,
+    "hiddenInfo": "Mostrou potencial especial quando trabalha em dupla, especialmente com alguém calmo."
+  },
+  {
+    "id": "app-orvalho_c_vico",
+    "codinome": "Orvalho Cívico",
+    "nomeCivil": "Sueli Ferraz",
+    "idade": 24,
+    "arquetipo": "suporte médico",
+    "poder": "ouve padrões de vibração em estruturas sob pressão",
+    "biografia": "Candidato de Nova Aurora com histórico em defesa civil voluntária. Ainda precisa provar ritmo, mas traz repertório de rua para a Central.",
+    "atributos": {
+      "forca": 4,
+      "mobilidade": 7,
+      "controle": 9,
+      "investigacao": 3,
+      "carisma": 8,
+      "resistencia": 4
+    },
+    "tracosPositivos": [
+      "corajoso",
+      "paciente"
+    ],
+    "tracosNegativos": [
+      "teimoso"
+    ],
+    "expectativaSalarial": 9350,
+    "custoContratacao": 24450,
+    "riscoComportamental": "alto",
+    "compatibilidade": 59,
+    "imageUrl": "",
+    "status": "novo",
+    "availableFromDay": 4,
+    "hiddenInfo": "Tem rivalidade leve com uma organização rival que pode virar evento futuro."
+  },
+  {
+    "id": "app-ponto_de_fuga",
+    "codinome": "Ponto de Fuga",
+    "nomeCivil": "Ravi Moura",
+    "idade": 27,
+    "arquetipo": "contenção tática",
+    "poder": "acelera pequenos equipamentos sem fonte externa",
+    "biografia": "Candidato de Nova Aurora com histórico em rádio de bairro. Ainda precisa provar ritmo, mas traz repertório de rua para a Central.",
+    "atributos": {
+      "forca": 5,
+      "mobilidade": 8,
+      "controle": 4,
+      "investigacao": 4,
+      "carisma": 9,
+      "resistencia": 5
+    },
+    "tracosPositivos": [
+      "observador",
+      "curioso"
+    ],
+    "tracosNegativos": [
+      "inexperiente"
+    ],
+    "expectativaSalarial": 9700,
+    "custoContratacao": 25600,
+    "riscoComportamental": "baixo",
+    "compatibilidade": 66,
+    "imageUrl": "",
+    "status": "novo",
+    "availableFromDay": 5,
+    "hiddenInfo": "Sabe mais sobre facções locais do que admite na primeira entrevista."
+  },
+  {
+    "id": "app-quase_norte",
+    "codinome": "Quase Norte",
+    "nomeCivil": "Elisa Falcão",
+    "idade": 30,
+    "arquetipo": "logística de evacuação",
+    "poder": "projeta barreiras curtas de ar denso",
+    "biografia": "Candidato de Nova Aurora com histórico em oficina popular. Ainda precisa provar ritmo, mas traz repertório de rua para a Central.",
+    "atributos": {
+      "forca": 6,
+      "mobilidade": 9,
+      "controle": 5,
+      "investigacao": 5,
+      "carisma": 4,
+      "resistencia": 6
+    },
+    "tracosPositivos": [
+      "didático",
+      "resiliente"
+    ],
+    "tracosNegativos": [
+      "orgulhoso"
+    ],
+    "expectativaSalarial": 10050,
+    "custoContratacao": 26750,
+    "riscoComportamental": "medio",
+    "compatibilidade": 73,
+    "imageUrl": "",
+    "status": "novo",
+    "availableFromDay": 1,
+    "hiddenInfo": "Tem indicação informal de um herói veterano, mas pediu para não usar isso como atalho."
+  },
+  {
+    "id": "app-risco_de_giz",
+    "codinome": "Risco de Giz",
+    "nomeCivil": "Mara Guedes",
+    "idade": 33,
+    "arquetipo": "mediação pública",
+    "poder": "lê microexpressões e ruído social em multidões",
+    "biografia": "Candidato de Nova Aurora com histórico em clínica de plantão. Ainda precisa provar ritmo, mas traz repertório de rua para a Central.",
+    "atributos": {
+      "forca": 7,
+      "mobilidade": 4,
+      "controle": 6,
+      "investigacao": 6,
+      "carisma": 5,
+      "resistencia": 7
+    },
+    "tracosPositivos": [
+      "leal",
+      "pontual"
+    ],
+    "tracosNegativos": [
+      "impulsivo"
+    ],
+    "expectativaSalarial": 10400,
+    "custoContratacao": 27900,
+    "riscoComportamental": "alto",
+    "compatibilidade": 80,
+    "imageUrl": "",
+    "status": "novo",
+    "availableFromDay": 2,
+    "hiddenInfo": "O currículo omite uma falha em treinamento civil que ainda pesa no comportamento em campo."
+  },
+  {
+    "id": "app-sino_baixo",
+    "codinome": "Sino Baixo",
+    "nomeCivil": "Celso Matos",
+    "idade": 36,
+    "arquetipo": "controle de energia",
+    "poder": "marca objetos com sinais que só a equipe enxerga",
+    "biografia": "Candidato de Nova Aurora com histórico em coletivo estudantil. Ainda precisa provar ritmo, mas traz repertório de rua para a Central.",
+    "atributos": {
+      "forca": 8,
+      "mobilidade": 5,
+      "controle": 7,
+      "investigacao": 7,
+      "carisma": 6,
+      "resistencia": 8
+    },
+    "tracosPositivos": [
+      "criativo",
+      "empático"
+    ],
+    "tracosNegativos": [
+      "desconfiado"
+    ],
+    "expectativaSalarial": 10750,
+    "custoContratacao": 29050,
+    "riscoComportamental": "baixo",
+    "compatibilidade": 87,
+    "imageUrl": "",
+    "status": "novo",
+    "availableFromDay": 3,
+    "hiddenInfo": "Mostrou potencial especial quando trabalha em dupla, especialmente com alguém calmo."
+  }
+]

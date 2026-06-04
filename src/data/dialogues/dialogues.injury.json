@@ -1,0 +1,2830 @@
+[
+  {
+    "id": "exhausted_hero_joke",
+    "priority": 32,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "cansado e engraçado",
+    "districtTags": [],
+    "factionTags": [],
+    "requires": {
+      "fatigue": "high"
+    },
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Estou bem. So estou ouvindo meu joelho negociar folga com a sirene."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Seu joelho tem sindicato? Porque quero o contato."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": 1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "hero_injury_cost",
+    "priority": 88,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "sucesso com custo",
+    "districtTags": [],
+    "factionTags": [],
+    "requires": {
+      "injury": true
+    },
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Salvamos todo mundo. Antes que perguntem, sim, isso e sangue meu."
+      },
+      {
+        "speaker": "central",
+        "text": "Enfermaria avisada. E parem de usar 'sangue meu' como marcador de prioridade."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": 2,
+      "moralChange": -1
+    }
+  },
+  {
+    "id": "cond_injury_01",
+    "priority": 75,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "any"
+    ],
+    "tone": "sucesso com custo",
+    "districtTags": [],
+    "factionTags": [],
+    "requires": {
+      "injury": true
+    },
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Antes de alguém perguntar: não, isso não era parte do uniforme."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Enfermaria primeiro, piada depois."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 0,
+      "stressChange": 3,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "cond_injury_02",
+    "priority": 75,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "any"
+    ],
+    "tone": "sucesso com custo",
+    "districtTags": [],
+    "factionTags": [],
+    "requires": {
+      "injury": true
+    },
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Eu consigo andar."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Conseguir e dever são parentes distantes."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 0,
+      "stressChange": 3,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "cond_injury_03",
+    "priority": 75,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "any"
+    ],
+    "tone": "sucesso com custo",
+    "districtTags": [],
+    "factionTags": [],
+    "requires": {
+      "injury": true
+    },
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Foi só um corte."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Cortes não costumam pingar em três quarteirões."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 0,
+      "stressChange": 3,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "cond_injury_04",
+    "priority": 75,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "any"
+    ],
+    "tone": "sucesso com custo",
+    "districtTags": [],
+    "factionTags": [],
+    "requires": {
+      "injury": true
+    },
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Já tive piores."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Isso não é currículo, é pedido de ajuda."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 0,
+      "stressChange": 3,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "cond_injury_05",
+    "priority": 75,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "any"
+    ],
+    "tone": "sucesso com custo",
+    "districtTags": [],
+    "factionTags": [],
+    "requires": {
+      "injury": true
+    },
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "A missão terminou. Meu ombro ainda está negociando."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Diz para ele assinar o relatório também."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 0,
+      "stressChange": 3,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "cond_injury_06",
+    "priority": 75,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "any"
+    ],
+    "tone": "sucesso com custo",
+    "districtTags": [],
+    "factionTags": [],
+    "requires": {
+      "injury": true
+    },
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Se eu sentar agora, viro patrimônio fixo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Então senta longe do inventário."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 0,
+      "stressChange": 3,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "cond_injury_07",
+    "priority": 75,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "any"
+    ],
+    "tone": "sucesso com custo",
+    "districtTags": [],
+    "factionTags": [],
+    "requires": {
+      "injury": true
+    },
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Salvamos os civis. O resto é curativo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "O resto é exatamente o tipo de frase que irrita médicos."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 0,
+      "stressChange": 3,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "cond_injury_08",
+    "priority": 75,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "any"
+    ],
+    "tone": "sucesso com custo",
+    "districtTags": [],
+    "factionTags": [],
+    "requires": {
+      "injury": true
+    },
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Não conta para o Dispatcher que eu manquei."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "O Dispatcher tem câmeras e ansiedade."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 0,
+      "stressChange": 3,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "cond_fatigue_high_01",
+    "priority": 75,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "cansado e engraçado",
+    "districtTags": [],
+    "factionTags": [],
+    "requires": {
+      "fatigue": "high"
+    },
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Estou tão cansado que a sirene pareceu cantar meu nome."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Pior: ela desafinou."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 0,
+      "stressChange": 1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "cond_fatigue_high_02",
+    "priority": 75,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "cansado e engraçado",
+    "districtTags": [],
+    "factionTags": [],
+    "requires": {
+      "fatigue": "high"
+    },
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Eu salvei todo mundo, mas perdi a vontade de existir em pé."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Isso é oficialmente pedido de descanso ou poesia ruim?"
+      }
+    ],
+    "effects": {
+      "relationshipChange": 0,
+      "stressChange": 1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "cond_fatigue_high_03",
+    "priority": 75,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "cansado e engraçado",
+    "districtTags": [],
+    "factionTags": [],
+    "requires": {
+      "fatigue": "high"
+    },
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Meu corpo pediu demissão durante a evacuação."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "RH negou por falta de formulário."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 0,
+      "stressChange": 1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "cond_fatigue_high_04",
+    "priority": 75,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "cansado e engraçado",
+    "districtTags": [],
+    "factionTags": [],
+    "requires": {
+      "fatigue": "high"
+    },
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Se eu piscar, me acorda no próximo turno."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Se eu conseguir levantar o braço, acordo."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 0,
+      "stressChange": 1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "cond_fatigue_high_05",
+    "priority": 75,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "cansado e engraçado",
+    "districtTags": [],
+    "factionTags": [],
+    "requires": {
+      "fatigue": "high"
+    },
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Funcionou, mas minha coluna abriu chamado."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Classifica como prioridade média. Ela reclama todo dia."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 0,
+      "stressChange": 1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "cond_fatigue_high_06",
+    "priority": 75,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "cansado e engraçado",
+    "districtTags": [],
+    "factionTags": [],
+    "requires": {
+      "fatigue": "high"
+    },
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Não estou lento. Estou em modo economia de alma."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Economia aprovada. Alma em auditoria."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 0,
+      "stressChange": 1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "cond_fatigue_high_07",
+    "priority": 75,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "cansado e engraçado",
+    "districtTags": [],
+    "factionTags": [],
+    "requires": {
+      "fatigue": "high"
+    },
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Quero férias de cinco minutos."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Negado. A cidade já gastou três."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 0,
+      "stressChange": 1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "cond_fatigue_high_08",
+    "priority": 75,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "cansado e engraçado",
+    "districtTags": [],
+    "factionTags": [],
+    "requires": {
+      "fatigue": "high"
+    },
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Meu joelho está falando em linguagem de modem."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Então deve ser chamado da Estação Norte."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 0,
+      "stressChange": 1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "gen_result_traumatico_1",
+    "priority": 32,
+    "cooldownDays": 4,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "traumatico"
+    ],
+    "tone": "tenso",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "A gente voltou. Nem todo mundo volta leve."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Vou registrar isso como procedimento e torcer para ninguém pedir detalhes."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_result_traumatico_2",
+    "priority": 32,
+    "cooldownDays": 4,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "traumatico"
+    ],
+    "tone": "tenso",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Sem piada agora. Primeiro relatério, depois respiração."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Vou registrar isso como procedimento e torcer para ninguém pedir detalhes."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_result_traumatico_3",
+    "priority": 32,
+    "cooldownDays": 4,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "traumatico"
+    ],
+    "tone": "tenso",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "A sirene parou, mas o som ficou na cabeça."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Vou registrar isso como procedimento e torcer para ninguém pedir detalhes."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_result_traumatico_4",
+    "priority": 32,
+    "cooldownDays": 4,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "traumatico"
+    ],
+    "tone": "tenso",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "A gente salvou quem deu. O resto vai pesar no plantão."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Vou registrar isso como procedimento e torcer para ninguém pedir detalhes."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_result_traumatico_5",
+    "priority": 32,
+    "cooldownDays": 4,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "traumatico"
+    ],
+    "tone": "tenso",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Não quero entrevista. Quero cinco minutos sem luz vermelha piscando."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Vou registrar isso como procedimento e torcer para ninguém pedir detalhes."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_result_traumatico_6",
+    "priority": 32,
+    "cooldownDays": 4,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "traumatico"
+    ],
+    "tone": "tenso",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "A Central vai chamar isso de custo. Eu vou chamar pelo nome."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Vou registrar isso como procedimento e torcer para ninguém pedir detalhes."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_result_traumatico_7",
+    "priority": 32,
+    "cooldownDays": 4,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "traumatico"
+    ],
+    "tone": "tenso",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Tinha gente esperando mais de nós."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Vou registrar isso como procedimento e torcer para ninguém pedir detalhes."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_result_traumatico_8",
+    "priority": 32,
+    "cooldownDays": 4,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "traumatico"
+    ],
+    "tone": "tenso",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Voltamos com as mãos cheias e o peito vazio."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Vou registrar isso como procedimento e torcer para ninguém pedir detalhes."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_result_traumatico_9",
+    "priority": 32,
+    "cooldownDays": 4,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "traumatico"
+    ],
+    "tone": "tenso",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "O rádio ficou mudo porque ninguém achou a frase certa."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Vou registrar isso como procedimento e torcer para ninguém pedir detalhes."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_result_traumatico_10",
+    "priority": 32,
+    "cooldownDays": 4,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "traumatico"
+    ],
+    "tone": "tenso",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "A cidade viu. Agora a equipe precisa viver com isso."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Vou registrar isso como procedimento e torcer para ninguém pedir detalhes."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_fatigue_1",
+    "priority": 72,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "success",
+      "failure",
+      "sucesso_com_dano",
+      "falha_parcial"
+    ],
+    "tone": "cansado",
+    "districtTags": [],
+    "factionTags": [],
+    "requires": {
+      "fatigue": "high"
+    },
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Meu corpo pediu demissão. Eu recusei por falta de cobertura."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Recusar demissão do próprio corpo é muito Central."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": 1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "gen_fatigue_2",
+    "priority": 72,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "success",
+      "failure",
+      "sucesso_com_dano",
+      "falha_parcial"
+    ],
+    "tone": "cansado",
+    "districtTags": [],
+    "factionTags": [],
+    "requires": {
+      "fatigue": "high"
+    },
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Eu estou bem. Só estou vendo o som da sirene."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Isso é preocupante até para nossos padrões."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": 1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "gen_fatigue_3",
+    "priority": 72,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "success",
+      "failure",
+      "sucesso_com_dano",
+      "falha_parcial"
+    ],
+    "tone": "cansado",
+    "districtTags": [],
+    "factionTags": [],
+    "requires": {
+      "fatigue": "high"
+    },
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Meu corpo pediu demissão. Eu recusei por falta de cobertura."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Recusar demissão do próprio corpo é muito Central."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": 1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "gen_fatigue_4",
+    "priority": 72,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "success",
+      "failure",
+      "sucesso_com_dano",
+      "falha_parcial"
+    ],
+    "tone": "cansado",
+    "districtTags": [],
+    "factionTags": [],
+    "requires": {
+      "fatigue": "high"
+    },
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Eu estou bem. Só estou vendo o som da sirene."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Isso é preocupante até para nossos padrões."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": 1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "gen_fatigue_5",
+    "priority": 72,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "success",
+      "failure",
+      "sucesso_com_dano",
+      "falha_parcial"
+    ],
+    "tone": "cansado",
+    "districtTags": [],
+    "factionTags": [],
+    "requires": {
+      "fatigue": "high"
+    },
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Meu corpo pediu demissão. Eu recusei por falta de cobertura."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Recusar demissão do próprio corpo é muito Central."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": 1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "gen_fatigue_6",
+    "priority": 72,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "success",
+      "failure",
+      "sucesso_com_dano",
+      "falha_parcial"
+    ],
+    "tone": "cansado",
+    "districtTags": [],
+    "factionTags": [],
+    "requires": {
+      "fatigue": "high"
+    },
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Eu estou bem. Só estou vendo o som da sirene."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Isso é preocupante até para nossos padrões."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": 1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "gen_fatigue_7",
+    "priority": 72,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "success",
+      "failure",
+      "sucesso_com_dano",
+      "falha_parcial"
+    ],
+    "tone": "cansado",
+    "districtTags": [],
+    "factionTags": [],
+    "requires": {
+      "fatigue": "high"
+    },
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Meu corpo pediu demissão. Eu recusei por falta de cobertura."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Recusar demissão do próprio corpo é muito Central."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": 1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "gen_fatigue_8",
+    "priority": 72,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "success",
+      "failure",
+      "sucesso_com_dano",
+      "falha_parcial"
+    ],
+    "tone": "cansado",
+    "districtTags": [],
+    "factionTags": [],
+    "requires": {
+      "fatigue": "high"
+    },
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Eu estou bem. Só estou vendo o som da sirene."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Isso é preocupante até para nossos padrões."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": 1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "gen_fatigue_9",
+    "priority": 72,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "success",
+      "failure",
+      "sucesso_com_dano",
+      "falha_parcial"
+    ],
+    "tone": "cansado",
+    "districtTags": [],
+    "factionTags": [],
+    "requires": {
+      "fatigue": "high"
+    },
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Meu corpo pediu demissão. Eu recusei por falta de cobertura."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Recusar demissão do próprio corpo é muito Central."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": 1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "gen_fatigue_10",
+    "priority": 72,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "success",
+      "failure",
+      "sucesso_com_dano",
+      "falha_parcial"
+    ],
+    "tone": "cansado",
+    "districtTags": [],
+    "factionTags": [],
+    "requires": {
+      "fatigue": "high"
+    },
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Eu estou bem. Só estou vendo o som da sirene."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Isso é preocupante até para nossos padrões."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": 1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "gen_fatigue_11",
+    "priority": 72,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "success",
+      "failure",
+      "sucesso_com_dano",
+      "falha_parcial"
+    ],
+    "tone": "cansado",
+    "districtTags": [],
+    "factionTags": [],
+    "requires": {
+      "fatigue": "high"
+    },
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Meu corpo pediu demissão. Eu recusei por falta de cobertura."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Recusar demissão do próprio corpo é muito Central."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": 1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "gen_fatigue_12",
+    "priority": 72,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "success",
+      "failure",
+      "sucesso_com_dano",
+      "falha_parcial"
+    ],
+    "tone": "cansado",
+    "districtTags": [],
+    "factionTags": [],
+    "requires": {
+      "fatigue": "high"
+    },
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Eu estou bem. Só estou vendo o som da sirene."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Isso é preocupante até para nossos padrões."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": 1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "gen_fatigue_13",
+    "priority": 72,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "success",
+      "failure",
+      "sucesso_com_dano",
+      "falha_parcial"
+    ],
+    "tone": "cansado",
+    "districtTags": [],
+    "factionTags": [],
+    "requires": {
+      "fatigue": "high"
+    },
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Meu corpo pediu demissão. Eu recusei por falta de cobertura."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Recusar demissão do próprio corpo é muito Central."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": 1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "gen_fatigue_14",
+    "priority": 72,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "success",
+      "failure",
+      "sucesso_com_dano",
+      "falha_parcial"
+    ],
+    "tone": "cansado",
+    "districtTags": [],
+    "factionTags": [],
+    "requires": {
+      "fatigue": "high"
+    },
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Eu estou bem. Só estou vendo o som da sirene."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Isso é preocupante até para nossos padrões."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": 1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "gen_fatigue_15",
+    "priority": 72,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "success",
+      "failure",
+      "sucesso_com_dano",
+      "falha_parcial"
+    ],
+    "tone": "cansado",
+    "districtTags": [],
+    "factionTags": [],
+    "requires": {
+      "fatigue": "high"
+    },
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Meu corpo pediu demissão. Eu recusei por falta de cobertura."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Recusar demissão do próprio corpo é muito Central."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": 1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "gen_fatigue_16",
+    "priority": 72,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "success",
+      "failure",
+      "sucesso_com_dano",
+      "falha_parcial"
+    ],
+    "tone": "cansado",
+    "districtTags": [],
+    "factionTags": [],
+    "requires": {
+      "fatigue": "high"
+    },
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Eu estou bem. Só estou vendo o som da sirene."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Isso é preocupante até para nossos padrões."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": 1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "gen_fatigue_17",
+    "priority": 72,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "success",
+      "failure",
+      "sucesso_com_dano",
+      "falha_parcial"
+    ],
+    "tone": "cansado",
+    "districtTags": [],
+    "factionTags": [],
+    "requires": {
+      "fatigue": "high"
+    },
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Meu corpo pediu demissão. Eu recusei por falta de cobertura."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Recusar demissão do próprio corpo é muito Central."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": 1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "gen_fatigue_18",
+    "priority": 72,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "success",
+      "failure",
+      "sucesso_com_dano",
+      "falha_parcial"
+    ],
+    "tone": "cansado",
+    "districtTags": [],
+    "factionTags": [],
+    "requires": {
+      "fatigue": "high"
+    },
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Eu estou bem. Só estou vendo o som da sirene."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Isso é preocupante até para nossos padrões."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": 1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "gen_fatigue_19",
+    "priority": 72,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "success",
+      "failure",
+      "sucesso_com_dano",
+      "falha_parcial"
+    ],
+    "tone": "cansado",
+    "districtTags": [],
+    "factionTags": [],
+    "requires": {
+      "fatigue": "high"
+    },
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Meu corpo pediu demissão. Eu recusei por falta de cobertura."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Recusar demissão do próprio corpo é muito Central."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": 1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "gen_fatigue_20",
+    "priority": 72,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "success",
+      "failure",
+      "sucesso_com_dano",
+      "falha_parcial"
+    ],
+    "tone": "cansado",
+    "districtTags": [],
+    "factionTags": [],
+    "requires": {
+      "fatigue": "high"
+    },
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Eu estou bem. Só estou vendo o som da sirene."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Isso é preocupante até para nossos padrões."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": 1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "gen_fatigue_21",
+    "priority": 72,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "success",
+      "failure",
+      "sucesso_com_dano",
+      "falha_parcial"
+    ],
+    "tone": "cansado",
+    "districtTags": [],
+    "factionTags": [],
+    "requires": {
+      "fatigue": "high"
+    },
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Meu corpo pediu demissão. Eu recusei por falta de cobertura."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Recusar demissão do próprio corpo é muito Central."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": 1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "gen_fatigue_22",
+    "priority": 72,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "success",
+      "failure",
+      "sucesso_com_dano",
+      "falha_parcial"
+    ],
+    "tone": "cansado",
+    "districtTags": [],
+    "factionTags": [],
+    "requires": {
+      "fatigue": "high"
+    },
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Eu estou bem. Só estou vendo o som da sirene."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Isso é preocupante até para nossos padrões."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": 1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "gen_fatigue_23",
+    "priority": 72,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "success",
+      "failure",
+      "sucesso_com_dano",
+      "falha_parcial"
+    ],
+    "tone": "cansado",
+    "districtTags": [],
+    "factionTags": [],
+    "requires": {
+      "fatigue": "high"
+    },
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Meu corpo pediu demissão. Eu recusei por falta de cobertura."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Recusar demissão do próprio corpo é muito Central."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": 1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "gen_fatigue_24",
+    "priority": 72,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "success",
+      "failure",
+      "sucesso_com_dano",
+      "falha_parcial"
+    ],
+    "tone": "cansado",
+    "districtTags": [],
+    "factionTags": [],
+    "requires": {
+      "fatigue": "high"
+    },
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Eu estou bem. Só estou vendo o som da sirene."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Isso é preocupante até para nossos padrões."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": 1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "gen_fatigue_25",
+    "priority": 72,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "success",
+      "failure",
+      "sucesso_com_dano",
+      "falha_parcial"
+    ],
+    "tone": "cansado",
+    "districtTags": [],
+    "factionTags": [],
+    "requires": {
+      "fatigue": "high"
+    },
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Meu corpo pediu demissão. Eu recusei por falta de cobertura."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Recusar demissão do próprio corpo é muito Central."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": 1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "gen_fatigue_26",
+    "priority": 72,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "success",
+      "failure",
+      "sucesso_com_dano",
+      "falha_parcial"
+    ],
+    "tone": "cansado",
+    "districtTags": [],
+    "factionTags": [],
+    "requires": {
+      "fatigue": "high"
+    },
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Eu estou bem. Só estou vendo o som da sirene."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Isso é preocupante até para nossos padrões."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": 1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "gen_fatigue_27",
+    "priority": 72,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "success",
+      "failure",
+      "sucesso_com_dano",
+      "falha_parcial"
+    ],
+    "tone": "cansado",
+    "districtTags": [],
+    "factionTags": [],
+    "requires": {
+      "fatigue": "high"
+    },
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Meu corpo pediu demissão. Eu recusei por falta de cobertura."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Recusar demissão do próprio corpo é muito Central."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": 1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "gen_fatigue_28",
+    "priority": 72,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "success",
+      "failure",
+      "sucesso_com_dano",
+      "falha_parcial"
+    ],
+    "tone": "cansado",
+    "districtTags": [],
+    "factionTags": [],
+    "requires": {
+      "fatigue": "high"
+    },
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Eu estou bem. Só estou vendo o som da sirene."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Isso é preocupante até para nossos padrões."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": 1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "gen_fatigue_29",
+    "priority": 72,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "success",
+      "failure",
+      "sucesso_com_dano",
+      "falha_parcial"
+    ],
+    "tone": "cansado",
+    "districtTags": [],
+    "factionTags": [],
+    "requires": {
+      "fatigue": "high"
+    },
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Meu corpo pediu demissão. Eu recusei por falta de cobertura."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Recusar demissão do próprio corpo é muito Central."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": 1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "gen_fatigue_30",
+    "priority": 72,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "success",
+      "failure",
+      "sucesso_com_dano",
+      "falha_parcial"
+    ],
+    "tone": "cansado",
+    "districtTags": [],
+    "factionTags": [],
+    "requires": {
+      "fatigue": "high"
+    },
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Eu estou bem. Só estou vendo o som da sirene."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Isso é preocupante até para nossos padrões."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": 1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "gen_severe_failure_1",
+    "priority": 90,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "falha_grave",
+      "traumatico"
+    ],
+    "tone": "grave",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "A gente voltou. Nem todo mundo volta leve."
+      },
+      {
+        "speaker": "central",
+        "text": "Registro aberto. Sem entrevista. Sem bravata. Voltem para casa."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 3,
+      "moralChange": -3
+    }
+  },
+  {
+    "id": "gen_severe_failure_2",
+    "priority": 90,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "falha_grave",
+      "traumatico"
+    ],
+    "tone": "grave",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Sem piada agora. Primeiro relatério, depois respiração."
+      },
+      {
+        "speaker": "central",
+        "text": "Registro aberto. Sem entrevista. Sem bravata. Voltem para casa."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 3,
+      "moralChange": -3
+    }
+  },
+  {
+    "id": "gen_severe_failure_3",
+    "priority": 90,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "falha_grave",
+      "traumatico"
+    ],
+    "tone": "grave",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "A sirene parou, mas o som ficou na cabeça."
+      },
+      {
+        "speaker": "central",
+        "text": "Registro aberto. Sem entrevista. Sem bravata. Voltem para casa."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 3,
+      "moralChange": -3
+    }
+  },
+  {
+    "id": "gen_severe_failure_4",
+    "priority": 90,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "falha_grave",
+      "traumatico"
+    ],
+    "tone": "grave",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "A gente salvou quem deu. O resto vai pesar no plantão."
+      },
+      {
+        "speaker": "central",
+        "text": "Registro aberto. Sem entrevista. Sem bravata. Voltem para casa."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 3,
+      "moralChange": -3
+    }
+  },
+  {
+    "id": "gen_severe_failure_5",
+    "priority": 90,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "falha_grave",
+      "traumatico"
+    ],
+    "tone": "grave",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Não quero entrevista. Quero cinco minutos sem luz vermelha piscando."
+      },
+      {
+        "speaker": "central",
+        "text": "Registro aberto. Sem entrevista. Sem bravata. Voltem para casa."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 3,
+      "moralChange": -3
+    }
+  },
+  {
+    "id": "gen_severe_failure_6",
+    "priority": 90,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "falha_grave",
+      "traumatico"
+    ],
+    "tone": "grave",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "A Central vai chamar isso de custo. Eu vou chamar pelo nome."
+      },
+      {
+        "speaker": "central",
+        "text": "Registro aberto. Sem entrevista. Sem bravata. Voltem para casa."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 3,
+      "moralChange": -3
+    }
+  },
+  {
+    "id": "gen_severe_failure_7",
+    "priority": 90,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "falha_grave",
+      "traumatico"
+    ],
+    "tone": "grave",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Tinha gente esperando mais de nós."
+      },
+      {
+        "speaker": "central",
+        "text": "Registro aberto. Sem entrevista. Sem bravata. Voltem para casa."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 3,
+      "moralChange": -3
+    }
+  },
+  {
+    "id": "gen_severe_failure_8",
+    "priority": 90,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "falha_grave",
+      "traumatico"
+    ],
+    "tone": "grave",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Voltamos com as mãos cheias e o peito vazio."
+      },
+      {
+        "speaker": "central",
+        "text": "Registro aberto. Sem entrevista. Sem bravata. Voltem para casa."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 3,
+      "moralChange": -3
+    }
+  },
+  {
+    "id": "gen_severe_failure_9",
+    "priority": 90,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "falha_grave",
+      "traumatico"
+    ],
+    "tone": "grave",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "O rádio ficou mudo porque ninguém achou a frase certa."
+      },
+      {
+        "speaker": "central",
+        "text": "Registro aberto. Sem entrevista. Sem bravata. Voltem para casa."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 3,
+      "moralChange": -3
+    }
+  },
+  {
+    "id": "gen_severe_failure_10",
+    "priority": 90,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "falha_grave",
+      "traumatico"
+    ],
+    "tone": "grave",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "A cidade viu. Agora a equipe precisa viver com isso."
+      },
+      {
+        "speaker": "central",
+        "text": "Registro aberto. Sem entrevista. Sem bravata. Voltem para casa."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 3,
+      "moralChange": -3
+    }
+  },
+  {
+    "id": "gen_severe_failure_11",
+    "priority": 90,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "falha_grave",
+      "traumatico"
+    ],
+    "tone": "grave",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "A gente voltou. Nem todo mundo volta leve."
+      },
+      {
+        "speaker": "central",
+        "text": "Registro aberto. Sem entrevista. Sem bravata. Voltem para casa."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 3,
+      "moralChange": -3
+    }
+  },
+  {
+    "id": "gen_severe_failure_12",
+    "priority": 90,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "falha_grave",
+      "traumatico"
+    ],
+    "tone": "grave",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Sem piada agora. Primeiro relatério, depois respiração."
+      },
+      {
+        "speaker": "central",
+        "text": "Registro aberto. Sem entrevista. Sem bravata. Voltem para casa."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 3,
+      "moralChange": -3
+    }
+  },
+  {
+    "id": "gen_severe_failure_13",
+    "priority": 90,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "falha_grave",
+      "traumatico"
+    ],
+    "tone": "grave",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "A sirene parou, mas o som ficou na cabeça."
+      },
+      {
+        "speaker": "central",
+        "text": "Registro aberto. Sem entrevista. Sem bravata. Voltem para casa."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 3,
+      "moralChange": -3
+    }
+  },
+  {
+    "id": "gen_severe_failure_14",
+    "priority": 90,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "falha_grave",
+      "traumatico"
+    ],
+    "tone": "grave",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "A gente salvou quem deu. O resto vai pesar no plantão."
+      },
+      {
+        "speaker": "central",
+        "text": "Registro aberto. Sem entrevista. Sem bravata. Voltem para casa."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 3,
+      "moralChange": -3
+    }
+  },
+  {
+    "id": "gen_severe_failure_15",
+    "priority": 90,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "falha_grave",
+      "traumatico"
+    ],
+    "tone": "grave",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Não quero entrevista. Quero cinco minutos sem luz vermelha piscando."
+      },
+      {
+        "speaker": "central",
+        "text": "Registro aberto. Sem entrevista. Sem bravata. Voltem para casa."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 3,
+      "moralChange": -3
+    }
+  },
+  {
+    "id": "gen_severe_failure_16",
+    "priority": 90,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "falha_grave",
+      "traumatico"
+    ],
+    "tone": "grave",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "A Central vai chamar isso de custo. Eu vou chamar pelo nome."
+      },
+      {
+        "speaker": "central",
+        "text": "Registro aberto. Sem entrevista. Sem bravata. Voltem para casa."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 3,
+      "moralChange": -3
+    }
+  },
+  {
+    "id": "gen_severe_failure_17",
+    "priority": 90,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "falha_grave",
+      "traumatico"
+    ],
+    "tone": "grave",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Tinha gente esperando mais de nós."
+      },
+      {
+        "speaker": "central",
+        "text": "Registro aberto. Sem entrevista. Sem bravata. Voltem para casa."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 3,
+      "moralChange": -3
+    }
+  },
+  {
+    "id": "gen_severe_failure_18",
+    "priority": 90,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "falha_grave",
+      "traumatico"
+    ],
+    "tone": "grave",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Voltamos com as mãos cheias e o peito vazio."
+      },
+      {
+        "speaker": "central",
+        "text": "Registro aberto. Sem entrevista. Sem bravata. Voltem para casa."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 3,
+      "moralChange": -3
+    }
+  },
+  {
+    "id": "gen_severe_failure_19",
+    "priority": 90,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "falha_grave",
+      "traumatico"
+    ],
+    "tone": "grave",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "O rádio ficou mudo porque ninguém achou a frase certa."
+      },
+      {
+        "speaker": "central",
+        "text": "Registro aberto. Sem entrevista. Sem bravata. Voltem para casa."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 3,
+      "moralChange": -3
+    }
+  },
+  {
+    "id": "gen_severe_failure_20",
+    "priority": 90,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "falha_grave",
+      "traumatico"
+    ],
+    "tone": "grave",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "A cidade viu. Agora a equipe precisa viver com isso."
+      },
+      {
+        "speaker": "central",
+        "text": "Registro aberto. Sem entrevista. Sem bravata. Voltem para casa."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 3,
+      "moralChange": -3
+    }
+  }
+]

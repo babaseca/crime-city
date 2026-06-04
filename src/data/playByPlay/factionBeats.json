@@ -1,0 +1,56 @@
+[
+  {
+    "id": "faction-coroa-subsolo-01",
+    "phase": "facção",
+    "priority": 62,
+    "cooldownDays": 7,
+    "tone": "subterraneo",
+    "factionIds": ["coroa_do_subsolo"],
+    "text": "O padrão apontou para a Coroa do Subsolo: nada na superfície explicava a rota que a ameaça tomou."
+  },
+  {
+    "id": "faction-altofalantes-01",
+    "phase": "facção",
+    "priority": 62,
+    "cooldownDays": 7,
+    "tone": "midia",
+    "factionIds": ["rede_dos_altofalantes"],
+    "text": "A Rede dos Alto-Falantes apareceu sem assinar. Boato coordenado, ângulo perfeito e medo com edição rápida."
+  },
+  {
+    "id": "faction-mare-seca-01",
+    "phase": "facção",
+    "priority": 66,
+    "cooldownDays": 7,
+    "tone": "tecnologico",
+    "factionIds": ["oficina_da_mare_seca"],
+    "text": "Peças improvisadas, assinatura de sinal e ousadia mecânica apontaram para a Oficina da Maré Seca."
+  },
+  {
+    "id": "faction-vidro-01",
+    "phase": "facção",
+    "priority": 60,
+    "cooldownDays": 7,
+    "tone": "ilusao",
+    "factionIds": ["irmandade_do_vidro"],
+    "text": "A Irmandade do Vidro deixou rastros no que parecia detalhe: reflexo errado, testemunha hesitante e medo bonito demais."
+  },
+  {
+    "id": "faction-apagao-01",
+    "phase": "facção",
+    "priority": 64,
+    "cooldownDays": 7,
+    "tone": "energia",
+    "factionIds": ["sindicato_do_apagao"],
+    "text": "O Sindicato do Apagão transformou infraestrutura em ameaça e tratou luz como refém de negociação."
+  },
+  {
+    "id": "faction-mascaras-01",
+    "phase": "facção",
+    "priority": 60,
+    "cooldownDays": 7,
+    "tone": "politico",
+    "factionIds": ["jardim_das_mascaras"],
+    "text": "O Jardim das Máscaras não precisava aparecer: bastava a dúvida certa no momento em que a Central precisava de confiança."
+  }
+]

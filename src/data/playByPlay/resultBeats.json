@@ -1,0 +1,79 @@
+[
+  {
+    "id": "result-exemplar-01",
+    "phase": "resolucao",
+    "priority": 62,
+    "cooldownDays": 5,
+    "tone": "exemplar",
+    "resultTypes": ["resolucao_exemplar"],
+    "text": "A resolução foi limpa o suficiente para virar referência de treinamento: rota aberta, civis fora e nenhum minuto desperdiçado."
+  },
+  {
+    "id": "result-controlled-01",
+    "phase": "resolucao",
+    "priority": 58,
+    "cooldownDays": 4,
+    "tone": "operacional",
+    "resultTypes": ["missao_controlada"],
+    "text": "O controle veio por etapas. Primeiro a cena parou de piorar; depois {hero:0} fechou a ocorrência dentro do limite de {timeLimit}."
+  },
+  {
+    "id": "result-damage-01",
+    "phase": "consequencia",
+    "priority": 58,
+    "cooldownDays": 4,
+    "tone": "custo",
+    "resultTypes": ["sucesso_com_dano_leve"],
+    "text": "A missão terminou em vitória, mas o dano {collateralDamage} ficou visível o bastante para aparecer no relatório do bairro."
+  },
+  {
+    "id": "result-partial-failure-01",
+    "phase": "consequencia",
+    "priority": 58,
+    "cooldownDays": 4,
+    "tone": "pressao",
+    "resultTypes": ["falha_parcial"],
+    "requires": { "failure": true },
+    "text": "A equipe salvou o que conseguiu, mas {district} ficou com a sensação amarga de que alguns minutos sumiram do relógio."
+  },
+  {
+    "id": "result-grave-failure-01",
+    "phase": "resolucao",
+    "priority": 64,
+    "cooldownDays": 6,
+    "tone": "grave",
+    "resultTypes": ["falha_grave", "crise_expandida"],
+    "requires": { "failure": true, "minRisk": 4 },
+    "text": "O encerramento foi feito em modo contenção. O objetivo deixou de ser vitória e passou a impedir que a crise atravessasse outro quarteirão."
+  },
+  {
+    "id": "result-missed-alert-01",
+    "phase": "resolucao",
+    "priority": 68,
+    "cooldownDays": 4,
+    "tone": "ausencia",
+    "resultTypes": ["alerta_perdido"],
+    "requires": { "failure": true },
+    "text": "Sem equipe designada, o chamado envelheceu no painel até virar ocorrência civil, custo público e pergunta sem resposta."
+  },
+  {
+    "id": "result-critical-contained-01",
+    "phase": "virada",
+    "priority": 60,
+    "cooldownDays": 5,
+    "tone": "heroico",
+    "resultTypes": ["crise_contida"],
+    "requires": { "success": true, "minRisk": 4 },
+    "text": "A virada foi pequena e decisiva: uma abertura, uma ordem curta e a crise parou de crescer."
+  },
+  {
+    "id": "result-tragedy-01",
+    "phase": "morte",
+    "priority": 90,
+    "cooldownDays": 10,
+    "tone": "luto",
+    "resultTypes": ["tragedia_operacional", "heroi_morto"],
+    "requires": { "death": true },
+    "text": "O canal ficou silencioso por tempo demais. Quando a Central voltou a falar, já era em protocolo de perda."
+  }
+]

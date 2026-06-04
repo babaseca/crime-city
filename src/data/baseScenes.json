@@ -1,0 +1,58 @@
+[
+  {
+    "id": "base-microwave",
+    "location": "refeitorio",
+    "tone": "comico",
+    "text": "Alguem tentou esquentar lasanha no micro-ondas de blindagem. A central inteira sentiu cheiro de queijo e de procedimento violado.",
+    "effects": { "stress": -1, "relationship": 2 }
+  },
+  {
+    "id": "base-silent-corridor",
+    "location": "corredor",
+    "tone": "intimo",
+    "text": "Dois herois ficaram sentados no corredor depois de uma missao dificil. Ninguem perguntou nada. Foi uma das conversas mais longas da noite.",
+    "effects": { "stress": -3, "relationship": 5 }
+  },
+  {
+    "id": "base-boots",
+    "location": "alojamento",
+    "tone": "terno",
+    "text": "Um veterano deixou botas revisadas na porta de um novato com um bilhete: 'Correr tambem e equipamento'.",
+    "effects": { "stress": -2, "relationship": 3 }
+  },
+  {
+    "id": "base-radio",
+    "location": "sala de comando",
+    "tone": "caotico",
+    "text": "A frequencia de testes misturou pedido de pizza, boletim de transito e um alarme real. A operadora decidiu que isso conta como treinamento.",
+    "effects": { "stress": -1, "relationship": 1 }
+  },
+  {
+    "id": "base-training",
+    "location": "sala de treino",
+    "tone": "competitivo",
+    "text": "Uma disputa de tempo de resposta terminou com uma maca no elevador errado e aplausos de quem definitivamente nao deveria aplaudir.",
+    "effects": { "stress": 1, "relationship": 2 }
+  },
+  {
+    "id": "base-infirmary",
+    "location": "enfermaria",
+    "tone": "cuidadoso",
+    "text": "Na enfermaria, alguem desenhou carinhas felizes em ataduras novas. Ninguem assumiu. Todo mundo sorriu um pouco.",
+    "effects": { "stress": -2, "relationship": 2 }
+  },
+  {
+    "id": "base-map",
+    "location": "mapa urbano",
+    "tone": "operacional",
+    "text": "O mapa da cidade piscou com tantos alertas falsos que a equipe inventou um ranking de 'bairros dramaticos'. Nao foi aprovado oficialmente.",
+    "effects": { "stress": -1, "relationship": 1 }
+  },
+  {
+    "id": "base-rooftop",
+    "location": "telhado",
+    "tone": "melancolico",
+    "text": "No telhado, a vista de Nova Aurora pareceu bonita por cinco minutos inteiros. Depois uma sirene lembrou que beleza tambem abre chamado.",
+    "effects": { "stress": -2, "relationship": 2 }
+  }
+]

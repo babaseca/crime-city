@@ -1,0 +1,58 @@
+[
+  {
+    "id": "empathetic_mentor",
+    "title": "Mentor Empático",
+    "description": "Você corrige sem esmagar e cobra sem esquecer que há pessoas do outro lado do uniforme.",
+    "attributes": { "lideranca": 2, "empatia": 3, "relacoesPublicas": 1 },
+    "startingAbility": "Voz no Rádio",
+    "modifier": "Relações sobem um pouco mais após missões bem-sucedidas."
+  },
+  {
+    "id": "rigid_commander",
+    "title": "Comandante Rígido",
+    "description": "Você prefere plano, disciplina e silêncio no canal quando o incêndio responde por todos.",
+    "attributes": { "lideranca": 3, "tatica": 2, "sangueFrio": 1 },
+    "startingAbility": "Pulso Firme",
+    "modifier": "Falhas causam menos perda de moral."
+  },
+  {
+    "id": "cold_strategist",
+    "title": "Estrategista Frio",
+    "description": "Você não odeia improviso. Só acha ofensivo quando ele aparece antes do plano A.",
+    "attributes": { "tatica": 3, "sangueFrio": 2, "intuicao": 1 },
+    "startingAbility": "Leitura de Campo",
+    "modifier": "Eventos críticos têm penalidade reduzida."
+  },
+  {
+    "id": "chaotic_improviser",
+    "title": "Improvisador Caótico",
+    "description": "Você transforma falha de equipamento, trânsito e azar em uma coreografia que quase parece intencional.",
+    "attributes": { "logistica": 2, "intuicao": 3, "relacoesPublicas": 1 },
+    "startingAbility": "Plano B, C e Café",
+    "modifier": "Pequeno bônus em missões com muitos requisitos diferentes."
+  },
+  {
+    "id": "charismatic_pr",
+    "title": "Relações-Públicas Carismático",
+    "description": "Você sabe que salvar a cidade é metade do trabalho. A outra metade é explicar por que a praça está fumegando.",
+    "attributes": { "relacoesPublicas": 4, "empatia": 1, "administracao": 1 },
+    "startingAbility": "Controle de Danos",
+    "modifier": "Reduz perda de reputação em falhas e dano colateral."
+  },
+  {
+    "id": "political_bureaucrat",
+    "title": "Burocrata Político",
+    "description": "Você sobrevive a reuniões, cortes de verba e frases que começam com 'só uma adequação'.",
+    "attributes": { "administracao": 4, "relacoesPublicas": 1, "logistica": 1 },
+    "startingAbility": "Corte de Custos",
+    "modifier": "Reduz custos de contratação e contenção."
+  },
+  {
+    "id": "anxious_protector",
+    "title": "Protetor Ansioso",
+    "description": "Você prevê dez tragédias por minuto. Às vezes isso salva alguém. Às vezes só salva a planilha.",
+    "attributes": { "intuicao": 3, "empatia": 2, "logistica": 1 },
+    "startingAbility": "Olho Clínico",
+    "modifier": "Revela riscos antes de entrevistas e missões perigosas."
+  }
+]

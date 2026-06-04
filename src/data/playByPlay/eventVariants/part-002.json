@@ -1,0 +1,122 @@
+[
+  {
+    "id": "pbp-urban-rescue-01",
+    "priority": 86,
+    "cooldownDays": 8,
+    "tone": "resgate-operacional",
+    "resultTypes": ["missao_controlada", "resolucao_exemplar", "heroi_ferido", "falha_parcial"],
+    "missionTags": ["resgate", "civis", "multidao", "evacuacao", "predio"],
+    "beats": [
+      {
+        "phase": "chamado",
+        "time": "00:00",
+        "text": "O chamado veio com vozes demais ao fundo. A Central marcou {district} como resgate antes de saber quantas pessoas estavam presas."
+      },
+      {
+        "phase": "despacho",
+        "time": "02:40",
+        "text": "{hero:0} recebeu ordem simples: abrir caminho humano antes de tentar resolver a estrutura."
+      },
+      {
+        "phase": "chegada",
+        "time": "06:00",
+        "text": "Na chegada, a multidão já empurrava a cena para o erro. A equipe precisou criar silêncio antes de criar segurança."
+      },
+      {
+        "phase": "primeira_acao",
+        "time": "12:30",
+        "text": "A primeira linha de civis saiu em passos curtos, guiada mais por voz firme do que por sirene."
+      },
+      {
+        "phase": "complicacao",
+        "time": "19:00",
+        "text": "Um novo ponto de pressão apareceu e obrigou {hero:0} a escolher entre velocidade e estabilidade."
+      },
+      {
+        "phase": "resolucao",
+        "time": "fim",
+        "text": "{civiliansSaved} civis foram contabilizados fora da área. O dano ficou {collateralDamage}, mas a cena parou de piorar."
+      }
+    ],
+    "seeds": {
+      "headlineSeeds": ["Resgate em {district} tira civis de zona instável"],
+      "socialSeeds": ["A voz no rádio segurou mais gente do que a sirene hoje."],
+      "legacySeeds": ["{hero:0} liderou resgate urbano em {district}."]
+    }
+  },
+  {
+    "id": "pbp-structure-collapse-01",
+    "priority": 88,
+    "cooldownDays": 9,
+    "tone": "estrutural",
+    "resultTypes": ["any"],
+    "missionTags": ["estrutura", "predio", "ponte", "altura", "engenharia"],
+    "beats": [
+      {
+        "phase": "chamado",
+        "time": "00:00",
+        "text": "O chamado usou a palavra instável. A Central sabe que essa palavra quase sempre chega tarde."
+      },
+      {
+        "phase": "chegada",
+        "time": "04:30",
+        "text": "A estrutura respondia a cada vibração da rua, como se a cidade estivesse prendendo a respiração."
+      },
+      {
+        "phase": "primeira_acao",
+        "time": "09:40",
+        "text": "{hero:0} afastou pessoas do eixo de queda antes de tocar no problema principal."
+      },
+      {
+        "phase": "complicacao",
+        "time": "16:10",
+        "text": "A trinca mudou de ritmo. A equipe ganhou informação, mas perdeu margem."
+      },
+      {
+        "phase": "virada",
+        "time": "27:20",
+        "text": "A solução foi distribuir peso, não vencer peso. A estrutura precisava de tempo, e tempo precisava ser fabricado."
+      },
+      {
+        "phase": "resolucao",
+        "time": "fim",
+        "text": "A ocorrência terminou como {result}, com dano {collateralDamage} e uma vistoria que ninguém vai conseguir adiar."
+      }
+    ]
+  },
+  {
+    "id": "pbp-subway-vapor-01",
+    "priority": 86,
+    "cooldownDays": 9,
+    "tone": "claustrofobico",
+    "resultTypes": ["any"],
+    "missionTags": ["subsolo", "resgate", "quimica", "agua"],
+    "beats": [
+      {
+        "phase": "chamado",
+        "time": "00:00",
+        "text": "O chamado veio de baixo da cidade, onde o mapa oficial costuma terminar antes do problema real."
+      },
+      {
+        "phase": "despacho",
+        "time": "02:50",
+        "text": "{dispatcher} manteve a equipe em canal limpo. No subsolo, perder comunicação é quase perder a missão."
+      },
+      {
+        "phase": "chegada",
+        "time": "07:10",
+        "text": "{hero:0} entrou por uma rota de serviço com ar pesado, visibilidade curta e gente esperando resposta no escuro."
+      },
+      {
+        "phase": "complicacao",
+        "time": "14:00",
+        "text": "O vapor mudou de direção. A saída segura de dois minutos atrás virou ponto morto."
+      },
+      {
+        "phase": "resolucao",
+        "time": "fim",
+        "text": "A equipe saiu com {civiliansSaved} civis contabilizados e {district} lembrando que a cidade também falha por baixo."
+      }
+    ]
+  }
+]

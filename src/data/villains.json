@@ -1,0 +1,1340 @@
+[
+  {
+    "id": "vilha-ferrugem",
+    "nome": "Odilon Fraga",
+    "alcunha": "Ferrugem-Rei",
+    "periculosidade": 4,
+    "crimesConhecidos": [
+      "sabotagem de pontes",
+      "roubo de ligas metalicas",
+      "chantagem industrial"
+    ],
+    "poderesRecursos": "oxida estruturas metalicas em segundos e usa mapas de manutencao roubados",
+    "bairroAtuacao": "Doca Leste",
+    "faccao": "Oficina da Maré Seca",
+    "estadoAtual": "fugitivo",
+    "chanceReforma": 34,
+    "riscoFuga": 56,
+    "relacoesHerois": {},
+    "historicoEncontros": [],
+    "imageUrl": "",
+    "personalidade": [
+      "ressentido",
+      "orgulhoso",
+      "metodico"
+    ],
+    "violencia": 3
+  },
+  {
+    "id": "vilha-marionete-luz",
+    "nome": "Irene Pardo",
+    "alcunha": "Marionete-Luz",
+    "periculosidade": 3,
+    "crimesConhecidos": [
+      "fraude holografica",
+      "panico induzido",
+      "extorsao de eventos"
+    ],
+    "poderesRecursos": "projeta figuras luminosas e falsos avisos de emergencia",
+    "bairroAtuacao": "Jardins de Vidro",
+    "faccao": "Nenhuma confirmada",
+    "estadoAtual": "fugitivo",
+    "chanceReforma": 48,
+    "riscoFuga": 42,
+    "relacoesHerois": {},
+    "historicoEncontros": [],
+    "imageUrl": "",
+    "personalidade": [
+      "teatral",
+      "medrosa",
+      "persuasiva"
+    ],
+    "violencia": 1
+  },
+  {
+    "id": "vilha-pedra-oco",
+    "nome": "Aloisio Rende",
+    "alcunha": "Pedra-Oco",
+    "periculosidade": 5,
+    "crimesConhecidos": [
+      "colapso de fundacoes",
+      "sequestro subterraneo",
+      "cobranca armada"
+    ],
+    "poderesRecursos": "abre bolsões ocos em concreto e rocha",
+    "bairroAtuacao": "Alto Candeal",
+    "faccao": "Coroa do Subsolo",
+    "estadoAtual": "fugitivo",
+    "chanceReforma": 18,
+    "riscoFuga": 71,
+    "relacoesHerois": {},
+    "historicoEncontros": [],
+    "imageUrl": "",
+    "personalidade": [
+      "frio",
+      "dominador",
+      "vingativo"
+    ],
+    "violencia": 5
+  },
+  {
+    "id": "vilha-salitre",
+    "nome": "Rute Mangal",
+    "alcunha": "Dona Salitre",
+    "periculosidade": 3,
+    "crimesConhecidos": [
+      "contaminacao de reservatorios",
+      "contrabando quimico"
+    ],
+    "poderesRecursos": "misturas minerais que corroem vedacoes e confundem sensores",
+    "bairroAtuacao": "Vila Farol",
+    "faccao": "Linha Branca",
+    "estadoAtual": "fugitivo",
+    "chanceReforma": 41,
+    "riscoFuga": 45,
+    "relacoesHerois": {},
+    "historicoEncontros": [],
+    "imageUrl": "",
+    "personalidade": [
+      "pragmatica",
+      "cansada",
+      "irritavel"
+    ],
+    "violencia": 2
+  },
+  {
+    "id": "vilha-pregao",
+    "nome": "Cesar Navio",
+    "alcunha": "Pregão",
+    "periculosidade": 2,
+    "crimesConhecidos": [
+      "boatos financeiros",
+      "corridas de multidao",
+      "golpes de seguro"
+    ],
+    "poderesRecursos": "rede de alto-falantes clandestinos e perfis falsos",
+    "bairroAtuacao": "Mercado Nimbus",
+    "faccao": "Nenhuma confirmada",
+    "estadoAtual": "capturado",
+    "chanceReforma": 55,
+    "riscoFuga": 28,
+    "relacoesHerois": {},
+    "historicoEncontros": [],
+    "imageUrl": "",
+    "personalidade": [
+      "falador",
+      "covarde",
+      "oportunista"
+    ],
+    "violencia": 1
+  },
+  {
+    "id": "vilha-coroa-rubi",
+    "nome": "Selma Torre",
+    "alcunha": "Coroa Rubi",
+    "periculosidade": 5,
+    "crimesConhecidos": [
+      "roubo de prototipos",
+      "ataques a laboratorios",
+      "suborno tecnico"
+    ],
+    "poderesRecursos": "rede de drones joia e blindagem experimental",
+    "bairroAtuacao": "Setor Rubi",
+    "faccao": "Cartel do Vidro Quente",
+    "estadoAtual": "fugitivo",
+    "chanceReforma": 21,
+    "riscoFuga": 76,
+    "relacoesHerois": {},
+    "historicoEncontros": [],
+    "imageUrl": "",
+    "personalidade": [
+      "elegante",
+      "cruel",
+      "calculista"
+    ],
+    "violencia": 4
+  },
+  {
+    "id": "vilha-seiva-torta",
+    "nome": "Malu Nogueira",
+    "alcunha": "Seiva Torta",
+    "periculosidade": 3,
+    "crimesConhecidos": [
+      "bioterror urbano",
+      "furto de sementes raras"
+    ],
+    "poderesRecursos": "cultivos acelerados que prendem portas e cobrem sensores",
+    "bairroAtuacao": "Cintura Verde",
+    "faccao": "Raiz Anônima",
+    "estadoAtual": "em reabilitação",
+    "chanceReforma": 63,
+    "riscoFuga": 33,
+    "relacoesHerois": {},
+    "historicoEncontros": [],
+    "imageUrl": "",
+    "personalidade": [
+      "idealista",
+      "impaciente",
+      "culpada"
+    ],
+    "violencia": 2
+  },
+  {
+    "id": "vilha-tremorinho",
+    "nome": "Nico Dobre",
+    "alcunha": "Tremorinho",
+    "periculosidade": 2,
+    "crimesConhecidos": [
+      "corridas ilegais em trilhos",
+      "pane induzida",
+      "furto de baterias"
+    ],
+    "poderesRecursos": "microvibracoes que soltam travas e confundem motores",
+    "bairroAtuacao": "Estacao Norte",
+    "faccao": "Os Descarrilados",
+    "estadoAtual": "capturado",
+    "chanceReforma": 69,
+    "riscoFuga": 24,
+    "relacoesHerois": {},
+    "historicoEncontros": [],
+    "imageUrl": "",
+    "personalidade": [
+      "arrepios",
+      "piadista",
+      "carente"
+    ],
+    "violencia": 1
+  },
+  {
+    "id": "vilha-lodo-fino",
+    "nome": "Janete Alves",
+    "alcunha": "Lodo Fino",
+    "periculosidade": 4,
+    "crimesConhecidos": [
+      "invasao de galerias",
+      "contaminacao de bombas",
+      "chantagem sanitaria"
+    ],
+    "poderesRecursos": "gel condutor que percorre tubulacoes",
+    "bairroAtuacao": "Baixada Azul",
+    "faccao": "Linha Branca",
+    "estadoAtual": "fugitivo",
+    "chanceReforma": 37,
+    "riscoFuga": 59,
+    "relacoesHerois": {},
+    "historicoEncontros": [],
+    "imageUrl": "",
+    "personalidade": [
+      "amarga",
+      "paciente",
+      "vingativa"
+    ],
+    "violencia": 3
+  },
+  {
+    "id": "vilha-prisma-falso",
+    "nome": "Elias Nacar",
+    "alcunha": "Prisma Falso",
+    "periculosidade": 3,
+    "crimesConhecidos": [
+      "falsificacao de identidades",
+      "sequestro de sinal",
+      "chantagem midiática"
+    ],
+    "poderesRecursos": "desvia imagens de cameras e cria duplicatas visuais",
+    "bairroAtuacao": "Mirante Solar",
+    "faccao": "Nenhuma confirmada",
+    "estadoAtual": "fugitivo",
+    "chanceReforma": 46,
+    "riscoFuga": 51,
+    "relacoesHerois": {},
+    "historicoEncontros": [],
+    "imageUrl": "",
+    "personalidade": [
+      "vaidoso",
+      "assustado",
+      "inteligente"
+    ],
+    "violencia": 2
+  },
+  {
+    "id": "vilha-breu-claro",
+    "nome": "Milena Cais",
+    "alcunha": "Breu Claro",
+    "periculosidade": 4,
+    "crimesConhecidos": [
+      "apagões seletivos",
+      "roubo de geradores",
+      "cerco a hospitais"
+    ],
+    "poderesRecursos": "absorve luz ambiente e vende rotas escuras para quadrilhas",
+    "bairroAtuacao": "Doca Leste",
+    "faccao": "Oficina da Maré Seca",
+    "estadoAtual": "fugitivo",
+    "chanceReforma": 29,
+    "riscoFuga": 64,
+    "relacoesHerois": {},
+    "historicoEncontros": [],
+    "imageUrl": "",
+    "personalidade": [
+      "silenciosa",
+      "desconfiada",
+      "leal a poucos"
+    ],
+    "violencia": 3
+  },
+  {
+    "id": "vilha-lacre-negro",
+    "nome": "Tobias San",
+    "alcunha": "Lacre Negro",
+    "periculosidade": 3,
+    "crimesConhecidos": [
+      "bloqueio de saidas",
+      "sequestro relampago",
+      "trava de elevadores"
+    ],
+    "poderesRecursos": "adesivos inteligentes que selam mecanismos",
+    "bairroAtuacao": "Setor Rubi",
+    "faccao": "Cartel do Vidro Quente",
+    "estadoAtual": "preso",
+    "chanceReforma": 52,
+    "riscoFuga": 19,
+    "relacoesHerois": {},
+    "historicoEncontros": [],
+    "imageUrl": "",
+    "personalidade": [
+      "tecnico",
+      "nervoso",
+      "arrogante"
+    ],
+    "violencia": 2
+  },
+  {
+    "id": "vilha-chiado",
+    "nome": "Rian Sotto",
+    "alcunha": "Chiado",
+    "periculosidade": 2,
+    "crimesConhecidos": [
+      "interferencia em radios",
+      "boatos de emergencia",
+      "extorsao de lojas"
+    ],
+    "poderesRecursos": "ruido branco direcional e antenas portateis",
+    "bairroAtuacao": "Mercado Nimbus",
+    "faccao": "Nenhuma confirmada",
+    "estadoAtual": "fugitivo",
+    "chanceReforma": 61,
+    "riscoFuga": 37,
+    "relacoesHerois": {},
+    "historicoEncontros": [],
+    "imageUrl": "",
+    "personalidade": [
+      "nervoso",
+      "engracado",
+      "solitario"
+    ],
+    "violencia": 1
+  },
+  {
+    "id": "vilha-madre-cabo",
+    "nome": "Soraya Lins",
+    "alcunha": "Madre Cabo",
+    "periculosidade": 4,
+    "crimesConhecidos": [
+      "sequestro de cabos vivos",
+      "chantagem energetica",
+      "incendio intencional"
+    ],
+    "poderesRecursos": "rede de cabos energizados e drones de manutencao capturados",
+    "bairroAtuacao": "Estacao Norte",
+    "faccao": "Os Descarrilados",
+    "estadoAtual": "fugitivo",
+    "chanceReforma": 26,
+    "riscoFuga": 67,
+    "relacoesHerois": {},
+    "historicoEncontros": [],
+    "imageUrl": "",
+    "personalidade": [
+      "maternal",
+      "radical",
+      "furiosa"
+    ],
+    "violencia": 4
+  },
+  {
+    "id": "vilha-espelho-bento",
+    "nome": "Bento Lira",
+    "alcunha": "Espelho Bento",
+    "periculosidade": 1,
+    "crimesConhecidos": [
+      "furto pequeno",
+      "falsa identidade",
+      "venda de informacao"
+    ],
+    "poderesRecursos": "imita gestos e voz por alguns minutos apos observar alguem",
+    "bairroAtuacao": "Baixada Azul",
+    "faccao": "Nenhuma confirmada",
+    "estadoAtual": "reformado",
+    "chanceReforma": 82,
+    "riscoFuga": 14,
+    "relacoesHerois": {},
+    "historicoEncontros": [],
+    "imageUrl": "",
+    "personalidade": [
+      "arrependido",
+      "util",
+      "fofoqueiro"
+    ],
+    "violencia": 0
+  },
+  {
+    "id": "vilha-baronesa_do_ru_do",
+    "nome": "Mara Falcão",
+    "alcunha": "Baronesa do Ruído",
+    "periculosidade": 2,
+    "crimesConhecidos": [
+      "interferência em Setor Rubi",
+      "chantagem ligada a Coroa do Subsolo",
+      "sabotagem urbana"
+    ],
+    "poderesRecursos": "usa repetidores clandestinos para transformar boato em ordem falsa",
+    "bairroAtuacao": "Setor Rubi",
+    "faccao": "Coroa do Subsolo",
+    "associatedFactionId": "coroa_do_subsolo",
+    "preferredDistrictIds": [
+      "setor_rubi"
+    ],
+    "estadoAtual": "capturado",
+    "chanceReforma": 24,
+    "riscoFuga": 28,
+    "relacoesHerois": {},
+    "historicoEncontros": [],
+    "imageUrl": "",
+    "personalidade": [
+      "ressentido",
+      "impulsivo"
+    ],
+    "violencia": 1,
+    "threatLevel": 35,
+    "notoriety": 20,
+    "grudgeAgainstCentral": 10,
+    "publicImage": "ameaça local",
+    "eventTags": [
+      "subsolo",
+      "estrutura",
+      "contrabando"
+    ]
+  },
+  {
+    "id": "vilha-cardume_cinza",
+    "nome": "Celso Vilar",
+    "alcunha": "Cardume Cinza",
+    "periculosidade": 3,
+    "crimesConhecidos": [
+      "interferência em Jardins de Vidro",
+      "chantagem ligada a Rede dos Alto-Falantes",
+      "extorsão de emergência"
+    ],
+    "poderesRecursos": "controla drones pequenos escondidos em equipamentos civis",
+    "bairroAtuacao": "Jardins de Vidro",
+    "faccao": "Rede dos Alto-Falantes",
+    "associatedFactionId": "rede_dos_altofalantes",
+    "preferredDistrictIds": [
+      "jardins_de_vidro"
+    ],
+    "estadoAtual": "fugitivo",
+    "chanceReforma": 31,
+    "riscoFuga": 37,
+    "relacoesHerois": {},
+    "historicoEncontros": [],
+    "imageUrl": "",
+    "personalidade": [
+      "vaidoso",
+      "calculista"
+    ],
+    "violencia": 2,
+    "threatLevel": 40,
+    "notoriety": 26,
+    "grudgeAgainstCentral": 14,
+    "publicImage": "boato ambulante",
+    "eventTags": [
+      "boato",
+      "som",
+      "sinal"
+    ]
+  },
+  {
+    "id": "vilha-chaveiro_de_n_voa",
+    "nome": "Irene Bastos",
+    "alcunha": "Chaveiro de Névoa",
+    "periculosidade": 4,
+    "crimesConhecidos": [
+      "interferência em Cintura Verde",
+      "chantagem ligada a Oficina da Maré Seca",
+      "fuga espetacular"
+    ],
+    "poderesRecursos": "fabrica dispositivos de fuga com sucata e mapas públicos",
+    "bairroAtuacao": "Cintura Verde",
+    "faccao": "Oficina da Maré Seca",
+    "associatedFactionId": "oficina_da_mare_seca",
+    "preferredDistrictIds": [
+      "cintura_verde"
+    ],
+    "estadoAtual": "fugitivo",
+    "chanceReforma": 38,
+    "riscoFuga": 46,
+    "relacoesHerois": {},
+    "historicoEncontros": [],
+    "imageUrl": "",
+    "personalidade": [
+      "metódico",
+      "cansado"
+    ],
+    "violencia": 3,
+    "threatLevel": 45,
+    "notoriety": 32,
+    "grudgeAgainstCentral": 18,
+    "publicImage": "criminoso de bairro",
+    "eventTags": [
+      "tecnologia",
+      "maquinas",
+      "transito"
+    ]
+  },
+  {
+    "id": "vilha-dama_das_fia_es",
+    "nome": "Dario Paz",
+    "alcunha": "Dama das Fiações",
+    "periculosidade": 5,
+    "crimesConhecidos": [
+      "interferência em Baixada Azul",
+      "chantagem ligada a Irmandade do Vidro",
+      "contrabando de tecnologia"
+    ],
+    "poderesRecursos": "manipula reflexos, fumaça e sinalização para quebrar leitura de campo",
+    "bairroAtuacao": "Baixada Azul",
+    "faccao": "Irmandade do Vidro",
+    "associatedFactionId": "irmandade_do_vidro",
+    "preferredDistrictIds": [
+      "baixada_azul"
+    ],
+    "estadoAtual": "fugitivo",
+    "chanceReforma": 45,
+    "riscoFuga": 55,
+    "relacoesHerois": {},
+    "historicoEncontros": [],
+    "imageUrl": "",
+    "personalidade": [
+      "carismático",
+      "irônico"
+    ],
+    "violencia": 4,
+    "threatLevel": 50,
+    "notoriety": 38,
+    "grudgeAgainstCentral": 22,
+    "publicImage": "figura midiática",
+    "eventTags": [
+      "cultura",
+      "luz",
+      "reflexos"
+    ]
+  },
+  {
+    "id": "vilha-eco_do_viaduto",
+    "nome": "Bia Rios",
+    "alcunha": "Eco do Viaduto",
+    "periculosidade": 2,
+    "crimesConhecidos": [
+      "interferência em Porto Velado",
+      "chantagem ligada a Sindicato do Apagão",
+      "pânico coordenado"
+    ],
+    "poderesRecursos": "compra favores pequenos até formar uma crise grande",
+    "bairroAtuacao": "Porto Velado",
+    "faccao": "Sindicato do Apagão",
+    "associatedFactionId": "sindicato_do_apagao",
+    "preferredDistrictIds": [
+      "porto_velado"
+    ],
+    "estadoAtual": "fugitivo",
+    "chanceReforma": 52,
+    "riscoFuga": 64,
+    "relacoesHerois": {},
+    "historicoEncontros": [],
+    "imageUrl": "",
+    "personalidade": [
+      "paranoico",
+      "teatral"
+    ],
+    "violencia": 5,
+    "threatLevel": 55,
+    "notoriety": 44,
+    "grudgeAgainstCentral": 26,
+    "publicImage": "risco técnico",
+    "eventTags": [
+      "energia",
+      "infraestrutura",
+      "dados"
+    ]
+  },
+  {
+    "id": "vilha-falso_sem_foro",
+    "nome": "Renan Luz",
+    "alcunha": "Falso Semáforo",
+    "periculosidade": 3,
+    "crimesConhecidos": [
+      "interferência em Distrito Lúmen",
+      "chantagem ligada a Jardim das Máscaras",
+      "sabotagem urbana"
+    ],
+    "poderesRecursos": "usa repetidores clandestinos para transformar boato em ordem falsa",
+    "bairroAtuacao": "Distrito Lúmen",
+    "faccao": "Jardim das Máscaras",
+    "associatedFactionId": "jardim_das_mascaras",
+    "preferredDistrictIds": [
+      "distrito_lumen"
+    ],
+    "estadoAtual": "fugitivo",
+    "chanceReforma": 59,
+    "riscoFuga": 73,
+    "relacoesHerois": {},
+    "historicoEncontros": [],
+    "imageUrl": "",
+    "personalidade": [
+      "pragmático",
+      "silencioso"
+    ],
+    "violencia": 1,
+    "threatLevel": 60,
+    "notoriety": 50,
+    "grudgeAgainstCentral": 30,
+    "publicImage": "ameaça local",
+    "eventTags": [
+      "politica",
+      "elite",
+      "disfarce"
+    ]
+  },
+  {
+    "id": "vilha-giz_de_guerra",
+    "nome": "Olga Ferraz",
+    "alcunha": "Giz de Guerra",
+    "periculosidade": 4,
+    "crimesConhecidos": [
+      "interferência em Doca Leste",
+      "chantagem ligada a Coroa do Subsolo",
+      "extorsão de emergência"
+    ],
+    "poderesRecursos": "controla drones pequenos escondidos em equipamentos civis",
+    "bairroAtuacao": "Doca Leste",
+    "faccao": "Coroa do Subsolo",
+    "associatedFactionId": "coroa_do_subsolo",
+    "preferredDistrictIds": [
+      "doca_leste"
+    ],
+    "estadoAtual": "fugitivo",
+    "chanceReforma": 66,
+    "riscoFuga": 82,
+    "relacoesHerois": {},
+    "historicoEncontros": [],
+    "imageUrl": "",
+    "personalidade": [
+      "ressentido",
+      "impulsivo"
+    ],
+    "violencia": 2,
+    "threatLevel": 65,
+    "notoriety": 56,
+    "grudgeAgainstCentral": 34,
+    "publicImage": "boato ambulante",
+    "eventTags": [
+      "subsolo",
+      "estrutura",
+      "contrabando"
+    ]
+  },
+  {
+    "id": "vilha-h_spede_zero",
+    "nome": "Vicente Guedes",
+    "alcunha": "Hóspede Zero",
+    "periculosidade": 5,
+    "crimesConhecidos": [
+      "interferência em Setor Rubi",
+      "chantagem ligada a Rede dos Alto-Falantes",
+      "fuga espetacular"
+    ],
+    "poderesRecursos": "fabrica dispositivos de fuga com sucata e mapas públicos",
+    "bairroAtuacao": "Setor Rubi",
+    "faccao": "Rede dos Alto-Falantes",
+    "associatedFactionId": "rede_dos_altofalantes",
+    "preferredDistrictIds": [
+      "setor_rubi"
+    ],
+    "estadoAtual": "capturado",
+    "chanceReforma": 73,
+    "riscoFuga": 36,
+    "relacoesHerois": {},
+    "historicoEncontros": [],
+    "imageUrl": "",
+    "personalidade": [
+      "vaidoso",
+      "calculista"
+    ],
+    "violencia": 3,
+    "threatLevel": 70,
+    "notoriety": 62,
+    "grudgeAgainstCentral": 38,
+    "publicImage": "criminoso de bairro",
+    "eventTags": [
+      "boato",
+      "som",
+      "sinal"
+    ]
+  },
+  {
+    "id": "vilha-m_de_rua",
+    "nome": "Silas Arruda",
+    "alcunha": "Ímã de Rua",
+    "periculosidade": 2,
+    "crimesConhecidos": [
+      "interferência em Jardins de Vidro",
+      "chantagem ligada a Oficina da Maré Seca",
+      "contrabando de tecnologia"
+    ],
+    "poderesRecursos": "manipula reflexos, fumaça e sinalização para quebrar leitura de campo",
+    "bairroAtuacao": "Jardins de Vidro",
+    "faccao": "Oficina da Maré Seca",
+    "associatedFactionId": "oficina_da_mare_seca",
+    "preferredDistrictIds": [
+      "jardins_de_vidro"
+    ],
+    "estadoAtual": "fugitivo",
+    "chanceReforma": 80,
+    "riscoFuga": 45,
+    "relacoesHerois": {},
+    "historicoEncontros": [],
+    "imageUrl": "",
+    "personalidade": [
+      "metódico",
+      "cansado"
+    ],
+    "violencia": 4,
+    "threatLevel": 75,
+    "notoriety": 68,
+    "grudgeAgainstCentral": 42,
+    "publicImage": "figura midiática",
+    "eventTags": [
+      "tecnologia",
+      "maquinas",
+      "transito"
+    ]
+  },
+  {
+    "id": "vilha-janela_cega",
+    "nome": "Nadia Correia",
+    "alcunha": "Janela Cega",
+    "periculosidade": 3,
+    "crimesConhecidos": [
+      "interferência em Cintura Verde",
+      "chantagem ligada a Irmandade do Vidro",
+      "pânico coordenado"
+    ],
+    "poderesRecursos": "compra favores pequenos até formar uma crise grande",
+    "bairroAtuacao": "Cintura Verde",
+    "faccao": "Irmandade do Vidro",
+    "associatedFactionId": "irmandade_do_vidro",
+    "preferredDistrictIds": [
+      "cintura_verde"
+    ],
+    "estadoAtual": "em_reabilitacao",
+    "chanceReforma": 29,
+    "riscoFuga": 54,
+    "relacoesHerois": {},
+    "historicoEncontros": [],
+    "imageUrl": "",
+    "personalidade": [
+      "carismático",
+      "irônico"
+    ],
+    "violencia": 5,
+    "threatLevel": 80,
+    "notoriety": 74,
+    "grudgeAgainstCentral": 46,
+    "publicImage": "risco técnico",
+    "eventTags": [
+      "cultura",
+      "luz",
+      "reflexos"
+    ]
+  },
+  {
+    "id": "vilha-karaok_sombrio",
+    "nome": "Luan Almada",
+    "alcunha": "Karaokê Sombrio",
+    "periculosidade": 4,
+    "crimesConhecidos": [
+      "interferência em Baixada Azul",
+      "chantagem ligada a Sindicato do Apagão",
+      "sabotagem urbana"
+    ],
+    "poderesRecursos": "usa repetidores clandestinos para transformar boato em ordem falsa",
+    "bairroAtuacao": "Baixada Azul",
+    "faccao": "Sindicato do Apagão",
+    "associatedFactionId": "sindicato_do_apagao",
+    "preferredDistrictIds": [
+      "baixada_azul"
+    ],
+    "estadoAtual": "fugitivo",
+    "chanceReforma": 36,
+    "riscoFuga": 63,
+    "relacoesHerois": {},
+    "historicoEncontros": [],
+    "imageUrl": "",
+    "personalidade": [
+      "paranoico",
+      "teatral"
+    ],
+    "violencia": 1,
+    "threatLevel": 85,
+    "notoriety": 80,
+    "grudgeAgainstCentral": 50,
+    "publicImage": "ameaça local",
+    "eventTags": [
+      "energia",
+      "infraestrutura",
+      "dados"
+    ]
+  },
+  {
+    "id": "vilha-lacre_violeta",
+    "nome": "Cora Seabra",
+    "alcunha": "Lacre Violeta",
+    "periculosidade": 5,
+    "crimesConhecidos": [
+      "interferência em Porto Velado",
+      "chantagem ligada a Jardim das Máscaras",
+      "extorsão de emergência"
+    ],
+    "poderesRecursos": "controla drones pequenos escondidos em equipamentos civis",
+    "bairroAtuacao": "Porto Velado",
+    "faccao": "Jardim das Máscaras",
+    "associatedFactionId": "jardim_das_mascaras",
+    "preferredDistrictIds": [
+      "porto_velado"
+    ],
+    "estadoAtual": "fugitivo",
+    "chanceReforma": 43,
+    "riscoFuga": 72,
+    "relacoesHerois": {},
+    "historicoEncontros": [],
+    "imageUrl": "",
+    "personalidade": [
+      "pragmático",
+      "silencioso"
+    ],
+    "violencia": 2,
+    "threatLevel": 35,
+    "notoriety": 86,
+    "grudgeAgainstCentral": 54,
+    "publicImage": "boato ambulante",
+    "eventTags": [
+      "politica",
+      "elite",
+      "disfarce"
+    ]
+  },
+  {
+    "id": "vilha-mestre_da_goteira",
+    "nome": "Teo Prado",
+    "alcunha": "Mestre da Goteira",
+    "periculosidade": 2,
+    "crimesConhecidos": [
+      "interferência em Distrito Lúmen",
+      "chantagem ligada a Coroa do Subsolo",
+      "fuga espetacular"
+    ],
+    "poderesRecursos": "fabrica dispositivos de fuga com sucata e mapas públicos",
+    "bairroAtuacao": "Distrito Lúmen",
+    "faccao": "Coroa do Subsolo",
+    "associatedFactionId": "coroa_do_subsolo",
+    "preferredDistrictIds": [
+      "distrito_lumen"
+    ],
+    "estadoAtual": "fugitivo",
+    "chanceReforma": 50,
+    "riscoFuga": 81,
+    "relacoesHerois": {},
+    "historicoEncontros": [],
+    "imageUrl": "",
+    "personalidade": [
+      "ressentido",
+      "impulsivo"
+    ],
+    "violencia": 3,
+    "threatLevel": 40,
+    "notoriety": 22,
+    "grudgeAgainstCentral": 58,
+    "publicImage": "criminoso de bairro",
+    "eventTags": [
+      "subsolo",
+      "estrutura",
+      "contrabando"
+    ]
+  },
+  {
+    "id": "vilha-n_de_cobre",
+    "nome": "Mina Moura",
+    "alcunha": "Nó de Cobre",
+    "periculosidade": 3,
+    "crimesConhecidos": [
+      "interferência em Doca Leste",
+      "chantagem ligada a Rede dos Alto-Falantes",
+      "contrabando de tecnologia"
+    ],
+    "poderesRecursos": "manipula reflexos, fumaça e sinalização para quebrar leitura de campo",
+    "bairroAtuacao": "Doca Leste",
+    "faccao": "Rede dos Alto-Falantes",
+    "associatedFactionId": "rede_dos_altofalantes",
+    "preferredDistrictIds": [
+      "doca_leste"
+    ],
+    "estadoAtual": "fugitivo",
+    "chanceReforma": 57,
+    "riscoFuga": 35,
+    "relacoesHerois": {},
+    "historicoEncontros": [],
+    "imageUrl": "",
+    "personalidade": [
+      "vaidoso",
+      "calculista"
+    ],
+    "violencia": 4,
+    "threatLevel": 45,
+    "notoriety": 28,
+    "grudgeAgainstCentral": 62,
+    "publicImage": "figura midiática",
+    "eventTags": [
+      "boato",
+      "som",
+      "sinal"
+    ]
+  },
+  {
+    "id": "vilha-or_culo_do_mofo",
+    "nome": "Breno Matos",
+    "alcunha": "Oráculo do Mofo",
+    "periculosidade": 4,
+    "crimesConhecidos": [
+      "interferência em Setor Rubi",
+      "chantagem ligada a Oficina da Maré Seca",
+      "pânico coordenado"
+    ],
+    "poderesRecursos": "compra favores pequenos até formar uma crise grande",
+    "bairroAtuacao": "Setor Rubi",
+    "faccao": "Oficina da Maré Seca",
+    "associatedFactionId": "oficina_da_mare_seca",
+    "preferredDistrictIds": [
+      "setor_rubi"
+    ],
+    "estadoAtual": "capturado",
+    "chanceReforma": 64,
+    "riscoFuga": 44,
+    "relacoesHerois": {},
+    "historicoEncontros": [],
+    "imageUrl": "",
+    "personalidade": [
+      "metódico",
+      "cansado"
+    ],
+    "violencia": 5,
+    "threatLevel": 50,
+    "notoriety": 34,
+    "grudgeAgainstCentral": 66,
+    "publicImage": "risco técnico",
+    "eventTags": [
+      "tecnologia",
+      "maquinas",
+      "transito"
+    ]
+  },
+  {
+    "id": "vilha-p_tio_fantasma",
+    "nome": "Aline Quevedo",
+    "alcunha": "Pátio Fantasma",
+    "periculosidade": 5,
+    "crimesConhecidos": [
+      "interferência em Jardins de Vidro",
+      "chantagem ligada a Irmandade do Vidro",
+      "sabotagem urbana"
+    ],
+    "poderesRecursos": "usa repetidores clandestinos para transformar boato em ordem falsa",
+    "bairroAtuacao": "Jardins de Vidro",
+    "faccao": "Irmandade do Vidro",
+    "associatedFactionId": "irmandade_do_vidro",
+    "preferredDistrictIds": [
+      "jardins_de_vidro"
+    ],
+    "estadoAtual": "fugitivo",
+    "chanceReforma": 71,
+    "riscoFuga": 53,
+    "relacoesHerois": {},
+    "historicoEncontros": [],
+    "imageUrl": "",
+    "personalidade": [
+      "carismático",
+      "irônico"
+    ],
+    "violencia": 1,
+    "threatLevel": 55,
+    "notoriety": 40,
+    "grudgeAgainstCentral": 70,
+    "publicImage": "ameaça local",
+    "eventTags": [
+      "cultura",
+      "luz",
+      "reflexos"
+    ]
+  },
+  {
+    "id": "vilha-quina_de_sal",
+    "nome": "Jonas Neri",
+    "alcunha": "Quina de Sal",
+    "periculosidade": 2,
+    "crimesConhecidos": [
+      "interferência em Cintura Verde",
+      "chantagem ligada a Sindicato do Apagão",
+      "extorsão de emergência"
+    ],
+    "poderesRecursos": "controla drones pequenos escondidos em equipamentos civis",
+    "bairroAtuacao": "Cintura Verde",
+    "faccao": "Sindicato do Apagão",
+    "associatedFactionId": "sindicato_do_apagao",
+    "preferredDistrictIds": [
+      "cintura_verde"
+    ],
+    "estadoAtual": "fugitivo",
+    "chanceReforma": 78,
+    "riscoFuga": 62,
+    "relacoesHerois": {},
+    "historicoEncontros": [],
+    "imageUrl": "",
+    "personalidade": [
+      "paranoico",
+      "teatral"
+    ],
+    "violencia": 2,
+    "threatLevel": 60,
+    "notoriety": 46,
+    "grudgeAgainstCentral": 74,
+    "publicImage": "boato ambulante",
+    "eventTags": [
+      "energia",
+      "infraestrutura",
+      "dados"
+    ]
+  },
+  {
+    "id": "vilha-rascunho_negro",
+    "nome": "Sueli Torre",
+    "alcunha": "Rascunho Negro",
+    "periculosidade": 3,
+    "crimesConhecidos": [
+      "interferência em Baixada Azul",
+      "chantagem ligada a Jardim das Máscaras",
+      "fuga espetacular"
+    ],
+    "poderesRecursos": "fabrica dispositivos de fuga com sucata e mapas públicos",
+    "bairroAtuacao": "Baixada Azul",
+    "faccao": "Jardim das Máscaras",
+    "associatedFactionId": "jardim_das_mascaras",
+    "preferredDistrictIds": [
+      "baixada_azul"
+    ],
+    "estadoAtual": "fugitivo",
+    "chanceReforma": 27,
+    "riscoFuga": 71,
+    "relacoesHerois": {},
+    "historicoEncontros": [],
+    "imageUrl": "",
+    "personalidade": [
+      "pragmático",
+      "silencioso"
+    ],
+    "violencia": 3,
+    "threatLevel": 65,
+    "notoriety": 52,
+    "grudgeAgainstCentral": 13,
+    "publicImage": "criminoso de bairro",
+    "eventTags": [
+      "politica",
+      "elite",
+      "disfarce"
+    ]
+  },
+  {
+    "id": "vilha-sargento_vala",
+    "nome": "Ravi Campos",
+    "alcunha": "Sargento Vala",
+    "periculosidade": 4,
+    "crimesConhecidos": [
+      "interferência em Porto Velado",
+      "chantagem ligada a Coroa do Subsolo",
+      "contrabando de tecnologia"
+    ],
+    "poderesRecursos": "manipula reflexos, fumaça e sinalização para quebrar leitura de campo",
+    "bairroAtuacao": "Porto Velado",
+    "faccao": "Coroa do Subsolo",
+    "associatedFactionId": "coroa_do_subsolo",
+    "preferredDistrictIds": [
+      "porto_velado"
+    ],
+    "estadoAtual": "em_reabilitacao",
+    "chanceReforma": 34,
+    "riscoFuga": 80,
+    "relacoesHerois": {},
+    "historicoEncontros": [],
+    "imageUrl": "",
+    "personalidade": [
+      "ressentido",
+      "impulsivo"
+    ],
+    "violencia": 4,
+    "threatLevel": 70,
+    "notoriety": 58,
+    "grudgeAgainstCentral": 17,
+    "publicImage": "figura midiática",
+    "eventTags": [
+      "subsolo",
+      "estrutura",
+      "contrabando"
+    ]
+  },
+  {
+    "id": "vilha-tinta_rasa",
+    "nome": "Elisa Galeno",
+    "alcunha": "Tinta Rasa",
+    "periculosidade": 5,
+    "crimesConhecidos": [
+      "interferência em Distrito Lúmen",
+      "chantagem ligada a Rede dos Alto-Falantes",
+      "pânico coordenado"
+    ],
+    "poderesRecursos": "compra favores pequenos até formar uma crise grande",
+    "bairroAtuacao": "Distrito Lúmen",
+    "faccao": "Rede dos Alto-Falantes",
+    "associatedFactionId": "rede_dos_altofalantes",
+    "preferredDistrictIds": [
+      "distrito_lumen"
+    ],
+    "estadoAtual": "fugitivo",
+    "chanceReforma": 41,
+    "riscoFuga": 34,
+    "relacoesHerois": {},
+    "historicoEncontros": [],
+    "imageUrl": "",
+    "personalidade": [
+      "vaidoso",
+      "calculista"
+    ],
+    "violencia": 5,
+    "threatLevel": 75,
+    "notoriety": 64,
+    "grudgeAgainstCentral": 21,
+    "publicImage": "risco técnico",
+    "eventTags": [
+      "boato",
+      "som",
+      "sinal"
+    ]
+  },
+  {
+    "id": "vilha-ursa_de_vidro",
+    "nome": "Mara Falcão",
+    "alcunha": "Ursa de Vidro",
+    "periculosidade": 2,
+    "crimesConhecidos": [
+      "interferência em Doca Leste",
+      "chantagem ligada a Oficina da Maré Seca",
+      "sabotagem urbana"
+    ],
+    "poderesRecursos": "usa repetidores clandestinos para transformar boato em ordem falsa",
+    "bairroAtuacao": "Doca Leste",
+    "faccao": "Oficina da Maré Seca",
+    "associatedFactionId": "oficina_da_mare_seca",
+    "preferredDistrictIds": [
+      "doca_leste"
+    ],
+    "estadoAtual": "fugitivo",
+    "chanceReforma": 48,
+    "riscoFuga": 43,
+    "relacoesHerois": {},
+    "historicoEncontros": [],
+    "imageUrl": "",
+    "personalidade": [
+      "metódico",
+      "cansado"
+    ],
+    "violencia": 1,
+    "threatLevel": 80,
+    "notoriety": 70,
+    "grudgeAgainstCentral": 25,
+    "publicImage": "ameaça local",
+    "eventTags": [
+      "tecnologia",
+      "maquinas",
+      "transito"
+    ]
+  },
+  {
+    "id": "vilha-voto_frio",
+    "nome": "Celso Vilar",
+    "alcunha": "Voto Frio",
+    "periculosidade": 3,
+    "crimesConhecidos": [
+      "interferência em Setor Rubi",
+      "chantagem ligada a Irmandade do Vidro",
+      "extorsão de emergência"
+    ],
+    "poderesRecursos": "controla drones pequenos escondidos em equipamentos civis",
+    "bairroAtuacao": "Setor Rubi",
+    "faccao": "Irmandade do Vidro",
+    "associatedFactionId": "irmandade_do_vidro",
+    "preferredDistrictIds": [
+      "setor_rubi"
+    ],
+    "estadoAtual": "capturado",
+    "chanceReforma": 55,
+    "riscoFuga": 52,
+    "relacoesHerois": {},
+    "historicoEncontros": [],
+    "imageUrl": "",
+    "personalidade": [
+      "carismático",
+      "irônico"
+    ],
+    "violencia": 2,
+    "threatLevel": 85,
+    "notoriety": 76,
+    "grudgeAgainstCentral": 29,
+    "publicImage": "boato ambulante",
+    "eventTags": [
+      "cultura",
+      "luz",
+      "reflexos"
+    ]
+  },
+  {
+    "id": "vilha-xadrez_de_lona",
+    "nome": "Irene Bastos",
+    "alcunha": "Xadrez de Lona",
+    "periculosidade": 4,
+    "crimesConhecidos": [
+      "interferência em Jardins de Vidro",
+      "chantagem ligada a Sindicato do Apagão",
+      "fuga espetacular"
+    ],
+    "poderesRecursos": "fabrica dispositivos de fuga com sucata e mapas públicos",
+    "bairroAtuacao": "Jardins de Vidro",
+    "faccao": "Sindicato do Apagão",
+    "associatedFactionId": "sindicato_do_apagao",
+    "preferredDistrictIds": [
+      "jardins_de_vidro"
+    ],
+    "estadoAtual": "fugitivo",
+    "chanceReforma": 62,
+    "riscoFuga": 61,
+    "relacoesHerois": {},
+    "historicoEncontros": [],
+    "imageUrl": "",
+    "personalidade": [
+      "paranoico",
+      "teatral"
+    ],
+    "violencia": 3,
+    "threatLevel": 35,
+    "notoriety": 82,
+    "grudgeAgainstCentral": 33,
+    "publicImage": "criminoso de bairro",
+    "eventTags": [
+      "energia",
+      "infraestrutura",
+      "dados"
+    ]
+  },
+  {
+    "id": "vilha-zigue_zague",
+    "nome": "Dario Paz",
+    "alcunha": "Zigue-Zague",
+    "periculosidade": 5,
+    "crimesConhecidos": [
+      "interferência em Cintura Verde",
+      "chantagem ligada a Jardim das Máscaras",
+      "contrabando de tecnologia"
+    ],
+    "poderesRecursos": "manipula reflexos, fumaça e sinalização para quebrar leitura de campo",
+    "bairroAtuacao": "Cintura Verde",
+    "faccao": "Jardim das Máscaras",
+    "associatedFactionId": "jardim_das_mascaras",
+    "preferredDistrictIds": [
+      "cintura_verde"
+    ],
+    "estadoAtual": "fugitivo",
+    "chanceReforma": 69,
+    "riscoFuga": 70,
+    "relacoesHerois": {},
+    "historicoEncontros": [],
+    "imageUrl": "",
+    "personalidade": [
+      "pragmático",
+      "silencioso"
+    ],
+    "violencia": 4,
+    "threatLevel": 40,
+    "notoriety": 88,
+    "grudgeAgainstCentral": 37,
+    "publicImage": "figura midiática",
+    "eventTags": [
+      "politica",
+      "elite",
+      "disfarce"
+    ]
+  },
+  {
+    "id": "vilha-arquivo_morto",
+    "nome": "Bia Rios",
+    "alcunha": "Arquivo Morto",
+    "periculosidade": 2,
+    "crimesConhecidos": [
+      "interferência em Baixada Azul",
+      "chantagem ligada a Coroa do Subsolo",
+      "pânico coordenado"
+    ],
+    "poderesRecursos": "compra favores pequenos até formar uma crise grande",
+    "bairroAtuacao": "Baixada Azul",
+    "faccao": "Coroa do Subsolo",
+    "associatedFactionId": "coroa_do_subsolo",
+    "preferredDistrictIds": [
+      "baixada_azul"
+    ],
+    "estadoAtual": "fugitivo",
+    "chanceReforma": 76,
+    "riscoFuga": 79,
+    "relacoesHerois": {},
+    "historicoEncontros": [],
+    "imageUrl": "",
+    "personalidade": [
+      "ressentido",
+      "impulsivo"
+    ],
+    "violencia": 5,
+    "threatLevel": 45,
+    "notoriety": 24,
+    "grudgeAgainstCentral": 41,
+    "publicImage": "risco técnico",
+    "eventTags": [
+      "subsolo",
+      "estrutura",
+      "contrabando"
+    ]
+  }
+]

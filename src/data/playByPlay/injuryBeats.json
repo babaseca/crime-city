@@ -1,0 +1,41 @@
+[
+  {
+    "id": "injury-light-01",
+    "phase": "ferimento",
+    "priority": 78,
+    "cooldownDays": 6,
+    "tone": "enfermaria",
+    "resultTypes": ["heroi_ferido", "sucesso_com_dano_leve"],
+    "requires": { "injury": true },
+    "text": "A enfermaria entrou no rádio antes do aplauso. A missão estava resolvida, mas não saiu ilesa."
+  },
+  {
+    "id": "injury-pressure-01",
+    "phase": "ferimento",
+    "priority": 76,
+    "cooldownDays": 6,
+    "tone": "duro",
+    "resultTypes": ["heroi_ferido", "falha_parcial", "falha_grave"],
+    "requires": { "injury": true },
+    "text": "O ferimento mudou a postura da equipe: menos espetáculo, mais contagem de pulso, rota médica e silêncio concentrado."
+  },
+  {
+    "id": "injury-high-risk-01",
+    "phase": "ferimento",
+    "priority": 82,
+    "cooldownDays": 7,
+    "tone": "critico",
+    "requires": { "injury": true, "minRisk": 4 },
+    "text": "Em ocorrência de risco {risk}, a lesão não foi detalhe. Foi o preço exato de manter civis longe do pior ponto."
+  },
+  {
+    "id": "death-solemn-01",
+    "phase": "morte",
+    "priority": 100,
+    "cooldownDays": 12,
+    "tone": "luto",
+    "resultTypes": ["heroi_morto", "tragedia_operacional"],
+    "requires": { "death": true },
+    "text": "A Central registrou a perda sem trilha heroica. Só o nome, a missão e o silêncio que veio depois."
+  }
+]

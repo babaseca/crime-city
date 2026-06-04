@@ -1,0 +1,54 @@
+{
+  "version": "0.9.2",
+  "generatedAt": "build-time-local",
+  "total": 2731,
+  "categories": {
+    "generic": {
+      "file": "dialogues/dialogues.generic.json",
+      "count": 1091
+    },
+    "district": {
+      "file": "dialogues/dialogues.district.json",
+      "count": 172
+    },
+    "faction": {
+      "file": "dialogues/dialogues.faction.json",
+      "count": 104
+    },
+    "injury": {
+      "file": "dialogues/dialogues.injury.json",
+      "count": 78
+    },
+    "capture": {
+      "file": "dialogues/dialogues.capture.json",
+      "count": 53
+    },
+    "failure": {
+      "file": "dialogues/dialogues.failure.json",
+      "count": 307
+    },
+    "duo": {
+      "file": "dialogues/dialogues.duo.json",
+      "count": 638
+    },
+    "critical": {
+      "file": "dialogues/dialogues.critical.json",
+      "count": 34
+    },
+    "comic": {
+      "file": "dialogues/dialogues.comic.json",
+      "count": 254
+    }
+  },
+  "loadRules": {
+    "generic": "fallback e resultado comum",
+    "district": "missões com bairro identificado",
+    "faction": "missões com facção suspeita",
+    "injury": "cansaço, ferimento, trauma ou morte",
+    "capture": "captura de vilão",
+    "failure": "falhas comuns e parciais",
+    "duo": "duplas específicas ou relação forte",
+    "critical": "risco crítico/extremo ou falha grave",
+    "comic": "missões absurdas, cômicas ou de caos urbano"
+  }
+}

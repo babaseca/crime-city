@@ -1,0 +1,311 @@
+[
+  {
+    "id": "aurora_vetor_ansiedade",
+    "heroId": "h-aurora-vetor",
+    "name": "Rápido Demais Para Respirar",
+    "description": "Aurora Vetor precisa aprender que velocidade não resolve culpa.",
+    "stages": [
+      {
+        "stage": 1,
+        "trigger": {
+          "stressAbove": 58
+        },
+        "sceneId": "vetor_crise_radio"
+      },
+      {
+        "stage": 2,
+        "trigger": {
+          "successfulRescues": 3
+        },
+        "sceneId": "vetor_reconhece_limite"
+      },
+      {
+        "stage": 3,
+        "choice": true,
+        "rewards": [
+          "Respiração Tática"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bruma_livre_controle",
+    "heroId": "h-bruma-livre",
+    "name": "O Silêncio Não é Distância",
+    "description": "Bruma Livre aprende a pedir ajuda antes de virar parede de neblina.",
+    "stages": [
+      {
+        "stage": 1,
+        "trigger": {
+          "stressAbove": 52
+        },
+        "sceneId": "bruma_pausa_corredor"
+      },
+      {
+        "stage": 2,
+        "trigger": {
+          "missionsWithControl": 3
+        },
+        "sceneId": "bruma_confia_equipe"
+      },
+      {
+        "stage": 3,
+        "rewards": [
+          "Calma Compartilhada"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "domo_prata_peso",
+    "heroId": "h-domo-prata",
+    "name": "Quem Segura Quem Segura",
+    "description": "Domo Prata precisa aceitar que blindagem também racha por dentro.",
+    "stages": [
+      {
+        "stage": 1,
+        "trigger": {
+          "fatigueAbove": 45
+        },
+        "sceneId": "domo_mao_tremendo"
+      },
+      {
+        "stage": 2,
+        "trigger": {
+          "injuriesTaken": 1
+        },
+        "sceneId": "domo_enfermaria"
+      },
+      {
+        "stage": 3,
+        "rewards": [
+          "Âncora da Equipe"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cifra_rasa_barulho_depois_da_sirene",
+    "heroId": "h-cifra-rasa",
+    "name": "Barulho Depois da Sirene",
+    "description": "Cifra Rasa precisa transformar pressão de plantão em escolha própria antes que a cidade escolha por ele.",
+    "stages": [
+      {
+        "stage": 1,
+        "trigger": {
+          "stressAbove": 48
+        },
+        "sceneId": "cifra_rasa_sinal_1"
+      },
+      {
+        "stage": 2,
+        "trigger": {
+          "fatigueAbove": 35
+        },
+        "sceneId": "cifra_rasa_limite_2"
+      },
+      {
+        "stage": 3,
+        "trigger": {
+          "successfulRescues": 2
+        },
+        "sceneId": "cifra_rasa_escolha_3",
+        "rewards": [
+          "Traço de arco: Foco Sereno"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "eco_mandarim_ltima_pessoa_na_sala",
+    "heroId": "h-eco-mandarim",
+    "name": "Última Pessoa na Sala",
+    "description": "Eco Mandarim precisa transformar pressão de plantão em escolha própria antes que a cidade escolha por ele.",
+    "stages": [
+      {
+        "stage": 1,
+        "trigger": {
+          "stressAbove": 54
+        },
+        "sceneId": "eco_mandarim_sinal_1"
+      },
+      {
+        "stage": 2,
+        "trigger": {
+          "fatigueAbove": 43
+        },
+        "sceneId": "eco_mandarim_limite_2"
+      },
+      {
+        "stage": 3,
+        "trigger": {
+          "successfulRescues": 3
+        },
+        "sceneId": "eco_mandarim_escolha_3",
+        "rewards": [
+          "Traço de arco: Coragem Pública"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "faisca_norte_c_mera_do_lado_errado",
+    "heroId": "h-faisca-norte",
+    "name": "Câmera do Lado Errado",
+    "description": "Faisca Norte precisa transformar pressão de plantão em escolha própria antes que a cidade escolha por ele.",
+    "stages": [
+      {
+        "stage": 1,
+        "trigger": {
+          "stressAbove": 60
+        },
+        "sceneId": "faisca_norte_sinal_1"
+      },
+      {
+        "stage": 2,
+        "trigger": {
+          "fatigueAbove": 51
+        },
+        "sceneId": "faisca_norte_limite_2"
+      },
+      {
+        "stage": 3,
+        "trigger": {
+          "successfulRescues": 4
+        },
+        "sceneId": "faisca_norte_escolha_3",
+        "rewards": [
+          "Traço de arco: Limite Honesto"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "geodo_vivo_o_peso_do_escudo",
+    "heroId": "h-geodo-vivo",
+    "name": "O Peso do Escudo",
+    "description": "Geodo Vivo precisa transformar pressão de plantão em escolha própria antes que a cidade escolha por ele.",
+    "stages": [
+      {
+        "stage": 1,
+        "trigger": {
+          "stressAbove": 66
+        },
+        "sceneId": "geodo_vivo_sinal_1"
+      },
+      {
+        "stage": 2,
+        "trigger": {
+          "fatigueAbove": 35
+        },
+        "sceneId": "geodo_vivo_limite_2"
+      },
+      {
+        "stage": 3,
+        "trigger": {
+          "successfulRescues": 2
+        },
+        "sceneId": "geodo_vivo_escolha_3",
+        "rewards": [
+          "Traço de arco: Presença Tática"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "horizonte_lince_manual_de_despedida",
+    "heroId": "h-horizonte-lince",
+    "name": "Manual de Despedida",
+    "description": "Horizonte Lince precisa transformar pressão de plantão em escolha própria antes que a cidade escolha por ele.",
+    "stages": [
+      {
+        "stage": 1,
+        "trigger": {
+          "stressAbove": 48
+        },
+        "sceneId": "horizonte_lince_sinal_1"
+      },
+      {
+        "stage": 2,
+        "trigger": {
+          "fatigueAbove": 43
+        },
+        "sceneId": "horizonte_lince_limite_2"
+      },
+      {
+        "stage": 3,
+        "trigger": {
+          "successfulRescues": 3
+        },
+        "sceneId": "horizonte_lince_escolha_3",
+        "rewards": [
+          "Traço de arco: Foco Sereno"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ilha_pulso_cidade_dentro_da_cabe_a",
+    "heroId": "h-ilha-pulso",
+    "name": "Cidade Dentro da Cabeça",
+    "description": "Ilha Pulso precisa transformar pressão de plantão em escolha própria antes que a cidade escolha por ele.",
+    "stages": [
+      {
+        "stage": 1,
+        "trigger": {
+          "stressAbove": 54
+        },
+        "sceneId": "ilha_pulso_sinal_1"
+      },
+      {
+        "stage": 2,
+        "trigger": {
+          "fatigueAbove": 51
+        },
+        "sceneId": "ilha_pulso_limite_2"
+      },
+      {
+        "stage": 3,
+        "trigger": {
+          "successfulRescues": 4
+        },
+        "sceneId": "ilha_pulso_escolha_3",
+        "rewards": [
+          "Traço de arco: Coragem Pública"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "jade_trovao_promessa_no_corredor",
+    "heroId": "h-jade-trovao",
+    "name": "Promessa no Corredor",
+    "description": "Jade Trovão precisa transformar pressão de plantão em escolha própria antes que a cidade escolha por ele.",
+    "stages": [
+      {
+        "stage": 1,
+        "trigger": {
+          "stressAbove": 60
+        },
+        "sceneId": "jade_trovao_sinal_1"
+      },
+      {
+        "stage": 2,
+        "trigger": {
+          "fatigueAbove": 35
+        },
+        "sceneId": "jade_trovao_limite_2"
+      },
+      {
+        "stage": 3,
+        "trigger": {
+          "successfulRescues": 2
+        },
+        "sceneId": "jade_trovao_escolha_3",
+        "rewards": [
+          "Traço de arco: Limite Honesto"
+        ]
+      }
+    ]
+  }
+]

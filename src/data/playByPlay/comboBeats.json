@@ -1,0 +1,44 @@
+[
+  {
+    "id": "combo-generic-01",
+    "phase": "combo",
+    "priority": 72,
+    "cooldownDays": 6,
+    "tone": "sinergia",
+    "requires": { "combo": true },
+    "minHeroes": 2,
+    "text": "A manobra {combo} encaixou no momento certo: uma ação puxou o risco, a outra fechou a saída do caos."
+  },
+  {
+    "id": "combo-generic-02",
+    "phase": "combo",
+    "priority": 68,
+    "cooldownDays": 6,
+    "tone": "equipe",
+    "requires": { "combo": true },
+    "minHeroes": 2,
+    "text": "{hero:0} e {hero:1} não precisaram explicar o plano. A sincronia apareceu antes da frase terminar no rádio."
+  },
+  {
+    "id": "combo-resgate-01",
+    "phase": "combo",
+    "priority": 74,
+    "cooldownDays": 7,
+    "tone": "resgate",
+    "missionTags": ["resgate", "civis"],
+    "requires": { "combo": true },
+    "minHeroes": 2,
+    "text": "A equipe transformou {combo} em corredor vivo: um herói segurou o ambiente, o outro puxou gente para fora."
+  },
+  {
+    "id": "combo-energia-01",
+    "phase": "combo",
+    "priority": 70,
+    "cooldownDays": 7,
+    "tone": "tecnico",
+    "missionTags": ["energia", "estrutura", "controle"],
+    "requires": { "combo": true },
+    "minHeroes": 2,
+    "text": "A sinergia cortou o risco em duas frentes: contenção física e leitura técnica antes que a energia voltasse a subir."
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "retaliacao_vazamento_rede",
+    "title": "Vazamento coordenado na Rede Aurora",
+    "description": "Perfis falsos espalham cortes de rádio para minar a confiança na Central.",
+    "risk": 2,
+    "difficulty": 48,
+    "tags": ["rede", "midia", "facção", "opinião pública"]
+  },
+  {
+    "id": "retaliacao_isca_bairro",
+    "title": "Ocorrência-isca em bairro protegido",
+    "description": "Uma facção cria um chamado suspeito para puxar heróis para longe da crise real.",
+    "risk": 4,
+    "difficulty": 72,
+    "tags": ["isca", "facção", "tempo_curto", "investigacao"]
+  },
+  {
+    "id": "retaliacao_sabotagem_base",
+    "title": "Sabotagem discreta na infraestrutura",
+    "description": "Equipamentos da Central falham em sequência. Alguém conhece bem demais os corredores.",
+    "risk": 3,
+    "difficulty": 62,
+    "tags": ["sabotagem", "base", "energia", "investigacao"]
+  }
+]

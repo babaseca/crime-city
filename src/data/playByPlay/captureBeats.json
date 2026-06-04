@@ -1,0 +1,42 @@
+[
+  {
+    "id": "capture-generic-01",
+    "phase": "captura",
+    "priority": 82,
+    "cooldownDays": 7,
+    "tone": "captura",
+    "resultTypes": ["captura_realizada"],
+    "requires": { "capture": true },
+    "text": "{villain} tentou transformar a confusão em fuga, mas a equipe fechou a rota antes da última sirene."
+  },
+  {
+    "id": "capture-faction-01",
+    "phase": "captura",
+    "priority": 84,
+    "cooldownDays": 7,
+    "tone": "investigativo",
+    "resultTypes": ["captura_realizada"],
+    "requires": { "capture": true, "faction": true },
+    "text": "A captura de {villain} deixou {faction} exposta por alguns minutos raros: sem boato, sem máscara, sem distância."
+  },
+  {
+    "id": "capture-clean-01",
+    "phase": "consequencia",
+    "priority": 78,
+    "cooldownDays": 7,
+    "tone": "arquivo",
+    "resultTypes": ["captura_realizada"],
+    "requires": { "capture": true },
+    "text": "O Arquivo de Vilões ganhou uma entrada nova. {villain} saiu da rua e entrou no sistema da Central."
+  },
+  {
+    "id": "capture-public-01",
+    "phase": "consequencia",
+    "priority": 76,
+    "cooldownDays": 7,
+    "tone": "publico",
+    "resultTypes": ["captura_realizada"],
+    "requires": { "capture": true },
+    "text": "A prisão não apagou a ocorrência, mas deu à população algo concreto para apontar: alguém foi levado."
+  }
+]

@@ -1,0 +1,3852 @@
+[
+  {
+    "id": "faction_oficina_da_mare_seca_01",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "vilao"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "oficina_da_mare_seca",
+    "factionTags": [
+      "drones",
+      "motores e peças ilegais"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Oficina da Maré Seca deixou assinatura nessa ocorrência."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Vou arquivar como ameaça organizada e dor de cabeça recorrente."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "faction_oficina_da_mare_seca_02",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "captura"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "oficina_da_mare_seca",
+    "factionTags": [
+      "drones",
+      "motores e peças ilegais"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Isso tinha cheiro de Oficina da Maré Seca desde o primeiro alerta."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Quando facção começa a rimar com rotina, a gente já perdeu tempo demais."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "faction_oficina_da_mare_seca_03",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "fuga"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "oficina_da_mare_seca",
+    "factionTags": [
+      "drones",
+      "motores e peças ilegais"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "A gente puxou um fio e veio metade da Oficina da Maré Seca junto."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Ótimo. Eu estava com saudade de inimigo com planejamento tributável."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "faction_oficina_da_mare_seca_04",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "dados"
+    ],
+    "resultTypes": [
+      "failure"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "oficina_da_mare_seca",
+    "factionTags": [
+      "drones",
+      "motores e peças ilegais"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Se a Oficina da Maré Seca está se mexendo, a cidade vai sentir no encanamento da alma."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Então não é caso isolado. É recado."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -2
+    }
+  },
+  {
+    "id": "faction_oficina_da_mare_seca_05",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "subsolo"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "oficina_da_mare_seca",
+    "factionTags": [
+      "drones",
+      "motores e peças ilegais"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "O estilo deles é drones, motores e peças ilegais; discreto nunca foi promessa."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Recado recebido. Agora responde com operação, não com medo."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "faction_oficina_da_mare_seca_06",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "energia"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "oficina_da_mare_seca",
+    "factionTags": [
+      "drones",
+      "motores e peças ilegais"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Oficina da Maré Seca deixou assinatura nessa ocorrência."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Vou arquivar como ameaça organizada e dor de cabeça recorrente."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "faction_oficina_da_mare_seca_07",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "tecnologia"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "oficina_da_mare_seca",
+    "factionTags": [
+      "drones",
+      "motores e peças ilegais"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Isso tinha cheiro de Oficina da Maré Seca desde o primeiro alerta."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Quando facção começa a rimar com rotina, a gente já perdeu tempo demais."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "faction_oficina_da_mare_seca_08",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "boato"
+    ],
+    "resultTypes": [
+      "failure"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "oficina_da_mare_seca",
+    "factionTags": [
+      "drones",
+      "motores e peças ilegais"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "A gente puxou um fio e veio metade da Oficina da Maré Seca junto."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Ótimo. Eu estava com saudade de inimigo com planejamento tributável."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -2
+    }
+  },
+  {
+    "id": "faction_oficina_da_mare_seca_09",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "vilao"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "oficina_da_mare_seca",
+    "factionTags": [
+      "drones",
+      "motores e peças ilegais"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Se a Oficina da Maré Seca está se mexendo, a cidade vai sentir no encanamento da alma."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Então não é caso isolado. É recado."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "faction_oficina_da_mare_seca_10",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "captura"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "oficina_da_mare_seca",
+    "factionTags": [
+      "drones",
+      "motores e peças ilegais"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "O estilo deles é drones, motores e peças ilegais; discreto nunca foi promessa."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Recado recebido. Agora responde com operação, não com medo."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "faction_oficina_da_mare_seca_11",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "fuga"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "oficina_da_mare_seca",
+    "factionTags": [
+      "drones",
+      "motores e peças ilegais"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Oficina da Maré Seca deixou assinatura nessa ocorrência."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Vou arquivar como ameaça organizada e dor de cabeça recorrente."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "faction_oficina_da_mare_seca_12",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "dados"
+    ],
+    "resultTypes": [
+      "failure"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "oficina_da_mare_seca",
+    "factionTags": [
+      "drones",
+      "motores e peças ilegais"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Isso tinha cheiro de Oficina da Maré Seca desde o primeiro alerta."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Quando facção começa a rimar com rotina, a gente já perdeu tempo demais."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -2
+    }
+  },
+  {
+    "id": "faction_oficina_da_mare_seca_13",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "subsolo"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "oficina_da_mare_seca",
+    "factionTags": [
+      "drones",
+      "motores e peças ilegais"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "A gente puxou um fio e veio metade da Oficina da Maré Seca junto."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Ótimo. Eu estava com saudade de inimigo com planejamento tributável."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "faction_oficina_da_mare_seca_14",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "energia"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "oficina_da_mare_seca",
+    "factionTags": [
+      "drones",
+      "motores e peças ilegais"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Se a Oficina da Maré Seca está se mexendo, a cidade vai sentir no encanamento da alma."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Então não é caso isolado. É recado."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "faction_coroa_do_subsolo_01",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "vilao"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "coroa_do_subsolo",
+    "factionTags": [
+      "túneis",
+      "galerias e obras clandestinas"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Coroa do Subsolo deixou assinatura nessa ocorrência."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Vou arquivar como ameaça organizada e dor de cabeça recorrente."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "faction_coroa_do_subsolo_02",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "captura"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "coroa_do_subsolo",
+    "factionTags": [
+      "túneis",
+      "galerias e obras clandestinas"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Isso tinha cheiro de Coroa do Subsolo desde o primeiro alerta."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Quando facção começa a rimar com rotina, a gente já perdeu tempo demais."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "faction_coroa_do_subsolo_03",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "fuga"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "coroa_do_subsolo",
+    "factionTags": [
+      "túneis",
+      "galerias e obras clandestinas"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "A gente puxou um fio e veio metade da Coroa do Subsolo junto."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Ótimo. Eu estava com saudade de inimigo com planejamento tributável."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "faction_coroa_do_subsolo_04",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "dados"
+    ],
+    "resultTypes": [
+      "failure"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "coroa_do_subsolo",
+    "factionTags": [
+      "túneis",
+      "galerias e obras clandestinas"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Se a Coroa do Subsolo está se mexendo, a cidade vai sentir no encanamento da alma."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Então não é caso isolado. É recado."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -2
+    }
+  },
+  {
+    "id": "faction_coroa_do_subsolo_05",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "subsolo"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "coroa_do_subsolo",
+    "factionTags": [
+      "túneis",
+      "galerias e obras clandestinas"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "O estilo deles é túneis, galerias e obras clandestinas; discreto nunca foi promessa."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Recado recebido. Agora responde com operação, não com medo."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "faction_coroa_do_subsolo_06",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "energia"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "coroa_do_subsolo",
+    "factionTags": [
+      "túneis",
+      "galerias e obras clandestinas"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Coroa do Subsolo deixou assinatura nessa ocorrência."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Vou arquivar como ameaça organizada e dor de cabeça recorrente."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "faction_coroa_do_subsolo_07",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "tecnologia"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "coroa_do_subsolo",
+    "factionTags": [
+      "túneis",
+      "galerias e obras clandestinas"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Isso tinha cheiro de Coroa do Subsolo desde o primeiro alerta."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Quando facção começa a rimar com rotina, a gente já perdeu tempo demais."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "faction_coroa_do_subsolo_08",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "boato"
+    ],
+    "resultTypes": [
+      "failure"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "coroa_do_subsolo",
+    "factionTags": [
+      "túneis",
+      "galerias e obras clandestinas"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "A gente puxou um fio e veio metade da Coroa do Subsolo junto."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Ótimo. Eu estava com saudade de inimigo com planejamento tributável."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -2
+    }
+  },
+  {
+    "id": "faction_coroa_do_subsolo_09",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "vilao"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "coroa_do_subsolo",
+    "factionTags": [
+      "túneis",
+      "galerias e obras clandestinas"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Se a Coroa do Subsolo está se mexendo, a cidade vai sentir no encanamento da alma."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Então não é caso isolado. É recado."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "faction_coroa_do_subsolo_10",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "captura"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "coroa_do_subsolo",
+    "factionTags": [
+      "túneis",
+      "galerias e obras clandestinas"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "O estilo deles é túneis, galerias e obras clandestinas; discreto nunca foi promessa."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Recado recebido. Agora responde com operação, não com medo."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "faction_coroa_do_subsolo_11",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "fuga"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "coroa_do_subsolo",
+    "factionTags": [
+      "túneis",
+      "galerias e obras clandestinas"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Coroa do Subsolo deixou assinatura nessa ocorrência."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Vou arquivar como ameaça organizada e dor de cabeça recorrente."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "faction_coroa_do_subsolo_12",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "dados"
+    ],
+    "resultTypes": [
+      "failure"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "coroa_do_subsolo",
+    "factionTags": [
+      "túneis",
+      "galerias e obras clandestinas"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Isso tinha cheiro de Coroa do Subsolo desde o primeiro alerta."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Quando facção começa a rimar com rotina, a gente já perdeu tempo demais."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -2
+    }
+  },
+  {
+    "id": "faction_coroa_do_subsolo_13",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "subsolo"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "coroa_do_subsolo",
+    "factionTags": [
+      "túneis",
+      "galerias e obras clandestinas"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "A gente puxou um fio e veio metade da Coroa do Subsolo junto."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Ótimo. Eu estava com saudade de inimigo com planejamento tributável."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "faction_coroa_do_subsolo_14",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "energia"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "coroa_do_subsolo",
+    "factionTags": [
+      "túneis",
+      "galerias e obras clandestinas"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Se a Coroa do Subsolo está se mexendo, a cidade vai sentir no encanamento da alma."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Então não é caso isolado. É recado."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "faction_linha_branca_01",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "vilao"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "linha_branca",
+    "factionTags": [
+      "química urbana e contaminação"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Linha Branca deixou assinatura nessa ocorrência."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Vou arquivar como ameaça organizada e dor de cabeça recorrente."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "faction_linha_branca_02",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "captura"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "linha_branca",
+    "factionTags": [
+      "química urbana e contaminação"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Isso tinha cheiro de Linha Branca desde o primeiro alerta."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Quando facção começa a rimar com rotina, a gente já perdeu tempo demais."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "faction_linha_branca_03",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "fuga"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "linha_branca",
+    "factionTags": [
+      "química urbana e contaminação"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "A gente puxou um fio e veio metade da Linha Branca junto."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Ótimo. Eu estava com saudade de inimigo com planejamento tributável."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "faction_linha_branca_04",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "dados"
+    ],
+    "resultTypes": [
+      "failure"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "linha_branca",
+    "factionTags": [
+      "química urbana e contaminação"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Se a Linha Branca está se mexendo, a cidade vai sentir no encanamento da alma."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Então não é caso isolado. É recado."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -2
+    }
+  },
+  {
+    "id": "faction_linha_branca_05",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "subsolo"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "linha_branca",
+    "factionTags": [
+      "química urbana e contaminação"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "O estilo deles é química urbana e contaminação; discreto nunca foi promessa."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Recado recebido. Agora responde com operação, não com medo."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "faction_linha_branca_06",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "energia"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "linha_branca",
+    "factionTags": [
+      "química urbana e contaminação"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Linha Branca deixou assinatura nessa ocorrência."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Vou arquivar como ameaça organizada e dor de cabeça recorrente."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "faction_linha_branca_07",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "tecnologia"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "linha_branca",
+    "factionTags": [
+      "química urbana e contaminação"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Isso tinha cheiro de Linha Branca desde o primeiro alerta."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Quando facção começa a rimar com rotina, a gente já perdeu tempo demais."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "faction_linha_branca_08",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "boato"
+    ],
+    "resultTypes": [
+      "failure"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "linha_branca",
+    "factionTags": [
+      "química urbana e contaminação"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "A gente puxou um fio e veio metade da Linha Branca junto."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Ótimo. Eu estava com saudade de inimigo com planejamento tributável."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -2
+    }
+  },
+  {
+    "id": "faction_linha_branca_09",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "vilao"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "linha_branca",
+    "factionTags": [
+      "química urbana e contaminação"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Se a Linha Branca está se mexendo, a cidade vai sentir no encanamento da alma."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Então não é caso isolado. É recado."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "faction_linha_branca_10",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "captura"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "linha_branca",
+    "factionTags": [
+      "química urbana e contaminação"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "O estilo deles é química urbana e contaminação; discreto nunca foi promessa."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Recado recebido. Agora responde com operação, não com medo."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "faction_linha_branca_11",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "fuga"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "linha_branca",
+    "factionTags": [
+      "química urbana e contaminação"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Linha Branca deixou assinatura nessa ocorrência."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Vou arquivar como ameaça organizada e dor de cabeça recorrente."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "faction_linha_branca_12",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "dados"
+    ],
+    "resultTypes": [
+      "failure"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "linha_branca",
+    "factionTags": [
+      "química urbana e contaminação"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Isso tinha cheiro de Linha Branca desde o primeiro alerta."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Quando facção começa a rimar com rotina, a gente já perdeu tempo demais."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -2
+    }
+  },
+  {
+    "id": "faction_linha_branca_13",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "subsolo"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "linha_branca",
+    "factionTags": [
+      "química urbana e contaminação"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "A gente puxou um fio e veio metade da Linha Branca junto."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Ótimo. Eu estava com saudade de inimigo com planejamento tributável."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "faction_linha_branca_14",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "energia"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "linha_branca",
+    "factionTags": [
+      "química urbana e contaminação"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Se a Linha Branca está se mexendo, a cidade vai sentir no encanamento da alma."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Então não é caso isolado. É recado."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "faction_cartel_do_vidro_quente_01",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "vilao"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "cartel_do_vidro_quente",
+    "factionTags": [
+      "prototipagem",
+      "drones-joia e chantagem industrial"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Cartel do Vidro Quente deixou assinatura nessa ocorrência."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Vou arquivar como ameaça organizada e dor de cabeça recorrente."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "faction_cartel_do_vidro_quente_02",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "captura"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "cartel_do_vidro_quente",
+    "factionTags": [
+      "prototipagem",
+      "drones-joia e chantagem industrial"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Isso tinha cheiro de Cartel do Vidro Quente desde o primeiro alerta."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Quando facção começa a rimar com rotina, a gente já perdeu tempo demais."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "faction_cartel_do_vidro_quente_03",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "fuga"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "cartel_do_vidro_quente",
+    "factionTags": [
+      "prototipagem",
+      "drones-joia e chantagem industrial"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "A gente puxou um fio e veio metade da Cartel do Vidro Quente junto."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Ótimo. Eu estava com saudade de inimigo com planejamento tributável."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "faction_cartel_do_vidro_quente_04",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "dados"
+    ],
+    "resultTypes": [
+      "failure"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "cartel_do_vidro_quente",
+    "factionTags": [
+      "prototipagem",
+      "drones-joia e chantagem industrial"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Se a Cartel do Vidro Quente está se mexendo, a cidade vai sentir no encanamento da alma."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Então não é caso isolado. É recado."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -2
+    }
+  },
+  {
+    "id": "faction_cartel_do_vidro_quente_05",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "subsolo"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "cartel_do_vidro_quente",
+    "factionTags": [
+      "prototipagem",
+      "drones-joia e chantagem industrial"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "O estilo deles é prototipagem, drones-joia e chantagem industrial; discreto nunca foi promessa."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Recado recebido. Agora responde com operação, não com medo."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "faction_cartel_do_vidro_quente_06",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "energia"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "cartel_do_vidro_quente",
+    "factionTags": [
+      "prototipagem",
+      "drones-joia e chantagem industrial"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Cartel do Vidro Quente deixou assinatura nessa ocorrência."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Vou arquivar como ameaça organizada e dor de cabeça recorrente."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "faction_cartel_do_vidro_quente_07",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "tecnologia"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "cartel_do_vidro_quente",
+    "factionTags": [
+      "prototipagem",
+      "drones-joia e chantagem industrial"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Isso tinha cheiro de Cartel do Vidro Quente desde o primeiro alerta."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Quando facção começa a rimar com rotina, a gente já perdeu tempo demais."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "faction_cartel_do_vidro_quente_08",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "boato"
+    ],
+    "resultTypes": [
+      "failure"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "cartel_do_vidro_quente",
+    "factionTags": [
+      "prototipagem",
+      "drones-joia e chantagem industrial"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "A gente puxou um fio e veio metade da Cartel do Vidro Quente junto."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Ótimo. Eu estava com saudade de inimigo com planejamento tributável."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -2
+    }
+  },
+  {
+    "id": "faction_cartel_do_vidro_quente_09",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "vilao"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "cartel_do_vidro_quente",
+    "factionTags": [
+      "prototipagem",
+      "drones-joia e chantagem industrial"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Se a Cartel do Vidro Quente está se mexendo, a cidade vai sentir no encanamento da alma."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Então não é caso isolado. É recado."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "faction_cartel_do_vidro_quente_10",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "captura"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "cartel_do_vidro_quente",
+    "factionTags": [
+      "prototipagem",
+      "drones-joia e chantagem industrial"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "O estilo deles é prototipagem, drones-joia e chantagem industrial; discreto nunca foi promessa."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Recado recebido. Agora responde com operação, não com medo."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "faction_cartel_do_vidro_quente_11",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "fuga"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "cartel_do_vidro_quente",
+    "factionTags": [
+      "prototipagem",
+      "drones-joia e chantagem industrial"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Cartel do Vidro Quente deixou assinatura nessa ocorrência."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Vou arquivar como ameaça organizada e dor de cabeça recorrente."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "faction_cartel_do_vidro_quente_12",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "dados"
+    ],
+    "resultTypes": [
+      "failure"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "cartel_do_vidro_quente",
+    "factionTags": [
+      "prototipagem",
+      "drones-joia e chantagem industrial"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Isso tinha cheiro de Cartel do Vidro Quente desde o primeiro alerta."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Quando facção começa a rimar com rotina, a gente já perdeu tempo demais."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -2
+    }
+  },
+  {
+    "id": "faction_cartel_do_vidro_quente_13",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "subsolo"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "cartel_do_vidro_quente",
+    "factionTags": [
+      "prototipagem",
+      "drones-joia e chantagem industrial"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "A gente puxou um fio e veio metade da Cartel do Vidro Quente junto."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Ótimo. Eu estava com saudade de inimigo com planejamento tributável."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "faction_cartel_do_vidro_quente_14",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "energia"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "cartel_do_vidro_quente",
+    "factionTags": [
+      "prototipagem",
+      "drones-joia e chantagem industrial"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Se a Cartel do Vidro Quente está se mexendo, a cidade vai sentir no encanamento da alma."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Então não é caso isolado. É recado."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "faction_raiz_anonima_01",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "vilao"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "raiz_anonima",
+    "factionTags": [
+      "bioterror urbano e ativismo radical"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Raiz Anônima deixou assinatura nessa ocorrência."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Vou arquivar como ameaça organizada e dor de cabeça recorrente."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "faction_raiz_anonima_02",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "captura"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "raiz_anonima",
+    "factionTags": [
+      "bioterror urbano e ativismo radical"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Isso tinha cheiro de Raiz Anônima desde o primeiro alerta."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Quando facção começa a rimar com rotina, a gente já perdeu tempo demais."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "faction_raiz_anonima_03",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "fuga"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "raiz_anonima",
+    "factionTags": [
+      "bioterror urbano e ativismo radical"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "A gente puxou um fio e veio metade da Raiz Anônima junto."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Ótimo. Eu estava com saudade de inimigo com planejamento tributável."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "faction_raiz_anonima_04",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "dados"
+    ],
+    "resultTypes": [
+      "failure"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "raiz_anonima",
+    "factionTags": [
+      "bioterror urbano e ativismo radical"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Se a Raiz Anônima está se mexendo, a cidade vai sentir no encanamento da alma."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Então não é caso isolado. É recado."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -2
+    }
+  },
+  {
+    "id": "faction_raiz_anonima_05",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "subsolo"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "raiz_anonima",
+    "factionTags": [
+      "bioterror urbano e ativismo radical"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "O estilo deles é bioterror urbano e ativismo radical; discreto nunca foi promessa."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Recado recebido. Agora responde com operação, não com medo."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "faction_raiz_anonima_06",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "energia"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "raiz_anonima",
+    "factionTags": [
+      "bioterror urbano e ativismo radical"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Raiz Anônima deixou assinatura nessa ocorrência."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Vou arquivar como ameaça organizada e dor de cabeça recorrente."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "faction_raiz_anonima_07",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "tecnologia"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "raiz_anonima",
+    "factionTags": [
+      "bioterror urbano e ativismo radical"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Isso tinha cheiro de Raiz Anônima desde o primeiro alerta."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Quando facção começa a rimar com rotina, a gente já perdeu tempo demais."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "faction_raiz_anonima_08",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "boato"
+    ],
+    "resultTypes": [
+      "failure"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "raiz_anonima",
+    "factionTags": [
+      "bioterror urbano e ativismo radical"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "A gente puxou um fio e veio metade da Raiz Anônima junto."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Ótimo. Eu estava com saudade de inimigo com planejamento tributável."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -2
+    }
+  },
+  {
+    "id": "faction_raiz_anonima_09",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "vilao"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "raiz_anonima",
+    "factionTags": [
+      "bioterror urbano e ativismo radical"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Se a Raiz Anônima está se mexendo, a cidade vai sentir no encanamento da alma."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Então não é caso isolado. É recado."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "faction_raiz_anonima_10",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "captura"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "raiz_anonima",
+    "factionTags": [
+      "bioterror urbano e ativismo radical"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "O estilo deles é bioterror urbano e ativismo radical; discreto nunca foi promessa."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Recado recebido. Agora responde com operação, não com medo."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "faction_raiz_anonima_11",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "fuga"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "raiz_anonima",
+    "factionTags": [
+      "bioterror urbano e ativismo radical"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Raiz Anônima deixou assinatura nessa ocorrência."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Vou arquivar como ameaça organizada e dor de cabeça recorrente."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "faction_raiz_anonima_12",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "dados"
+    ],
+    "resultTypes": [
+      "failure"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "raiz_anonima",
+    "factionTags": [
+      "bioterror urbano e ativismo radical"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Isso tinha cheiro de Raiz Anônima desde o primeiro alerta."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Quando facção começa a rimar com rotina, a gente já perdeu tempo demais."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -2
+    }
+  },
+  {
+    "id": "faction_raiz_anonima_13",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "subsolo"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "raiz_anonima",
+    "factionTags": [
+      "bioterror urbano e ativismo radical"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "A gente puxou um fio e veio metade da Raiz Anônima junto."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Ótimo. Eu estava com saudade de inimigo com planejamento tributável."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "faction_raiz_anonima_14",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "energia"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "raiz_anonima",
+    "factionTags": [
+      "bioterror urbano e ativismo radical"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Se a Raiz Anônima está se mexendo, a cidade vai sentir no encanamento da alma."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Então não é caso isolado. É recado."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "faction_os_descarrilados_01",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "vilao"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "os_descarrilados",
+    "factionTags": [
+      "trilhos",
+      "cabos e sabotagem de transporte"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Os Descarrilados deixou assinatura nessa ocorrência."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Vou arquivar como ameaça organizada e dor de cabeça recorrente."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "faction_os_descarrilados_02",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "captura"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "os_descarrilados",
+    "factionTags": [
+      "trilhos",
+      "cabos e sabotagem de transporte"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Isso tinha cheiro de Os Descarrilados desde o primeiro alerta."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Quando facção começa a rimar com rotina, a gente já perdeu tempo demais."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "faction_os_descarrilados_03",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "fuga"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "os_descarrilados",
+    "factionTags": [
+      "trilhos",
+      "cabos e sabotagem de transporte"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "A gente puxou um fio e veio metade da Os Descarrilados junto."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Ótimo. Eu estava com saudade de inimigo com planejamento tributável."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "faction_os_descarrilados_04",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "dados"
+    ],
+    "resultTypes": [
+      "failure"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "os_descarrilados",
+    "factionTags": [
+      "trilhos",
+      "cabos e sabotagem de transporte"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Se a Os Descarrilados está se mexendo, a cidade vai sentir no encanamento da alma."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Então não é caso isolado. É recado."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -2
+    }
+  },
+  {
+    "id": "faction_os_descarrilados_05",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "subsolo"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "os_descarrilados",
+    "factionTags": [
+      "trilhos",
+      "cabos e sabotagem de transporte"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "O estilo deles é trilhos, cabos e sabotagem de transporte; discreto nunca foi promessa."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Recado recebido. Agora responde com operação, não com medo."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "faction_os_descarrilados_06",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "energia"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "os_descarrilados",
+    "factionTags": [
+      "trilhos",
+      "cabos e sabotagem de transporte"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Os Descarrilados deixou assinatura nessa ocorrência."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Vou arquivar como ameaça organizada e dor de cabeça recorrente."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "faction_os_descarrilados_07",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "tecnologia"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "os_descarrilados",
+    "factionTags": [
+      "trilhos",
+      "cabos e sabotagem de transporte"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Isso tinha cheiro de Os Descarrilados desde o primeiro alerta."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Quando facção começa a rimar com rotina, a gente já perdeu tempo demais."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "faction_os_descarrilados_08",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "boato"
+    ],
+    "resultTypes": [
+      "failure"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "os_descarrilados",
+    "factionTags": [
+      "trilhos",
+      "cabos e sabotagem de transporte"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "A gente puxou um fio e veio metade da Os Descarrilados junto."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Ótimo. Eu estava com saudade de inimigo com planejamento tributável."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -2
+    }
+  },
+  {
+    "id": "faction_os_descarrilados_09",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "vilao"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "os_descarrilados",
+    "factionTags": [
+      "trilhos",
+      "cabos e sabotagem de transporte"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Se a Os Descarrilados está se mexendo, a cidade vai sentir no encanamento da alma."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Então não é caso isolado. É recado."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "faction_os_descarrilados_10",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "captura"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "os_descarrilados",
+    "factionTags": [
+      "trilhos",
+      "cabos e sabotagem de transporte"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "O estilo deles é trilhos, cabos e sabotagem de transporte; discreto nunca foi promessa."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Recado recebido. Agora responde com operação, não com medo."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "faction_os_descarrilados_11",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "fuga"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "os_descarrilados",
+    "factionTags": [
+      "trilhos",
+      "cabos e sabotagem de transporte"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Os Descarrilados deixou assinatura nessa ocorrência."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Vou arquivar como ameaça organizada e dor de cabeça recorrente."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "faction_os_descarrilados_12",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "dados"
+    ],
+    "resultTypes": [
+      "failure"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "os_descarrilados",
+    "factionTags": [
+      "trilhos",
+      "cabos e sabotagem de transporte"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Isso tinha cheiro de Os Descarrilados desde o primeiro alerta."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Quando facção começa a rimar com rotina, a gente já perdeu tempo demais."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -2
+    }
+  },
+  {
+    "id": "faction_os_descarrilados_13",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "subsolo"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "os_descarrilados",
+    "factionTags": [
+      "trilhos",
+      "cabos e sabotagem de transporte"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "A gente puxou um fio e veio metade da Os Descarrilados junto."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Ótimo. Eu estava com saudade de inimigo com planejamento tributável."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "faction_os_descarrilados_14",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "energia"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "os_descarrilados",
+    "factionTags": [
+      "trilhos",
+      "cabos e sabotagem de transporte"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Se a Os Descarrilados está se mexendo, a cidade vai sentir no encanamento da alma."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Então não é caso isolado. É recado."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "faction_independentes_01",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "vilao"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "independentes",
+    "factionTags": [
+      "oportunistas",
+      "imitadores e criminosos sem bandeira"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Independentes deixou assinatura nessa ocorrência."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Vou arquivar como ameaça organizada e dor de cabeça recorrente."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "faction_independentes_02",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "captura"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "independentes",
+    "factionTags": [
+      "oportunistas",
+      "imitadores e criminosos sem bandeira"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Isso tinha cheiro de Independentes desde o primeiro alerta."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Quando facção começa a rimar com rotina, a gente já perdeu tempo demais."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "faction_independentes_03",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "fuga"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "independentes",
+    "factionTags": [
+      "oportunistas",
+      "imitadores e criminosos sem bandeira"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "A gente puxou um fio e veio metade da Independentes junto."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Ótimo. Eu estava com saudade de inimigo com planejamento tributável."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "faction_independentes_04",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "dados"
+    ],
+    "resultTypes": [
+      "failure"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "independentes",
+    "factionTags": [
+      "oportunistas",
+      "imitadores e criminosos sem bandeira"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Se a Independentes está se mexendo, a cidade vai sentir no encanamento da alma."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Então não é caso isolado. É recado."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -2
+    }
+  },
+  {
+    "id": "faction_independentes_05",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "subsolo"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "independentes",
+    "factionTags": [
+      "oportunistas",
+      "imitadores e criminosos sem bandeira"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "O estilo deles é oportunistas, imitadores e criminosos sem bandeira; discreto nunca foi promessa."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Recado recebido. Agora responde com operação, não com medo."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "faction_independentes_06",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "energia"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "independentes",
+    "factionTags": [
+      "oportunistas",
+      "imitadores e criminosos sem bandeira"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Independentes deixou assinatura nessa ocorrência."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Vou arquivar como ameaça organizada e dor de cabeça recorrente."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "faction_independentes_07",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "tecnologia"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "independentes",
+    "factionTags": [
+      "oportunistas",
+      "imitadores e criminosos sem bandeira"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Isso tinha cheiro de Independentes desde o primeiro alerta."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Quando facção começa a rimar com rotina, a gente já perdeu tempo demais."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "faction_independentes_08",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "boato"
+    ],
+    "resultTypes": [
+      "failure"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "independentes",
+    "factionTags": [
+      "oportunistas",
+      "imitadores e criminosos sem bandeira"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "A gente puxou um fio e veio metade da Independentes junto."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Ótimo. Eu estava com saudade de inimigo com planejamento tributável."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -2
+    }
+  },
+  {
+    "id": "faction_independentes_09",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "vilao"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "independentes",
+    "factionTags": [
+      "oportunistas",
+      "imitadores e criminosos sem bandeira"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Se a Independentes está se mexendo, a cidade vai sentir no encanamento da alma."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Então não é caso isolado. É recado."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "faction_independentes_10",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "captura"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "independentes",
+    "factionTags": [
+      "oportunistas",
+      "imitadores e criminosos sem bandeira"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "O estilo deles é oportunistas, imitadores e criminosos sem bandeira; discreto nunca foi promessa."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Recado recebido. Agora responde com operação, não com medo."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "faction_independentes_11",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "fuga"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "independentes",
+    "factionTags": [
+      "oportunistas",
+      "imitadores e criminosos sem bandeira"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Independentes deixou assinatura nessa ocorrência."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Vou arquivar como ameaça organizada e dor de cabeça recorrente."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "faction_independentes_12",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "dados"
+    ],
+    "resultTypes": [
+      "failure"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "independentes",
+    "factionTags": [
+      "oportunistas",
+      "imitadores e criminosos sem bandeira"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Isso tinha cheiro de Independentes desde o primeiro alerta."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Quando facção começa a rimar com rotina, a gente já perdeu tempo demais."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -2
+    }
+  },
+  {
+    "id": "faction_independentes_13",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "subsolo"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "independentes",
+    "factionTags": [
+      "oportunistas",
+      "imitadores e criminosos sem bandeira"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "A gente puxou um fio e veio metade da Independentes junto."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Ótimo. Eu estava com saudade de inimigo com planejamento tributável."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "faction_independentes_14",
+    "priority": 72,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "energia"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "facção em movimento",
+    "districtTags": [],
+    "factionId": "independentes",
+    "factionTags": [
+      "oportunistas",
+      "imitadores e criminosos sem bandeira"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Se a Independentes está se mexendo, a cidade vai sentir no encanamento da alma."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Então não é caso isolado. É recado."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_faction_coroa_do_subsolo_3",
+    "priority": 70,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "subsolo",
+      "estrutura"
+    ],
+    "resultTypes": [
+      "falha_parcial",
+      "falha_grave",
+      "failure"
+    ],
+    "tone": "ameaça futura",
+    "districtTags": [],
+    "factionId": "coroa_do_subsolo",
+    "factionTags": [
+      "subsolo",
+      "estrutura",
+      "contrabando",
+      "sabotagem"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Coroa do Subsolo não costuma perder calado. Isso ainda volta pelo rádio."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Ótimo. Vou separar uma gaveta para retaliação com carimbo."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -1
+    }
+  },
+  {
+    "id": "gen_faction_rede_dos_altofalantes_3",
+    "priority": 70,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "boato",
+      "som"
+    ],
+    "resultTypes": [
+      "falha_parcial",
+      "falha_grave",
+      "failure"
+    ],
+    "tone": "ameaça futura",
+    "districtTags": [],
+    "factionId": "rede_dos_altofalantes",
+    "factionTags": [
+      "boato",
+      "som",
+      "sinal",
+      "midia"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Rede dos Alto-Falantes não costuma perder calado. Isso ainda volta pelo rádio."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Ótimo. Vou separar uma gaveta para retaliação com carimbo."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -1
+    }
+  },
+  {
+    "id": "gen_faction_oficina_da_mare_seca_3",
+    "priority": 70,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "tecnologia",
+      "maquinas"
+    ],
+    "resultTypes": [
+      "falha_parcial",
+      "falha_grave",
+      "failure"
+    ],
+    "tone": "ameaça futura",
+    "districtTags": [],
+    "factionId": "oficina_da_mare_seca",
+    "factionTags": [
+      "tecnologia",
+      "maquinas",
+      "transito",
+      "contrabando"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Oficina da Maré Seca não costuma perder calado. Isso ainda volta pelo rádio."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Ótimo. Vou separar uma gaveta para retaliação com carimbo."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -1
+    }
+  },
+  {
+    "id": "gen_faction_irmandade_do_vidro_3",
+    "priority": 70,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "cultura",
+      "luz"
+    ],
+    "resultTypes": [
+      "falha_parcial",
+      "falha_grave",
+      "failure"
+    ],
+    "tone": "ameaça futura",
+    "districtTags": [],
+    "factionId": "irmandade_do_vidro",
+    "factionTags": [
+      "cultura",
+      "luz",
+      "reflexos",
+      "biologia"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Irmandade do Vidro não costuma perder calado. Isso ainda volta pelo rádio."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Ótimo. Vou separar uma gaveta para retaliação com carimbo."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -1
+    }
+  },
+  {
+    "id": "gen_faction_sindicato_do_apagao_3",
+    "priority": 70,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "energia",
+      "infraestrutura"
+    ],
+    "resultTypes": [
+      "falha_parcial",
+      "falha_grave",
+      "failure"
+    ],
+    "tone": "ameaça futura",
+    "districtTags": [],
+    "factionId": "sindicato_do_apagao",
+    "factionTags": [
+      "energia",
+      "infraestrutura",
+      "dados",
+      "tempo_curto"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Sindicato do Apagão não costuma perder calado. Isso ainda volta pelo rádio."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Ótimo. Vou separar uma gaveta para retaliação com carimbo."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -1
+    }
+  },
+  {
+    "id": "gen_faction_jardim_das_mascaras_3",
+    "priority": 70,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "politica",
+      "elite"
+    ],
+    "resultTypes": [
+      "falha_parcial",
+      "falha_grave",
+      "failure"
+    ],
+    "tone": "ameaça futura",
+    "districtTags": [],
+    "factionId": "jardim_das_mascaras",
+    "factionTags": [
+      "politica",
+      "elite",
+      "disfarce",
+      "chantagem"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Jardim das Máscaras não costuma perder calado. Isso ainda volta pelo rádio."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Ótimo. Vou separar uma gaveta para retaliação com carimbo."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -1
+    }
+  }
+]

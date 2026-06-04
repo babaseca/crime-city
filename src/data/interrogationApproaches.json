@@ -1,0 +1,7 @@
+[
+  { "id": "empatica", "label": "Empática", "attribute": "empatia", "truthBonus": 12, "grudgeChange": -3 },
+  { "id": "tecnica", "label": "Técnica", "attribute": "tática", "truthBonus": 9, "grudgeChange": 1 },
+  { "id": "pressao_legal", "label": "Pressão legal", "attribute": "sangueFrio", "truthBonus": 6, "grudgeChange": 5 },
+  { "id": "barganha", "label": "Barganha", "attribute": "relacoesPublicas", "truthBonus": 8, "grudgeChange": 2 },
+  { "id": "silencio_estrategico", "label": "Silêncio estratégico", "attribute": "intuicao", "truthBonus": 10, "grudgeChange": 0 }
+]

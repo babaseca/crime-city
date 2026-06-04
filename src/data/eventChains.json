@@ -1,0 +1,72 @@
+[
+  {
+    "id": "cadeia_coroa_tuneis",
+    "name": "As Galerias da Coroa",
+    "description": "Uma série de ocorrências revela rotas clandestinas sob Nova Aurora.",
+    "factionId": "coroa_do_subsolo",
+    "districtIds": ["setor_rubi", "alto_candeal", "baixada_azul"],
+    "triggerTags": ["subsolo", "estrutura"],
+    "stages": [
+      { "stage": 1, "title": "Cabos vivos nas galerias", "tags": ["subsolo", "energia", "estrutura"], "nextOnSuccess": 2, "nextOnFailure": 3 },
+      { "stage": 2, "title": "Mapa parcial das rotas clandestinas", "tags": ["investigacao", "subsolo", "dados"], "nextOnSuccess": 4, "nextOnFailure": 3 },
+      { "stage": 3, "title": "A Coroa some nas galerias", "tags": ["subsolo", "fuga", "contrabando"], "nextOnSuccess": 4 },
+      { "stage": 4, "title": "Operação contra a Coroa do Subsolo", "tags": ["subsolo", "sabotagem", "finale"], "isFinale": true }
+    ]
+  },
+  {
+    "id": "cadeia_vozes_altofalantes",
+    "name": "Vozes nos Alto-Falantes",
+    "description": "Boatos coordenados viram pânico de bairro antes de alguém assumir autoria.",
+    "factionId": "rede_dos_altofalantes",
+    "districtIds": ["mercado_nimbus", "morro_das_antenas"],
+    "triggerTags": ["boato", "som", "sinal", "multidao"],
+    "stages": [
+      { "stage": 1, "title": "Mensagem falsa nos rádios civis", "tags": ["som", "boato", "civis"], "nextOnSuccess": 2, "nextOnFailure": 3 },
+      { "stage": 2, "title": "Rastro digital dos alto-falantes", "tags": ["dados", "sinal", "investigacao"], "nextOnSuccess": 4 },
+      { "stage": 3, "title": "Pânico transmitido ao vivo", "tags": ["multidao", "boato", "midia"], "nextOnSuccess": 4 },
+      { "stage": 4, "title": "Corte limpo no transmissor pirata", "tags": ["sinal", "tempo_curto", "finale"], "isFinale": true }
+    ]
+  },
+  {
+    "id": "cadeia_oficina_anda",
+    "name": "A Oficina Que Anda",
+    "description": "Galpões móveis e drones parecem mudar de lugar entre uma ocorrência e outra.",
+    "factionId": "oficina_da_mare_seca",
+    "districtIds": ["porto_velado", "doca_leste", "estacao_norte"],
+    "triggerTags": ["tecnologia", "maquinas", "transito"],
+    "stages": [
+      { "stage": 1, "title": "Motores sem dono na madrugada", "tags": ["maquinas", "transito"], "nextOnSuccess": 2, "nextOnFailure": 3 },
+      { "stage": 2, "title": "Drone guia para galpão vazio", "tags": ["tecnologia", "dados"], "nextOnSuccess": 4 },
+      { "stage": 3, "title": "Caravana de peças roubadas", "tags": ["contrabando", "maquinas"], "nextOnSuccess": 4 },
+      { "stage": 4, "title": "Cerco à Oficina da Maré Seca", "tags": ["tecnologia", "sabotagem", "finale"], "isFinale": true }
+    ]
+  },
+  {
+    "id": "cadeia_jardim_espelho",
+    "name": "O Jardim Atrás do Espelho",
+    "description": "Reflexos, símbolos e convites falsos atravessam bairros de vidro e festa.",
+    "factionId": "irmandade_do_vidro",
+    "districtIds": ["jardins_de_vidro", "mirante_solar", "coroa_sul"],
+    "triggerTags": ["cultura", "luz", "reflexos"],
+    "stages": [
+      { "stage": 1, "title": "Convite refletido em vitrines", "tags": ["cultura", "luz"], "nextOnSuccess": 2, "nextOnFailure": 3 },
+      { "stage": 2, "title": "Símbolos no jardim fechado", "tags": ["investigacao", "reflexos"], "nextOnSuccess": 4 },
+      { "stage": 3, "title": "Festa com convidados duplicados", "tags": ["politica", "multidao", "reflexos"], "nextOnSuccess": 4 },
+      { "stage": 4, "title": "Quebra do ritual dos reflexos", "tags": ["controle", "cultura", "finale"], "isFinale": true }
+    ]
+  },
+  {
+    "id": "cadeia_semana_apagao",
+    "name": "Semana do Apagão",
+    "description": "Falhas elétricas menores viram ameaça pública contra a malha de energia.",
+    "factionId": "sindicato_do_apagao",
+    "districtIds": ["distrito_lumen", "estacao_norte", "morro_das_antenas"],
+    "triggerTags": ["energia", "infraestrutura", "dados"],
+    "stages": [
+      { "stage": 1, "title": "Transformador canta fora de tom", "tags": ["energia", "tempo_curto"], "nextOnSuccess": 2, "nextOnFailure": 3 },
+      { "stage": 2, "title": "Planta da malha roubada", "tags": ["dados", "energia"], "nextOnSuccess": 4 },
+      { "stage": 3, "title": "Bairro sem luz e sem semáforo", "tags": ["energia", "transito", "civis"], "nextOnSuccess": 4 },
+      { "stage": 4, "title": "Corte no coração do blecaute", "tags": ["energia", "infraestrutura", "finale"], "isFinale": true }
+    ]
+  }
+]

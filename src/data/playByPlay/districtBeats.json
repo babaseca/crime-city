@@ -1,0 +1,131 @@
+[
+  {
+    "id": "district-setor-rubi-01",
+    "phase": "chegada",
+    "priority": 48,
+    "cooldownDays": 5,
+    "tone": "industrial",
+    "districtIds": ["setor_rubi"],
+    "text": "No Setor Rubi, oficinas fechavam portas de aço enquanto laboratórios civis tentavam manter curiosos longe da zona quente."
+  },
+  {
+    "id": "district-mercado-nimbus-01",
+    "phase": "consequencia",
+    "priority": 48,
+    "cooldownDays": 5,
+    "tone": "midia",
+    "districtIds": ["mercado_nimbus"],
+    "text": "No Mercado Nimbus, a ocorrência já tinha três versões, quatro vídeos cortados e uma fila de gente jurando que avisou primeiro."
+  },
+  {
+    "id": "district-jardins-vidro-01",
+    "phase": "chegada",
+    "priority": 46,
+    "cooldownDays": 5,
+    "tone": "reflexivo",
+    "districtIds": ["jardins_de_vidro"],
+    "text": "Nos Jardins de Vidro, cada passarela refletia a cena de um ângulo diferente e confundia distância, altura e prioridade."
+  },
+  {
+    "id": "district-alto-candeal-01",
+    "phase": "complicacao",
+    "priority": 50,
+    "cooldownDays": 5,
+    "tone": "encosta",
+    "districtIds": ["alto_candeal"],
+    "text": "As ladeiras do Alto Candeal transformaram deslocamento em risco: subir rápido significava perder controle da multidão abaixo."
+  },
+  {
+    "id": "district-cintura-verde-01",
+    "phase": "chegada",
+    "priority": 44,
+    "cooldownDays": 5,
+    "tone": "verde",
+    "districtIds": ["cintura_verde"],
+    "text": "Na Cintura Verde, corredores de vegetação urbana esconderam a escala da ocorrência até a equipe pisar no ponto certo."
+  },
+  {
+    "id": "district-vila-farol-01",
+    "phase": "consequencia",
+    "priority": 44,
+    "cooldownDays": 5,
+    "tone": "costeiro",
+    "districtIds": ["vila_farol"],
+    "text": "Em Vila Farol, sirenes comunitárias responderam antes do noticiário; ali, toda crise vira assunto de esquina."
+  },
+  {
+    "id": "district-baixada-azul-01",
+    "phase": "complicacao",
+    "priority": 48,
+    "cooldownDays": 5,
+    "tone": "subsolo",
+    "districtIds": ["baixada_azul"],
+    "missionTags": ["subsolo", "agua", "resgate"],
+    "text": "Na Baixada Azul, canal e subsolo se misturaram numa ameaça só. A equipe não podia confiar no mapa antigo."
+  },
+  {
+    "id": "district-estacao-norte-01",
+    "phase": "chegada",
+    "priority": 46,
+    "cooldownDays": 5,
+    "tone": "transporte",
+    "districtIds": ["estacao_norte"],
+    "text": "Na Estação Norte, trilhos, plataformas e oficinas criaram ruído suficiente para esconder o primeiro sinal do perigo real."
+  },
+  {
+    "id": "district-porto-velado-01",
+    "phase": "chegada",
+    "priority": 46,
+    "cooldownDays": 5,
+    "tone": "portuario",
+    "districtIds": ["porto_velado"],
+    "text": "No Porto Velado, contêineres e neblina cortaram a visibilidade da equipe antes mesmo da primeira decisão."
+  },
+  {
+    "id": "district-coroa-sul-01",
+    "phase": "consequencia",
+    "priority": 44,
+    "cooldownDays": 5,
+    "tone": "politico",
+    "districtIds": ["coroa_sul"],
+    "text": "Na Coroa Sul, a pergunta pública veio depressa: quem autorizou, quem falhou e quem vai aparecer na coletiva."
+  },
+  {
+    "id": "district-lumen-01",
+    "phase": "complicacao",
+    "priority": 48,
+    "cooldownDays": 5,
+    "tone": "energia",
+    "districtIds": ["distrito_lumen"],
+    "missionTags": ["energia", "dados"],
+    "text": "No Distrito Lumen, qualquer oscilação atravessava a malha elétrica e virava ameaça para metade do bairro."
+  },
+  {
+    "id": "district-antenas-01",
+    "phase": "complicacao",
+    "priority": 46,
+    "cooldownDays": 5,
+    "tone": "sinal",
+    "districtIds": ["morro_das_antenas"],
+    "missionTags": ["sinal", "comunicacao", "boato"],
+    "text": "No Morro das Antenas, rádios comunitárias, torres improvisadas e pânico em áudio disputaram o canal com a Central."
+  },
+  {
+    "id": "district-doca-leste-01",
+    "phase": "chegada",
+    "priority": 50,
+    "cooldownDays": 5,
+    "tone": "doca",
+    "districtIds": ["doca_leste"],
+    "text": "Na Doca Leste, ruas estreitas e guindastes antigos obrigaram a equipe a chegar pela lateral, longe da avenida tomada."
+  },
+  {
+    "id": "district-mirante-solar-01",
+    "phase": "chegada",
+    "priority": 44,
+    "cooldownDays": 5,
+    "tone": "solar",
+    "districtIds": ["mirante_solar"],
+    "text": "No Mirante Solar, luz demais virou obstáculo: reflexo, calor e curiosos com celulares deixaram a leitura da cena instável."
+  }
+]

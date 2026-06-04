@@ -1,0 +1,1142 @@
+[
+  {
+    "id": "critical_failure_radio",
+    "priority": 32,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "failure"
+    ],
+    "tone": "grave",
+    "districtTags": [],
+    "factionTags": [],
+    "requires": {
+      "risk": "high"
+    },
+    "lines": [
+      {
+        "speaker": "central",
+        "text": "Por alguns segundos, ninguem falou no radio. Nem os engraçadinhos."
+      },
+      {
+        "speaker": "hero:0",
+        "text": "Voltemos. Sem entrevista, sem piada, sem heroismo bonito para vender."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 3,
+      "moralChange": -3
+    }
+  },
+  {
+    "id": "gen_desastre_success_01",
+    "priority": 35,
+    "cooldownDays": 4,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "desastre"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "grave",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "A operação acabou com menos gritos do que começou: zona isolada. O detalhe estranho foi o sirene cansada."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Vou aceitar vitória antes que a cidade mude de ideia."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_desastre_success_02",
+    "priority": 35,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "desastre"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "grave",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Por incrível que pareça, ninguém precisou inventar desculpa: zona isolada. O detalhe estranho foi o sirene cansada."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "A prefeitura vai chamar de prevenção. A calçada talvez discorde."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_desastre_success_03",
+    "priority": 35,
+    "cooldownDays": 6,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "desastre"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "grave",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Missão limpa o bastante para ninguém acreditar no relatório: zona isolada. O detalhe estranho foi o sirene cansada."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Ninguém filmou meu tropeço, então considero perfeito."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_desastre_success_04",
+    "priority": 35,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "desastre"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "grave",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Todo mundo saiu vivo e isso já coloca o dia no lucro: zona isolada. O detalhe estranho foi o sirene cansada."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Se perguntarem, a expressão correta é resposta tática flexível."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_desastre_success_05",
+    "priority": 35,
+    "cooldownDays": 4,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "desastre"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "grave",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "A ocorrência terminou antes da sirene aprender o refrão: zona isolada. O detalhe estranho foi o sirene cansada."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Se isso virar treinamento oficial, eu nego participação."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_desastre_success_06",
+    "priority": 35,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "desastre"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "grave",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Foi feio, foi rápido e, por algum milagre, funcionou: zona isolada. O detalhe estranho foi o sirene cansada."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Funcionou. Essa é minha defesa completa."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_desastre_success_07",
+    "priority": 35,
+    "cooldownDays": 6,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "desastre"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "grave",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "A cidade tentou piorar, mas a equipe chegou primeiro: zona isolada. O detalhe estranho foi o sirene cansada."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Você fala como se a gente tivesse planejado metade disso."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_desastre_success_08",
+    "priority": 35,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "desastre"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "grave",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "O caos pediu prorrogação; a central negou: zona isolada. O detalhe estranho foi o sirene cansada."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "O rádio ouviu coisa demais hoje. Vamos encerrar enquanto ele está do nosso lado."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_desastre_failure_01",
+    "priority": 45,
+    "cooldownDays": 4,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "desastre"
+    ],
+    "resultTypes": [
+      "failure"
+    ],
+    "tone": "grave",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "A ocorrência ficou maior do que a equipe conseguia segurar: zona isolada. O detalhe estranho foi o sirene cansada."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "A gente volta, aprende e tenta não mentir para si mesmo."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -2
+    }
+  },
+  {
+    "id": "gen_desastre_failure_02",
+    "priority": 45,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "desastre"
+    ],
+    "resultTypes": [
+      "failure"
+    ],
+    "tone": "grave",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Dessa vez a cidade cobrou juros: zona isolada. O detalhe estranho foi o sirene cansada."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "A central vai querer números. Eu queria tempo."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -2
+    }
+  },
+  {
+    "id": "gen_desastre_failure_03",
+    "priority": 45,
+    "cooldownDays": 6,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "desastre"
+    ],
+    "resultTypes": [
+      "failure"
+    ],
+    "tone": "grave",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "O rádio ficou pesado antes de alguém admitir a falha: zona isolada. O detalhe estranho foi o sirene cansada."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Vamos guardar a culpa para depois do curativo."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -2
+    }
+  },
+  {
+    "id": "gen_desastre_failure_04",
+    "priority": 45,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "desastre"
+    ],
+    "resultTypes": [
+      "failure"
+    ],
+    "tone": "grave",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "A equipe voltou inteira, mas a missão não: zona isolada. O detalhe estranho foi o sirene cansada."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Não tem frase bonita para isso. Só próximo passo."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -2
+    }
+  },
+  {
+    "id": "gen_desastre_failure_05",
+    "priority": 45,
+    "cooldownDays": 4,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "desastre"
+    ],
+    "resultTypes": [
+      "failure"
+    ],
+    "tone": "grave",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "O plano quebrou no ponto exato em que não podia: zona isolada. O detalhe estranho foi o sirene cansada."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Ninguém aqui precisa fingir que está bem agora."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -2
+    }
+  },
+  {
+    "id": "gen_desastre_failure_06",
+    "priority": 45,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "desastre"
+    ],
+    "resultTypes": [
+      "failure"
+    ],
+    "tone": "grave",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Foi o tipo de silêncio que não cabe em relatório: zona isolada. O detalhe estranho foi o sirene cansada."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Hoje a cidade falou mais alto."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -2
+    }
+  },
+  {
+    "id": "gen_desastre_any_01",
+    "priority": 25,
+    "cooldownDays": 4,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "desastre"
+    ],
+    "resultTypes": [
+      "any"
+    ],
+    "tone": "grave",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "A ocorrência terminou, mas a conversa continuou no canal: zona isolada. O detalhe estranho foi o sirene cansada."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Alguém anota isso como aprendizado antes que vire meme."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 0,
+      "stressChange": 0,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "gen_desastre_any_02",
+    "priority": 25,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "desastre"
+    ],
+    "resultTypes": [
+      "any"
+    ],
+    "tone": "grave",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Entre sirenes e protocolo, sobrou espaço para humanidade: zona isolada. O detalhe estranho foi o sirene cansada."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Eu voto em apagar essa parte do rádio por saúde institucional."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 0,
+      "stressChange": 0,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "gen_desastre_any_03",
+    "priority": 25,
+    "cooldownDays": 6,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "desastre"
+    ],
+    "resultTypes": [
+      "any"
+    ],
+    "tone": "grave",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "No meio da fumaça operacional, alguém ainda achou tempo para comentar: zona isolada. O detalhe estranho foi o sirene cansada."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Não sei se isso foi tática, sorte ou ameaça administrativa."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 0,
+      "stressChange": 0,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "gen_desastre_any_04",
+    "priority": 25,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "desastre"
+    ],
+    "resultTypes": [
+      "any"
+    ],
+    "tone": "grave",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "O rádio pegou uma frase que provavelmente deveria ter ficado fora do histórico: zona isolada. O detalhe estranho foi o sirene cansada."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "A ocorrência acabou. O constrangimento segue ativo."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 0,
+      "stressChange": 0,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "cond_risk_high_01",
+    "priority": 90,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "failure"
+    ],
+    "tone": "grave",
+    "districtTags": [],
+    "factionTags": [],
+    "requires": {
+      "risk": "high"
+    },
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "O risco estava no relatório. Mesmo assim doeu ouvir acontecer."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Risco não prepara ninguém para nome próprio."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 0,
+      "stressChange": 3,
+      "moralChange": -2
+    }
+  },
+  {
+    "id": "cond_risk_high_02",
+    "priority": 90,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "failure"
+    ],
+    "tone": "grave",
+    "districtTags": [],
+    "factionTags": [],
+    "requires": {
+      "risk": "high"
+    },
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "A gente entrou sabendo que era alto."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "E saiu sabendo que alto ainda era pouco."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 0,
+      "stressChange": 3,
+      "moralChange": -2
+    }
+  },
+  {
+    "id": "cond_risk_high_03",
+    "priority": 90,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "failure"
+    ],
+    "tone": "grave",
+    "districtTags": [],
+    "factionTags": [],
+    "requires": {
+      "risk": "high"
+    },
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Não foi falta de coragem."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Eu sei. Foi falta de tempo, espaço e milagre."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 0,
+      "stressChange": 3,
+      "moralChange": -2
+    }
+  },
+  {
+    "id": "cond_risk_high_04",
+    "priority": 90,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "failure"
+    ],
+    "tone": "grave",
+    "districtTags": [],
+    "factionTags": [],
+    "requires": {
+      "risk": "high"
+    },
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "A ocorrência nos engoliu."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Então amanhã a gente volta com mapa, não com orgulho."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 0,
+      "stressChange": 3,
+      "moralChange": -2
+    }
+  },
+  {
+    "id": "cond_risk_high_05",
+    "priority": 90,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "failure"
+    ],
+    "tone": "grave",
+    "districtTags": [],
+    "factionTags": [],
+    "requires": {
+      "risk": "high"
+    },
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Eu odeio quando o alerta estava certo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Eu odeio quando a cidade aprende nosso nome assim."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 0,
+      "stressChange": 3,
+      "moralChange": -2
+    }
+  },
+  {
+    "id": "gen_result_falha_grave_1",
+    "priority": 29,
+    "cooldownDays": 4,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "falha_grave"
+    ],
+    "tone": "tenso",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "A gente voltou. Nem todo mundo volta leve."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "A base vai ouvir o relatério inteiro. Sem atalhos."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -1
+    }
+  },
+  {
+    "id": "gen_result_falha_grave_2",
+    "priority": 29,
+    "cooldownDays": 4,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "falha_grave"
+    ],
+    "tone": "tenso",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Sem piada agora. Primeiro relatério, depois respiração."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "A base vai ouvir o relatério inteiro. Sem atalhos."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -1
+    }
+  },
+  {
+    "id": "gen_result_falha_grave_3",
+    "priority": 29,
+    "cooldownDays": 4,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "falha_grave"
+    ],
+    "tone": "tenso",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "A sirene parou, mas o som ficou na cabeça."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "A base vai ouvir o relatério inteiro. Sem atalhos."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -1
+    }
+  },
+  {
+    "id": "gen_result_falha_grave_4",
+    "priority": 29,
+    "cooldownDays": 4,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "falha_grave"
+    ],
+    "tone": "tenso",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "A gente salvou quem deu. O resto vai pesar no plantão."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "A base vai ouvir o relatério inteiro. Sem atalhos."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -1
+    }
+  },
+  {
+    "id": "gen_result_falha_grave_5",
+    "priority": 29,
+    "cooldownDays": 4,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "falha_grave"
+    ],
+    "tone": "tenso",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Não quero entrevista. Quero cinco minutos sem luz vermelha piscando."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "A base vai ouvir o relatério inteiro. Sem atalhos."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -1
+    }
+  },
+  {
+    "id": "gen_result_falha_grave_6",
+    "priority": 29,
+    "cooldownDays": 4,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "falha_grave"
+    ],
+    "tone": "tenso",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "A Central vai chamar isso de custo. Eu vou chamar pelo nome."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "A base vai ouvir o relatério inteiro. Sem atalhos."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -1
+    }
+  },
+  {
+    "id": "gen_result_falha_grave_7",
+    "priority": 29,
+    "cooldownDays": 4,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "falha_grave"
+    ],
+    "tone": "tenso",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Tinha gente esperando mais de nós."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "A base vai ouvir o relatério inteiro. Sem atalhos."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -1
+    }
+  },
+  {
+    "id": "gen_result_falha_grave_8",
+    "priority": 29,
+    "cooldownDays": 4,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "falha_grave"
+    ],
+    "tone": "tenso",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Voltamos com as mãos cheias e o peito vazio."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "A base vai ouvir o relatério inteiro. Sem atalhos."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -1
+    }
+  },
+  {
+    "id": "gen_result_falha_grave_9",
+    "priority": 29,
+    "cooldownDays": 4,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "falha_grave"
+    ],
+    "tone": "tenso",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "O rádio ficou mudo porque ninguém achou a frase certa."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "A base vai ouvir o relatério inteiro. Sem atalhos."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -1
+    }
+  },
+  {
+    "id": "gen_result_falha_grave_10",
+    "priority": 29,
+    "cooldownDays": 4,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "falha_grave"
+    ],
+    "tone": "tenso",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "A cidade viu. Agora a equipe precisa viver com isso."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "A base vai ouvir o relatério inteiro. Sem atalhos."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -1
+    }
+  }
+]

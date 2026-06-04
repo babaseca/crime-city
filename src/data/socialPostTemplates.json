@@ -1,0 +1,12 @@
+[
+  { "tone": "elogio", "template": "@{handle}: {hero} apareceu em {district} e pela primeira vez o rádio da rua pareceu boa notícia." },
+  { "tone": "critica", "template": "@{handle}: A Central passou por {district}, resolveu metade e deixou a outra metade com boleto." },
+  { "tone": "meme", "template": "@{handle}: NINGUÉM vai comentar que a ocorrência em {district} parecia treinamento feito por estagiário com sono?" },
+  { "tone": "teoria", "template": "@{handle}: Esses eventos em {district} têm assinatura. Aposto minha sandália que tem facção mexendo nisso." },
+  { "tone": "agradecimento", "template": "@{handle}: {hero} tirou gente dali no braço. Minha família não esquece." },
+  { "tone": "politico", "template": "@{handle}: Prefeitura aparece na foto, mas quem ouviu a sirene em {district} sabe quem trabalhou." },
+  { "tone": "facção", "template": "@{handle}: Todo mundo fala baixo sobre {faction}, mas hoje {district} ouviu o recado." },
+  { "tone": "luto", "template": "@{handle}: Hoje não tem meme. Só respeito por quem não voltou do plantão." },
+  { "tone": "fa", "template": "@{handle}: {hero} correu tanto que meu cachorro começou a latir para o vento." },
+  { "tone": "denuncia", "template": "@{handle}: Tem alguém lucrando com o caos em {district}. A Central devia olhar isso com lupa." }
+]

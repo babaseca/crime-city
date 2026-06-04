@@ -1,0 +1,6348 @@
+[
+  {
+    "id": "district_setor_rubi_01",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "civis"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "setor_rubi",
+    "districtTags": [
+      "industrial"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Setor Rubi respirou por alguns minutos. Para esse bairro, isso já parece feriado."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Guarda no relatório: industrial não é só localização, é temperamento urbano."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_setor_rubi_02",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "agua"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "setor_rubi",
+    "districtTags": [
+      "industrial"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Eu juro que Setor Rubi tem sirene própria. Ela toca até quando a gente pensa."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Se tocar em horário comercial, cobra adicional de drama municipal."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_setor_rubi_03",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "captura"
+    ],
+    "resultTypes": [
+      "failure"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "setor_rubi",
+    "districtTags": [
+      "industrial"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Tem morador de Setor Rubi que ajudou mais que metade do protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Comunidade organizada deveria vir como bônus de missão."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -2
+    }
+  },
+  {
+    "id": "district_setor_rubi_04",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "laboratorio"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "setor_rubi",
+    "districtTags": [
+      "industrial"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Setor Rubi respirou por alguns minutos. Para esse bairro, isso já parece feriado."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Guarda no relatório: industrial não é só localização, é temperamento urbano."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_setor_rubi_05",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "porto"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "setor_rubi",
+    "districtTags": [
+      "industrial"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Setor Rubi respirou por alguns minutos. Para esse bairro, isso já parece feriado."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Guarda no relatório: industrial não é só localização, é temperamento urbano."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_setor_rubi_06",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "drone"
+    ],
+    "resultTypes": [
+      "failure"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "setor_rubi",
+    "districtTags": [
+      "industrial"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Eu juro que Setor Rubi tem sirene própria. Ela toca até quando a gente pensa."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Se tocar em horário comercial, cobra adicional de drama municipal."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -2
+    }
+  },
+  {
+    "id": "district_setor_rubi_07",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "energia"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "setor_rubi",
+    "districtTags": [
+      "industrial"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Tem morador de Setor Rubi que ajudou mais que metade do protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Comunidade organizada deveria vir como bônus de missão."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_setor_rubi_08",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "multidao"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "setor_rubi",
+    "districtTags": [
+      "industrial"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Setor Rubi respirou por alguns minutos. Para esse bairro, isso já parece feriado."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Guarda no relatório: industrial não é só localização, é temperamento urbano."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_setor_rubi_09",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "subsolo"
+    ],
+    "resultTypes": [
+      "failure"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "setor_rubi",
+    "districtTags": [
+      "industrial"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Setor Rubi não esquece quando a gente chega tarde."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "E bairro com memória ruim vira manchete antes de virar estatística."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -2
+    }
+  },
+  {
+    "id": "district_setor_rubi_10",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "vilao"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "setor_rubi",
+    "districtTags": [
+      "industrial"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Eu juro que Setor Rubi tem sirene própria. Ela toca até quando a gente pensa."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Se tocar em horário comercial, cobra adicional de drama municipal."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_setor_rubi_11",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "midia"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "setor_rubi",
+    "districtTags": [
+      "industrial"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Tem morador de Setor Rubi que ajudou mais que metade do protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Comunidade organizada deveria vir como bônus de missão."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_setor_rubi_12",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "mercado"
+    ],
+    "resultTypes": [
+      "failure"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "setor_rubi",
+    "districtTags": [
+      "industrial"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Setor Rubi não esquece quando a gente chega tarde."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "E bairro com memória ruim vira manchete antes de virar estatística."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -2
+    }
+  },
+  {
+    "id": "district_mercado_nimbus_01",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "infiltracao"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "mercado_nimbus",
+    "districtTags": [
+      "comercial"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Mercado Nimbus respirou por alguns minutos. Para esse bairro, isso já parece feriado."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Guarda no relatório: comercial não é só localização, é temperamento urbano."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_mercado_nimbus_02",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "fuga"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "mercado_nimbus",
+    "districtTags": [
+      "comercial"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Eu juro que Mercado Nimbus tem sirene própria. Ela toca até quando a gente pensa."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Se tocar em horário comercial, cobra adicional de drama municipal."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_mercado_nimbus_03",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "protesto"
+    ],
+    "resultTypes": [
+      "failure"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "mercado_nimbus",
+    "districtTags": [
+      "comercial"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Tem morador de Mercado Nimbus que ajudou mais que metade do protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Comunidade organizada deveria vir como bônus de missão."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -2
+    }
+  },
+  {
+    "id": "district_mercado_nimbus_04",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "ponte"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "mercado_nimbus",
+    "districtTags": [
+      "comercial"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Mercado Nimbus respirou por alguns minutos. Para esse bairro, isso já parece feriado."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Guarda no relatório: comercial não é só localização, é temperamento urbano."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_mercado_nimbus_05",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "crianca"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "mercado_nimbus",
+    "districtTags": [
+      "comercial"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Mercado Nimbus respirou por alguns minutos. Para esse bairro, isso já parece feriado."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Guarda no relatório: comercial não é só localização, é temperamento urbano."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_mercado_nimbus_06",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "transito"
+    ],
+    "resultTypes": [
+      "failure"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "mercado_nimbus",
+    "districtTags": [
+      "comercial"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Eu juro que Mercado Nimbus tem sirene própria. Ela toca até quando a gente pensa."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Se tocar em horário comercial, cobra adicional de drama municipal."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -2
+    }
+  },
+  {
+    "id": "district_mercado_nimbus_07",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "comunicacao"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "mercado_nimbus",
+    "districtTags": [
+      "comercial"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Tem morador de Mercado Nimbus que ajudou mais que metade do protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Comunidade organizada deveria vir como bônus de missão."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_mercado_nimbus_08",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "hospital"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "mercado_nimbus",
+    "districtTags": [
+      "comercial"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Mercado Nimbus respirou por alguns minutos. Para esse bairro, isso já parece feriado."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Guarda no relatório: comercial não é só localização, é temperamento urbano."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_mercado_nimbus_09",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "tecnologia"
+    ],
+    "resultTypes": [
+      "failure"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "mercado_nimbus",
+    "districtTags": [
+      "comercial"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Mercado Nimbus não esquece quando a gente chega tarde."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "E bairro com memória ruim vira manchete antes de virar estatística."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -2
+    }
+  },
+  {
+    "id": "district_mercado_nimbus_10",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "evacuacao"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "mercado_nimbus",
+    "districtTags": [
+      "comercial"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Eu juro que Mercado Nimbus tem sirene própria. Ela toca até quando a gente pensa."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Se tocar em horário comercial, cobra adicional de drama municipal."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_mercado_nimbus_11",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "escola"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "mercado_nimbus",
+    "districtTags": [
+      "comercial"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Tem morador de Mercado Nimbus que ajudou mais que metade do protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Comunidade organizada deveria vir como bônus de missão."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_mercado_nimbus_12",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "noite"
+    ],
+    "resultTypes": [
+      "failure"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "mercado_nimbus",
+    "districtTags": [
+      "comercial"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Mercado Nimbus não esquece quando a gente chega tarde."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "E bairro com memória ruim vira manchete antes de virar estatística."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -2
+    }
+  },
+  {
+    "id": "district_jardins_de_vidro_01",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "saude"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "jardins_de_vidro",
+    "districtTags": [
+      "elite"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Jardins de Vidro respirou por alguns minutos. Para esse bairro, isso já parece feriado."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Guarda no relatório: elite não é só localização, é temperamento urbano."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_jardins_de_vidro_02",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "desastre"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "jardins_de_vidro",
+    "districtTags": [
+      "elite"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Eu juro que Jardins de Vidro tem sirene própria. Ela toca até quando a gente pensa."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Se tocar em horário comercial, cobra adicional de drama municipal."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_jardins_de_vidro_03",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "trem"
+    ],
+    "resultTypes": [
+      "failure"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "jardins_de_vidro",
+    "districtTags": [
+      "elite"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Tem morador de Jardins de Vidro que ajudou mais que metade do protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Comunidade organizada deveria vir como bônus de missão."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -2
+    }
+  },
+  {
+    "id": "district_jardins_de_vidro_04",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "chuva"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "jardins_de_vidro",
+    "districtTags": [
+      "elite"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Jardins de Vidro respirou por alguns minutos. Para esse bairro, isso já parece feriado."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Guarda no relatório: elite não é só localização, é temperamento urbano."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_jardins_de_vidro_05",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "portal"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "jardins_de_vidro",
+    "districtTags": [
+      "elite"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Jardins de Vidro respirou por alguns minutos. Para esse bairro, isso já parece feriado."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Guarda no relatório: elite não é só localização, é temperamento urbano."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_jardins_de_vidro_06",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "quimica"
+    ],
+    "resultTypes": [
+      "failure"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "jardins_de_vidro",
+    "districtTags": [
+      "elite"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Eu juro que Jardins de Vidro tem sirene própria. Ela toca até quando a gente pensa."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Se tocar em horário comercial, cobra adicional de drama municipal."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -2
+    }
+  },
+  {
+    "id": "district_jardins_de_vidro_07",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "boato"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "jardins_de_vidro",
+    "districtTags": [
+      "elite"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Tem morador de Jardins de Vidro que ajudou mais que metade do protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Comunidade organizada deveria vir como bônus de missão."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_jardins_de_vidro_08",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "infiltracao"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "jardins_de_vidro",
+    "districtTags": [
+      "elite"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Jardins de Vidro respirou por alguns minutos. Para esse bairro, isso já parece feriado."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Guarda no relatório: elite não é só localização, é temperamento urbano."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_jardins_de_vidro_09",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "fuga"
+    ],
+    "resultTypes": [
+      "failure"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "jardins_de_vidro",
+    "districtTags": [
+      "elite"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Jardins de Vidro não esquece quando a gente chega tarde."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "E bairro com memória ruim vira manchete antes de virar estatística."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -2
+    }
+  },
+  {
+    "id": "district_jardins_de_vidro_10",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "protesto"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "jardins_de_vidro",
+    "districtTags": [
+      "elite"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Eu juro que Jardins de Vidro tem sirene própria. Ela toca até quando a gente pensa."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Se tocar em horário comercial, cobra adicional de drama municipal."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_jardins_de_vidro_11",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "ponte"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "jardins_de_vidro",
+    "districtTags": [
+      "elite"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Tem morador de Jardins de Vidro que ajudou mais que metade do protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Comunidade organizada deveria vir como bônus de missão."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_jardins_de_vidro_12",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "crianca"
+    ],
+    "resultTypes": [
+      "failure"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "jardins_de_vidro",
+    "districtTags": [
+      "elite"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Jardins de Vidro não esquece quando a gente chega tarde."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "E bairro com memória ruim vira manchete antes de virar estatística."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -2
+    }
+  },
+  {
+    "id": "district_alto_candeal_01",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "hospital"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "alto_candeal",
+    "districtTags": [
+      "encostas"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Alto Candeal respirou por alguns minutos. Para esse bairro, isso já parece feriado."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Guarda no relatório: encostas não é só localização, é temperamento urbano."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_alto_candeal_02",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "tecnologia"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "alto_candeal",
+    "districtTags": [
+      "encostas"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Eu juro que Alto Candeal tem sirene própria. Ela toca até quando a gente pensa."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Se tocar em horário comercial, cobra adicional de drama municipal."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_alto_candeal_03",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "evacuacao"
+    ],
+    "resultTypes": [
+      "failure"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "alto_candeal",
+    "districtTags": [
+      "encostas"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Tem morador de Alto Candeal que ajudou mais que metade do protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Comunidade organizada deveria vir como bônus de missão."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -2
+    }
+  },
+  {
+    "id": "district_alto_candeal_04",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "escola"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "alto_candeal",
+    "districtTags": [
+      "encostas"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Alto Candeal respirou por alguns minutos. Para esse bairro, isso já parece feriado."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Guarda no relatório: encostas não é só localização, é temperamento urbano."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_alto_candeal_05",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "noite"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "alto_candeal",
+    "districtTags": [
+      "encostas"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Alto Candeal respirou por alguns minutos. Para esse bairro, isso já parece feriado."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Guarda no relatório: encostas não é só localização, é temperamento urbano."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_alto_candeal_06",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "resgate"
+    ],
+    "resultTypes": [
+      "failure"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "alto_candeal",
+    "districtTags": [
+      "encostas"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Eu juro que Alto Candeal tem sirene própria. Ela toca até quando a gente pensa."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Se tocar em horário comercial, cobra adicional de drama municipal."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -2
+    }
+  },
+  {
+    "id": "district_alto_candeal_07",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "dados"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "alto_candeal",
+    "districtTags": [
+      "encostas"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Tem morador de Alto Candeal que ajudou mais que metade do protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Comunidade organizada deveria vir como bônus de missão."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_alto_candeal_08",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "civis"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "alto_candeal",
+    "districtTags": [
+      "encostas"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Alto Candeal respirou por alguns minutos. Para esse bairro, isso já parece feriado."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Guarda no relatório: encostas não é só localização, é temperamento urbano."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_alto_candeal_09",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "agua"
+    ],
+    "resultTypes": [
+      "failure"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "alto_candeal",
+    "districtTags": [
+      "encostas"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Alto Candeal não esquece quando a gente chega tarde."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "E bairro com memória ruim vira manchete antes de virar estatística."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -2
+    }
+  },
+  {
+    "id": "district_alto_candeal_10",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "captura"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "alto_candeal",
+    "districtTags": [
+      "encostas"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Eu juro que Alto Candeal tem sirene própria. Ela toca até quando a gente pensa."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Se tocar em horário comercial, cobra adicional de drama municipal."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_alto_candeal_11",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "laboratorio"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "alto_candeal",
+    "districtTags": [
+      "encostas"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Tem morador de Alto Candeal que ajudou mais que metade do protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Comunidade organizada deveria vir como bônus de missão."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_alto_candeal_12",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "porto"
+    ],
+    "resultTypes": [
+      "failure"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "alto_candeal",
+    "districtTags": [
+      "encostas"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Alto Candeal não esquece quando a gente chega tarde."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "E bairro com memória ruim vira manchete antes de virar estatística."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -2
+    }
+  },
+  {
+    "id": "district_vila_farol_01",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "civis"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "vila_farol",
+    "districtTags": [
+      "costeiro"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Vila Farol respirou por alguns minutos. Para esse bairro, isso já parece feriado."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Guarda no relatório: costeiro não é só localização, é temperamento urbano."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_vila_farol_02",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "agua"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "vila_farol",
+    "districtTags": [
+      "costeiro"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Eu juro que Vila Farol tem sirene própria. Ela toca até quando a gente pensa."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Se tocar em horário comercial, cobra adicional de drama municipal."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_vila_farol_03",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "captura"
+    ],
+    "resultTypes": [
+      "failure"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "vila_farol",
+    "districtTags": [
+      "costeiro"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Tem morador de Vila Farol que ajudou mais que metade do protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Comunidade organizada deveria vir como bônus de missão."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -2
+    }
+  },
+  {
+    "id": "district_vila_farol_04",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "laboratorio"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "vila_farol",
+    "districtTags": [
+      "costeiro"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Vila Farol respirou por alguns minutos. Para esse bairro, isso já parece feriado."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Guarda no relatório: costeiro não é só localização, é temperamento urbano."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_vila_farol_05",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "porto"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "vila_farol",
+    "districtTags": [
+      "costeiro"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Vila Farol respirou por alguns minutos. Para esse bairro, isso já parece feriado."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Guarda no relatório: costeiro não é só localização, é temperamento urbano."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_vila_farol_06",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "drone"
+    ],
+    "resultTypes": [
+      "failure"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "vila_farol",
+    "districtTags": [
+      "costeiro"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Eu juro que Vila Farol tem sirene própria. Ela toca até quando a gente pensa."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Se tocar em horário comercial, cobra adicional de drama municipal."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -2
+    }
+  },
+  {
+    "id": "district_vila_farol_07",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "energia"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "vila_farol",
+    "districtTags": [
+      "costeiro"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Tem morador de Vila Farol que ajudou mais que metade do protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Comunidade organizada deveria vir como bônus de missão."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_vila_farol_08",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "multidao"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "vila_farol",
+    "districtTags": [
+      "costeiro"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Vila Farol respirou por alguns minutos. Para esse bairro, isso já parece feriado."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Guarda no relatório: costeiro não é só localização, é temperamento urbano."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_vila_farol_09",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "subsolo"
+    ],
+    "resultTypes": [
+      "failure"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "vila_farol",
+    "districtTags": [
+      "costeiro"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Vila Farol não esquece quando a gente chega tarde."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "E bairro com memória ruim vira manchete antes de virar estatística."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -2
+    }
+  },
+  {
+    "id": "district_vila_farol_10",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "vilao"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "vila_farol",
+    "districtTags": [
+      "costeiro"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Eu juro que Vila Farol tem sirene própria. Ela toca até quando a gente pensa."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Se tocar em horário comercial, cobra adicional de drama municipal."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_vila_farol_11",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "midia"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "vila_farol",
+    "districtTags": [
+      "costeiro"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Tem morador de Vila Farol que ajudou mais que metade do protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Comunidade organizada deveria vir como bônus de missão."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_vila_farol_12",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "mercado"
+    ],
+    "resultTypes": [
+      "failure"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "vila_farol",
+    "districtTags": [
+      "costeiro"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Vila Farol não esquece quando a gente chega tarde."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "E bairro com memória ruim vira manchete antes de virar estatística."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -2
+    }
+  },
+  {
+    "id": "district_cintura_verde_01",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "subsolo"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "cintura_verde",
+    "districtTags": [
+      "ambiental"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Cintura Verde respirou por alguns minutos. Para esse bairro, isso já parece feriado."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Guarda no relatório: ambiental não é só localização, é temperamento urbano."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_cintura_verde_02",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "vilao"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "cintura_verde",
+    "districtTags": [
+      "ambiental"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Eu juro que Cintura Verde tem sirene própria. Ela toca até quando a gente pensa."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Se tocar em horário comercial, cobra adicional de drama municipal."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_cintura_verde_03",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "midia"
+    ],
+    "resultTypes": [
+      "failure"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "cintura_verde",
+    "districtTags": [
+      "ambiental"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Tem morador de Cintura Verde que ajudou mais que metade do protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Comunidade organizada deveria vir como bônus de missão."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -2
+    }
+  },
+  {
+    "id": "district_cintura_verde_04",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "mercado"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "cintura_verde",
+    "districtTags": [
+      "ambiental"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Cintura Verde respirou por alguns minutos. Para esse bairro, isso já parece feriado."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Guarda no relatório: ambiental não é só localização, é temperamento urbano."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_cintura_verde_05",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "refem"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "cintura_verde",
+    "districtTags": [
+      "ambiental"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Cintura Verde respirou por alguns minutos. Para esse bairro, isso já parece feriado."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Guarda no relatório: ambiental não é só localização, é temperamento urbano."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_cintura_verde_06",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "incendio"
+    ],
+    "resultTypes": [
+      "failure"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "cintura_verde",
+    "districtTags": [
+      "ambiental"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Eu juro que Cintura Verde tem sirene própria. Ela toca até quando a gente pensa."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Se tocar em horário comercial, cobra adicional de drama municipal."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -2
+    }
+  },
+  {
+    "id": "district_cintura_verde_07",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "sinal"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "cintura_verde",
+    "districtTags": [
+      "ambiental"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Tem morador de Cintura Verde que ajudou mais que metade do protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Comunidade organizada deveria vir como bônus de missão."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_cintura_verde_08",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "estrutura"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "cintura_verde",
+    "districtTags": [
+      "ambiental"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Cintura Verde respirou por alguns minutos. Para esse bairro, isso já parece feriado."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Guarda no relatório: ambiental não é só localização, é temperamento urbano."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_cintura_verde_09",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "saude"
+    ],
+    "resultTypes": [
+      "failure"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "cintura_verde",
+    "districtTags": [
+      "ambiental"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Cintura Verde não esquece quando a gente chega tarde."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "E bairro com memória ruim vira manchete antes de virar estatística."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -2
+    }
+  },
+  {
+    "id": "district_cintura_verde_10",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "desastre"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "cintura_verde",
+    "districtTags": [
+      "ambiental"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Eu juro que Cintura Verde tem sirene própria. Ela toca até quando a gente pensa."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Se tocar em horário comercial, cobra adicional de drama municipal."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_cintura_verde_11",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "trem"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "cintura_verde",
+    "districtTags": [
+      "ambiental"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Tem morador de Cintura Verde que ajudou mais que metade do protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Comunidade organizada deveria vir como bônus de missão."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_cintura_verde_12",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "chuva"
+    ],
+    "resultTypes": [
+      "failure"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "cintura_verde",
+    "districtTags": [
+      "ambiental"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Cintura Verde não esquece quando a gente chega tarde."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "E bairro com memória ruim vira manchete antes de virar estatística."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -2
+    }
+  },
+  {
+    "id": "district_estacao_norte_01",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "subsolo"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "estacao_norte",
+    "districtTags": [
+      "ferroviário"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Estação Norte respirou por alguns minutos. Para esse bairro, isso já parece feriado."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Guarda no relatório: ferroviário não é só localização, é temperamento urbano."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_estacao_norte_02",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "vilao"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "estacao_norte",
+    "districtTags": [
+      "ferroviário"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Eu juro que Estação Norte tem sirene própria. Ela toca até quando a gente pensa."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Se tocar em horário comercial, cobra adicional de drama municipal."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_estacao_norte_03",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "midia"
+    ],
+    "resultTypes": [
+      "failure"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "estacao_norte",
+    "districtTags": [
+      "ferroviário"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Tem morador de Estação Norte que ajudou mais que metade do protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Comunidade organizada deveria vir como bônus de missão."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -2
+    }
+  },
+  {
+    "id": "district_estacao_norte_04",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "mercado"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "estacao_norte",
+    "districtTags": [
+      "ferroviário"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Estação Norte respirou por alguns minutos. Para esse bairro, isso já parece feriado."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Guarda no relatório: ferroviário não é só localização, é temperamento urbano."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_estacao_norte_05",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "refem"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "estacao_norte",
+    "districtTags": [
+      "ferroviário"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Estação Norte respirou por alguns minutos. Para esse bairro, isso já parece feriado."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Guarda no relatório: ferroviário não é só localização, é temperamento urbano."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_estacao_norte_06",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "incendio"
+    ],
+    "resultTypes": [
+      "failure"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "estacao_norte",
+    "districtTags": [
+      "ferroviário"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Eu juro que Estação Norte tem sirene própria. Ela toca até quando a gente pensa."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Se tocar em horário comercial, cobra adicional de drama municipal."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -2
+    }
+  },
+  {
+    "id": "district_estacao_norte_07",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "sinal"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "estacao_norte",
+    "districtTags": [
+      "ferroviário"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Tem morador de Estação Norte que ajudou mais que metade do protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Comunidade organizada deveria vir como bônus de missão."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_estacao_norte_08",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "estrutura"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "estacao_norte",
+    "districtTags": [
+      "ferroviário"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Estação Norte respirou por alguns minutos. Para esse bairro, isso já parece feriado."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Guarda no relatório: ferroviário não é só localização, é temperamento urbano."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_estacao_norte_09",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "saude"
+    ],
+    "resultTypes": [
+      "failure"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "estacao_norte",
+    "districtTags": [
+      "ferroviário"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Estação Norte não esquece quando a gente chega tarde."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "E bairro com memória ruim vira manchete antes de virar estatística."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -2
+    }
+  },
+  {
+    "id": "district_estacao_norte_10",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "desastre"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "estacao_norte",
+    "districtTags": [
+      "ferroviário"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Eu juro que Estação Norte tem sirene própria. Ela toca até quando a gente pensa."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Se tocar em horário comercial, cobra adicional de drama municipal."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_estacao_norte_11",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "trem"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "estacao_norte",
+    "districtTags": [
+      "ferroviário"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Tem morador de Estação Norte que ajudou mais que metade do protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Comunidade organizada deveria vir como bônus de missão."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_estacao_norte_12",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "chuva"
+    ],
+    "resultTypes": [
+      "failure"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "estacao_norte",
+    "districtTags": [
+      "ferroviário"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Estação Norte não esquece quando a gente chega tarde."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "E bairro com memória ruim vira manchete antes de virar estatística."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -2
+    }
+  },
+  {
+    "id": "district_baixada_azul_01",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "hospital"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "baixada_azul",
+    "districtTags": [
+      "alagadiço"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Baixada Azul respirou por alguns minutos. Para esse bairro, isso já parece feriado."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Guarda no relatório: alagadiço não é só localização, é temperamento urbano."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_baixada_azul_02",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "tecnologia"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "baixada_azul",
+    "districtTags": [
+      "alagadiço"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Eu juro que Baixada Azul tem sirene própria. Ela toca até quando a gente pensa."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Se tocar em horário comercial, cobra adicional de drama municipal."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_baixada_azul_03",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "evacuacao"
+    ],
+    "resultTypes": [
+      "failure"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "baixada_azul",
+    "districtTags": [
+      "alagadiço"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Tem morador de Baixada Azul que ajudou mais que metade do protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Comunidade organizada deveria vir como bônus de missão."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -2
+    }
+  },
+  {
+    "id": "district_baixada_azul_04",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "escola"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "baixada_azul",
+    "districtTags": [
+      "alagadiço"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Baixada Azul respirou por alguns minutos. Para esse bairro, isso já parece feriado."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Guarda no relatório: alagadiço não é só localização, é temperamento urbano."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_baixada_azul_05",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "noite"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "baixada_azul",
+    "districtTags": [
+      "alagadiço"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Baixada Azul respirou por alguns minutos. Para esse bairro, isso já parece feriado."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Guarda no relatório: alagadiço não é só localização, é temperamento urbano."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_baixada_azul_06",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "resgate"
+    ],
+    "resultTypes": [
+      "failure"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "baixada_azul",
+    "districtTags": [
+      "alagadiço"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Eu juro que Baixada Azul tem sirene própria. Ela toca até quando a gente pensa."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Se tocar em horário comercial, cobra adicional de drama municipal."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -2
+    }
+  },
+  {
+    "id": "district_baixada_azul_07",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "dados"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "baixada_azul",
+    "districtTags": [
+      "alagadiço"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Tem morador de Baixada Azul que ajudou mais que metade do protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Comunidade organizada deveria vir como bônus de missão."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_baixada_azul_08",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "civis"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "baixada_azul",
+    "districtTags": [
+      "alagadiço"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Baixada Azul respirou por alguns minutos. Para esse bairro, isso já parece feriado."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Guarda no relatório: alagadiço não é só localização, é temperamento urbano."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_baixada_azul_09",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "agua"
+    ],
+    "resultTypes": [
+      "failure"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "baixada_azul",
+    "districtTags": [
+      "alagadiço"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Baixada Azul não esquece quando a gente chega tarde."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "E bairro com memória ruim vira manchete antes de virar estatística."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -2
+    }
+  },
+  {
+    "id": "district_baixada_azul_10",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "captura"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "baixada_azul",
+    "districtTags": [
+      "alagadiço"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Eu juro que Baixada Azul tem sirene própria. Ela toca até quando a gente pensa."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Se tocar em horário comercial, cobra adicional de drama municipal."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_baixada_azul_11",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "laboratorio"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "baixada_azul",
+    "districtTags": [
+      "alagadiço"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Tem morador de Baixada Azul que ajudou mais que metade do protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Comunidade organizada deveria vir como bônus de missão."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_baixada_azul_12",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "porto"
+    ],
+    "resultTypes": [
+      "failure"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "baixada_azul",
+    "districtTags": [
+      "alagadiço"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Baixada Azul não esquece quando a gente chega tarde."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "E bairro com memória ruim vira manchete antes de virar estatística."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -2
+    }
+  },
+  {
+    "id": "district_doca_leste_01",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "civis"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "doca_leste",
+    "districtTags": [
+      "portuário"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Doca Leste respirou por alguns minutos. Para esse bairro, isso já parece feriado."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Guarda no relatório: portuário não é só localização, é temperamento urbano."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_doca_leste_02",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "agua"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "doca_leste",
+    "districtTags": [
+      "portuário"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Eu juro que Doca Leste tem sirene própria. Ela toca até quando a gente pensa."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Se tocar em horário comercial, cobra adicional de drama municipal."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_doca_leste_03",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "captura"
+    ],
+    "resultTypes": [
+      "failure"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "doca_leste",
+    "districtTags": [
+      "portuário"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Tem morador de Doca Leste que ajudou mais que metade do protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Comunidade organizada deveria vir como bônus de missão."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -2
+    }
+  },
+  {
+    "id": "district_doca_leste_04",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "laboratorio"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "doca_leste",
+    "districtTags": [
+      "portuário"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Doca Leste respirou por alguns minutos. Para esse bairro, isso já parece feriado."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Guarda no relatório: portuário não é só localização, é temperamento urbano."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_doca_leste_05",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "porto"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "doca_leste",
+    "districtTags": [
+      "portuário"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Doca Leste respirou por alguns minutos. Para esse bairro, isso já parece feriado."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Guarda no relatório: portuário não é só localização, é temperamento urbano."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_doca_leste_06",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "drone"
+    ],
+    "resultTypes": [
+      "failure"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "doca_leste",
+    "districtTags": [
+      "portuário"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Eu juro que Doca Leste tem sirene própria. Ela toca até quando a gente pensa."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Se tocar em horário comercial, cobra adicional de drama municipal."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -2
+    }
+  },
+  {
+    "id": "district_doca_leste_07",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "energia"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "doca_leste",
+    "districtTags": [
+      "portuário"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Tem morador de Doca Leste que ajudou mais que metade do protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Comunidade organizada deveria vir como bônus de missão."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_doca_leste_08",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "multidao"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "doca_leste",
+    "districtTags": [
+      "portuário"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Doca Leste respirou por alguns minutos. Para esse bairro, isso já parece feriado."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Guarda no relatório: portuário não é só localização, é temperamento urbano."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_doca_leste_09",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "subsolo"
+    ],
+    "resultTypes": [
+      "failure"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "doca_leste",
+    "districtTags": [
+      "portuário"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Doca Leste não esquece quando a gente chega tarde."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "E bairro com memória ruim vira manchete antes de virar estatística."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -2
+    }
+  },
+  {
+    "id": "district_doca_leste_10",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "vilao"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "doca_leste",
+    "districtTags": [
+      "portuário"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Eu juro que Doca Leste tem sirene própria. Ela toca até quando a gente pensa."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Se tocar em horário comercial, cobra adicional de drama municipal."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_doca_leste_11",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "midia"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "doca_leste",
+    "districtTags": [
+      "portuário"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Tem morador de Doca Leste que ajudou mais que metade do protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Comunidade organizada deveria vir como bônus de missão."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_doca_leste_12",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "mercado"
+    ],
+    "resultTypes": [
+      "failure"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "doca_leste",
+    "districtTags": [
+      "portuário"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Doca Leste não esquece quando a gente chega tarde."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "E bairro com memória ruim vira manchete antes de virar estatística."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -2
+    }
+  },
+  {
+    "id": "district_mirante_solar_01",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "subsolo"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "mirante_solar",
+    "districtTags": [
+      "midiático"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Mirante Solar respirou por alguns minutos. Para esse bairro, isso já parece feriado."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Guarda no relatório: midiático não é só localização, é temperamento urbano."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_mirante_solar_02",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "vilao"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "mirante_solar",
+    "districtTags": [
+      "midiático"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Eu juro que Mirante Solar tem sirene própria. Ela toca até quando a gente pensa."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Se tocar em horário comercial, cobra adicional de drama municipal."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_mirante_solar_03",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "midia"
+    ],
+    "resultTypes": [
+      "failure"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "mirante_solar",
+    "districtTags": [
+      "midiático"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Tem morador de Mirante Solar que ajudou mais que metade do protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Comunidade organizada deveria vir como bônus de missão."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -2
+    }
+  },
+  {
+    "id": "district_mirante_solar_04",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "mercado"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "mirante_solar",
+    "districtTags": [
+      "midiático"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Mirante Solar respirou por alguns minutos. Para esse bairro, isso já parece feriado."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Guarda no relatório: midiático não é só localização, é temperamento urbano."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_mirante_solar_05",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "refem"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "mirante_solar",
+    "districtTags": [
+      "midiático"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Mirante Solar respirou por alguns minutos. Para esse bairro, isso já parece feriado."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Guarda no relatório: midiático não é só localização, é temperamento urbano."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_mirante_solar_06",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "incendio"
+    ],
+    "resultTypes": [
+      "failure"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "mirante_solar",
+    "districtTags": [
+      "midiático"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Eu juro que Mirante Solar tem sirene própria. Ela toca até quando a gente pensa."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Se tocar em horário comercial, cobra adicional de drama municipal."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -2
+    }
+  },
+  {
+    "id": "district_mirante_solar_07",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "sinal"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "mirante_solar",
+    "districtTags": [
+      "midiático"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Tem morador de Mirante Solar que ajudou mais que metade do protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Comunidade organizada deveria vir como bônus de missão."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_mirante_solar_08",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "estrutura"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "mirante_solar",
+    "districtTags": [
+      "midiático"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Mirante Solar respirou por alguns minutos. Para esse bairro, isso já parece feriado."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Guarda no relatório: midiático não é só localização, é temperamento urbano."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_mirante_solar_09",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "saude"
+    ],
+    "resultTypes": [
+      "failure"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "mirante_solar",
+    "districtTags": [
+      "midiático"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Mirante Solar não esquece quando a gente chega tarde."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "E bairro com memória ruim vira manchete antes de virar estatística."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -2
+    }
+  },
+  {
+    "id": "district_mirante_solar_10",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "desastre"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "mirante_solar",
+    "districtTags": [
+      "midiático"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Eu juro que Mirante Solar tem sirene própria. Ela toca até quando a gente pensa."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Se tocar em horário comercial, cobra adicional de drama municipal."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_mirante_solar_11",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "trem"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "mirante_solar",
+    "districtTags": [
+      "midiático"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Tem morador de Mirante Solar que ajudou mais que metade do protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Comunidade organizada deveria vir como bônus de missão."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_mirante_solar_12",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "chuva"
+    ],
+    "resultTypes": [
+      "failure"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "mirante_solar",
+    "districtTags": [
+      "midiático"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Mirante Solar não esquece quando a gente chega tarde."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "E bairro com memória ruim vira manchete antes de virar estatística."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -2
+    }
+  },
+  {
+    "id": "district_porto_velado_01",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "hospital"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "porto_velado",
+    "districtTags": [
+      "industrial"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Porto Velado respirou por alguns minutos. Para esse bairro, isso já parece feriado."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Guarda no relatório: industrial não é só localização, é temperamento urbano."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_porto_velado_02",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "tecnologia"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "porto_velado",
+    "districtTags": [
+      "industrial"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Eu juro que Porto Velado tem sirene própria. Ela toca até quando a gente pensa."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Se tocar em horário comercial, cobra adicional de drama municipal."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_porto_velado_03",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "evacuacao"
+    ],
+    "resultTypes": [
+      "failure"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "porto_velado",
+    "districtTags": [
+      "industrial"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Tem morador de Porto Velado que ajudou mais que metade do protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Comunidade organizada deveria vir como bônus de missão."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -2
+    }
+  },
+  {
+    "id": "district_porto_velado_04",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "escola"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "porto_velado",
+    "districtTags": [
+      "industrial"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Porto Velado respirou por alguns minutos. Para esse bairro, isso já parece feriado."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Guarda no relatório: industrial não é só localização, é temperamento urbano."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_porto_velado_05",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "noite"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "porto_velado",
+    "districtTags": [
+      "industrial"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Porto Velado respirou por alguns minutos. Para esse bairro, isso já parece feriado."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Guarda no relatório: industrial não é só localização, é temperamento urbano."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_porto_velado_06",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "resgate"
+    ],
+    "resultTypes": [
+      "failure"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "porto_velado",
+    "districtTags": [
+      "industrial"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Eu juro que Porto Velado tem sirene própria. Ela toca até quando a gente pensa."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Se tocar em horário comercial, cobra adicional de drama municipal."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -2
+    }
+  },
+  {
+    "id": "district_porto_velado_07",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "dados"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "porto_velado",
+    "districtTags": [
+      "industrial"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Tem morador de Porto Velado que ajudou mais que metade do protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Comunidade organizada deveria vir como bônus de missão."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_porto_velado_08",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "civis"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "porto_velado",
+    "districtTags": [
+      "industrial"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Porto Velado respirou por alguns minutos. Para esse bairro, isso já parece feriado."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Guarda no relatório: industrial não é só localização, é temperamento urbano."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_porto_velado_09",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "agua"
+    ],
+    "resultTypes": [
+      "failure"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "porto_velado",
+    "districtTags": [
+      "industrial"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Porto Velado não esquece quando a gente chega tarde."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "E bairro com memória ruim vira manchete antes de virar estatística."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -2
+    }
+  },
+  {
+    "id": "district_porto_velado_10",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "captura"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "porto_velado",
+    "districtTags": [
+      "industrial"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Eu juro que Porto Velado tem sirene própria. Ela toca até quando a gente pensa."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Se tocar em horário comercial, cobra adicional de drama municipal."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_porto_velado_11",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "laboratorio"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "porto_velado",
+    "districtTags": [
+      "industrial"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Tem morador de Porto Velado que ajudou mais que metade do protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Comunidade organizada deveria vir como bônus de missão."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_porto_velado_12",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "porto"
+    ],
+    "resultTypes": [
+      "failure"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "porto_velado",
+    "districtTags": [
+      "industrial"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Porto Velado não esquece quando a gente chega tarde."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "E bairro com memória ruim vira manchete antes de virar estatística."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -2
+    }
+  },
+  {
+    "id": "district_morro_das_antenas_01",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "tecnologia"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "morro_das_antenas",
+    "districtTags": [
+      "comunicação"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Morro das Antenas respirou por alguns minutos. Para esse bairro, isso já parece feriado."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Guarda no relatório: comunicação não é só localização, é temperamento urbano."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_morro_das_antenas_02",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "evacuacao"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "morro_das_antenas",
+    "districtTags": [
+      "comunicação"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Eu juro que Morro das Antenas tem sirene própria. Ela toca até quando a gente pensa."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Se tocar em horário comercial, cobra adicional de drama municipal."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_morro_das_antenas_03",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "escola"
+    ],
+    "resultTypes": [
+      "failure"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "morro_das_antenas",
+    "districtTags": [
+      "comunicação"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Tem morador de Morro das Antenas que ajudou mais que metade do protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Comunidade organizada deveria vir como bônus de missão."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -2
+    }
+  },
+  {
+    "id": "district_morro_das_antenas_04",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "noite"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "morro_das_antenas",
+    "districtTags": [
+      "comunicação"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Morro das Antenas respirou por alguns minutos. Para esse bairro, isso já parece feriado."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Guarda no relatório: comunicação não é só localização, é temperamento urbano."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_morro_das_antenas_05",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "resgate"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "morro_das_antenas",
+    "districtTags": [
+      "comunicação"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Morro das Antenas respirou por alguns minutos. Para esse bairro, isso já parece feriado."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Guarda no relatório: comunicação não é só localização, é temperamento urbano."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_morro_das_antenas_06",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "dados"
+    ],
+    "resultTypes": [
+      "failure"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "morro_das_antenas",
+    "districtTags": [
+      "comunicação"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Eu juro que Morro das Antenas tem sirene própria. Ela toca até quando a gente pensa."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Se tocar em horário comercial, cobra adicional de drama municipal."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -2
+    }
+  },
+  {
+    "id": "district_morro_das_antenas_07",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "civis"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "morro_das_antenas",
+    "districtTags": [
+      "comunicação"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Tem morador de Morro das Antenas que ajudou mais que metade do protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Comunidade organizada deveria vir como bônus de missão."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_morro_das_antenas_08",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "agua"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "morro_das_antenas",
+    "districtTags": [
+      "comunicação"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Morro das Antenas respirou por alguns minutos. Para esse bairro, isso já parece feriado."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Guarda no relatório: comunicação não é só localização, é temperamento urbano."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_morro_das_antenas_09",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "captura"
+    ],
+    "resultTypes": [
+      "failure"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "morro_das_antenas",
+    "districtTags": [
+      "comunicação"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Morro das Antenas não esquece quando a gente chega tarde."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "E bairro com memória ruim vira manchete antes de virar estatística."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -2
+    }
+  },
+  {
+    "id": "district_morro_das_antenas_10",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "laboratorio"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "morro_das_antenas",
+    "districtTags": [
+      "comunicação"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Eu juro que Morro das Antenas tem sirene própria. Ela toca até quando a gente pensa."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Se tocar em horário comercial, cobra adicional de drama municipal."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_morro_das_antenas_11",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "porto"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "morro_das_antenas",
+    "districtTags": [
+      "comunicação"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Tem morador de Morro das Antenas que ajudou mais que metade do protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Comunidade organizada deveria vir como bônus de missão."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "district_morro_das_antenas_12",
+    "priority": 60,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "drone"
+    ],
+    "resultTypes": [
+      "failure"
+    ],
+    "tone": "bairro vivo",
+    "districtId": "morro_das_antenas",
+    "districtTags": [
+      "comunicação"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Morro das Antenas não esquece quando a gente chega tarde."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "E bairro com memória ruim vira manchete antes de virar estatística."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -2
+    }
+  },
+  {
+    "id": "gen_district_setor_rubi_1",
+    "priority": 58,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "industrial",
+      "subsolo"
+    ],
+    "resultTypes": [
+      "success",
+      "missao_controlada"
+    ],
+    "tone": "bairro protegido",
+    "districtId": "setor_rubi",
+    "districtTags": [
+      "industrial",
+      "subsolo",
+      "obras",
+      "tecnologia"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Setor Rubi vai lembrar que a Central apareceu antes da sirene virar rotina."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Então registra direito. Confiança local é tão frágil quanto poste velho."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_district_setor_rubi_2",
+    "priority": 58,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "industrial",
+      "subsolo"
+    ],
+    "resultTypes": [
+      "failure",
+      "falha_parcial",
+      "falha_grave"
+    ],
+    "tone": "bairro sob cobrança",
+    "districtId": "setor_rubi",
+    "districtTags": [
+      "industrial",
+      "subsolo",
+      "obras",
+      "tecnologia"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Setor Rubi não perdoa ausência. Hoje a rua anotou nosso atraso."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Amanhã a gente volta com plano, não desculpa."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -1
+    }
+  },
+  {
+    "id": "gen_district_mercado_nimbus_1",
+    "priority": 58,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "multidao",
+      "boato"
+    ],
+    "resultTypes": [
+      "success",
+      "missao_controlada"
+    ],
+    "tone": "bairro protegido",
+    "districtId": "mercado_nimbus",
+    "districtTags": [
+      "multidao",
+      "boato",
+      "comercio",
+      "midia"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Mercado Nimbus vai lembrar que a Central apareceu antes da sirene virar rotina."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Então registra direito. Confiança local é tão frágil quanto poste velho."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_district_mercado_nimbus_2",
+    "priority": 58,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "multidao",
+      "boato"
+    ],
+    "resultTypes": [
+      "failure",
+      "falha_parcial",
+      "falha_grave"
+    ],
+    "tone": "bairro sob cobrança",
+    "districtId": "mercado_nimbus",
+    "districtTags": [
+      "multidao",
+      "boato",
+      "comercio",
+      "midia"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Mercado Nimbus não perdoa ausência. Hoje a rua anotou nosso atraso."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Amanhã a gente volta com plano, não desculpa."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -1
+    }
+  },
+  {
+    "id": "gen_district_jardins_de_vidro_1",
+    "priority": 58,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "biologia",
+      "cultura"
+    ],
+    "resultTypes": [
+      "success",
+      "missao_controlada"
+    ],
+    "tone": "bairro protegido",
+    "districtId": "jardins_de_vidro",
+    "districtTags": [
+      "biologia",
+      "cultura",
+      "reflexos",
+      "passarelas"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Jardins de Vidro vai lembrar que a Central apareceu antes da sirene virar rotina."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Então registra direito. Confiança local é tão frágil quanto poste velho."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_district_jardins_de_vidro_2",
+    "priority": 58,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "biologia",
+      "cultura"
+    ],
+    "resultTypes": [
+      "failure",
+      "falha_parcial",
+      "falha_grave"
+    ],
+    "tone": "bairro sob cobrança",
+    "districtId": "jardins_de_vidro",
+    "districtTags": [
+      "biologia",
+      "cultura",
+      "reflexos",
+      "passarelas"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Jardins de Vidro não perdoa ausência. Hoje a rua anotou nosso atraso."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Amanhã a gente volta com plano, não desculpa."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -1
+    }
+  },
+  {
+    "id": "gen_district_alto_candeal_1",
+    "priority": 58,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "altura",
+      "subsolo"
+    ],
+    "resultTypes": [
+      "success",
+      "missao_controlada"
+    ],
+    "tone": "bairro protegido",
+    "districtId": "alto_candeal",
+    "districtTags": [
+      "altura",
+      "subsolo",
+      "moradia",
+      "estrutura"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Alto Candeal vai lembrar que a Central apareceu antes da sirene virar rotina."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Então registra direito. Confiança local é tão frágil quanto poste velho."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_district_alto_candeal_2",
+    "priority": 58,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "altura",
+      "subsolo"
+    ],
+    "resultTypes": [
+      "failure",
+      "falha_parcial",
+      "falha_grave"
+    ],
+    "tone": "bairro sob cobrança",
+    "districtId": "alto_candeal",
+    "districtTags": [
+      "altura",
+      "subsolo",
+      "moradia",
+      "estrutura"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Alto Candeal não perdoa ausência. Hoje a rua anotou nosso atraso."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Amanhã a gente volta com plano, não desculpa."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -1
+    }
+  },
+  {
+    "id": "gen_district_cintura_verde_1",
+    "priority": 58,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "biologia",
+      "comunidade"
+    ],
+    "resultTypes": [
+      "success",
+      "missao_controlada"
+    ],
+    "tone": "bairro protegido",
+    "districtId": "cintura_verde",
+    "districtTags": [
+      "biologia",
+      "comunidade",
+      "resgate",
+      "ambiental"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Cintura Verde vai lembrar que a Central apareceu antes da sirene virar rotina."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Então registra direito. Confiança local é tão frágil quanto poste velho."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_district_cintura_verde_2",
+    "priority": 58,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "biologia",
+      "comunidade"
+    ],
+    "resultTypes": [
+      "failure",
+      "falha_parcial",
+      "falha_grave"
+    ],
+    "tone": "bairro sob cobrança",
+    "districtId": "cintura_verde",
+    "districtTags": [
+      "biologia",
+      "comunidade",
+      "resgate",
+      "ambiental"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Cintura Verde não perdoa ausência. Hoje a rua anotou nosso atraso."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Amanhã a gente volta com plano, não desculpa."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -1
+    }
+  },
+  {
+    "id": "gen_district_vila_farol_1",
+    "priority": 58,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "agua",
+      "comunidade"
+    ],
+    "resultTypes": [
+      "success",
+      "missao_controlada"
+    ],
+    "tone": "bairro protegido",
+    "districtId": "vila_farol",
+    "districtTags": [
+      "agua",
+      "comunidade",
+      "vento",
+      "hidraulica"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Vila Farol vai lembrar que a Central apareceu antes da sirene virar rotina."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Então registra direito. Confiança local é tão frágil quanto poste velho."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_district_vila_farol_2",
+    "priority": 58,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "agua",
+      "comunidade"
+    ],
+    "resultTypes": [
+      "failure",
+      "falha_parcial",
+      "falha_grave"
+    ],
+    "tone": "bairro sob cobrança",
+    "districtId": "vila_farol",
+    "districtTags": [
+      "agua",
+      "comunidade",
+      "vento",
+      "hidraulica"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Vila Farol não perdoa ausência. Hoje a rua anotou nosso atraso."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Amanhã a gente volta com plano, não desculpa."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -1
+    }
+  },
+  {
+    "id": "gen_district_baixada_azul_1",
+    "priority": 58,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "agua",
+      "subsolo"
+    ],
+    "resultTypes": [
+      "success",
+      "missao_controlada"
+    ],
+    "tone": "bairro protegido",
+    "districtId": "baixada_azul",
+    "districtTags": [
+      "agua",
+      "subsolo",
+      "infraestrutura",
+      "galpoes"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Baixada Azul vai lembrar que a Central apareceu antes da sirene virar rotina."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Então registra direito. Confiança local é tão frágil quanto poste velho."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_district_baixada_azul_2",
+    "priority": 58,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "agua",
+      "subsolo"
+    ],
+    "resultTypes": [
+      "failure",
+      "falha_parcial",
+      "falha_grave"
+    ],
+    "tone": "bairro sob cobrança",
+    "districtId": "baixada_azul",
+    "districtTags": [
+      "agua",
+      "subsolo",
+      "infraestrutura",
+      "galpoes"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Baixada Azul não perdoa ausência. Hoje a rua anotou nosso atraso."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Amanhã a gente volta com plano, não desculpa."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -1
+    }
+  },
+  {
+    "id": "gen_district_estacao_norte_1",
+    "priority": 58,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "transito",
+      "maquinas"
+    ],
+    "resultTypes": [
+      "success",
+      "missao_controlada"
+    ],
+    "tone": "bairro protegido",
+    "districtId": "estacao_norte",
+    "districtTags": [
+      "transito",
+      "maquinas",
+      "energia",
+      "logistica"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Estação Norte vai lembrar que a Central apareceu antes da sirene virar rotina."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Então registra direito. Confiança local é tão frágil quanto poste velho."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_district_estacao_norte_2",
+    "priority": 58,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "transito",
+      "maquinas"
+    ],
+    "resultTypes": [
+      "failure",
+      "falha_parcial",
+      "falha_grave"
+    ],
+    "tone": "bairro sob cobrança",
+    "districtId": "estacao_norte",
+    "districtTags": [
+      "transito",
+      "maquinas",
+      "energia",
+      "logistica"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Estação Norte não perdoa ausência. Hoje a rua anotou nosso atraso."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Amanhã a gente volta com plano, não desculpa."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -1
+    }
+  },
+  {
+    "id": "gen_district_porto_velado_1",
+    "priority": 58,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "contrabando",
+      "agua"
+    ],
+    "resultTypes": [
+      "success",
+      "missao_controlada"
+    ],
+    "tone": "bairro protegido",
+    "districtId": "porto_velado",
+    "districtTags": [
+      "contrabando",
+      "agua",
+      "tecnologia",
+      "fuga"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Porto Velado vai lembrar que a Central apareceu antes da sirene virar rotina."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Então registra direito. Confiança local é tão frágil quanto poste velho."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_district_porto_velado_2",
+    "priority": 58,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "contrabando",
+      "agua"
+    ],
+    "resultTypes": [
+      "failure",
+      "falha_parcial",
+      "falha_grave"
+    ],
+    "tone": "bairro sob cobrança",
+    "districtId": "porto_velado",
+    "districtTags": [
+      "contrabando",
+      "agua",
+      "tecnologia",
+      "fuga"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Porto Velado não perdoa ausência. Hoje a rua anotou nosso atraso."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Amanhã a gente volta com plano, não desculpa."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -1
+    }
+  },
+  {
+    "id": "gen_district_coroa_sul_1",
+    "priority": 58,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "politica",
+      "elite"
+    ],
+    "resultTypes": [
+      "success",
+      "missao_controlada"
+    ],
+    "tone": "bairro protegido",
+    "districtId": "coroa_sul",
+    "districtTags": [
+      "politica",
+      "elite",
+      "multidao",
+      "midia"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Coroa Sul vai lembrar que a Central apareceu antes da sirene virar rotina."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Então registra direito. Confiança local é tão frágil quanto poste velho."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_district_coroa_sul_2",
+    "priority": 58,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "politica",
+      "elite"
+    ],
+    "resultTypes": [
+      "failure",
+      "falha_parcial",
+      "falha_grave"
+    ],
+    "tone": "bairro sob cobrança",
+    "districtId": "coroa_sul",
+    "districtTags": [
+      "politica",
+      "elite",
+      "multidao",
+      "midia"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Coroa Sul não perdoa ausência. Hoje a rua anotou nosso atraso."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Amanhã a gente volta com plano, não desculpa."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -1
+    }
+  },
+  {
+    "id": "gen_district_distrito_lumen_1",
+    "priority": 58,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "energia",
+      "dados"
+    ],
+    "resultTypes": [
+      "success",
+      "missao_controlada"
+    ],
+    "tone": "bairro protegido",
+    "districtId": "distrito_lumen",
+    "districtTags": [
+      "energia",
+      "dados",
+      "tecnologia",
+      "infraestrutura"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Distrito Lúmen vai lembrar que a Central apareceu antes da sirene virar rotina."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Então registra direito. Confiança local é tão frágil quanto poste velho."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_district_distrito_lumen_2",
+    "priority": 58,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "energia",
+      "dados"
+    ],
+    "resultTypes": [
+      "failure",
+      "falha_parcial",
+      "falha_grave"
+    ],
+    "tone": "bairro sob cobrança",
+    "districtId": "distrito_lumen",
+    "districtTags": [
+      "energia",
+      "dados",
+      "tecnologia",
+      "infraestrutura"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Distrito Lúmen não perdoa ausência. Hoje a rua anotou nosso atraso."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Amanhã a gente volta com plano, não desculpa."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -1
+    }
+  },
+  {
+    "id": "gen_district_morro_das_antenas_1",
+    "priority": 58,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "som",
+      "sinal"
+    ],
+    "resultTypes": [
+      "success",
+      "missao_controlada"
+    ],
+    "tone": "bairro protegido",
+    "districtId": "morro_das_antenas",
+    "districtTags": [
+      "som",
+      "sinal",
+      "boato",
+      "altura"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Morro das Antenas vai lembrar que a Central apareceu antes da sirene virar rotina."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Então registra direito. Confiança local é tão frágil quanto poste velho."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_district_morro_das_antenas_2",
+    "priority": 58,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "som",
+      "sinal"
+    ],
+    "resultTypes": [
+      "failure",
+      "falha_parcial",
+      "falha_grave"
+    ],
+    "tone": "bairro sob cobrança",
+    "districtId": "morro_das_antenas",
+    "districtTags": [
+      "som",
+      "sinal",
+      "boato",
+      "altura"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Morro das Antenas não perdoa ausência. Hoje a rua anotou nosso atraso."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Amanhã a gente volta com plano, não desculpa."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -1
+    }
+  },
+  {
+    "id": "gen_district_doca_leste_1",
+    "priority": 58,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "estrutura",
+      "contrabando"
+    ],
+    "resultTypes": [
+      "success",
+      "missao_controlada"
+    ],
+    "tone": "bairro protegido",
+    "districtId": "doca_leste",
+    "districtTags": [
+      "estrutura",
+      "contrabando",
+      "maquinas",
+      "altura"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Doca Leste vai lembrar que a Central apareceu antes da sirene virar rotina."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Então registra direito. Confiança local é tão frágil quanto poste velho."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_district_doca_leste_2",
+    "priority": 58,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "estrutura",
+      "contrabando"
+    ],
+    "resultTypes": [
+      "failure",
+      "falha_parcial",
+      "falha_grave"
+    ],
+    "tone": "bairro sob cobrança",
+    "districtId": "doca_leste",
+    "districtTags": [
+      "estrutura",
+      "contrabando",
+      "maquinas",
+      "altura"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Doca Leste não perdoa ausência. Hoje a rua anotou nosso atraso."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Amanhã a gente volta com plano, não desculpa."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -1
+    }
+  },
+  {
+    "id": "gen_district_mirante_solar_1",
+    "priority": 58,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "altura",
+      "cultura"
+    ],
+    "resultTypes": [
+      "success",
+      "missao_controlada"
+    ],
+    "tone": "bairro protegido",
+    "districtId": "mirante_solar",
+    "districtTags": [
+      "altura",
+      "cultura",
+      "luz",
+      "turismo"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Mirante Solar vai lembrar que a Central apareceu antes da sirene virar rotina."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Então registra direito. Confiança local é tão frágil quanto poste velho."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_district_mirante_solar_2",
+    "priority": 58,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "altura",
+      "cultura"
+    ],
+    "resultTypes": [
+      "failure",
+      "falha_parcial",
+      "falha_grave"
+    ],
+    "tone": "bairro sob cobrança",
+    "districtId": "mirante_solar",
+    "districtTags": [
+      "altura",
+      "cultura",
+      "luz",
+      "turismo"
+    ],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Mirante Solar não perdoa ausência. Hoje a rua anotou nosso atraso."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Amanhã a gente volta com plano, não desculpa."
+      }
+    ],
+    "effects": {
+      "relationshipChange": -1,
+      "stressChange": 2,
+      "moralChange": -1
+    }
+  }
+]

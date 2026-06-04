@@ -1,0 +1,112 @@
+[
+  {
+    "id": "contusao_leve",
+    "name": "Contusão leve",
+    "severity": "leve",
+    "description": "Dor muscular e hematomas depois de impacto em campo.",
+    "durationDays": 1,
+    "statPenalties": { "forca": -1, "mobilidade": -1 },
+    "riskIfDeployed": 8,
+    "treatmentCost": 900,
+    "tags": ["impacto", "estrutura"]
+  },
+  {
+    "id": "corte_profundo",
+    "name": "Corte profundo",
+    "severity": "media",
+    "description": "Ferimento que exige sutura e monitoramento médico.",
+    "durationDays": 2,
+    "statPenalties": { "mobilidade": -1, "resistencia": -2 },
+    "riskIfDeployed": 16,
+    "treatmentCost": 1800,
+    "tags": ["corte", "combate"]
+  },
+  {
+    "id": "queimadura",
+    "name": "Queimadura",
+    "severity": "media",
+    "description": "Queimadura operacional causada por calor, energia ou explosão.",
+    "durationDays": 3,
+    "statPenalties": { "controle": -1, "resistencia": -2 },
+    "riskIfDeployed": 18,
+    "treatmentCost": 2400,
+    "tags": ["incendio", "energia", "explosao"]
+  },
+  {
+    "id": "fratura",
+    "name": "Fratura",
+    "severity": "grave",
+    "description": "Osso comprometido. Voltar cedo demais pode transformar coragem em tragédia.",
+    "durationDays": 5,
+    "statPenalties": { "forca": -3, "mobilidade": -3, "resistencia": -2 },
+    "riskIfDeployed": 34,
+    "treatmentCost": 5200,
+    "tags": ["impacto", "queda", "estrutura"]
+  },
+  {
+    "id": "exaustao_neural",
+    "name": "Exaustão neural",
+    "severity": "media",
+    "description": "Sobrecarga sensorial e cognitiva após uso intenso de poderes ou análise tática.",
+    "durationDays": 3,
+    "statPenalties": { "controle": -2, "investigacao": -2 },
+    "riskIfDeployed": 22,
+    "treatmentCost": 2800,
+    "tags": ["mental", "energia", "dados"]
+  },
+  {
+    "id": "trauma_psicologico",
+    "name": "Trauma psicológico",
+    "severity": "grave",
+    "description": "O corpo voltou para a Central, mas parte da missão ainda está no rádio.",
+    "durationDays": 4,
+    "statPenalties": { "carisma": -2, "controle": -2 },
+    "riskIfDeployed": 30,
+    "treatmentCost": 3600,
+    "tags": ["trauma", "refens", "morte"]
+  },
+  {
+    "id": "intoxicacao",
+    "name": "Intoxicação",
+    "severity": "media",
+    "description": "Exposição a agentes químicos, fumaça ou contaminantes urbanos.",
+    "durationDays": 2,
+    "statPenalties": { "resistencia": -3, "mobilidade": -1 },
+    "riskIfDeployed": 20,
+    "treatmentCost": 2200,
+    "tags": ["quimica", "fumaça", "toxina"]
+  },
+  {
+    "id": "instabilidade_poder",
+    "name": "Instabilidade de poder",
+    "severity": "grave",
+    "description": "O poder responde com atraso, excesso ou silêncio. Nenhuma opção é confortável.",
+    "durationDays": 4,
+    "statPenalties": { "controle": -4 },
+    "riskIfDeployed": 36,
+    "treatmentCost": 4600,
+    "tags": ["energia", "misterio", "poder"]
+  },
+  {
+    "id": "ferimento_critico",
+    "name": "Ferimento crítico",
+    "severity": "critica",
+    "description": "Estado grave. Missão só com autorização extrema e culpa garantida no relatório.",
+    "durationDays": 7,
+    "statPenalties": { "forca": -4, "mobilidade": -4, "controle": -3, "resistencia": -4 },
+    "riskIfDeployed": 55,
+    "treatmentCost": 9000,
+    "tags": ["critico", "combate", "explosao"]
+  },
+  {
+    "id": "lesao_permanente_rara",
+    "name": "Lesão permanente rara",
+    "severity": "permanente",
+    "description": "Uma marca que vira parte da história do herói e da cidade.",
+    "durationDays": 12,
+    "statPenalties": { "mobilidade": -1, "resistencia": -1 },
+    "riskIfDeployed": 45,
+    "treatmentCost": 12000,
+    "tags": ["permanente", "trauma", "legado"]
+  }
+]

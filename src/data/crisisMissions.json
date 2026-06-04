@@ -1,0 +1,17 @@
+[
+  {
+    "id": "crise_apagao_estacao_norte",
+    "title": "Apagão em Estação Norte",
+    "districtId": "estacao_norte",
+    "factionId": "sindicato_do_apagao",
+    "stages": [
+      { "id": "localizar_origem", "label": "Localizar origem", "requiredRoles": ["investigacao", "controle"] },
+      { "id": "evacuar_civis", "label": "Evacuar civis", "requiredRoles": ["mobilidade", "resistencia"] },
+      { "id": "conter_facção", "label": "Conter facção", "requiredRoles": ["forca", "controle"] },
+      { "id": "restaurar_rede", "label": "Restaurar rede", "requiredRoles": ["investigacao", "controle"] }
+    ],
+    "optionalObjectives": ["reduzir dano colateral", "capturar sabotador"],
+    "failureCarryover": "Bairros vizinhos acordam com blecautes menores.",
+    "finalOutcome": "Estação Norte volta a respirar, mas a cidade lembra quem ficou no escuro."
+  }
+]

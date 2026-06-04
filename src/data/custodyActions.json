@@ -1,0 +1,8 @@
+[
+  { "id": "manter_preso", "label": "Manter preso", "cost": 900, "escapeRiskChange": -2, "publicPressureChange": 0 },
+  { "id": "seguranca_maxima", "label": "Transferir para segurança máxima", "cost": 6500, "escapeRiskChange": -15, "publicPressureChange": 2 },
+  { "id": "julgamento", "label": "Enviar para julgamento", "cost": 2200, "escapeRiskChange": 3, "publicPressureChange": -3 },
+  { "id": "reabilitacao", "label": "Tentar reabilitação", "cost": 4200, "escapeRiskChange": 5, "publicPressureChange": 6 },
+  { "id": "informante", "label": "Usar como informante", "cost": 1600, "escapeRiskChange": 4, "publicPressureChange": 5 },
+  { "id": "interrogar", "label": "Interrogar", "cost": 700, "escapeRiskChange": 1, "publicPressureChange": 1 }
+]

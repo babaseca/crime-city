@@ -1,0 +1,33 @@
+[
+  {
+    "id": "reinforcement_low_roster",
+    "type": "reinforcement",
+    "tone": "pragmatico",
+    "message": "A chefia regional percebeu que seu plantão está curto e enviou reforço temporário por três dias."
+  },
+  {
+    "id": "budget_reward",
+    "type": "budget_bonus",
+    "tone": "elogio seco",
+    "message": "Bom desempenho operacional. O Comando liberou verba extra antes que alguém da prefeitura mudasse de ideia."
+  },
+  {
+    "id": "budget_cut",
+    "type": "budget_cut",
+    "tone": "pressao politica",
+    "message": "A imprensa pressionou a prefeitura. O Comando cortou parte da verba e pediu resultados visíveis."
+  },
+  {
+    "id": "district_priority_rubi",
+    "type": "district_priority",
+    "district": "Setor Rubi",
+    "tone": "prioridade",
+    "message": "A chefia quer olhos no Setor Rubi hoje. Alguma coisa ali está chamando atenção demais."
+  },
+  {
+    "id": "public_warning",
+    "type": "warning",
+    "tone": "cobranca",
+    "message": "O Comando pediu uma reunião curta. Tradução: alguém importante leu o relatório e não sorriu."
+  }
+]

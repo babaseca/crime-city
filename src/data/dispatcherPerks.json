@@ -1,0 +1,280 @@
+[
+  {
+    "id": "steady_pulse",
+    "name": "Pulso Firme",
+    "title": "Pulso Firme",
+    "ability": "Pulso Firme",
+    "attribute": "lideranca",
+    "description": "Heróis perdem menos moral após falhas.",
+    "effects": {
+      "moraleLossReduction": 2
+    }
+  },
+  {
+    "id": "clinical_eye",
+    "name": "Olho Clínico",
+    "title": "Olho Clínico",
+    "ability": "Olho Clínico",
+    "attribute": "intuicao",
+    "description": "Entrevistas e missões revelam mais riscos.",
+    "effects": {
+      "interviewBonus": 1,
+      "riskReadBonus": 1
+    }
+  },
+  {
+    "id": "crisis_manager",
+    "name": "Gerente de Crise",
+    "title": "Gerente de Crise",
+    "ability": "Gerente de Crise",
+    "attribute": "sangueFrio",
+    "description": "Eventos críticos têm penalidade reduzida.",
+    "effects": {
+      "criticalStressReduction": 3
+    }
+  },
+  {
+    "id": "radio_voice",
+    "name": "Voz no Rádio",
+    "title": "Voz no Rádio",
+    "ability": "Voz no Rádio",
+    "attribute": "empatia",
+    "description": "Relações melhoram mais após missões em dupla.",
+    "effects": {
+      "relationshipGainBonus": 1
+    }
+  },
+  {
+    "id": "cost_cutting",
+    "name": "Corte de Custos",
+    "title": "Corte de Custos",
+    "ability": "Corte de Custos",
+    "attribute": "administracao",
+    "description": "Reduz custos de contratação e contenção.",
+    "effects": {
+      "budgetDiscount": 0.08
+    }
+  },
+  {
+    "id": "second_chance",
+    "name": "Segunda Chance",
+    "title": "Segunda Chance",
+    "ability": "Segunda Chance",
+    "attribute": "empatia",
+    "description": "Aumenta chance de reforma de vilões.",
+    "effects": {
+      "reformBonus": 12
+    }
+  },
+  {
+    "id": "field_reading",
+    "name": "Leitura de Campo",
+    "title": "Leitura de Campo",
+    "ability": "Leitura de Campo",
+    "attribute": "tatica",
+    "description": "Mostra riscos e melhora leitura de missões.",
+    "effects": {
+      "fieldReadBonus": 1
+    }
+  },
+  {
+    "id": "radio_calmo",
+    "name": "Rádio Calmo",
+    "title": "Rádio Calmo",
+    "ability": "Rádio Calmo",
+    "attribute": "sangueFrio",
+    "description": "Reduz estresse em missões críticas.",
+    "effects": {
+      "criticalStressReduction": 3
+    }
+  },
+  {
+    "id": "escala_inteligente",
+    "name": "Escala Inteligente",
+    "title": "Escala Inteligente",
+    "ability": "Escala Inteligente",
+    "attribute": "logistica",
+    "description": "Reduz penalidade de fadiga quando a equipe alterna plantões.",
+    "effects": {
+      "fatiguePenaltyReduction": 4
+    }
+  },
+  {
+    "id": "leitura_de_gente",
+    "name": "Leitura de Gente",
+    "title": "Leitura de Gente",
+    "ability": "Leitura de Gente",
+    "attribute": "empatia",
+    "description": "Melhora entrevistas, mediações e cenas de conflito.",
+    "effects": {
+      "sceneChoiceBonus": 8,
+      "interviewBonus": 1
+    }
+  },
+  {
+    "id": "plano_contingencia",
+    "name": "Plano de Contingência",
+    "title": "Plano de Contingência",
+    "ability": "Plano de Contingência",
+    "attribute": "tatica",
+    "description": "Permite segurar parte do dano de uma falha por semana.",
+    "effects": {
+      "failureShield": 1
+    }
+  },
+  {
+    "id": "treinador_campo",
+    "name": "Treinador de Campo",
+    "title": "Treinador de Campo",
+    "ability": "Treinador de Campo",
+    "attribute": "lideranca",
+    "description": "Aumenta XP e resultado de treinamentos.",
+    "effects": {
+      "trainingBonus": 8,
+      "heroXpBonus": 1
+    }
+  },
+  {
+    "id": "pulso_politico",
+    "name": "Pulso Político",
+    "title": "Pulso Político",
+    "ability": "Pulso Político",
+    "attribute": "relacoesPublicas",
+    "description": "Reduz penalidade do Comando e desgaste público.",
+    "effects": {
+      "commandPenaltyReduction": 2
+    }
+  },
+  {
+    "id": "olho_de_rua",
+    "name": "Olho de Rua",
+    "title": "Olho de Rua",
+    "ability": "Olho de Rua",
+    "attribute": "intuicao",
+    "description": "Melhora detecção de eventos em bairros críticos.",
+    "effects": {
+      "districtDetectionBonus": 8
+    }
+  },
+  {
+    "id": "mesa_limpa",
+    "name": "Mesa Limpa",
+    "title": "Mesa Limpa",
+    "ability": "Mesa Limpa",
+    "attribute": "administracao",
+    "description": "Reduz ruído administrativo depois de dias com muitas ocorrências.",
+    "effects": {
+      "paperworkReduction": 2
+    }
+  },
+  {
+    "id": "triagem_relampago",
+    "name": "Triagem Relâmpago",
+    "title": "Triagem Relâmpago",
+    "ability": "Triagem Relâmpago",
+    "attribute": "logistica",
+    "description": "Aumenta precisão ao escolher prioridade entre alertas simultâneos.",
+    "effects": {
+      "alertPriorityBonus": 2
+    }
+  },
+  {
+    "id": "rede_de_apoio",
+    "name": "Rede de Apoio",
+    "title": "Rede de Apoio",
+    "ability": "Rede de Apoio",
+    "attribute": "empatia",
+    "description": "Cenas de base positivas recuperam mais moral.",
+    "effects": {
+      "baseSceneMoraleBonus": 1
+    }
+  },
+  {
+    "id": "dossie_vivo",
+    "name": "Dossiê Vivo",
+    "title": "Dossiê Vivo",
+    "ability": "Dossiê Vivo",
+    "attribute": "intuicao",
+    "description": "Interrogações têm mais chance de revelar pista parcial.",
+    "effects": {
+      "interrogationClueBonus": 1
+    }
+  },
+  {
+    "id": "voz_publica",
+    "name": "Voz Pública",
+    "title": "Voz Pública",
+    "ability": "Voz Pública",
+    "attribute": "relacoesPublicas",
+    "description": "Sucessos em bairros midiáticos rendem mais confiança.",
+    "effects": {
+      "publicTrustBonus": 1
+    }
+  },
+  {
+    "id": "sangue_frio_no_breu",
+    "name": "Sangue-frio no Breu",
+    "title": "Sangue-frio no Breu",
+    "ability": "Sangue-frio no Breu",
+    "attribute": "sangueFrio",
+    "description": "Reduz penalidade em eventos noturnos, apagões e pânico.",
+    "effects": {
+      "darknessPenaltyReduction": 3
+    }
+  },
+  {
+    "id": "tatica_de_corredor",
+    "name": "Tática de Corredor",
+    "title": "Tática de Corredor",
+    "ability": "Tática de Corredor",
+    "attribute": "tatica",
+    "description": "Melhora missões em interiores, hospitais e prédios densos.",
+    "effects": {
+      "indoorMissionBonus": 2
+    }
+  },
+  {
+    "id": "plano_de_folga",
+    "name": "Plano de Folga",
+    "title": "Plano de Folga",
+    "ability": "Plano de Folga",
+    "attribute": "logistica",
+    "description": "Descanso recupera um pouco mais de fadiga.",
+    "effects": {
+      "restFatigueBonus": 2
+    }
+  },
+  {
+    "id": "mediacao_dificil",
+    "name": "Mediação Difícil",
+    "title": "Mediação Difícil",
+    "ability": "Mediação Difícil",
+    "attribute": "empatia",
+    "description": "Reduz atritos em equipes com relação negativa.",
+    "effects": {
+      "negativeRelationShield": 2
+    }
+  },
+  {
+    "id": "orcamento_invisivel",
+    "name": "Orçamento Invisível",
+    "title": "Orçamento Invisível",
+    "ability": "Orçamento Invisível",
+    "attribute": "administracao",
+    "description": "Pequenas ações de custódia e tratamento custam menos.",
+    "effects": {
+      "smallCostDiscount": 0.06
+    }
+  },
+  {
+    "id": "farol_de_bairro",
+    "name": "Farol de Bairro",
+    "title": "Farol de Bairro",
+    "ability": "Farol de Bairro",
+    "attribute": "relacoesPublicas",
+    "description": "Bairros negligenciados perdem confiança mais lentamente.",
+    "effects": {
+      "districtDecayReduction": 1
+    }
+  }
+]

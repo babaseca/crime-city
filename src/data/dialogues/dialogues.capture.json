@@ -1,0 +1,1972 @@
+[
+  {
+    "id": "villain_capture_quip",
+    "priority": 82,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "vitoria com deboche",
+    "districtTags": [],
+    "factionTags": [],
+    "requires": {
+      "capture": true
+    },
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Suspeito capturado. Ele pediu advogado, agua e um apelido melhor."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Concedemos a agua. O apelido vai para comissao."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 2,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "cond_capture_01",
+    "priority": 75,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "captura"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "vitória com deboche",
+    "districtTags": [],
+    "factionTags": [],
+    "requires": {
+      "capture": true
+    },
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Suspeito preso. Ele perguntou se a cela tem tomada."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Tem. Mas não para carregar ego."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 0,
+      "stressChange": 1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "cond_capture_02",
+    "priority": 75,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "captura"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "vitória com deboche",
+    "districtTags": [],
+    "factionTags": [],
+    "requires": {
+      "capture": true
+    },
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Captura confirmada. Ele tentou negociar com um discurso de três atos."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Cortamos no primeiro por economia pública."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 0,
+      "stressChange": 1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "cond_capture_03",
+    "priority": 75,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "captura"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "vitória com deboche",
+    "districtTags": [],
+    "factionTags": [],
+    "requires": {
+      "capture": true
+    },
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Ele disse que isso não acabou."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Ótimo. Então podemos chamar de conteúdo recorrente."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 0,
+      "stressChange": 1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "cond_capture_04",
+    "priority": 75,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "captura"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "vitória com deboche",
+    "districtTags": [],
+    "factionTags": [],
+    "requires": {
+      "capture": true
+    },
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "O vilão pediu para não registrar o apelido."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Tarde demais. O rádio gostou."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 0,
+      "stressChange": 1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "cond_capture_05",
+    "priority": 75,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "captura"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "vitória com deboche",
+    "districtTags": [],
+    "factionTags": [],
+    "requires": {
+      "capture": true
+    },
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Ele escorregou no próprio plano."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "A cidade chama isso de justiça poética. Eu chamo de manutenção ruim."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 0,
+      "stressChange": 1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "cond_capture_06",
+    "priority": 75,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "captura"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "vitória com deboche",
+    "districtTags": [],
+    "factionTags": [],
+    "requires": {
+      "capture": true
+    },
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Suspeito contido e monólogo apreendido."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Finalmente uma operação contra poluição sonora."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 0,
+      "stressChange": 1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "cond_capture_07",
+    "priority": 75,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "captura"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "vitória com deboche",
+    "districtTags": [],
+    "factionTags": [],
+    "requires": {
+      "capture": true
+    },
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Ele pediu acordo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "A gente ofereceu água, cadeira e silêncio."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 0,
+      "stressChange": 1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "cond_capture_08",
+    "priority": 75,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "captura"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "vitória com deboche",
+    "districtTags": [],
+    "factionTags": [],
+    "requires": {
+      "capture": true
+    },
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Captura sem fuga."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Não fala alto. A estatística se assusta."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 0,
+      "stressChange": 1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "cond_capture_09",
+    "priority": 75,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "captura"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "vitória com deboche",
+    "districtTags": [],
+    "factionTags": [],
+    "requires": {
+      "capture": true
+    },
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Ele tinha rota de escape."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Tinha. Agora tem lembrança."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 0,
+      "stressChange": 1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "cond_capture_10",
+    "priority": 75,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "captura"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "vitória com deboche",
+    "districtTags": [],
+    "factionTags": [],
+    "requires": {
+      "capture": true
+    },
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "O arquivo de vilões vai adorar esse."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "O arquivo nunca adora. Ele julga em ordem alfabética."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 0,
+      "stressChange": 1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "gen_result_captura_vilao_1",
+    "priority": 31,
+    "cooldownDays": 4,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "captura_vilao"
+    ],
+    "tone": "operacional",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "A ocorrência terminou antes do café esfriar. Infelizmente, o café era de ontem."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Vou registrar isso como procedimento e torcer para ninguém pedir detalhes."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_result_captura_vilao_2",
+    "priority": 31,
+    "cooldownDays": 4,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "captura_vilao"
+    ],
+    "tone": "operacional",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Salvamos civis, equipamento e uma marmita emocionalmente importante."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Vou registrar isso como procedimento e torcer para ninguém pedir detalhes."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_result_captura_vilao_3",
+    "priority": 31,
+    "cooldownDays": 4,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "captura_vilao"
+    ],
+    "tone": "operacional",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "A prefeitura perguntou pelo dano. Eu perguntei se ela preferia o bairro inteiro."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Vou registrar isso como procedimento e torcer para ninguém pedir detalhes."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_result_captura_vilao_4",
+    "priority": 31,
+    "cooldownDays": 4,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "captura_vilao"
+    ],
+    "tone": "operacional",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Tinha um cone no lugar errado. Agora ele está em todos os lugares errados."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Vou registrar isso como procedimento e torcer para ninguém pedir detalhes."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_result_captura_vilao_5",
+    "priority": 31,
+    "cooldownDays": 4,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "captura_vilao"
+    ],
+    "tone": "operacional",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Se isso virar treinamento obrigatério, eu nego que improvisei."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Vou registrar isso como procedimento e torcer para ninguém pedir detalhes."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_result_captura_vilao_6",
+    "priority": 31,
+    "cooldownDays": 4,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "captura_vilao"
+    ],
+    "tone": "operacional",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Missão concluída. O rádio sobreviveu a três suspiros e uma ameaça ao mobiliário."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Vou registrar isso como procedimento e torcer para ninguém pedir detalhes."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_result_captura_vilao_7",
+    "priority": 31,
+    "cooldownDays": 4,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "captura_vilao"
+    ],
+    "tone": "operacional",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "A cidade está salva e alguém precisa explicar o cheiro de pipoca queimada."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Vou registrar isso como procedimento e torcer para ninguém pedir detalhes."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_result_captura_vilao_8",
+    "priority": 31,
+    "cooldownDays": 4,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "captura_vilao"
+    ],
+    "tone": "operacional",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Fizemos parecer plano. Essa é a parte mais perigosa."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Vou registrar isso como procedimento e torcer para ninguém pedir detalhes."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_result_captura_vilao_9",
+    "priority": 31,
+    "cooldownDays": 4,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "captura_vilao"
+    ],
+    "tone": "operacional",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Eu pedi silêncio no canal. Recebi sarcasmo em alta definição."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Vou registrar isso como procedimento e torcer para ninguém pedir detalhes."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_result_captura_vilao_10",
+    "priority": 31,
+    "cooldownDays": 4,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "captura_vilao"
+    ],
+    "tone": "operacional",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Tecnicamente, ninguém proibiu usar uma placa de trânsito como escudo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Vou registrar isso como procedimento e torcer para ninguém pedir detalhes."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_capture_1",
+    "priority": 84,
+    "cooldownDays": 6,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "captura_vilao",
+      "success"
+    ],
+    "tone": "vitoria com deboche",
+    "districtTags": [],
+    "factionTags": [],
+    "requires": {
+      "capture": true
+    },
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Arquivo de Vilões atualizado. O ego dele veio algemado junto."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Vou avisar o Arquivo para separar uma gaveta dramática."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 2,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_capture_2",
+    "priority": 84,
+    "cooldownDays": 6,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "captura_vilao",
+      "success"
+    ],
+    "tone": "vitoria com deboche",
+    "districtTags": [],
+    "factionTags": [],
+    "requires": {
+      "capture": true
+    },
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Suspeito capturado. Ele pediu advogado, água e um apelido melhor."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Concedemos a água. O apelido vai para comissão."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 2,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_capture_3",
+    "priority": 84,
+    "cooldownDays": 6,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "captura_vilao",
+      "success"
+    ],
+    "tone": "vitoria com deboche",
+    "districtTags": [],
+    "factionTags": [],
+    "requires": {
+      "capture": true
+    },
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Arquivo de Vilões atualizado. O ego dele veio algemado junto."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Vou avisar o Arquivo para separar uma gaveta dramática."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 2,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_capture_4",
+    "priority": 84,
+    "cooldownDays": 6,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "captura_vilao",
+      "success"
+    ],
+    "tone": "vitoria com deboche",
+    "districtTags": [],
+    "factionTags": [],
+    "requires": {
+      "capture": true
+    },
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Suspeito capturado. Ele pediu advogado, água e um apelido melhor."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Concedemos a água. O apelido vai para comissão."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 2,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_capture_5",
+    "priority": 84,
+    "cooldownDays": 6,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "captura_vilao",
+      "success"
+    ],
+    "tone": "vitoria com deboche",
+    "districtTags": [],
+    "factionTags": [],
+    "requires": {
+      "capture": true
+    },
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Arquivo de Vilões atualizado. O ego dele veio algemado junto."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Vou avisar o Arquivo para separar uma gaveta dramática."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 2,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_capture_6",
+    "priority": 84,
+    "cooldownDays": 6,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "captura_vilao",
+      "success"
+    ],
+    "tone": "vitoria com deboche",
+    "districtTags": [],
+    "factionTags": [],
+    "requires": {
+      "capture": true
+    },
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Suspeito capturado. Ele pediu advogado, água e um apelido melhor."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Concedemos a água. O apelido vai para comissão."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 2,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_capture_7",
+    "priority": 84,
+    "cooldownDays": 6,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "captura_vilao",
+      "success"
+    ],
+    "tone": "vitoria com deboche",
+    "districtTags": [],
+    "factionTags": [],
+    "requires": {
+      "capture": true
+    },
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Arquivo de Vilões atualizado. O ego dele veio algemado junto."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Vou avisar o Arquivo para separar uma gaveta dramática."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 2,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_capture_8",
+    "priority": 84,
+    "cooldownDays": 6,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "captura_vilao",
+      "success"
+    ],
+    "tone": "vitoria com deboche",
+    "districtTags": [],
+    "factionTags": [],
+    "requires": {
+      "capture": true
+    },
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Suspeito capturado. Ele pediu advogado, água e um apelido melhor."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Concedemos a água. O apelido vai para comissão."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 2,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_capture_9",
+    "priority": 84,
+    "cooldownDays": 6,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "captura_vilao",
+      "success"
+    ],
+    "tone": "vitoria com deboche",
+    "districtTags": [],
+    "factionTags": [],
+    "requires": {
+      "capture": true
+    },
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Arquivo de Vilões atualizado. O ego dele veio algemado junto."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Vou avisar o Arquivo para separar uma gaveta dramática."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 2,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_capture_10",
+    "priority": 84,
+    "cooldownDays": 6,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "captura_vilao",
+      "success"
+    ],
+    "tone": "vitoria com deboche",
+    "districtTags": [],
+    "factionTags": [],
+    "requires": {
+      "capture": true
+    },
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Suspeito capturado. Ele pediu advogado, água e um apelido melhor."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Concedemos a água. O apelido vai para comissão."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 2,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_capture_11",
+    "priority": 84,
+    "cooldownDays": 6,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "captura_vilao",
+      "success"
+    ],
+    "tone": "vitoria com deboche",
+    "districtTags": [],
+    "factionTags": [],
+    "requires": {
+      "capture": true
+    },
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Arquivo de Vilões atualizado. O ego dele veio algemado junto."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Vou avisar o Arquivo para separar uma gaveta dramática."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 2,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_capture_12",
+    "priority": 84,
+    "cooldownDays": 6,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "captura_vilao",
+      "success"
+    ],
+    "tone": "vitoria com deboche",
+    "districtTags": [],
+    "factionTags": [],
+    "requires": {
+      "capture": true
+    },
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Suspeito capturado. Ele pediu advogado, água e um apelido melhor."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Concedemos a água. O apelido vai para comissão."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 2,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_capture_13",
+    "priority": 84,
+    "cooldownDays": 6,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "captura_vilao",
+      "success"
+    ],
+    "tone": "vitoria com deboche",
+    "districtTags": [],
+    "factionTags": [],
+    "requires": {
+      "capture": true
+    },
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Arquivo de Vilões atualizado. O ego dele veio algemado junto."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Vou avisar o Arquivo para separar uma gaveta dramática."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 2,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_capture_14",
+    "priority": 84,
+    "cooldownDays": 6,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "captura_vilao",
+      "success"
+    ],
+    "tone": "vitoria com deboche",
+    "districtTags": [],
+    "factionTags": [],
+    "requires": {
+      "capture": true
+    },
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Suspeito capturado. Ele pediu advogado, água e um apelido melhor."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Concedemos a água. O apelido vai para comissão."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 2,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_capture_15",
+    "priority": 84,
+    "cooldownDays": 6,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "captura_vilao",
+      "success"
+    ],
+    "tone": "vitoria com deboche",
+    "districtTags": [],
+    "factionTags": [],
+    "requires": {
+      "capture": true
+    },
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Arquivo de Vilões atualizado. O ego dele veio algemado junto."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Vou avisar o Arquivo para separar uma gaveta dramática."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 2,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_capture_16",
+    "priority": 84,
+    "cooldownDays": 6,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "captura_vilao",
+      "success"
+    ],
+    "tone": "vitoria com deboche",
+    "districtTags": [],
+    "factionTags": [],
+    "requires": {
+      "capture": true
+    },
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Suspeito capturado. Ele pediu advogado, água e um apelido melhor."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Concedemos a água. O apelido vai para comissão."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 2,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_capture_17",
+    "priority": 84,
+    "cooldownDays": 6,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "captura_vilao",
+      "success"
+    ],
+    "tone": "vitoria com deboche",
+    "districtTags": [],
+    "factionTags": [],
+    "requires": {
+      "capture": true
+    },
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Arquivo de Vilões atualizado. O ego dele veio algemado junto."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Vou avisar o Arquivo para separar uma gaveta dramática."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 2,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_capture_18",
+    "priority": 84,
+    "cooldownDays": 6,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "captura_vilao",
+      "success"
+    ],
+    "tone": "vitoria com deboche",
+    "districtTags": [],
+    "factionTags": [],
+    "requires": {
+      "capture": true
+    },
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Suspeito capturado. Ele pediu advogado, água e um apelido melhor."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Concedemos a água. O apelido vai para comissão."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 2,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_capture_19",
+    "priority": 84,
+    "cooldownDays": 6,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "captura_vilao",
+      "success"
+    ],
+    "tone": "vitoria com deboche",
+    "districtTags": [],
+    "factionTags": [],
+    "requires": {
+      "capture": true
+    },
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Arquivo de Vilões atualizado. O ego dele veio algemado junto."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Vou avisar o Arquivo para separar uma gaveta dramática."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 2,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_capture_20",
+    "priority": 84,
+    "cooldownDays": 6,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "captura_vilao",
+      "success"
+    ],
+    "tone": "vitoria com deboche",
+    "districtTags": [],
+    "factionTags": [],
+    "requires": {
+      "capture": true
+    },
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Suspeito capturado. Ele pediu advogado, água e um apelido melhor."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Concedemos a água. O apelido vai para comissão."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 2,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_faction_coroa_do_subsolo_1",
+    "priority": 70,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "subsolo",
+      "estrutura"
+    ],
+    "resultTypes": [
+      "success",
+      "captura_vilao",
+      "missao_controlada"
+    ],
+    "tone": "facção pressionada",
+    "districtTags": [],
+    "factionId": "coroa_do_subsolo",
+    "factionTags": [
+      "subsolo",
+      "estrutura",
+      "contrabando",
+      "sabotagem"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Coroa do Subsolo sentiu o golpe. Não derruba a rede, mas corta um fio importante."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Um fio cortado já muda o barulho da cidade."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": 0,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_faction_coroa_do_subsolo_2",
+    "priority": 70,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "subsolo",
+      "estrutura"
+    ],
+    "resultTypes": [
+      "success",
+      "captura_vilao",
+      "missao_controlada"
+    ],
+    "tone": "facção pressionada",
+    "districtTags": [],
+    "factionId": "coroa_do_subsolo",
+    "factionTags": [
+      "subsolo",
+      "estrutura",
+      "contrabando",
+      "sabotagem"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Coroa do Subsolo sentiu o golpe. Não derruba a rede, mas corta um fio importante."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Um fio cortado já muda o barulho da cidade."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": 0,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_faction_rede_dos_altofalantes_1",
+    "priority": 70,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "boato",
+      "som"
+    ],
+    "resultTypes": [
+      "success",
+      "captura_vilao",
+      "missao_controlada"
+    ],
+    "tone": "facção pressionada",
+    "districtTags": [],
+    "factionId": "rede_dos_altofalantes",
+    "factionTags": [
+      "boato",
+      "som",
+      "sinal",
+      "midia"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Rede dos Alto-Falantes sentiu o golpe. Não derruba a rede, mas corta um fio importante."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Um fio cortado já muda o barulho da cidade."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": 0,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_faction_rede_dos_altofalantes_2",
+    "priority": 70,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "boato",
+      "som"
+    ],
+    "resultTypes": [
+      "success",
+      "captura_vilao",
+      "missao_controlada"
+    ],
+    "tone": "facção pressionada",
+    "districtTags": [],
+    "factionId": "rede_dos_altofalantes",
+    "factionTags": [
+      "boato",
+      "som",
+      "sinal",
+      "midia"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Rede dos Alto-Falantes sentiu o golpe. Não derruba a rede, mas corta um fio importante."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Um fio cortado já muda o barulho da cidade."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": 0,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_faction_oficina_da_mare_seca_1",
+    "priority": 70,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "tecnologia",
+      "maquinas"
+    ],
+    "resultTypes": [
+      "success",
+      "captura_vilao",
+      "missao_controlada"
+    ],
+    "tone": "facção pressionada",
+    "districtTags": [],
+    "factionId": "oficina_da_mare_seca",
+    "factionTags": [
+      "tecnologia",
+      "maquinas",
+      "transito",
+      "contrabando"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Oficina da Maré Seca sentiu o golpe. Não derruba a rede, mas corta um fio importante."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Um fio cortado já muda o barulho da cidade."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": 0,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_faction_oficina_da_mare_seca_2",
+    "priority": 70,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "tecnologia",
+      "maquinas"
+    ],
+    "resultTypes": [
+      "success",
+      "captura_vilao",
+      "missao_controlada"
+    ],
+    "tone": "facção pressionada",
+    "districtTags": [],
+    "factionId": "oficina_da_mare_seca",
+    "factionTags": [
+      "tecnologia",
+      "maquinas",
+      "transito",
+      "contrabando"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Oficina da Maré Seca sentiu o golpe. Não derruba a rede, mas corta um fio importante."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Um fio cortado já muda o barulho da cidade."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": 0,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_faction_irmandade_do_vidro_1",
+    "priority": 70,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "cultura",
+      "luz"
+    ],
+    "resultTypes": [
+      "success",
+      "captura_vilao",
+      "missao_controlada"
+    ],
+    "tone": "facção pressionada",
+    "districtTags": [],
+    "factionId": "irmandade_do_vidro",
+    "factionTags": [
+      "cultura",
+      "luz",
+      "reflexos",
+      "biologia"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Irmandade do Vidro sentiu o golpe. Não derruba a rede, mas corta um fio importante."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Um fio cortado já muda o barulho da cidade."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": 0,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_faction_irmandade_do_vidro_2",
+    "priority": 70,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "cultura",
+      "luz"
+    ],
+    "resultTypes": [
+      "success",
+      "captura_vilao",
+      "missao_controlada"
+    ],
+    "tone": "facção pressionada",
+    "districtTags": [],
+    "factionId": "irmandade_do_vidro",
+    "factionTags": [
+      "cultura",
+      "luz",
+      "reflexos",
+      "biologia"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Irmandade do Vidro sentiu o golpe. Não derruba a rede, mas corta um fio importante."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Um fio cortado já muda o barulho da cidade."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": 0,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_faction_sindicato_do_apagao_1",
+    "priority": 70,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "energia",
+      "infraestrutura"
+    ],
+    "resultTypes": [
+      "success",
+      "captura_vilao",
+      "missao_controlada"
+    ],
+    "tone": "facção pressionada",
+    "districtTags": [],
+    "factionId": "sindicato_do_apagao",
+    "factionTags": [
+      "energia",
+      "infraestrutura",
+      "dados",
+      "tempo_curto"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Sindicato do Apagão sentiu o golpe. Não derruba a rede, mas corta um fio importante."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Um fio cortado já muda o barulho da cidade."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": 0,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_faction_sindicato_do_apagao_2",
+    "priority": 70,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "energia",
+      "infraestrutura"
+    ],
+    "resultTypes": [
+      "success",
+      "captura_vilao",
+      "missao_controlada"
+    ],
+    "tone": "facção pressionada",
+    "districtTags": [],
+    "factionId": "sindicato_do_apagao",
+    "factionTags": [
+      "energia",
+      "infraestrutura",
+      "dados",
+      "tempo_curto"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Sindicato do Apagão sentiu o golpe. Não derruba a rede, mas corta um fio importante."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Um fio cortado já muda o barulho da cidade."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": 0,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_faction_jardim_das_mascaras_1",
+    "priority": 70,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "politica",
+      "elite"
+    ],
+    "resultTypes": [
+      "success",
+      "captura_vilao",
+      "missao_controlada"
+    ],
+    "tone": "facção pressionada",
+    "districtTags": [],
+    "factionId": "jardim_das_mascaras",
+    "factionTags": [
+      "politica",
+      "elite",
+      "disfarce",
+      "chantagem"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Jardim das Máscaras sentiu o golpe. Não derruba a rede, mas corta um fio importante."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Um fio cortado já muda o barulho da cidade."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": 0,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_faction_jardim_das_mascaras_2",
+    "priority": 70,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "politica",
+      "elite"
+    ],
+    "resultTypes": [
+      "success",
+      "captura_vilao",
+      "missao_controlada"
+    ],
+    "tone": "facção pressionada",
+    "districtTags": [],
+    "factionId": "jardim_das_mascaras",
+    "factionTags": [
+      "politica",
+      "elite",
+      "disfarce",
+      "chantagem"
+    ],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Jardim das Máscaras sentiu o golpe. Não derruba a rede, mas corta um fio importante."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Um fio cortado já muda o barulho da cidade."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": 0,
+      "moralChange": 1
+    }
+  }
+]

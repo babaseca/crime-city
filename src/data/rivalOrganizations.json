@@ -1,0 +1,15 @@
+[
+  {
+    "id": "resposta_atlas",
+    "name": "Resposta Atlas",
+    "description": "Organização privada de resposta heroica que vende eficiência, holofote e contrato caro.",
+    "publicImage": "profissional e oportunista",
+    "resources": 72,
+    "ethics": 46,
+    "popularity": 54,
+    "rivalryLevel": 34,
+    "activeHeroes": ["Linha Forte", "Mira de Cobre", "Vesper"],
+    "scandals": [],
+    "relationshipWithCentral": -12
+  }
+]

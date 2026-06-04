@@ -1,0 +1,56 @@
+[
+  {
+    "id": "role-investigacao-01",
+    "phase": "primeira_acao",
+    "priority": 48,
+    "cooldownDays": 4,
+    "tone": "analitico",
+    "missionTags": ["investigacao", "dados", "sinal"],
+    "text": "{hero:0} tratou a cena como quebra-cabeça: primeiro os sinais falsos, depois a rota segura."
+  },
+  {
+    "id": "role-resgate-01",
+    "phase": "primeira_acao",
+    "priority": 50,
+    "cooldownDays": 4,
+    "tone": "resgate",
+    "missionTags": ["resgate", "civis", "evacuacao"],
+    "text": "{hero:0} colocou civis em movimento antes de olhar para o centro da ameaça. Era menos bonito e mais correto."
+  },
+  {
+    "id": "role-controle-01",
+    "phase": "primeira_acao",
+    "priority": 48,
+    "cooldownDays": 4,
+    "tone": "controle",
+    "missionTags": ["controle", "contenção", "energia", "quimica"],
+    "text": "{hero:0} reduziu o risco em camadas, como quem baixa uma febre antes de discutir o diagnóstico."
+  },
+  {
+    "id": "role-mobilidade-01",
+    "phase": "chegada",
+    "priority": 46,
+    "cooldownDays": 4,
+    "tone": "rapido",
+    "missionTags": ["mobilidade", "transito", "altura", "transporte"],
+    "text": "{hero:0} chegou pelo caminho que ninguém recomendaria em voz alta, mas que cortava minutos preciosos."
+  },
+  {
+    "id": "role-carisma-01",
+    "phase": "virada",
+    "priority": 46,
+    "cooldownDays": 4,
+    "tone": "humano",
+    "missionTags": ["carisma", "multidao", "boato", "civis"],
+    "text": "A virada não foi força: foi voz calma, ordem simples e gente voltando a respirar no mesmo ritmo."
+  },
+  {
+    "id": "role-resistencia-01",
+    "phase": "complicacao",
+    "priority": 46,
+    "cooldownDays": 4,
+    "tone": "fisico",
+    "missionTags": ["resistencia", "calor", "quimica", "subsolo"],
+    "text": "A cena ficou hostil demais para pressa. {hero:0} precisou aguentar o ambiente antes de vencer a ocorrência."
+  }
+]

@@ -1,0 +1,282 @@
+[
+  {
+    "id": "setor_rubi",
+    "name": "Setor Rubi",
+    "description": "Região de oficinas densas, laboratórios civis e moradias sobre antigas galerias industriais.",
+    "type": "industrial",
+    "populationMood": 48,
+    "trustInCentral": 42,
+    "stability": 55,
+    "crimeLevel": 68,
+    "infrastructure": 44,
+    "mediaAttention": 36,
+    "politicalValue": 52,
+    "dangerLevel": 61,
+    "dominantFactionId": "coroa_do_subsolo",
+    "activeFactionInfluence": { "coroa_do_subsolo": 72, "rede_dos_altofalantes": 18 },
+    "tags": ["industrial", "subsolo", "obras", "tecnologia"],
+    "modifiers": [
+      { "id": "galerias_instaveis", "label": "Galerias instáveis", "description": "Eventos subterrâneos neste bairro têm dificuldade aumentada.", "effect": { "eventTags": ["subsolo", "estrutura"], "difficultyModifier": 8 } }
+    ]
+  },
+  {
+    "id": "mercado_nimbus",
+    "name": "Mercado Nimbus",
+    "description": "Mercado vertical de toldos, passarelas, cozinhas abertas e boatos que sobem mais rápido que elevador.",
+    "type": "comercial",
+    "populationMood": 58,
+    "trustInCentral": 50,
+    "stability": 52,
+    "crimeLevel": 63,
+    "infrastructure": 57,
+    "mediaAttention": 72,
+    "politicalValue": 61,
+    "dangerLevel": 58,
+    "dominantFactionId": "rede_dos_altofalantes",
+    "activeFactionInfluence": { "rede_dos_altofalantes": 66, "jardim_das_mascaras": 21 },
+    "tags": ["multidao", "boato", "comercio", "midia"],
+    "modifiers": [
+      { "id": "midia_sempre_presente", "label": "Mídia sempre presente", "description": "Falhas reduzem mais reputação e geram posts críticos.", "effect": { "eventTags": ["civis", "multidao"], "reputationFailureModifier": -2 } }
+    ]
+  },
+  {
+    "id": "jardins_de_vidro",
+    "name": "Jardins de Vidro",
+    "description": "Bairro de estufas públicas, passarelas translúcidas e laboratórios botânicos comunitários.",
+    "type": "residencial",
+    "populationMood": 63,
+    "trustInCentral": 57,
+    "stability": 66,
+    "crimeLevel": 42,
+    "infrastructure": 62,
+    "mediaAttention": 44,
+    "politicalValue": 49,
+    "dangerLevel": 39,
+    "dominantFactionId": "irmandade_do_vidro",
+    "activeFactionInfluence": { "irmandade_do_vidro": 48, "jardim_das_mascaras": 16 },
+    "tags": ["biologia", "cultura", "reflexos", "passarelas"],
+    "modifiers": [
+      { "id": "passarelas_reflexivas", "label": "Passarelas reflexivas", "description": "Eventos com ilusão ou altura ficam mais difíceis de ler.", "effect": { "eventTags": ["altura", "cultura"], "difficultyModifier": 5 } }
+    ]
+  },
+  {
+    "id": "alto_candeal",
+    "name": "Alto Candeal",
+    "description": "Ladeiras ventosas, casas antigas e fundações atravessadas por túneis que ninguém assumiu no mapa oficial.",
+    "type": "encosta",
+    "populationMood": 45,
+    "trustInCentral": 39,
+    "stability": 48,
+    "crimeLevel": 64,
+    "infrastructure": 38,
+    "mediaAttention": 31,
+    "politicalValue": 46,
+    "dangerLevel": 66,
+    "dominantFactionId": "coroa_do_subsolo",
+    "activeFactionInfluence": { "coroa_do_subsolo": 69, "sindicato_do_apagao": 19 },
+    "tags": ["altura", "subsolo", "moradia", "estrutura"],
+    "modifiers": [
+      { "id": "rotas_dificeis", "label": "Rotas difíceis", "description": "Equipes com baixa mobilidade sofrem mais pressão.", "effect": { "eventTags": ["resgate", "transito"], "difficultyModifier": 6 } }
+    ]
+  },
+  {
+    "id": "cintura_verde",
+    "name": "Cintura Verde",
+    "description": "Corredor urbano de vegetação, hortas suspensas e comunidades que se organizam antes da prefeitura chegar.",
+    "type": "verde",
+    "populationMood": 68,
+    "trustInCentral": 61,
+    "stability": 70,
+    "crimeLevel": 35,
+    "infrastructure": 54,
+    "mediaAttention": 38,
+    "politicalValue": 44,
+    "dangerLevel": 34,
+    "dominantFactionId": "irmandade_do_vidro",
+    "activeFactionInfluence": { "irmandade_do_vidro": 24, "oficina_da_mare_seca": 12 },
+    "tags": ["biologia", "comunidade", "resgate", "ambiental"],
+    "modifiers": [
+      { "id": "comunidade_organizada", "label": "Comunidade organizada", "description": "Sucessos aumentam confiança, mas falhas viram cobrança rápida.", "effect": { "eventTags": ["civis", "resgate"], "trustSuccessModifier": 2, "trustFailureModifier": -2 } }
+    ]
+  },
+  {
+    "id": "vila_farol",
+    "name": "Vila Farol",
+    "description": "Costa de sirenes comunitárias, casas baixas e gente que sabe o nome de todo mundo no rádio.",
+    "type": "costeiro",
+    "populationMood": 59,
+    "trustInCentral": 55,
+    "stability": 58,
+    "crimeLevel": 45,
+    "infrastructure": 49,
+    "mediaAttention": 43,
+    "politicalValue": 47,
+    "dangerLevel": 45,
+    "dominantFactionId": "oficina_da_mare_seca",
+    "activeFactionInfluence": { "oficina_da_mare_seca": 42, "rede_dos_altofalantes": 19 },
+    "tags": ["agua", "comunidade", "vento", "hidraulica"],
+    "modifiers": [
+      { "id": "sirenes_comunitarias", "label": "Sirenes comunitárias", "description": "Alertas são percebidos cedo, mas falhas machucam confiança local.", "effect": { "eventTags": ["civis", "agua"], "difficultyModifier": -3, "trustFailureModifier": -2 } }
+    ]
+  },
+  {
+    "id": "baixada_azul",
+    "name": "Baixada Azul",
+    "description": "Canais, subsolos úmidos e galpões onde cada chuva transforma logística em aposta.",
+    "type": "hidrico",
+    "populationMood": 44,
+    "trustInCentral": 41,
+    "stability": 46,
+    "crimeLevel": 62,
+    "infrastructure": 35,
+    "mediaAttention": 34,
+    "politicalValue": 40,
+    "dangerLevel": 67,
+    "dominantFactionId": "coroa_do_subsolo",
+    "activeFactionInfluence": { "coroa_do_subsolo": 54, "oficina_da_mare_seca": 34 },
+    "tags": ["agua", "subsolo", "infraestrutura", "galpoes"],
+    "modifiers": [
+      { "id": "infraestrutura_fragil", "label": "Infraestrutura frágil", "description": "Dano material pesa mais sobre infraestrutura.", "effect": { "eventTags": ["infraestrutura", "agua", "estrutura"], "infrastructureFailureModifier": -3 } }
+    ]
+  },
+  {
+    "id": "estacao_norte",
+    "name": "Estação Norte",
+    "description": "Trilhos, plataformas, oficinas de transporte e pessoas que calculam a vida em minutos de atraso.",
+    "type": "transporte",
+    "populationMood": 50,
+    "trustInCentral": 47,
+    "stability": 50,
+    "crimeLevel": 58,
+    "infrastructure": 52,
+    "mediaAttention": 55,
+    "politicalValue": 59,
+    "dangerLevel": 57,
+    "dominantFactionId": "oficina_da_mare_seca",
+    "activeFactionInfluence": { "oficina_da_mare_seca": 58, "sindicato_do_apagao": 27 },
+    "tags": ["transito", "maquinas", "energia", "logistica"],
+    "modifiers": [
+      { "id": "rotas_interligadas", "label": "Rotas interligadas", "description": "Eventos de transporte podem afetar bairros vizinhos.", "effect": { "eventTags": ["transito", "maquinas"], "difficultyModifier": 4 } }
+    ]
+  },
+  {
+    "id": "porto_velado",
+    "name": "Porto Velado",
+    "description": "Docas semi-oficiais, contêineres esquecidos e neblina suficiente para esconder culpa administrativa.",
+    "type": "portuario",
+    "populationMood": 43,
+    "trustInCentral": 36,
+    "stability": 44,
+    "crimeLevel": 72,
+    "infrastructure": 48,
+    "mediaAttention": 29,
+    "politicalValue": 50,
+    "dangerLevel": 70,
+    "dominantFactionId": "oficina_da_mare_seca",
+    "activeFactionInfluence": { "oficina_da_mare_seca": 73, "jardim_das_mascaras": 12 },
+    "tags": ["contrabando", "agua", "tecnologia", "fuga"],
+    "modifiers": [
+      { "id": "neblina_operacional", "label": "Neblina operacional", "description": "Eventos de fuga e contrabando ficam mais difíceis.", "effect": { "eventTags": ["contrabando", "fuga"], "difficultyModifier": 7 } }
+    ]
+  },
+  {
+    "id": "coroa_sul",
+    "name": "Coroa Sul",
+    "description": "Zona cívica, prédios públicos, clubes fechados e reuniões que sempre começam com portas duplas.",
+    "type": "politico",
+    "populationMood": 54,
+    "trustInCentral": 51,
+    "stability": 62,
+    "crimeLevel": 46,
+    "infrastructure": 65,
+    "mediaAttention": 68,
+    "politicalValue": 82,
+    "dangerLevel": 50,
+    "dominantFactionId": "jardim_das_mascaras",
+    "activeFactionInfluence": { "jardim_das_mascaras": 61, "rede_dos_altofalantes": 31 },
+    "tags": ["politica", "elite", "multidao", "midia"],
+    "modifiers": [
+      { "id": "bairro_simbolico", "label": "Bairro simbólico", "description": "Eventos ali impactam mais opinião pública.", "effect": { "eventTags": ["civis", "politica", "multidao"], "reputationFailureModifier": -3, "reputationSuccessModifier": 1 } }
+    ]
+  },
+  {
+    "id": "distrito_lumen",
+    "name": "Distrito Lúmen",
+    "description": "Malha de energia, laboratórios de iluminação pública e fachadas que piscam quando alguém mente no orçamento.",
+    "type": "energia",
+    "populationMood": 49,
+    "trustInCentral": 46,
+    "stability": 53,
+    "crimeLevel": 60,
+    "infrastructure": 58,
+    "mediaAttention": 47,
+    "politicalValue": 56,
+    "dangerLevel": 59,
+    "dominantFactionId": "sindicato_do_apagao",
+    "activeFactionInfluence": { "sindicato_do_apagao": 70, "oficina_da_mare_seca": 19 },
+    "tags": ["energia", "dados", "tecnologia", "infraestrutura"],
+    "modifiers": [
+      { "id": "malha_sensivel", "label": "Malha sensível", "description": "Falhas em energia derrubam infraestrutura mais rápido.", "effect": { "eventTags": ["energia", "dados"], "infrastructureFailureModifier": -4 } }
+    ]
+  },
+  {
+    "id": "morro_das_antenas",
+    "name": "Morro das Antenas",
+    "description": "Torres improvisadas, rádios comunitárias e uma vista linda demais para tanta interferência criminosa.",
+    "type": "comunicacao",
+    "populationMood": 47,
+    "trustInCentral": 40,
+    "stability": 49,
+    "crimeLevel": 65,
+    "infrastructure": 43,
+    "mediaAttention": 62,
+    "politicalValue": 45,
+    "dangerLevel": 64,
+    "dominantFactionId": "rede_dos_altofalantes",
+    "activeFactionInfluence": { "rede_dos_altofalantes": 78, "sindicato_do_apagao": 16 },
+    "tags": ["som", "sinal", "boato", "altura"],
+    "modifiers": [
+      { "id": "ruido_publico", "label": "Ruído público", "description": "Boatos aumentam dano reputacional quando a Central falha.", "effect": { "eventTags": ["som", "sinal", "boato"], "reputationFailureModifier": -3 } }
+    ]
+  },
+  {
+    "id": "doca_leste",
+    "name": "Doca Leste",
+    "description": "Guindastes antigos, ruas estreitas e contratos portuários escritos em letras pequenas demais.",
+    "type": "portuario",
+    "populationMood": 46,
+    "trustInCentral": 43,
+    "stability": 47,
+    "crimeLevel": 70,
+    "infrastructure": 42,
+    "mediaAttention": 35,
+    "politicalValue": 48,
+    "dangerLevel": 68,
+    "dominantFactionId": "oficina_da_mare_seca",
+    "activeFactionInfluence": { "oficina_da_mare_seca": 76, "coroa_do_subsolo": 14 },
+    "tags": ["estrutura", "contrabando", "maquinas", "altura"],
+    "modifiers": [
+      { "id": "guindastes_antigos", "label": "Guindastes antigos", "description": "Eventos estruturais têm dificuldade aumentada.", "effect": { "eventTags": ["estrutura", "altura", "maquinas"], "difficultyModifier": 6 } }
+    ]
+  },
+  {
+    "id": "mirante_solar",
+    "name": "Mirante Solar",
+    "description": "Torres de luz, turistas insistentes e espelhos urbanos que fazem qualquer incidente parecer maior.",
+    "type": "turistico",
+    "populationMood": 62,
+    "trustInCentral": 58,
+    "stability": 64,
+    "crimeLevel": 39,
+    "infrastructure": 60,
+    "mediaAttention": 66,
+    "politicalValue": 55,
+    "dangerLevel": 42,
+    "dominantFactionId": "irmandade_do_vidro",
+    "activeFactionInfluence": { "irmandade_do_vidro": 45, "rede_dos_altofalantes": 23 },
+    "tags": ["altura", "cultura", "luz", "turismo"],
+    "modifiers": [
+      { "id": "visibilidade_total", "label": "Visibilidade total", "description": "Sucessos rendem boa imagem; falhas viralizam rápido.", "effect": { "eventTags": ["civis", "altura", "cultura"], "reputationSuccessModifier": 2, "reputationFailureModifier": -2 } }
+    ]
+  }
+]

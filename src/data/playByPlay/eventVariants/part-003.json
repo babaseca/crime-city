@@ -1,0 +1,171 @@
+[
+  {
+    "id": "pbp-missed-alert-01",
+    "priority": 96,
+    "cooldownDays": 5,
+    "tone": "ausencia-operacional",
+    "resultTypes": ["alerta_perdido"],
+    "minHeroes": 0,
+    "maxHeroes": 0,
+    "beats": [
+      {
+        "phase": "chamado",
+        "time": "00:00",
+        "text": "O chamado entrou no painel com risco {risk}, mas nenhuma equipe ficou livre a tempo de assumir a ocorrência."
+      },
+      {
+        "phase": "despacho",
+        "time": "03:00",
+        "text": "{dispatcher} manteve o alerta aberto enquanto outras frentes consumiam a escala."
+      },
+      {
+        "phase": "complicacao",
+        "time": "12:00",
+        "text": "Sem resposta da Central, {district} começou a improvisar: curiosos, serviços civis e rotas bloqueadas disputando espaço."
+      },
+      {
+        "phase": "resolucao",
+        "time": "fim",
+        "text": "O alerta foi encerrado como {result}, com dano {collateralDamage} e nenhum civil contabilizado pela equipe."
+      },
+      {
+        "phase": "consequencia",
+        "time": "fim",
+        "text": "A ausência virou parte do relatório. Nem toda falha acontece no local da missão."
+      }
+    ],
+    "seeds": {
+      "headlineSeeds": ["{district} cobra explicações após alerta sem equipe"],
+      "socialSeeds": ["A sirene tocou. A Central não veio. E a gente teve que assistir."],
+      "legacySeeds": []
+    }
+  },
+  {
+    "id": "pbp-energy-blackout-01",
+    "priority": 86,
+    "cooldownDays": 8,
+    "tone": "eletrico",
+    "resultTypes": ["any"],
+    "factionIds": ["sindicato_do_apagao"],
+    "missionTags": ["energia", "infraestrutura", "hospital", "calor"],
+    "beats": [
+      {
+        "phase": "chamado",
+        "time": "00:00",
+        "text": "A queda de energia não apagou a cidade inteira, mas apagou exatamente os pontos que não podiam falhar."
+      },
+      {
+        "phase": "despacho",
+        "time": "02:00",
+        "text": "{dispatcher} mandou {hero:0} tratar a luz como refém: estabilizar primeiro, negociar com o risco depois."
+      },
+      {
+        "phase": "chegada",
+        "time": "05:30",
+        "text": "Em {district}, cada oscilação mudava o som da rua: elevadores parando, geradores tossindo, gente contando segundos."
+      },
+      {
+        "phase": "facção",
+        "time": "11:20",
+        "text": "A assinatura de carga indicou {faction}. Aquilo não era pane; era demonstração de poder."
+      },
+      {
+        "phase": "virada",
+        "time": "21:00",
+        "text": "A equipe isolou o circuito crítico e forçou a ameaça a escolher entre fugir ou perder equipamento."
+      },
+      {
+        "phase": "resolucao",
+        "time": "fim",
+        "text": "A missão terminou como {result}. A luz voltou, mas a confiança ainda piscou algumas vezes."
+      }
+    ],
+    "seeds": {
+      "headlineSeeds": ["Apagão seletivo em {district} sugere ação coordenada"],
+      "socialSeeds": ["Quando a luz voltou, metade da rua aplaudiu e a outra metade perguntou quem apagou."],
+      "legacySeeds": []
+    }
+  },
+  {
+    "id": "pbp-capture-tense-01",
+    "priority": 92,
+    "cooldownDays": 10,
+    "tone": "captura-tensa",
+    "resultTypes": ["captura_realizada"],
+    "requires": { "capture": true },
+    "missionTags": ["*"],
+    "beats": [
+      {
+        "phase": "chamado",
+        "time": "00:00",
+        "text": "O chamado parecia sobre a ocorrência. Só depois a Central percebeu que {villain} também estava na cena."
+      },
+      {
+        "phase": "chegada",
+        "time": "05:00",
+        "text": "{hero:0} chegou tarde demais para evitar o rastro, mas cedo o bastante para fechar a rota de fuga."
+      },
+      {
+        "phase": "complicacao",
+        "time": "13:30",
+        "text": "{villain} tentou usar civis, ruído e dano material como cortina. A equipe não comprou a distração."
+      },
+      {
+        "phase": "captura",
+        "time": "24:00",
+        "text": "A captura aconteceu sem discurso. Um bloqueio, uma queda de ritmo e o Arquivo de Vilões ganhou peso novo."
+      },
+      {
+        "phase": "consequencia",
+        "time": "fim",
+        "text": "{district} ainda tinha marcas da ocorrência, mas {villain} não saiu andando delas."
+      }
+    ],
+    "seeds": {
+      "headlineSeeds": ["{villain} é capturado após ocorrência em {district}"],
+      "socialSeeds": ["Dessa vez o vilão saiu no banco de trás, não no boato."],
+      "legacySeeds": ["{villain} foi capturado por {hero:0} em {district}."]
+    }
+  },
+  {
+    "id": "pbp-heroic-loss-01",
+    "priority": 100,
+    "cooldownDays": 14,
+    "tone": "luto-operacional",
+    "resultTypes": ["heroi_morto", "tragedia_operacional"],
+    "requires": { "death": true },
+    "missionTags": ["*"],
+    "beats": [
+      {
+        "phase": "chamado",
+        "time": "00:00",
+        "text": "O chamado entrou como tantos outros. Nenhum sistema da Central marca antecipadamente uma missão que vai doer."
+      },
+      {
+        "phase": "despacho",
+        "time": "02:10",
+        "text": "{dispatcher} manteve o protocolo limpo. A equipe respondeu como se houvesse tempo suficiente."
+      },
+      {
+        "phase": "complicacao",
+        "time": "11:40",
+        "text": "A cena virou rápido demais. O risco deixou de estar no relatório e passou a respirar perto da equipe."
+      },
+      {
+        "phase": "morte",
+        "time": "fim",
+        "text": "O rádio ficou sem frase final organizada. A Central registrou perda, missão e silêncio."
+      },
+      {
+        "phase": "consequencia",
+        "time": "fim",
+        "text": "{district} foi estabilizado, mas a vitória, se existiu, saiu pequena demais para caber em manchete."
+      }
+    ],
+    "seeds": {
+      "headlineSeeds": ["Central perde herói em ocorrência de alto risco"],
+      "socialSeeds": ["Hoje a sirene soou diferente. Todo mundo percebeu."],
+      "legacySeeds": ["A missão {eventTitle} entrou para a memória da Central."]
+    }
+  }
+]

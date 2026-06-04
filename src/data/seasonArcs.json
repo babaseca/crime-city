@@ -1,0 +1,18 @@
+[
+  {
+    "id": "temporada_1_cidade_em_alerta",
+    "name": "Cidade em Alerta",
+    "startDay": 1,
+    "mainFactionId": "coroa_do_subsolo",
+    "finaleEventId": "crise_galerias_coroa",
+    "status": "active",
+    "progress": 0,
+    "stages": [
+      { "stage": 1, "label": "Pistas nos bairros industriais", "threshold": 15 },
+      { "stage": 2, "label": "Facções testam a Central", "threshold": 40 },
+      { "stage": 3, "label": "Crise pública anunciada", "threshold": 70 },
+      { "stage": 4, "label": "Finale de temporada", "threshold": 100 }
+    ],
+    "outcomes": []
+  }
+]

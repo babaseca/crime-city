@@ -1,0 +1,131 @@
+[
+  {
+    "id": "pbp-drones-doca-leste-controlled-01",
+    "eventId": "evt-13-02",
+    "priority": 120,
+    "cooldownDays": 12,
+    "tone": "tenso-operacional",
+    "resultTypes": ["missao_controlada", "resolucao_exemplar", "sucesso_com_dano_leve"],
+    "districtIds": ["doca_leste"],
+    "factionIds": ["oficina_da_mare_seca"],
+    "missionTags": ["tecnologia", "transito", "maquinas"],
+    "summary": "{hero:0} conteve o enxame antes que as rotas de ambulância fossem bloqueadas em {district}.",
+    "beats": [
+      {
+        "phase": "chamado",
+        "time": "00:00",
+        "text": "O alerta entrou como falha de rota em drones de entrega, mas três desvios simultâneos acenderam o painel da Central."
+      },
+      {
+        "phase": "despacho",
+        "time": "02:15",
+        "text": "{hero:0} foi enviado para abrir passagem e impedir que o bloqueio alcançasse a rota das ambulâncias."
+      },
+      {
+        "phase": "chegada",
+        "time": "05:40",
+        "text": "Em {district}, guindastes antigos, ruas estreitas e curiosos na calçada transformaram aproximação em segunda ocorrência."
+      },
+      {
+        "phase": "complicacao",
+        "time": "09:30",
+        "text": "Os drones mudaram de altitude juntos. A chance de pane caiu; a hipótese de comando remoto ficou grande demais para ignorar."
+      },
+      {
+        "phase": "primeira_acao",
+        "time": "16:10",
+        "text": "{hero:0} priorizou os civis e abriu um corredor seguro antes de tentar derrubar os equipamentos."
+      },
+      {
+        "phase": "facção",
+        "time": "24:50",
+        "text": "O padrão de sinal apontou para {faction}. A missão deixou de ser acidente e virou recado."
+      },
+      {
+        "phase": "resolucao",
+        "time": "45:00",
+        "text": "A ocorrência foi encerrada com dano {collateralDamage}. {civiliansSaved} civis saíram da área antes que a rua travasse por completo."
+      }
+    ],
+    "seeds": {
+      "headlineSeeds": ["Drones bloquearam rota de ambulância em {district}"],
+      "socialSeeds": ["Se {hero:0} não abre aquela rua, ambulância nenhuma passava hoje."],
+      "legacySeeds": []
+    }
+  },
+  {
+    "id": "pbp-tech-sabotage-01",
+    "priority": 84,
+    "cooldownDays": 8,
+    "tone": "investigativo",
+    "resultTypes": ["missao_controlada", "falha_parcial", "sucesso_com_dano_leve"],
+    "missionTags": ["tecnologia", "dados", "sinal", "maquinas"],
+    "beats": [
+      {
+        "phase": "chamado",
+        "time": "00:00",
+        "text": "O sistema registrou falha técnica, mas a repetição do padrão denunciou intenção antes do primeiro contato visual."
+      },
+      {
+        "phase": "chegada",
+        "time": "04:20",
+        "text": "{hero:0} encontrou uma cena organizada demais para ser acidente e caótica demais para esperar autorização."
+      },
+      {
+        "phase": "complicacao",
+        "time": "10:00",
+        "text": "Quando a equipe isolou um sinal, outro começou a responder. A ocorrência parecia aprender com a contenção."
+      },
+      {
+        "phase": "primeira_acao",
+        "time": "16:40",
+        "text": "A resposta foi cortar dependências: civis primeiro, energia depois, rastros por último."
+      },
+      {
+        "phase": "resolucao",
+        "time": "fim",
+        "text": "A missão terminou como {result}. A causa técnica ficou menor que a pergunta política que ela deixou."
+      }
+    ],
+    "seeds": {
+      "headlineSeeds": ["Falha técnica em {district} levanta suspeita de sabotagem"],
+      "socialSeeds": ["Não parecia pane. Parecia alguém testando resposta da Central em {district}."],
+      "legacySeeds": []
+    }
+  },
+  {
+    "id": "pbp-traffic-data-01",
+    "priority": 78,
+    "cooldownDays": 8,
+    "tone": "urbano",
+    "resultTypes": ["any"],
+    "missionTags": ["transito", "dados", "transporte"],
+    "beats": [
+      {
+        "phase": "chamado",
+        "time": "00:00",
+        "text": "O trânsito começou a falhar como se a cidade tivesse esquecido a própria coreografia."
+      },
+      {
+        "phase": "despacho",
+        "time": "03:00",
+        "text": "{dispatcher} mandou {hero:0} tratar cruzamento, pedestre e sistema como partes da mesma ocorrência."
+      },
+      {
+        "phase": "chegada",
+        "time": "06:30",
+        "text": "A rua já estava montando seu próprio desastre: gente parada onde deveria correr, veículos avançando onde deveriam esperar."
+      },
+      {
+        "phase": "virada",
+        "time": "18:10",
+        "text": "A virada veio quando a equipe parou de seguir o fluxo e criou um fluxo novo."
+      },
+      {
+        "phase": "consequencia",
+        "time": "fim",
+        "text": "{district} ficou com dano {collateralDamage}, mas a malha urbana voltou a respirar."
+      }
+    ]
+  }
+]

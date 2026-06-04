@@ -1,0 +1,19 @@
+{
+  "version": "0.9.5",
+  "chunks": {
+    "generic": "genericBeats.json",
+    "results": "resultBeats.json",
+    "districts": "districtBeats.json",
+    "factions": "factionBeats.json",
+    "roles": "heroRoleBeats.json",
+    "combos": "comboBeats.json",
+    "injuries": "injuryBeats.json",
+    "captures": "captureBeats.json"
+  },
+  "eventVariantChunks": [
+    "eventVariants/part-001.json",
+    "eventVariants/part-002.json",
+    "eventVariants/part-003.json"
+  ],
+  "lazyLoadingNote": "A primeira implementação carrega os chunks estaticamente. A estrutura separada prepara import dinâmico por categoria, tag, bairro ou eventId."
+}

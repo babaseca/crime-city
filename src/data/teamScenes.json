@@ -1,0 +1,1230 @@
+[
+  {
+    "id": "reuniao_manha_cafe_fraco",
+    "type": "reuniao_manha",
+    "tone": "comico",
+    "requiredMorale": "any",
+    "text": "Na reunião matinal, alguém trocou o café da Central por uma versão descafeinada. A equipe descobriu em silêncio, que é a forma mais perigosa de descobrir qualquer coisa.",
+    "effects": {
+      "teamMorale": 1,
+      "stress": -1
+    }
+  },
+  {
+    "id": "enfermaria_radio_baixo",
+    "type": "enfermaria",
+    "tone": "intimo",
+    "requiredStress": 60,
+    "text": "A enfermaria ficou com o rádio baixo por dez minutos. Ninguém chamou isso de pausa, mas todo mundo respirou como se fosse.",
+    "effects": {
+      "teamMorale": 2,
+      "stress": -3
+    }
+  },
+  {
+    "id": "corredor_atrito_escala",
+    "type": "discussao",
+    "tone": "tenso",
+    "requiredMoraleBelow": 45,
+    "text": "Dois heróis discutiram no corredor sobre quem ficou tempo demais de plantão. A discussão terminou antes de virar grito, mas deixou marca na escala.",
+    "effects": {
+      "teamMorale": -2,
+      "stress": 2
+    }
+  },
+  {
+    "id": "telhado_sirene_longe",
+    "type": "telhado",
+    "tone": "melancolico",
+    "requiredMorale": "any",
+    "text": "No telhado, a cidade parecia calma por exatamente vinte segundos. Alguém disse que isso já contava como férias no setor público.",
+    "effects": {
+      "teamMorale": 1,
+      "stress": -2
+    }
+  },
+  {
+    "id": "treino_combo_improvisado",
+    "type": "sala de treino",
+    "tone": "heroico",
+    "requiredMoraleAbove": 60,
+    "text": "A equipe transformou um erro de simulação em manobra nova. O relatório chamou de sinergia. Os heróis chamaram de sorte com assinatura.",
+    "effects": {
+      "teamMorale": 2,
+      "stress": -1,
+      "comboProgress": 1
+    }
+  },
+  {
+    "id": "team_scene_reuniao_manha_1",
+    "type": "reuniao_manha",
+    "tone": "comico",
+    "requiredMoraleAbove": 65,
+    "requiredMoraleBelow": 45,
+    "requiredStress": 55,
+    "text": "A reunião começa com todos olhando para o mapa, mas ninguém para o biscoito abandonado no centro da mesa. O Dispatcher percebe que foco também é logística emocional. O registro fica como cena de convivência, não como ocorrência.",
+    "effects": {
+      "teamMorale": -1,
+      "stress": -2
+    },
+    "choices": [
+      {
+        "id": "ouvir",
+        "label": "Ouvir primeiro",
+        "effects": {
+          "teamMorale": 2
+        }
+      },
+      {
+        "id": "cobrar",
+        "label": "Cobrar postura",
+        "effects": {
+          "teamMorale": -1
+        }
+      }
+    ]
+  },
+  {
+    "id": "team_scene_refeitorio_2",
+    "type": "refeitorio",
+    "tone": "intimo",
+    "text": "No refeitório, uma piada pequena atravessa uma noite pesada. Não resolve o mundo, mas faz a equipe lembrar que ainda existe intervalo. O plantão segue, um pouco menos automático.",
+    "effects": {
+      "teamMorale": 0,
+      "stress": -1
+    }
+  },
+  {
+    "id": "team_scene_enfermaria_3",
+    "type": "enfermaria",
+    "tone": "esperançoso",
+    "text": "Na enfermaria, um curativo vira conversa honesta sobre medo. A pessoa ferida insiste que está bem; ninguém acredita, e isso ajuda. O plantão segue, um pouco menos automático.",
+    "effects": {
+      "teamMorale": 1,
+      "stress": -1
+    }
+  },
+  {
+    "id": "team_scene_sala_treino_4",
+    "type": "sala_treino",
+    "tone": "absurdo",
+    "text": "Na sala de treino, dois heróis discutem técnica até perceber que estavam descrevendo a mesma coisa com teimosias diferentes. O plantão segue, um pouco menos automático.",
+    "effects": {
+      "teamMorale": 2,
+      "stress": -1
+    }
+  },
+  {
+    "id": "team_scene_corredor_5",
+    "type": "corredor",
+    "tone": "comico",
+    "text": "No corredor, alguém deixa um bilhete de incentivo sem assinar. Todo mundo finge não saber quem foi. O registro fica como cena de convivência, não como ocorrência.",
+    "effects": {
+      "teamMorale": 3,
+      "stress": -2
+    }
+  },
+  {
+    "id": "team_scene_telhado_6",
+    "type": "telhado",
+    "tone": "intimo",
+    "text": "No telhado, a cidade parece menor por cinco minutos. A equipe não resolve nada, mas respira no mesmo ritmo. O plantão segue, um pouco menos automático.",
+    "effects": {
+      "teamMorale": -1,
+      "stress": -1
+    }
+  },
+  {
+    "id": "team_scene_sala_comando_7",
+    "type": "sala_comando",
+    "tone": "esperançoso",
+    "text": "Na sala de comando, o rádio chia com alerta falso. A equipe ri só depois de confirmar três vezes que era falso mesmo. O plantão segue, um pouco menos automático.",
+    "effects": {
+      "teamMorale": 0,
+      "stress": -1
+    }
+  },
+  {
+    "id": "team_scene_discussao_8",
+    "type": "discussao",
+    "tone": "absurdo",
+    "text": "Uma discussão começa por escala e termina em pedido de desculpas mal formulado, que ainda assim conta. O plantão segue, um pouco menos automático.",
+    "effects": {
+      "teamMorale": 1,
+      "stress": 2
+    }
+  },
+  {
+    "id": "team_scene_reconciliacao_9",
+    "type": "reconciliacao",
+    "tone": "comico",
+    "text": "Um herói novo pergunta onde ficam as canecas. Recebe um mapa, três avisos e uma história que ninguém devia contar no primeiro dia. O registro fica como cena de convivência, não como ocorrência.",
+    "effects": {
+      "teamMorale": 2,
+      "stress": -2
+    },
+    "choices": [
+      {
+        "id": "ouvir",
+        "label": "Ouvir primeiro",
+        "effects": {
+          "teamMorale": 2
+        }
+      },
+      {
+        "id": "cobrar",
+        "label": "Cobrar postura",
+        "effects": {
+          "teamMorale": -1
+        }
+      }
+    ]
+  },
+  {
+    "id": "team_scene_luto_10",
+    "type": "luto",
+    "tone": "intimo",
+    "requiredMoraleAbove": 65,
+    "text": "A Rede Aurora transforma uma missão em meme. A equipe decide que sobreviver à opinião pública também deveria render adicional. O plantão segue, um pouco menos automático.",
+    "effects": {
+      "teamMorale": 3,
+      "stress": -1
+    }
+  },
+  {
+    "id": "team_scene_chegada_heroi_11",
+    "type": "chegada_heroi",
+    "tone": "esperançoso",
+    "requiredMoraleBelow": 45,
+    "text": "A reunião começa com todos olhando para o mapa, mas ninguém para o biscoito abandonado no centro da mesa. O Dispatcher percebe que foco também é logística emocional. O plantão segue, um pouco menos automático.",
+    "effects": {
+      "teamMorale": -1,
+      "stress": -1
+    }
+  },
+  {
+    "id": "team_scene_midia_12",
+    "type": "midia",
+    "tone": "absurdo",
+    "requiredStress": 55,
+    "text": "No refeitório, uma piada pequena atravessa uma noite pesada. Não resolve o mundo, mas faz a equipe lembrar que ainda existe intervalo. O plantão segue, um pouco menos automático.",
+    "effects": {
+      "teamMorale": 0,
+      "stress": -1
+    }
+  },
+  {
+    "id": "team_scene_reuniao_manha_13",
+    "type": "reuniao_manha",
+    "tone": "comico",
+    "text": "Na enfermaria, um curativo vira conversa honesta sobre medo. A pessoa ferida insiste que está bem; ninguém acredita, e isso ajuda. O registro fica como cena de convivência, não como ocorrência.",
+    "effects": {
+      "teamMorale": 1,
+      "stress": -2
+    }
+  },
+  {
+    "id": "team_scene_refeitorio_14",
+    "type": "refeitorio",
+    "tone": "intimo",
+    "text": "Na sala de treino, dois heróis discutem técnica até perceber que estavam descrevendo a mesma coisa com teimosias diferentes. O plantão segue, um pouco menos automático.",
+    "effects": {
+      "teamMorale": 2,
+      "stress": -1
+    }
+  },
+  {
+    "id": "team_scene_enfermaria_15",
+    "type": "enfermaria",
+    "tone": "esperançoso",
+    "text": "No corredor, alguém deixa um bilhete de incentivo sem assinar. Todo mundo finge não saber quem foi. O plantão segue, um pouco menos automático.",
+    "effects": {
+      "teamMorale": 3,
+      "stress": 2
+    }
+  },
+  {
+    "id": "team_scene_sala_treino_16",
+    "type": "sala_treino",
+    "tone": "absurdo",
+    "text": "No telhado, a cidade parece menor por cinco minutos. A equipe não resolve nada, mas respira no mesmo ritmo. O plantão segue, um pouco menos automático.",
+    "effects": {
+      "teamMorale": -1,
+      "stress": -1
+    }
+  },
+  {
+    "id": "team_scene_corredor_17",
+    "type": "corredor",
+    "tone": "comico",
+    "text": "Na sala de comando, o rádio chia com alerta falso. A equipe ri só depois de confirmar três vezes que era falso mesmo. O registro fica como cena de convivência, não como ocorrência.",
+    "effects": {
+      "teamMorale": 0,
+      "stress": -2
+    },
+    "choices": [
+      {
+        "id": "ouvir",
+        "label": "Ouvir primeiro",
+        "effects": {
+          "teamMorale": 2
+        }
+      },
+      {
+        "id": "cobrar",
+        "label": "Cobrar postura",
+        "effects": {
+          "teamMorale": -1
+        }
+      }
+    ]
+  },
+  {
+    "id": "team_scene_telhado_18",
+    "type": "telhado",
+    "tone": "intimo",
+    "text": "Uma discussão começa por escala e termina em pedido de desculpas mal formulado, que ainda assim conta. O plantão segue, um pouco menos automático.",
+    "effects": {
+      "teamMorale": 1,
+      "stress": -1
+    }
+  },
+  {
+    "id": "team_scene_sala_comando_19",
+    "type": "sala_comando",
+    "tone": "esperançoso",
+    "requiredMoraleAbove": 65,
+    "text": "Um herói novo pergunta onde ficam as canecas. Recebe um mapa, três avisos e uma história que ninguém devia contar no primeiro dia. O plantão segue, um pouco menos automático.",
+    "effects": {
+      "teamMorale": 2,
+      "stress": -1
+    }
+  },
+  {
+    "id": "team_scene_discussao_20",
+    "type": "discussao",
+    "tone": "absurdo",
+    "text": "A Rede Aurora transforma uma missão em meme. A equipe decide que sobreviver à opinião pública também deveria render adicional. O plantão segue, um pouco menos automático.",
+    "effects": {
+      "teamMorale": 3,
+      "stress": -1
+    }
+  },
+  {
+    "id": "team_scene_reconciliacao_21",
+    "type": "reconciliacao",
+    "tone": "comico",
+    "requiredMoraleBelow": 45,
+    "text": "A reunião começa com todos olhando para o mapa, mas ninguém para o biscoito abandonado no centro da mesa. O Dispatcher percebe que foco também é logística emocional. O registro fica como cena de convivência, não como ocorrência.",
+    "effects": {
+      "teamMorale": -1,
+      "stress": -2
+    }
+  },
+  {
+    "id": "team_scene_luto_22",
+    "type": "luto",
+    "tone": "intimo",
+    "text": "No refeitório, uma piada pequena atravessa uma noite pesada. Não resolve o mundo, mas faz a equipe lembrar que ainda existe intervalo. O plantão segue, um pouco menos automático.",
+    "effects": {
+      "teamMorale": 0,
+      "stress": 2
+    }
+  },
+  {
+    "id": "team_scene_chegada_heroi_23",
+    "type": "chegada_heroi",
+    "tone": "esperançoso",
+    "requiredStress": 55,
+    "text": "Na enfermaria, um curativo vira conversa honesta sobre medo. A pessoa ferida insiste que está bem; ninguém acredita, e isso ajuda. O plantão segue, um pouco menos automático.",
+    "effects": {
+      "teamMorale": 1,
+      "stress": -1
+    }
+  },
+  {
+    "id": "team_scene_midia_24",
+    "type": "midia",
+    "tone": "absurdo",
+    "text": "Na sala de treino, dois heróis discutem técnica até perceber que estavam descrevendo a mesma coisa com teimosias diferentes. O plantão segue, um pouco menos automático.",
+    "effects": {
+      "teamMorale": 2,
+      "stress": -1
+    }
+  },
+  {
+    "id": "team_scene_reuniao_manha_25",
+    "type": "reuniao_manha",
+    "tone": "comico",
+    "text": "No corredor, alguém deixa um bilhete de incentivo sem assinar. Todo mundo finge não saber quem foi. O registro fica como cena de convivência, não como ocorrência.",
+    "effects": {
+      "teamMorale": 3,
+      "stress": -2
+    },
+    "choices": [
+      {
+        "id": "ouvir",
+        "label": "Ouvir primeiro",
+        "effects": {
+          "teamMorale": 2
+        }
+      },
+      {
+        "id": "cobrar",
+        "label": "Cobrar postura",
+        "effects": {
+          "teamMorale": -1
+        }
+      }
+    ]
+  },
+  {
+    "id": "team_scene_refeitorio_26",
+    "type": "refeitorio",
+    "tone": "intimo",
+    "text": "No telhado, a cidade parece menor por cinco minutos. A equipe não resolve nada, mas respira no mesmo ritmo. O plantão segue, um pouco menos automático.",
+    "effects": {
+      "teamMorale": -1,
+      "stress": -1
+    }
+  },
+  {
+    "id": "team_scene_enfermaria_27",
+    "type": "enfermaria",
+    "tone": "esperançoso",
+    "text": "Na sala de comando, o rádio chia com alerta falso. A equipe ri só depois de confirmar três vezes que era falso mesmo. O plantão segue, um pouco menos automático.",
+    "effects": {
+      "teamMorale": 0,
+      "stress": -1
+    }
+  },
+  {
+    "id": "team_scene_sala_treino_28",
+    "type": "sala_treino",
+    "tone": "absurdo",
+    "requiredMoraleAbove": 65,
+    "text": "Uma discussão começa por escala e termina em pedido de desculpas mal formulado, que ainda assim conta. O plantão segue, um pouco menos automático.",
+    "effects": {
+      "teamMorale": 1,
+      "stress": -1
+    }
+  },
+  {
+    "id": "team_scene_corredor_29",
+    "type": "corredor",
+    "tone": "comico",
+    "text": "Um herói novo pergunta onde ficam as canecas. Recebe um mapa, três avisos e uma história que ninguém devia contar no primeiro dia. O registro fica como cena de convivência, não como ocorrência.",
+    "effects": {
+      "teamMorale": 2,
+      "stress": -2
+    }
+  },
+  {
+    "id": "team_scene_telhado_30",
+    "type": "telhado",
+    "tone": "intimo",
+    "text": "A Rede Aurora transforma uma missão em meme. A equipe decide que sobreviver à opinião pública também deveria render adicional. O plantão segue, um pouco menos automático.",
+    "effects": {
+      "teamMorale": 3,
+      "stress": -1
+    }
+  },
+  {
+    "id": "team_scene_sala_comando_31",
+    "type": "sala_comando",
+    "tone": "esperançoso",
+    "requiredMoraleBelow": 45,
+    "text": "A reunião começa com todos olhando para o mapa, mas ninguém para o biscoito abandonado no centro da mesa. O Dispatcher percebe que foco também é logística emocional. O plantão segue, um pouco menos automático.",
+    "effects": {
+      "teamMorale": -1,
+      "stress": -1
+    }
+  },
+  {
+    "id": "team_scene_discussao_32",
+    "type": "discussao",
+    "tone": "absurdo",
+    "text": "No refeitório, uma piada pequena atravessa uma noite pesada. Não resolve o mundo, mas faz a equipe lembrar que ainda existe intervalo. O plantão segue, um pouco menos automático.",
+    "effects": {
+      "teamMorale": 0,
+      "stress": -1
+    }
+  },
+  {
+    "id": "team_scene_reconciliacao_33",
+    "type": "reconciliacao",
+    "tone": "comico",
+    "text": "Na enfermaria, um curativo vira conversa honesta sobre medo. A pessoa ferida insiste que está bem; ninguém acredita, e isso ajuda. O registro fica como cena de convivência, não como ocorrência.",
+    "effects": {
+      "teamMorale": 1,
+      "stress": -2
+    },
+    "choices": [
+      {
+        "id": "ouvir",
+        "label": "Ouvir primeiro",
+        "effects": {
+          "teamMorale": 2
+        }
+      },
+      {
+        "id": "cobrar",
+        "label": "Cobrar postura",
+        "effects": {
+          "teamMorale": -1
+        }
+      }
+    ]
+  },
+  {
+    "id": "team_scene_luto_34",
+    "type": "luto",
+    "tone": "intimo",
+    "requiredStress": 55,
+    "text": "Na sala de treino, dois heróis discutem técnica até perceber que estavam descrevendo a mesma coisa com teimosias diferentes. O plantão segue, um pouco menos automático.",
+    "effects": {
+      "teamMorale": 2,
+      "stress": -1
+    }
+  },
+  {
+    "id": "team_scene_chegada_heroi_35",
+    "type": "chegada_heroi",
+    "tone": "esperançoso",
+    "text": "No corredor, alguém deixa um bilhete de incentivo sem assinar. Todo mundo finge não saber quem foi. O plantão segue, um pouco menos automático.",
+    "effects": {
+      "teamMorale": 3,
+      "stress": -1
+    }
+  },
+  {
+    "id": "team_scene_midia_36",
+    "type": "midia",
+    "tone": "absurdo",
+    "text": "No telhado, a cidade parece menor por cinco minutos. A equipe não resolve nada, mas respira no mesmo ritmo. O plantão segue, um pouco menos automático.",
+    "effects": {
+      "teamMorale": -1,
+      "stress": 2
+    }
+  },
+  {
+    "id": "team_scene_reuniao_manha_37",
+    "type": "reuniao_manha",
+    "tone": "comico",
+    "requiredMoraleAbove": 65,
+    "text": "Na sala de comando, o rádio chia com alerta falso. A equipe ri só depois de confirmar três vezes que era falso mesmo. O registro fica como cena de convivência, não como ocorrência.",
+    "effects": {
+      "teamMorale": 0,
+      "stress": -2
+    }
+  },
+  {
+    "id": "team_scene_refeitorio_38",
+    "type": "refeitorio",
+    "tone": "intimo",
+    "text": "Uma discussão começa por escala e termina em pedido de desculpas mal formulado, que ainda assim conta. O plantão segue, um pouco menos automático.",
+    "effects": {
+      "teamMorale": 1,
+      "stress": -1
+    }
+  },
+  {
+    "id": "team_scene_enfermaria_39",
+    "type": "enfermaria",
+    "tone": "esperançoso",
+    "text": "Um herói novo pergunta onde ficam as canecas. Recebe um mapa, três avisos e uma história que ninguém devia contar no primeiro dia. O plantão segue, um pouco menos automático.",
+    "effects": {
+      "teamMorale": 2,
+      "stress": -1
+    }
+  },
+  {
+    "id": "team_scene_sala_treino_40",
+    "type": "sala_treino",
+    "tone": "absurdo",
+    "text": "A Rede Aurora transforma uma missão em meme. A equipe decide que sobreviver à opinião pública também deveria render adicional. O plantão segue, um pouco menos automático.",
+    "effects": {
+      "teamMorale": 3,
+      "stress": -1
+    }
+  },
+  {
+    "id": "team_scene_corredor_41",
+    "type": "corredor",
+    "tone": "comico",
+    "requiredMoraleBelow": 45,
+    "text": "A reunião começa com todos olhando para o mapa, mas ninguém para o biscoito abandonado no centro da mesa. O Dispatcher percebe que foco também é logística emocional. O registro fica como cena de convivência, não como ocorrência.",
+    "effects": {
+      "teamMorale": -1,
+      "stress": -2
+    },
+    "choices": [
+      {
+        "id": "ouvir",
+        "label": "Ouvir primeiro",
+        "effects": {
+          "teamMorale": 2
+        }
+      },
+      {
+        "id": "cobrar",
+        "label": "Cobrar postura",
+        "effects": {
+          "teamMorale": -1
+        }
+      }
+    ]
+  },
+  {
+    "id": "team_scene_telhado_42",
+    "type": "telhado",
+    "tone": "intimo",
+    "text": "No refeitório, uma piada pequena atravessa uma noite pesada. Não resolve o mundo, mas faz a equipe lembrar que ainda existe intervalo. O plantão segue, um pouco menos automático.",
+    "effects": {
+      "teamMorale": 0,
+      "stress": -1
+    }
+  },
+  {
+    "id": "team_scene_sala_comando_43",
+    "type": "sala_comando",
+    "tone": "esperançoso",
+    "text": "Na enfermaria, um curativo vira conversa honesta sobre medo. A pessoa ferida insiste que está bem; ninguém acredita, e isso ajuda. O plantão segue, um pouco menos automático.",
+    "effects": {
+      "teamMorale": 1,
+      "stress": 2
+    }
+  },
+  {
+    "id": "team_scene_discussao_44",
+    "type": "discussao",
+    "tone": "absurdo",
+    "text": "Na sala de treino, dois heróis discutem técnica até perceber que estavam descrevendo a mesma coisa com teimosias diferentes. O plantão segue, um pouco menos automático.",
+    "effects": {
+      "teamMorale": 2,
+      "stress": -1
+    }
+  },
+  {
+    "id": "team_scene_reconciliacao_45",
+    "type": "reconciliacao",
+    "tone": "comico",
+    "requiredStress": 55,
+    "text": "No corredor, alguém deixa um bilhete de incentivo sem assinar. Todo mundo finge não saber quem foi. O registro fica como cena de convivência, não como ocorrência.",
+    "effects": {
+      "teamMorale": 3,
+      "stress": -2
+    }
+  },
+  {
+    "id": "team_scene_luto_46",
+    "type": "luto",
+    "tone": "intimo",
+    "requiredMoraleAbove": 65,
+    "text": "No telhado, a cidade parece menor por cinco minutos. A equipe não resolve nada, mas respira no mesmo ritmo. O plantão segue, um pouco menos automático.",
+    "effects": {
+      "teamMorale": -1,
+      "stress": -1
+    }
+  },
+  {
+    "id": "team_scene_chegada_heroi_47",
+    "type": "chegada_heroi",
+    "tone": "esperançoso",
+    "text": "Na sala de comando, o rádio chia com alerta falso. A equipe ri só depois de confirmar três vezes que era falso mesmo. O plantão segue, um pouco menos automático.",
+    "effects": {
+      "teamMorale": 0,
+      "stress": -1
+    }
+  },
+  {
+    "id": "team_scene_midia_48",
+    "type": "midia",
+    "tone": "absurdo",
+    "text": "Uma discussão começa por escala e termina em pedido de desculpas mal formulado, que ainda assim conta. O plantão segue, um pouco menos automático.",
+    "effects": {
+      "teamMorale": 1,
+      "stress": -1
+    }
+  },
+  {
+    "id": "team_scene_reuniao_manha_49",
+    "type": "reuniao_manha",
+    "tone": "comico",
+    "text": "Um herói novo pergunta onde ficam as canecas. Recebe um mapa, três avisos e uma história que ninguém devia contar no primeiro dia. O registro fica como cena de convivência, não como ocorrência.",
+    "effects": {
+      "teamMorale": 2,
+      "stress": -2
+    },
+    "choices": [
+      {
+        "id": "ouvir",
+        "label": "Ouvir primeiro",
+        "effects": {
+          "teamMorale": 2
+        }
+      },
+      {
+        "id": "cobrar",
+        "label": "Cobrar postura",
+        "effects": {
+          "teamMorale": -1
+        }
+      }
+    ]
+  },
+  {
+    "id": "team_scene_refeitorio_50",
+    "type": "refeitorio",
+    "tone": "intimo",
+    "text": "A Rede Aurora transforma uma missão em meme. A equipe decide que sobreviver à opinião pública também deveria render adicional. O plantão segue, um pouco menos automático.",
+    "effects": {
+      "teamMorale": 3,
+      "stress": 2
+    }
+  },
+  {
+    "id": "team_scene_enfermaria_51",
+    "type": "enfermaria",
+    "tone": "esperançoso",
+    "requiredMoraleBelow": 45,
+    "text": "A reunião começa com todos olhando para o mapa, mas ninguém para o biscoito abandonado no centro da mesa. O Dispatcher percebe que foco também é logística emocional. O plantão segue, um pouco menos automático.",
+    "effects": {
+      "teamMorale": -1,
+      "stress": -1
+    }
+  },
+  {
+    "id": "team_scene_sala_treino_52",
+    "type": "sala_treino",
+    "tone": "absurdo",
+    "text": "No refeitório, uma piada pequena atravessa uma noite pesada. Não resolve o mundo, mas faz a equipe lembrar que ainda existe intervalo. O plantão segue, um pouco menos automático.",
+    "effects": {
+      "teamMorale": 0,
+      "stress": -1
+    }
+  },
+  {
+    "id": "team_scene_corredor_53",
+    "type": "corredor",
+    "tone": "comico",
+    "text": "Na enfermaria, um curativo vira conversa honesta sobre medo. A pessoa ferida insiste que está bem; ninguém acredita, e isso ajuda. O registro fica como cena de convivência, não como ocorrência.",
+    "effects": {
+      "teamMorale": 1,
+      "stress": -2
+    }
+  },
+  {
+    "id": "team_scene_telhado_54",
+    "type": "telhado",
+    "tone": "intimo",
+    "text": "Na sala de treino, dois heróis discutem técnica até perceber que estavam descrevendo a mesma coisa com teimosias diferentes. O plantão segue, um pouco menos automático.",
+    "effects": {
+      "teamMorale": 2,
+      "stress": -1
+    }
+  },
+  {
+    "id": "team_scene_sala_comando_55",
+    "type": "sala_comando",
+    "tone": "esperançoso",
+    "requiredMoraleAbove": 65,
+    "text": "No corredor, alguém deixa um bilhete de incentivo sem assinar. Todo mundo finge não saber quem foi. O plantão segue, um pouco menos automático.",
+    "effects": {
+      "teamMorale": 3,
+      "stress": -1
+    }
+  },
+  {
+    "id": "team_scene_discussao_56",
+    "type": "discussao",
+    "tone": "absurdo",
+    "requiredStress": 55,
+    "text": "No telhado, a cidade parece menor por cinco minutos. A equipe não resolve nada, mas respira no mesmo ritmo. O plantão segue, um pouco menos automático.",
+    "effects": {
+      "teamMorale": -1,
+      "stress": -1
+    }
+  },
+  {
+    "id": "team_scene_reconciliacao_57",
+    "type": "reconciliacao",
+    "tone": "comico",
+    "text": "Na sala de comando, o rádio chia com alerta falso. A equipe ri só depois de confirmar três vezes que era falso mesmo. O registro fica como cena de convivência, não como ocorrência.",
+    "effects": {
+      "teamMorale": 0,
+      "stress": -2
+    },
+    "choices": [
+      {
+        "id": "ouvir",
+        "label": "Ouvir primeiro",
+        "effects": {
+          "teamMorale": 2
+        }
+      },
+      {
+        "id": "cobrar",
+        "label": "Cobrar postura",
+        "effects": {
+          "teamMorale": -1
+        }
+      }
+    ]
+  },
+  {
+    "id": "team_scene_luto_58",
+    "type": "luto",
+    "tone": "intimo",
+    "text": "Uma discussão começa por escala e termina em pedido de desculpas mal formulado, que ainda assim conta. O plantão segue, um pouco menos automático.",
+    "effects": {
+      "teamMorale": 1,
+      "stress": -1
+    }
+  },
+  {
+    "id": "team_scene_chegada_heroi_59",
+    "type": "chegada_heroi",
+    "tone": "esperançoso",
+    "text": "Um herói novo pergunta onde ficam as canecas. Recebe um mapa, três avisos e uma história que ninguém devia contar no primeiro dia. O plantão segue, um pouco menos automático.",
+    "effects": {
+      "teamMorale": 2,
+      "stress": -1
+    }
+  },
+  {
+    "id": "team_scene_midia_60",
+    "type": "midia",
+    "tone": "absurdo",
+    "text": "A Rede Aurora transforma uma missão em meme. A equipe decide que sobreviver à opinião pública também deveria render adicional. O plantão segue, um pouco menos automático.",
+    "effects": {
+      "teamMorale": 3,
+      "stress": -1
+    }
+  },
+  {
+    "id": "team_scene_reuniao_manha_61",
+    "type": "reuniao_manha",
+    "tone": "comico",
+    "requiredMoraleBelow": 45,
+    "text": "A reunião começa com todos olhando para o mapa, mas ninguém para o biscoito abandonado no centro da mesa. O Dispatcher percebe que foco também é logística emocional. O registro fica como cena de convivência, não como ocorrência.",
+    "effects": {
+      "teamMorale": -1,
+      "stress": -2
+    }
+  },
+  {
+    "id": "team_scene_refeitorio_62",
+    "type": "refeitorio",
+    "tone": "intimo",
+    "text": "No refeitório, uma piada pequena atravessa uma noite pesada. Não resolve o mundo, mas faz a equipe lembrar que ainda existe intervalo. O plantão segue, um pouco menos automático.",
+    "effects": {
+      "teamMorale": 0,
+      "stress": -1
+    }
+  },
+  {
+    "id": "team_scene_enfermaria_63",
+    "type": "enfermaria",
+    "tone": "esperançoso",
+    "text": "Na enfermaria, um curativo vira conversa honesta sobre medo. A pessoa ferida insiste que está bem; ninguém acredita, e isso ajuda. O plantão segue, um pouco menos automático.",
+    "effects": {
+      "teamMorale": 1,
+      "stress": -1
+    }
+  },
+  {
+    "id": "team_scene_sala_treino_64",
+    "type": "sala_treino",
+    "tone": "absurdo",
+    "requiredMoraleAbove": 65,
+    "text": "Na sala de treino, dois heróis discutem técnica até perceber que estavam descrevendo a mesma coisa com teimosias diferentes. O plantão segue, um pouco menos automático.",
+    "effects": {
+      "teamMorale": 2,
+      "stress": 2
+    }
+  },
+  {
+    "id": "team_scene_corredor_65",
+    "type": "corredor",
+    "tone": "comico",
+    "text": "No corredor, alguém deixa um bilhete de incentivo sem assinar. Todo mundo finge não saber quem foi. O registro fica como cena de convivência, não como ocorrência.",
+    "effects": {
+      "teamMorale": 3,
+      "stress": -2
+    },
+    "choices": [
+      {
+        "id": "ouvir",
+        "label": "Ouvir primeiro",
+        "effects": {
+          "teamMorale": 2
+        }
+      },
+      {
+        "id": "cobrar",
+        "label": "Cobrar postura",
+        "effects": {
+          "teamMorale": -1
+        }
+      }
+    ]
+  },
+  {
+    "id": "team_scene_telhado_66",
+    "type": "telhado",
+    "tone": "intimo",
+    "text": "No telhado, a cidade parece menor por cinco minutos. A equipe não resolve nada, mas respira no mesmo ritmo. O plantão segue, um pouco menos automático.",
+    "effects": {
+      "teamMorale": -1,
+      "stress": -1
+    }
+  },
+  {
+    "id": "team_scene_sala_comando_67",
+    "type": "sala_comando",
+    "tone": "esperançoso",
+    "requiredStress": 55,
+    "text": "Na sala de comando, o rádio chia com alerta falso. A equipe ri só depois de confirmar três vezes que era falso mesmo. O plantão segue, um pouco menos automático.",
+    "effects": {
+      "teamMorale": 0,
+      "stress": -1
+    }
+  },
+  {
+    "id": "team_scene_discussao_68",
+    "type": "discussao",
+    "tone": "absurdo",
+    "text": "Uma discussão começa por escala e termina em pedido de desculpas mal formulado, que ainda assim conta. O plantão segue, um pouco menos automático.",
+    "effects": {
+      "teamMorale": 1,
+      "stress": -1
+    }
+  },
+  {
+    "id": "team_scene_reconciliacao_69",
+    "type": "reconciliacao",
+    "tone": "comico",
+    "text": "Um herói novo pergunta onde ficam as canecas. Recebe um mapa, três avisos e uma história que ninguém devia contar no primeiro dia. O registro fica como cena de convivência, não como ocorrência.",
+    "effects": {
+      "teamMorale": 2,
+      "stress": -2
+    }
+  },
+  {
+    "id": "team_scene_luto_70",
+    "type": "luto",
+    "tone": "intimo",
+    "text": "A Rede Aurora transforma uma missão em meme. A equipe decide que sobreviver à opinião pública também deveria render adicional. O plantão segue, um pouco menos automático.",
+    "effects": {
+      "teamMorale": 3,
+      "stress": -1
+    }
+  },
+  {
+    "id": "team_scene_chegada_heroi_71",
+    "type": "chegada_heroi",
+    "tone": "esperançoso",
+    "requiredMoraleBelow": 45,
+    "text": "A reunião começa com todos olhando para o mapa, mas ninguém para o biscoito abandonado no centro da mesa. O Dispatcher percebe que foco também é logística emocional. O plantão segue, um pouco menos automático.",
+    "effects": {
+      "teamMorale": -1,
+      "stress": 2
+    }
+  },
+  {
+    "id": "team_scene_midia_72",
+    "type": "midia",
+    "tone": "absurdo",
+    "text": "No refeitório, uma piada pequena atravessa uma noite pesada. Não resolve o mundo, mas faz a equipe lembrar que ainda existe intervalo. O plantão segue, um pouco menos automático.",
+    "effects": {
+      "teamMorale": 0,
+      "stress": -1
+    }
+  },
+  {
+    "id": "team_scene_reuniao_manha_73",
+    "type": "reuniao_manha",
+    "tone": "comico",
+    "requiredMoraleAbove": 65,
+    "text": "Na enfermaria, um curativo vira conversa honesta sobre medo. A pessoa ferida insiste que está bem; ninguém acredita, e isso ajuda. O registro fica como cena de convivência, não como ocorrência.",
+    "effects": {
+      "teamMorale": 1,
+      "stress": -2
+    },
+    "choices": [
+      {
+        "id": "ouvir",
+        "label": "Ouvir primeiro",
+        "effects": {
+          "teamMorale": 2
+        }
+      },
+      {
+        "id": "cobrar",
+        "label": "Cobrar postura",
+        "effects": {
+          "teamMorale": -1
+        }
+      }
+    ]
+  },
+  {
+    "id": "team_scene_refeitorio_74",
+    "type": "refeitorio",
+    "tone": "intimo",
+    "text": "Na sala de treino, dois heróis discutem técnica até perceber que estavam descrevendo a mesma coisa com teimosias diferentes. O plantão segue, um pouco menos automático.",
+    "effects": {
+      "teamMorale": 2,
+      "stress": -1
+    }
+  },
+  {
+    "id": "team_scene_enfermaria_75",
+    "type": "enfermaria",
+    "tone": "esperançoso",
+    "text": "No corredor, alguém deixa um bilhete de incentivo sem assinar. Todo mundo finge não saber quem foi. O plantão segue, um pouco menos automático.",
+    "effects": {
+      "teamMorale": 3,
+      "stress": -1
+    }
+  },
+  {
+    "id": "team_scene_sala_treino_76",
+    "type": "sala_treino",
+    "tone": "absurdo",
+    "text": "No telhado, a cidade parece menor por cinco minutos. A equipe não resolve nada, mas respira no mesmo ritmo. O plantão segue, um pouco menos automático.",
+    "effects": {
+      "teamMorale": -1,
+      "stress": -1
+    }
+  },
+  {
+    "id": "team_scene_corredor_77",
+    "type": "corredor",
+    "tone": "comico",
+    "text": "Na sala de comando, o rádio chia com alerta falso. A equipe ri só depois de confirmar três vezes que era falso mesmo. O registro fica como cena de convivência, não como ocorrência.",
+    "effects": {
+      "teamMorale": 0,
+      "stress": -2
+    }
+  },
+  {
+    "id": "team_scene_telhado_78",
+    "type": "telhado",
+    "tone": "intimo",
+    "requiredStress": 55,
+    "text": "Uma discussão começa por escala e termina em pedido de desculpas mal formulado, que ainda assim conta. O plantão segue, um pouco menos automático.",
+    "effects": {
+      "teamMorale": 1,
+      "stress": 2
+    }
+  },
+  {
+    "id": "team_scene_sala_comando_79",
+    "type": "sala_comando",
+    "tone": "esperançoso",
+    "text": "Um herói novo pergunta onde ficam as canecas. Recebe um mapa, três avisos e uma história que ninguém devia contar no primeiro dia. O plantão segue, um pouco menos automático.",
+    "effects": {
+      "teamMorale": 2,
+      "stress": -1
+    }
+  },
+  {
+    "id": "team_scene_discussao_80",
+    "type": "discussao",
+    "tone": "absurdo",
+    "text": "A Rede Aurora transforma uma missão em meme. A equipe decide que sobreviver à opinião pública também deveria render adicional. O plantão segue, um pouco menos automático.",
+    "effects": {
+      "teamMorale": 3,
+      "stress": -1
+    }
+  },
+  {
+    "id": "team_scene_reconciliacao_81",
+    "type": "reconciliacao",
+    "tone": "comico",
+    "requiredMoraleBelow": 45,
+    "text": "A reunião começa com todos olhando para o mapa, mas ninguém para o biscoito abandonado no centro da mesa. O Dispatcher percebe que foco também é logística emocional. O registro fica como cena de convivência, não como ocorrência.",
+    "effects": {
+      "teamMorale": -1,
+      "stress": -2
+    },
+    "choices": [
+      {
+        "id": "ouvir",
+        "label": "Ouvir primeiro",
+        "effects": {
+          "teamMorale": 2
+        }
+      },
+      {
+        "id": "cobrar",
+        "label": "Cobrar postura",
+        "effects": {
+          "teamMorale": -1
+        }
+      }
+    ]
+  },
+  {
+    "id": "team_scene_luto_82",
+    "type": "luto",
+    "tone": "intimo",
+    "requiredMoraleAbove": 65,
+    "text": "No refeitório, uma piada pequena atravessa uma noite pesada. Não resolve o mundo, mas faz a equipe lembrar que ainda existe intervalo. O plantão segue, um pouco menos automático.",
+    "effects": {
+      "teamMorale": 0,
+      "stress": -1
+    }
+  },
+  {
+    "id": "team_scene_chegada_heroi_83",
+    "type": "chegada_heroi",
+    "tone": "esperançoso",
+    "text": "Na enfermaria, um curativo vira conversa honesta sobre medo. A pessoa ferida insiste que está bem; ninguém acredita, e isso ajuda. O plantão segue, um pouco menos automático.",
+    "effects": {
+      "teamMorale": 1,
+      "stress": -1
+    }
+  },
+  {
+    "id": "team_scene_midia_84",
+    "type": "midia",
+    "tone": "absurdo",
+    "text": "Na sala de treino, dois heróis discutem técnica até perceber que estavam descrevendo a mesma coisa com teimosias diferentes. O plantão segue, um pouco menos automático.",
+    "effects": {
+      "teamMorale": 2,
+      "stress": -1
+    }
+  },
+  {
+    "id": "team_scene_reuniao_manha_85",
+    "type": "reuniao_manha",
+    "tone": "comico",
+    "text": "No corredor, alguém deixa um bilhete de incentivo sem assinar. Todo mundo finge não saber quem foi. O registro fica como cena de convivência, não como ocorrência.",
+    "effects": {
+      "teamMorale": 3,
+      "stress": -2
+    }
+  },
+  {
+    "id": "team_scene_refeitorio_86",
+    "type": "refeitorio",
+    "tone": "intimo",
+    "text": "No telhado, a cidade parece menor por cinco minutos. A equipe não resolve nada, mas respira no mesmo ritmo. O plantão segue, um pouco menos automático.",
+    "effects": {
+      "teamMorale": -1,
+      "stress": -1
+    }
+  },
+  {
+    "id": "team_scene_enfermaria_87",
+    "type": "enfermaria",
+    "tone": "esperançoso",
+    "text": "Na sala de comando, o rádio chia com alerta falso. A equipe ri só depois de confirmar três vezes que era falso mesmo. O plantão segue, um pouco menos automático.",
+    "effects": {
+      "teamMorale": 0,
+      "stress": -1
+    }
+  },
+  {
+    "id": "team_scene_sala_treino_88",
+    "type": "sala_treino",
+    "tone": "absurdo",
+    "text": "Uma discussão começa por escala e termina em pedido de desculpas mal formulado, que ainda assim conta. O plantão segue, um pouco menos automático.",
+    "effects": {
+      "teamMorale": 1,
+      "stress": -1
+    }
+  },
+  {
+    "id": "team_scene_corredor_89",
+    "type": "corredor",
+    "tone": "comico",
+    "requiredStress": 55,
+    "text": "Um herói novo pergunta onde ficam as canecas. Recebe um mapa, três avisos e uma história que ninguém devia contar no primeiro dia. O registro fica como cena de convivência, não como ocorrência.",
+    "effects": {
+      "teamMorale": 2,
+      "stress": -2
+    },
+    "choices": [
+      {
+        "id": "ouvir",
+        "label": "Ouvir primeiro",
+        "effects": {
+          "teamMorale": 2
+        }
+      },
+      {
+        "id": "cobrar",
+        "label": "Cobrar postura",
+        "effects": {
+          "teamMorale": -1
+        }
+      }
+    ]
+  },
+  {
+    "id": "team_scene_telhado_90",
+    "type": "telhado",
+    "tone": "intimo",
+    "text": "A Rede Aurora transforma uma missão em meme. A equipe decide que sobreviver à opinião pública também deveria render adicional. O plantão segue, um pouco menos automático.",
+    "effects": {
+      "teamMorale": 3,
+      "stress": -1
+    }
+  },
+  {
+    "id": "team_scene_sala_comando_91",
+    "type": "sala_comando",
+    "tone": "esperançoso",
+    "requiredMoraleAbove": 65,
+    "requiredMoraleBelow": 45,
+    "text": "A reunião começa com todos olhando para o mapa, mas ninguém para o biscoito abandonado no centro da mesa. O Dispatcher percebe que foco também é logística emocional. O plantão segue, um pouco menos automático.",
+    "effects": {
+      "teamMorale": -1,
+      "stress": -1
+    }
+  },
+  {
+    "id": "team_scene_discussao_92",
+    "type": "discussao",
+    "tone": "absurdo",
+    "text": "No refeitório, uma piada pequena atravessa uma noite pesada. Não resolve o mundo, mas faz a equipe lembrar que ainda existe intervalo. O plantão segue, um pouco menos automático.",
+    "effects": {
+      "teamMorale": 0,
+      "stress": 2
+    }
+  },
+  {
+    "id": "team_scene_reconciliacao_93",
+    "type": "reconciliacao",
+    "tone": "comico",
+    "text": "Na enfermaria, um curativo vira conversa honesta sobre medo. A pessoa ferida insiste que está bem; ninguém acredita, e isso ajuda. O registro fica como cena de convivência, não como ocorrência.",
+    "effects": {
+      "teamMorale": 1,
+      "stress": -2
+    }
+  },
+  {
+    "id": "team_scene_luto_94",
+    "type": "luto",
+    "tone": "intimo",
+    "text": "Na sala de treino, dois heróis discutem técnica até perceber que estavam descrevendo a mesma coisa com teimosias diferentes. O plantão segue, um pouco menos automático.",
+    "effects": {
+      "teamMorale": 2,
+      "stress": -1
+    }
+  },
+  {
+    "id": "team_scene_chegada_heroi_95",
+    "type": "chegada_heroi",
+    "tone": "esperançoso",
+    "text": "No corredor, alguém deixa um bilhete de incentivo sem assinar. Todo mundo finge não saber quem foi. O plantão segue, um pouco menos automático.",
+    "effects": {
+      "teamMorale": 3,
+      "stress": -1
+    }
+  }
+]

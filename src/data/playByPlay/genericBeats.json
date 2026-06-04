@@ -1,0 +1,258 @@
+[
+  {
+    "id": "generic-chamado-01",
+    "phase": "chamado",
+    "priority": 32,
+    "cooldownDays": 2,
+    "tone": "operacional",
+    "missionTags": ["*"],
+    "resultTypes": ["any"],
+    "text": "O chamado sobre {eventTitle} entrou no painel da Central com risco {risk} e tempo de resposta apertado."
+  },
+  {
+    "id": "generic-chamado-02",
+    "phase": "chamado",
+    "priority": 30,
+    "cooldownDays": 2,
+    "tone": "tenso",
+    "missionTags": ["*"],
+    "resultTypes": ["any"],
+    "text": "A primeira notificação parecia comum; a segunda colocou {district} em vermelho no mapa operacional."
+  },
+  {
+    "id": "generic-chamado-03",
+    "phase": "chamado",
+    "priority": 28,
+    "cooldownDays": 2,
+    "tone": "urgente",
+    "missionTags": ["civis", "resgate", "multidao"],
+    "resultTypes": ["any"],
+    "text": "Moradores começaram a enviar relatos desencontrados, mas todos apontavam para o mesmo ponto em {district}."
+  },
+  {
+    "id": "generic-chamado-04",
+    "phase": "chamado",
+    "priority": 28,
+    "cooldownDays": 2,
+    "tone": "tecnico",
+    "missionTags": ["dados", "tecnologia", "energia", "sinal"],
+    "resultTypes": ["any"],
+    "text": "O alerta nasceu como anomalia técnica, mas o padrão repetido transformou o incidente em ocorrência prioritária."
+  },
+  {
+    "id": "generic-despacho-01",
+    "phase": "despacho",
+    "priority": 34,
+    "cooldownDays": 2,
+    "tone": "operacional",
+    "missionTags": ["*"],
+    "resultTypes": ["any"],
+    "text": "{dispatcher} autorizou o despacho e manteve a linha aberta para ajustar rota, risco e ordem de evacuação."
+  },
+  {
+    "id": "generic-despacho-02",
+    "phase": "despacho",
+    "priority": 36,
+    "cooldownDays": 2,
+    "tone": "focado",
+    "missionTags": ["*"],
+    "resultTypes": ["any"],
+    "text": "{hero:0} recebeu a ocorrência com prioridade clara: proteger civis antes de perseguir a causa."
+  },
+  {
+    "id": "generic-despacho-duo-01",
+    "phase": "despacho",
+    "priority": 38,
+    "cooldownDays": 3,
+    "tone": "equipe",
+    "missionTags": ["*"],
+    "resultTypes": ["any"],
+    "minHeroes": 2,
+    "text": "{hero:0} assumiu a entrada da cena enquanto {hero:1} ficou com leitura de risco e retaguarda."
+  },
+  {
+    "id": "generic-chegada-01",
+    "phase": "chegada",
+    "priority": 35,
+    "cooldownDays": 2,
+    "tone": "cinematografico",
+    "missionTags": ["*"],
+    "resultTypes": ["any"],
+    "text": "A chegada em {district} revelou sirenes cruzadas, curiosos recuando tarde demais e uma cena maior que o chamado inicial."
+  },
+  {
+    "id": "generic-chegada-02",
+    "phase": "chegada",
+    "priority": 32,
+    "cooldownDays": 2,
+    "tone": "observador",
+    "missionTags": ["investigacao", "dados", "sinal", "boato"],
+    "resultTypes": ["any"],
+    "text": "Antes de agir, {hero:0} leu o fluxo da rua, as pausas estranhas e os detalhes que não combinavam com acidente."
+  },
+  {
+    "id": "generic-chegada-03",
+    "phase": "chegada",
+    "priority": 31,
+    "cooldownDays": 2,
+    "tone": "fisico",
+    "missionTags": ["estrutura", "altura", "predio", "ponte"],
+    "resultTypes": ["any"],
+    "text": "O local rangia sob pressão. Cada passo precisava medir peso, vibração e rota de fuga."
+  },
+  {
+    "id": "generic-acao-01",
+    "phase": "primeira_acao",
+    "priority": 34,
+    "cooldownDays": 2,
+    "tone": "decisivo",
+    "missionTags": ["*"],
+    "resultTypes": ["any"],
+    "text": "{hero:0} dividiu a cena em duas prioridades: tirar pessoas do pior ponto e impedir que o risco mudasse de lugar."
+  },
+  {
+    "id": "generic-acao-02",
+    "phase": "primeira_acao",
+    "priority": 34,
+    "cooldownDays": 2,
+    "tone": "resgate",
+    "missionTags": ["resgate", "civis", "multidao", "evacuacao"],
+    "resultTypes": ["any"],
+    "text": "A primeira ação foi abrir um corredor seguro, mesmo que isso atrasasse a solução definitiva da ocorrência."
+  },
+  {
+    "id": "generic-acao-03",
+    "phase": "primeira_acao",
+    "priority": 32,
+    "cooldownDays": 2,
+    "tone": "controle",
+    "missionTags": ["controle", "energia", "quimica", "calor"],
+    "resultTypes": ["any"],
+    "text": "A equipe reduziu a pressão da cena em etapas pequenas, preferindo controle estável a um gesto heroico e frágil."
+  },
+  {
+    "id": "generic-complicacao-01",
+    "phase": "complicacao",
+    "priority": 38,
+    "cooldownDays": 3,
+    "tone": "tenso",
+    "missionTags": ["*"],
+    "resultTypes": ["any"],
+    "text": "A ocorrência mudou de comportamento no meio da resposta. O plano inicial ainda servia, mas só se fosse adaptado rápido."
+  },
+  {
+    "id": "generic-complicacao-02",
+    "phase": "complicacao",
+    "priority": 38,
+    "cooldownDays": 3,
+    "tone": "tecnico",
+    "missionTags": ["tecnologia", "dados", "sinal", "maquinas"],
+    "resultTypes": ["any"],
+    "text": "O padrão deixou de parecer falha isolada. Para a Central, aquilo tinha cadência de comando externo."
+  },
+  {
+    "id": "generic-complicacao-03",
+    "phase": "complicacao",
+    "priority": 36,
+    "cooldownDays": 3,
+    "tone": "risco",
+    "missionTags": ["estrutura", "subsolo", "altura", "predio"],
+    "resultTypes": ["any"],
+    "text": "Uma segunda frente de risco apareceu: se a equipe errasse o tempo, a contenção viraria evacuação completa."
+  },
+  {
+    "id": "generic-sinergia-01",
+    "phase": "sinergia",
+    "priority": 36,
+    "cooldownDays": 4,
+    "tone": "equipe",
+    "missionTags": ["*"],
+    "resultTypes": ["any"],
+    "minHeroes": 2,
+    "text": "{hero:0} puxou a pressão para si enquanto {hero:1} fechou a brecha que os civis não conseguiam enxergar."
+  },
+  {
+    "id": "generic-sinergia-02",
+    "phase": "sinergia",
+    "priority": 34,
+    "cooldownDays": 4,
+    "tone": "atrito",
+    "missionTags": ["*"],
+    "resultTypes": ["any"],
+    "minHeroes": 2,
+    "requires": { "relationship": "negative" },
+    "text": "A dupla discordou no rádio por alguns segundos, mas a tensão virou divisão de tarefas antes de virar problema."
+  },
+  {
+    "id": "generic-virada-01",
+    "phase": "virada",
+    "priority": 34,
+    "cooldownDays": 3,
+    "tone": "virada",
+    "missionTags": ["*"],
+    "resultTypes": ["missao_controlada", "resolucao_exemplar", "sucesso_com_dano_leve"],
+    "text": "A virada veio quando {hero:0} parou de tentar vencer a cena inteira e isolou o ponto que mantinha o caos em movimento."
+  },
+  {
+    "id": "generic-virada-falha-01",
+    "phase": "virada",
+    "priority": 34,
+    "cooldownDays": 3,
+    "tone": "amargo",
+    "missionTags": ["*"],
+    "resultTypes": ["falha_parcial", "falha_grave", "crise_expandida"],
+    "requires": { "failure": true },
+    "text": "A equipe encontrou a resposta tarde demais. O melhor movimento deixou de ser vencer a ocorrência e passou a limitar o estrago."
+  },
+  {
+    "id": "generic-resolucao-01",
+    "phase": "resolucao",
+    "priority": 34,
+    "cooldownDays": 2,
+    "tone": "controlado",
+    "missionTags": ["*"],
+    "resultTypes": ["missao_controlada", "resolucao_exemplar"],
+    "text": "A cena foi encerrada com dano {collateralDamage}. {civiliansSaved} civis deixaram a área antes do último isolamento cair."
+  },
+  {
+    "id": "generic-resolucao-02",
+    "phase": "resolucao",
+    "priority": 32,
+    "cooldownDays": 2,
+    "tone": "custo",
+    "missionTags": ["*"],
+    "resultTypes": ["sucesso_com_dano_leve", "heroi_ferido"],
+    "text": "A missão fechou como sucesso, mas a conta operacional apareceu em estresse, dano {collateralDamage} e ambulância na borda da cena."
+  },
+  {
+    "id": "generic-resolucao-falha-01",
+    "phase": "resolucao",
+    "priority": 34,
+    "cooldownDays": 2,
+    "tone": "falha",
+    "missionTags": ["*"],
+    "resultTypes": ["falha_parcial", "falha_grave", "alerta_perdido", "crise_expandida"],
+    "requires": { "failure": true },
+    "text": "O fechamento não veio como a Central queria. O relatório registrou dano {collateralDamage} e uma resposta que precisou ser explicada."
+  },
+  {
+    "id": "generic-consequencia-01",
+    "phase": "consequencia",
+    "priority": 30,
+    "cooldownDays": 2,
+    "tone": "bairro",
+    "missionTags": ["*"],
+    "resultTypes": ["any"],
+    "text": "Quando as sirenes baixaram, {district} ainda olhava para a cena como quem espera a próxima pergunta."
+  },
+  {
+    "id": "generic-consequencia-02",
+    "phase": "consequencia",
+    "priority": 31,
+    "cooldownDays": 2,
+    "tone": "publico",
+    "missionTags": ["multidao", "midia", "boato", "civis"],
+    "resultTypes": ["any"],
+    "text": "A rua começou a transformar a ocorrência em versão pública antes mesmo de {dispatcher} fechar o registro."
+  }
+]

@@ -1,0 +1,712 @@
+[
+  {
+    "id": "resgate_blindado",
+    "name": "Resgate Blindado",
+    "heroes": [
+      "h-aurora-vetor",
+      "h-domo-prata"
+    ],
+    "requiredRelationship": 35,
+    "requiredTags": [
+      "resgate",
+      "civis"
+    ],
+    "description": "Um herói tira civis da zona de risco enquanto o outro segura o ambiente.",
+    "effects": {
+      "successChanceBonus": 10,
+      "injuryRiskReduction": 5,
+      "collateralReduction": 4
+    },
+    "unlockMethod": "relationship_or_training",
+    "dialogueId": "combo_resgate_blindado_01"
+  },
+  {
+    "id": "nevoa_cifrada",
+    "name": "Névoa Cifrada",
+    "heroes": [
+      "h-bruma-livre",
+      "h-cifra-rasa"
+    ],
+    "requiredRelationship": 25,
+    "requiredTags": [
+      "investigacao",
+      "subsolo",
+      "dados"
+    ],
+    "description": "Cobertura ambiental e leitura de sinais para achar rotas escondidas.",
+    "effects": {
+      "successChanceBonus": 9,
+      "injuryRiskReduction": 2,
+      "clueBonus": 8
+    },
+    "unlockMethod": "relationship_or_training",
+    "dialogueId": "combo_nevoa_cifrada_01"
+  },
+  {
+    "id": "voz_e_muralha",
+    "name": "Voz e Muralha",
+    "heroes": [
+      "h-eco-mandarim",
+      "h-domo-prata"
+    ],
+    "requiredRelationship": 30,
+    "requiredTags": [
+      "multidao",
+      "refens",
+      "negociacao"
+    ],
+    "description": "Negociação pública com presença defensiva que acalma a cena.",
+    "effects": {
+      "successChanceBonus": 8,
+      "injuryRiskReduction": 4,
+      "reputationBonus": 2
+    },
+    "unlockMethod": "relationship_or_training",
+    "dialogueId": "combo_voz_muralha_01"
+  },
+  {
+    "id": "chao_e_raio",
+    "name": "Chão e Raio",
+    "heroes": [
+      "h-geodo-vivo",
+      "h-jade-trovao"
+    ],
+    "requiredRelationship": 40,
+    "requiredTags": [
+      "energia",
+      "estrutura",
+      "contenção"
+    ],
+    "description": "Aterramento improvisado para conter descargas e estruturas instáveis.",
+    "effects": {
+      "successChanceBonus": 11,
+      "injuryRiskReduction": 6,
+      "collateralReduction": 6
+    },
+    "unlockMethod": "relationship_or_training",
+    "dialogueId": "combo_chao_raio_01"
+  },
+  {
+    "id": "linha_de_cuidado",
+    "name": "Linha de Cuidado",
+    "heroes": [
+      "h-ilha-pulso",
+      "h-orla-firme",
+      "h-quartzo-manso"
+    ],
+    "requiredRelationship": 20,
+    "requiredTags": [
+      "saude",
+      "resgate",
+      "civis"
+    ],
+    "description": "Triagem, evacuação e sustentação emocional no mesmo fluxo.",
+    "effects": {
+      "successChanceBonus": 12,
+      "injuryRiskReduction": 9,
+      "stressReduction": 3
+    },
+    "unlockMethod": "relationship_or_training",
+    "dialogueId": "combo_linha_cuidado_01"
+  },
+  {
+    "id": "combo_ponte_de_r_dio_1",
+    "name": "Ponte de Rádio",
+    "heroes": [
+      "h-aurora-vetor",
+      "h-domo-prata"
+    ],
+    "requiredRelationship": 22,
+    "requiredTags": [
+      "resgate",
+      "civis"
+    ],
+    "description": "Sinergia operacional em que Aurora Vetor e Domo Prata dividem leitura de campo para reduzir improviso perigoso.",
+    "effects": {
+      "successChanceBonus": 5,
+      "injuryRiskReduction": 2,
+      "collateralReduction": 0,
+      "reputationBonus": 2,
+      "stressReduction": 1,
+      "clueBonus": 1
+    },
+    "unlockMethod": "mission_or_training",
+    "dialogueId": "dialogue_combo_ponte_de_r_dio_1"
+  },
+  {
+    "id": "combo_varredura_cruzada_2",
+    "name": "Varredura Cruzada",
+    "heroes": [
+      "h-bruma-livre",
+      "h-ilha-pulso"
+    ],
+    "requiredRelationship": 28,
+    "requiredTags": [
+      "dados",
+      "investigacao"
+    ],
+    "description": "Sinergia operacional em que Bruma Livre e Ilha Pulso dividem leitura de campo para reduzir improviso perigoso.",
+    "effects": {
+      "successChanceBonus": 7,
+      "injuryRiskReduction": 3,
+      "collateralReduction": 1,
+      "reputationBonus": 0,
+      "stressReduction": 0,
+      "clueBonus": 0
+    },
+    "unlockMethod": "relationship_or_training",
+    "dialogueId": "dialogue_combo_varredura_cruzada_2"
+  },
+  {
+    "id": "combo_muralha_m_vel_3",
+    "name": "Muralha Móvel",
+    "heroes": [
+      "h-cifra-rasa",
+      "h-orla-firme"
+    ],
+    "requiredRelationship": 34,
+    "requiredTags": [
+      "energia",
+      "infraestrutura"
+    ],
+    "description": "Sinergia operacional em que Cifra Rasa e Orla Firme dividem leitura de campo para reduzir improviso perigoso.",
+    "effects": {
+      "successChanceBonus": 9,
+      "injuryRiskReduction": 4,
+      "collateralReduction": 2,
+      "reputationBonus": 0,
+      "stressReduction": 0,
+      "clueBonus": 0
+    },
+    "unlockMethod": "mission_or_training",
+    "dialogueId": "dialogue_combo_muralha_m_vel_3"
+  },
+  {
+    "id": "combo_linha_de_calma_4",
+    "name": "Linha de Calma",
+    "heroes": [
+      "h-domo-prata",
+      "h-trilho-claro"
+    ],
+    "requiredRelationship": 40,
+    "requiredTags": [
+      "multidao",
+      "negociacao"
+    ],
+    "description": "Sinergia operacional em que Domo Prata e Trilho Claro dividem leitura de campo para reduzir improviso perigoso.",
+    "effects": {
+      "successChanceBonus": 11,
+      "injuryRiskReduction": 5,
+      "collateralReduction": 0,
+      "reputationBonus": 0,
+      "stressReduction": 0,
+      "clueBonus": 0
+    },
+    "unlockMethod": "relationship_or_training",
+    "dialogueId": "dialogue_combo_linha_de_calma_4"
+  },
+  {
+    "id": "combo_rota_fantasma_5",
+    "name": "Rota Fantasma",
+    "heroes": [
+      "h-eco-mandarim",
+      "h-domo-prata"
+    ],
+    "requiredRelationship": 46,
+    "requiredTags": [
+      "subsolo",
+      "estrutura"
+    ],
+    "description": "Sinergia operacional em que Eco Mandarim e Domo Prata dividem leitura de campo para reduzir improviso perigoso.",
+    "effects": {
+      "successChanceBonus": 13,
+      "injuryRiskReduction": 2,
+      "collateralReduction": 1,
+      "reputationBonus": 2,
+      "stressReduction": 0,
+      "clueBonus": 0
+    },
+    "unlockMethod": "mission_or_training",
+    "dialogueId": "dialogue_combo_rota_fantasma_5"
+  },
+  {
+    "id": "combo_farol_de_evacua_o_6",
+    "name": "Farol de Evacuação",
+    "heroes": [
+      "h-faisca-norte",
+      "h-ilha-pulso"
+    ],
+    "requiredRelationship": 52,
+    "requiredTags": [
+      "transito",
+      "tempo_curto"
+    ],
+    "description": "Sinergia operacional em que Faisca Norte e Ilha Pulso dividem leitura de campo para reduzir improviso perigoso.",
+    "effects": {
+      "successChanceBonus": 5,
+      "injuryRiskReduction": 3,
+      "collateralReduction": 2,
+      "reputationBonus": 0,
+      "stressReduction": 1,
+      "clueBonus": 0
+    },
+    "unlockMethod": "relationship_or_training",
+    "dialogueId": "dialogue_combo_farol_de_evacua_o_6"
+  },
+  {
+    "id": "combo_trava_de_subsolo_7",
+    "name": "Trava de Subsolo",
+    "heroes": [
+      "h-geodo-vivo",
+      "h-orla-firme"
+    ],
+    "requiredRelationship": 22,
+    "requiredTags": [
+      "biologia",
+      "quimica"
+    ],
+    "description": "Sinergia operacional em que Geodo Vivo e Orla Firme dividem leitura de campo para reduzir improviso perigoso.",
+    "effects": {
+      "successChanceBonus": 7,
+      "injuryRiskReduction": 4,
+      "collateralReduction": 0,
+      "reputationBonus": 0,
+      "stressReduction": 0,
+      "clueBonus": 1
+    },
+    "unlockMethod": "mission_or_training",
+    "dialogueId": "dialogue_combo_trava_de_subsolo_7"
+  },
+  {
+    "id": "combo_corte_limpo_8",
+    "name": "Corte Limpo",
+    "heroes": [
+      "h-horizonte-lince",
+      "h-trilho-claro"
+    ],
+    "requiredRelationship": 28,
+    "requiredTags": [
+      "boato",
+      "midia"
+    ],
+    "description": "Sinergia operacional em que Horizonte Lince e Trilho Claro dividem leitura de campo para reduzir improviso perigoso.",
+    "effects": {
+      "successChanceBonus": 9,
+      "injuryRiskReduction": 5,
+      "collateralReduction": 1,
+      "reputationBonus": 0,
+      "stressReduction": 0,
+      "clueBonus": 0
+    },
+    "unlockMethod": "relationship_or_training",
+    "dialogueId": "dialogue_combo_corte_limpo_8"
+  },
+  {
+    "id": "combo_mapa_no_escuro_9",
+    "name": "Mapa no Escuro",
+    "heroes": [
+      "h-ilha-pulso",
+      "h-domo-prata"
+    ],
+    "requiredRelationship": 34,
+    "requiredTags": [
+      "agua",
+      "resgate"
+    ],
+    "description": "Sinergia operacional em que Ilha Pulso e Domo Prata dividem leitura de campo para reduzir improviso perigoso.",
+    "effects": {
+      "successChanceBonus": 11,
+      "injuryRiskReduction": 2,
+      "collateralReduction": 2,
+      "reputationBonus": 2,
+      "stressReduction": 0,
+      "clueBonus": 0
+    },
+    "unlockMethod": "mission_or_training",
+    "dialogueId": "dialogue_combo_mapa_no_escuro_9"
+  },
+  {
+    "id": "combo_rede_de_conten_o_10",
+    "name": "Rede de Contenção",
+    "heroes": [
+      "h-jade-trovao",
+      "h-ilha-pulso"
+    ],
+    "requiredRelationship": 40,
+    "requiredTags": [
+      "altura",
+      "evacuacao"
+    ],
+    "description": "Sinergia operacional em que Jade Trovão e Ilha Pulso dividem leitura de campo para reduzir improviso perigoso.",
+    "effects": {
+      "successChanceBonus": 13,
+      "injuryRiskReduction": 3,
+      "collateralReduction": 0,
+      "reputationBonus": 0,
+      "stressReduction": 0,
+      "clueBonus": 0
+    },
+    "unlockMethod": "relationship_or_training",
+    "dialogueId": "dialogue_combo_rede_de_conten_o_10"
+  },
+  {
+    "id": "combo_sinal_aberto_11",
+    "name": "Sinal Aberto",
+    "heroes": [
+      "h-lampiao-azul",
+      "h-orla-firme"
+    ],
+    "requiredRelationship": 46,
+    "requiredTags": [
+      "resgate",
+      "civis"
+    ],
+    "description": "Sinergia operacional em que Lampiao Azul e Orla Firme dividem leitura de campo para reduzir improviso perigoso.",
+    "effects": {
+      "successChanceBonus": 5,
+      "injuryRiskReduction": 4,
+      "collateralReduction": 1,
+      "reputationBonus": 0,
+      "stressReduction": 1,
+      "clueBonus": 0
+    },
+    "unlockMethod": "mission_or_training",
+    "dialogueId": "dialogue_combo_sinal_aberto_11"
+  },
+  {
+    "id": "combo_pulso_de_retirada_12",
+    "name": "Pulso de Retirada",
+    "heroes": [
+      "h-matriz-solar",
+      "h-trilho-claro"
+    ],
+    "requiredRelationship": 52,
+    "requiredTags": [
+      "dados",
+      "investigacao"
+    ],
+    "description": "Sinergia operacional em que Matriz Solar e Trilho Claro dividem leitura de campo para reduzir improviso perigoso.",
+    "effects": {
+      "successChanceBonus": 7,
+      "injuryRiskReduction": 5,
+      "collateralReduction": 2,
+      "reputationBonus": 0,
+      "stressReduction": 0,
+      "clueBonus": 0
+    },
+    "unlockMethod": "relationship_or_training",
+    "dialogueId": "dialogue_combo_pulso_de_retirada_12"
+  },
+  {
+    "id": "combo_ncora_e_flecha_13",
+    "name": "Âncora e Flecha",
+    "heroes": [
+      "h-noctiluca",
+      "h-domo-prata"
+    ],
+    "requiredRelationship": 22,
+    "requiredTags": [
+      "energia",
+      "infraestrutura"
+    ],
+    "description": "Sinergia operacional em que Noctiluca e Domo Prata dividem leitura de campo para reduzir improviso perigoso.",
+    "effects": {
+      "successChanceBonus": 9,
+      "injuryRiskReduction": 2,
+      "collateralReduction": 0,
+      "reputationBonus": 2,
+      "stressReduction": 0,
+      "clueBonus": 1
+    },
+    "unlockMethod": "mission_or_training",
+    "dialogueId": "dialogue_combo_ncora_e_flecha_13"
+  },
+  {
+    "id": "combo_dupla_de_sirene_14",
+    "name": "Dupla de Sirene",
+    "heroes": [
+      "h-orla-firme",
+      "h-ilha-pulso"
+    ],
+    "requiredRelationship": 28,
+    "requiredTags": [
+      "multidao",
+      "negociacao"
+    ],
+    "description": "Sinergia operacional em que Orla Firme e Ilha Pulso dividem leitura de campo para reduzir improviso perigoso.",
+    "effects": {
+      "successChanceBonus": 11,
+      "injuryRiskReduction": 3,
+      "collateralReduction": 1,
+      "reputationBonus": 0,
+      "stressReduction": 0,
+      "clueBonus": 0
+    },
+    "unlockMethod": "relationship_or_training",
+    "dialogueId": "dialogue_combo_dupla_de_sirene_14"
+  },
+  {
+    "id": "combo_c_rculo_de_cobertura_15",
+    "name": "Círculo de Cobertura",
+    "heroes": [
+      "h-papiro-rubro",
+      "h-orla-firme"
+    ],
+    "requiredRelationship": 34,
+    "requiredTags": [
+      "subsolo",
+      "estrutura"
+    ],
+    "description": "Sinergia operacional em que Papiro Rubro e Orla Firme dividem leitura de campo para reduzir improviso perigoso.",
+    "effects": {
+      "successChanceBonus": 13,
+      "injuryRiskReduction": 4,
+      "collateralReduction": 2,
+      "reputationBonus": 0,
+      "stressReduction": 0,
+      "clueBonus": 0
+    },
+    "unlockMethod": "mission_or_training",
+    "dialogueId": "dialogue_combo_c_rculo_de_cobertura_15"
+  },
+  {
+    "id": "combo_olho_alto_16",
+    "name": "Olho Alto",
+    "heroes": [
+      "h-quartzo-manso",
+      "h-trilho-claro"
+    ],
+    "requiredRelationship": 40,
+    "requiredTags": [
+      "transito",
+      "tempo_curto"
+    ],
+    "description": "Sinergia operacional em que Quartzo Manso e Trilho Claro dividem leitura de campo para reduzir improviso perigoso.",
+    "effects": {
+      "successChanceBonus": 5,
+      "injuryRiskReduction": 5,
+      "collateralReduction": 0,
+      "reputationBonus": 0,
+      "stressReduction": 1,
+      "clueBonus": 0
+    },
+    "unlockMethod": "relationship_or_training",
+    "dialogueId": "dialogue_combo_olho_alto_16"
+  },
+  {
+    "id": "combo_tr_gua_t_tica_17",
+    "name": "Trágua Tática",
+    "heroes": [
+      "h-rosa-vetorial",
+      "h-domo-prata"
+    ],
+    "requiredRelationship": 46,
+    "requiredTags": [
+      "biologia",
+      "quimica"
+    ],
+    "description": "Sinergia operacional em que Rosa Vetorial e Domo Prata dividem leitura de campo para reduzir improviso perigoso.",
+    "effects": {
+      "successChanceBonus": 7,
+      "injuryRiskReduction": 2,
+      "collateralReduction": 1,
+      "reputationBonus": 2,
+      "stressReduction": 0,
+      "clueBonus": 0
+    },
+    "unlockMethod": "mission_or_training",
+    "dialogueId": "dialogue_combo_tr_gua_t_tica_17"
+  },
+  {
+    "id": "combo_respiro_de_rua_18",
+    "name": "Respiro de Rua",
+    "heroes": [
+      "h-salva-vidro",
+      "h-ilha-pulso"
+    ],
+    "requiredRelationship": 52,
+    "requiredTags": [
+      "boato",
+      "midia"
+    ],
+    "description": "Sinergia operacional em que Salva Vidro e Ilha Pulso dividem leitura de campo para reduzir improviso perigoso.",
+    "effects": {
+      "successChanceBonus": 9,
+      "injuryRiskReduction": 3,
+      "collateralReduction": 2,
+      "reputationBonus": 0,
+      "stressReduction": 0,
+      "clueBonus": 0
+    },
+    "unlockMethod": "relationship_or_training",
+    "dialogueId": "dialogue_combo_respiro_de_rua_18"
+  },
+  {
+    "id": "combo_bloqueio_gentil_19",
+    "name": "Bloqueio Gentil",
+    "heroes": [
+      "h-trilho-claro",
+      "h-orla-firme"
+    ],
+    "requiredRelationship": 22,
+    "requiredTags": [
+      "agua",
+      "resgate"
+    ],
+    "description": "Sinergia operacional em que Trilho Claro e Orla Firme dividem leitura de campo para reduzir improviso perigoso.",
+    "effects": {
+      "successChanceBonus": 11,
+      "injuryRiskReduction": 4,
+      "collateralReduction": 0,
+      "reputationBonus": 0,
+      "stressReduction": 0,
+      "clueBonus": 1
+    },
+    "unlockMethod": "mission_or_training",
+    "dialogueId": "dialogue_combo_bloqueio_gentil_19"
+  },
+  {
+    "id": "combo_ritmo_de_busca_20",
+    "name": "Ritmo de Busca",
+    "heroes": [
+      "h-umbra-coral",
+      "h-trilho-claro"
+    ],
+    "requiredRelationship": 28,
+    "requiredTags": [
+      "altura",
+      "evacuacao"
+    ],
+    "description": "Sinergia operacional em que Umbra Coral e Trilho Claro dividem leitura de campo para reduzir improviso perigoso.",
+    "effects": {
+      "successChanceBonus": 13,
+      "injuryRiskReduction": 5,
+      "collateralReduction": 1,
+      "reputationBonus": 0,
+      "stressReduction": 0,
+      "clueBonus": 0
+    },
+    "unlockMethod": "relationship_or_training",
+    "dialogueId": "dialogue_combo_ritmo_de_busca_20"
+  },
+  {
+    "id": "combo_corda_invis_vel_21",
+    "name": "Corda Invisível",
+    "heroes": [
+      "h-aurora-vetor",
+      "h-domo-prata"
+    ],
+    "requiredRelationship": 34,
+    "requiredTags": [
+      "resgate",
+      "civis"
+    ],
+    "description": "Sinergia operacional em que Aurora Vetor e Domo Prata dividem leitura de campo para reduzir improviso perigoso.",
+    "effects": {
+      "successChanceBonus": 5,
+      "injuryRiskReduction": 2,
+      "collateralReduction": 2,
+      "reputationBonus": 2,
+      "stressReduction": 1,
+      "clueBonus": 0
+    },
+    "unlockMethod": "mission_or_training",
+    "dialogueId": "dialogue_combo_corda_invis_vel_21"
+  },
+  {
+    "id": "combo_escudo_de_voz_22",
+    "name": "Escudo de Voz",
+    "heroes": [
+      "h-bruma-livre",
+      "h-ilha-pulso"
+    ],
+    "requiredRelationship": 40,
+    "requiredTags": [
+      "dados",
+      "investigacao"
+    ],
+    "description": "Sinergia operacional em que Bruma Livre e Ilha Pulso dividem leitura de campo para reduzir improviso perigoso.",
+    "effects": {
+      "successChanceBonus": 7,
+      "injuryRiskReduction": 3,
+      "collateralReduction": 0,
+      "reputationBonus": 0,
+      "stressReduction": 0,
+      "clueBonus": 0
+    },
+    "unlockMethod": "relationship_or_training",
+    "dialogueId": "dialogue_combo_escudo_de_voz_22"
+  },
+  {
+    "id": "combo_pista_quente_23",
+    "name": "Pista Quente",
+    "heroes": [
+      "h-cifra-rasa",
+      "h-orla-firme"
+    ],
+    "requiredRelationship": 46,
+    "requiredTags": [
+      "energia",
+      "infraestrutura"
+    ],
+    "description": "Sinergia operacional em que Cifra Rasa e Orla Firme dividem leitura de campo para reduzir improviso perigoso.",
+    "effects": {
+      "successChanceBonus": 9,
+      "injuryRiskReduction": 4,
+      "collateralReduction": 1,
+      "reputationBonus": 0,
+      "stressReduction": 0,
+      "clueBonus": 0
+    },
+    "unlockMethod": "mission_or_training",
+    "dialogueId": "dialogue_combo_pista_quente_23"
+  },
+  {
+    "id": "combo_bairro_em_m_os_24",
+    "name": "Bairro em Mãos",
+    "heroes": [
+      "h-domo-prata",
+      "h-trilho-claro"
+    ],
+    "requiredRelationship": 52,
+    "requiredTags": [
+      "multidao",
+      "negociacao"
+    ],
+    "description": "Sinergia operacional em que Domo Prata e Trilho Claro dividem leitura de campo para reduzir improviso perigoso.",
+    "effects": {
+      "successChanceBonus": 11,
+      "injuryRiskReduction": 5,
+      "collateralReduction": 2,
+      "reputationBonus": 0,
+      "stressReduction": 0,
+      "clueBonus": 0
+    },
+    "unlockMethod": "relationship_or_training",
+    "dialogueId": "dialogue_combo_bairro_em_m_os_24"
+  },
+  {
+    "id": "combo_plano_sem_plateia_25",
+    "name": "Plano sem Plateia",
+    "heroes": [
+      "h-eco-mandarim",
+      "h-domo-prata"
+    ],
+    "requiredRelationship": 22,
+    "requiredTags": [
+      "subsolo",
+      "estrutura"
+    ],
+    "description": "Sinergia operacional em que Eco Mandarim e Domo Prata dividem leitura de campo para reduzir improviso perigoso.",
+    "effects": {
+      "successChanceBonus": 13,
+      "injuryRiskReduction": 2,
+      "collateralReduction": 0,
+      "reputationBonus": 2,
+      "stressReduction": 0,
+      "clueBonus": 1
+    },
+    "unlockMethod": "mission_or_training",
+    "dialogueId": "dialogue_combo_plano_sem_plateia_25"
+  }
+]

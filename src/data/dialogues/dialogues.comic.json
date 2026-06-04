@@ -1,0 +1,8632 @@
+[
+  {
+    "id": "gen_incendio_success_01",
+    "priority": 35,
+    "cooldownDays": 4,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "incendio"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "quente e absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "A operação acabou com menos gritos do que começou: chamas contidas. O detalhe estranho foi o hidrante traumatizado."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Vou aceitar vitória antes que a cidade mude de ideia."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_incendio_success_02",
+    "priority": 35,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "incendio"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "quente e absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Por incrível que pareça, ninguém precisou inventar desculpa: chamas contidas. O detalhe estranho foi o hidrante traumatizado."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "A prefeitura vai chamar de prevenção. A calçada talvez discorde."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_incendio_success_03",
+    "priority": 35,
+    "cooldownDays": 6,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "incendio"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "quente e absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Missão limpa o bastante para ninguém acreditar no relatório: chamas contidas. O detalhe estranho foi o hidrante traumatizado."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Ninguém filmou meu tropeço, então considero perfeito."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_incendio_success_04",
+    "priority": 35,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "incendio"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "quente e absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Todo mundo saiu vivo e isso já coloca o dia no lucro: chamas contidas. O detalhe estranho foi o hidrante traumatizado."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Se perguntarem, a expressão correta é resposta tática flexível."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_incendio_success_05",
+    "priority": 35,
+    "cooldownDays": 4,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "incendio"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "quente e absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "A ocorrência terminou antes da sirene aprender o refrão: chamas contidas. O detalhe estranho foi o hidrante traumatizado."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Se isso virar treinamento oficial, eu nego participação."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_incendio_success_06",
+    "priority": 35,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "incendio"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "quente e absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Foi feio, foi rápido e, por algum milagre, funcionou: chamas contidas. O detalhe estranho foi o hidrante traumatizado."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Funcionou. Essa é minha defesa completa."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_incendio_success_07",
+    "priority": 35,
+    "cooldownDays": 6,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "incendio"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "quente e absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "A cidade tentou piorar, mas a equipe chegou primeiro: chamas contidas. O detalhe estranho foi o hidrante traumatizado."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Você fala como se a gente tivesse planejado metade disso."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_incendio_success_08",
+    "priority": 35,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "incendio"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "quente e absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "O caos pediu prorrogação; a central negou: chamas contidas. O detalhe estranho foi o hidrante traumatizado."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "O rádio ouviu coisa demais hoje. Vamos encerrar enquanto ele está do nosso lado."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_incendio_any_01",
+    "priority": 25,
+    "cooldownDays": 4,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "incendio"
+    ],
+    "resultTypes": [
+      "any"
+    ],
+    "tone": "quente e absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "A ocorrência terminou, mas a conversa continuou no canal: chamas contidas. O detalhe estranho foi o hidrante traumatizado."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Alguém anota isso como aprendizado antes que vire meme."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 0,
+      "stressChange": 0,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "gen_incendio_any_02",
+    "priority": 25,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "incendio"
+    ],
+    "resultTypes": [
+      "any"
+    ],
+    "tone": "quente e absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Entre sirenes e protocolo, sobrou espaço para humanidade: chamas contidas. O detalhe estranho foi o hidrante traumatizado."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Eu voto em apagar essa parte do rádio por saúde institucional."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 0,
+      "stressChange": 0,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "gen_incendio_any_03",
+    "priority": 25,
+    "cooldownDays": 6,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "incendio"
+    ],
+    "resultTypes": [
+      "any"
+    ],
+    "tone": "quente e absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "No meio da fumaça operacional, alguém ainda achou tempo para comentar: chamas contidas. O detalhe estranho foi o hidrante traumatizado."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Não sei se isso foi tática, sorte ou ameaça administrativa."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 0,
+      "stressChange": 0,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "gen_incendio_any_04",
+    "priority": 25,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "incendio"
+    ],
+    "resultTypes": [
+      "any"
+    ],
+    "tone": "quente e absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "O rádio pegou uma frase que provavelmente deveria ter ficado fora do histórico: chamas contidas. O detalhe estranho foi o hidrante traumatizado."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "A ocorrência acabou. O constrangimento segue ativo."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 0,
+      "stressChange": 0,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_001",
+    "priority": 18,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "resgate"
+    ],
+    "resultTypes": [
+      "any"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um pombo com credencial assinou o boletim. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_002",
+    "priority": 18,
+    "cooldownDays": 6,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "comunicacao"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um cone em posição de liderança virou evidência. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_003",
+    "priority": 18,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "infiltracao"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um carrinho de compras fugitivo apareceu no relatório. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_004",
+    "priority": 18,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "desastre"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um bueiro dramático atrasou a equipe. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_005",
+    "priority": 18,
+    "cooldownDays": 9,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "mercado"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um semáforo passivo-agressivo derrubou a teoria. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_006",
+    "priority": 18,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "drone"
+    ],
+    "resultTypes": [
+      "any"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um mochila testemunha assinou o boletim. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_007",
+    "priority": 18,
+    "cooldownDays": 6,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "dados"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um sirene com crise de identidade virou evidência. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_008",
+    "priority": 18,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "hospital"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um hidrante temperamental apareceu no relatório. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_009",
+    "priority": 18,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "fuga"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um drona arrependida atrasou a equipe. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_010",
+    "priority": 18,
+    "cooldownDays": 9,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "trem"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um catraca sindicalizada derrubou a teoria. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_011",
+    "priority": 18,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "refem"
+    ],
+    "resultTypes": [
+      "any"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um poste fofoqueiro assinou o boletim. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_012",
+    "priority": 18,
+    "cooldownDays": 6,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "energia"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um placa de pare que não parava ninguém virou evidência. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_013",
+    "priority": 18,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "civis"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um pombo com credencial apareceu no relatório. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_014",
+    "priority": 18,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "tecnologia"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um cone em posição de liderança atrasou a equipe. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_015",
+    "priority": 18,
+    "cooldownDays": 9,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "protesto"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um carrinho de compras fugitivo derrubou a teoria. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_016",
+    "priority": 18,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "chuva"
+    ],
+    "resultTypes": [
+      "any"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um bueiro dramático assinou o boletim. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_017",
+    "priority": 18,
+    "cooldownDays": 6,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "incendio"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um semáforo passivo-agressivo virou evidência. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_018",
+    "priority": 18,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "multidao"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um mochila testemunha apareceu no relatório. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_019",
+    "priority": 18,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "agua"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um sirene com crise de identidade atrasou a equipe. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_020",
+    "priority": 18,
+    "cooldownDays": 9,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "evacuacao"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um hidrante temperamental derrubou a teoria. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_021",
+    "priority": 18,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "ponte"
+    ],
+    "resultTypes": [
+      "any"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um drona arrependida assinou o boletim. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_022",
+    "priority": 18,
+    "cooldownDays": 6,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "portal"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um catraca sindicalizada virou evidência. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_023",
+    "priority": 18,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "sinal"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um poste fofoqueiro apareceu no relatório. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_024",
+    "priority": 18,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "subsolo"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um placa de pare que não parava ninguém atrasou a equipe. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_025",
+    "priority": 18,
+    "cooldownDays": 9,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "captura"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um pombo com credencial derrubou a teoria. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_026",
+    "priority": 18,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "escola"
+    ],
+    "resultTypes": [
+      "any"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um cone em posição de liderança assinou o boletim. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_027",
+    "priority": 18,
+    "cooldownDays": 6,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "crianca"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um carrinho de compras fugitivo virou evidência. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_028",
+    "priority": 18,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "quimica"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um bueiro dramático apareceu no relatório. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_029",
+    "priority": 18,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "estrutura"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um semáforo passivo-agressivo atrasou a equipe. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_030",
+    "priority": 18,
+    "cooldownDays": 9,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "vilao"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um mochila testemunha derrubou a teoria. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_031",
+    "priority": 18,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "laboratorio"
+    ],
+    "resultTypes": [
+      "any"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um sirene com crise de identidade assinou o boletim. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_032",
+    "priority": 18,
+    "cooldownDays": 6,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "noite"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um hidrante temperamental virou evidência. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_033",
+    "priority": 18,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "transito"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um drona arrependida apareceu no relatório. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_034",
+    "priority": 18,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "boato"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um catraca sindicalizada atrasou a equipe. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_035",
+    "priority": 18,
+    "cooldownDays": 9,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "saude"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um poste fofoqueiro derrubou a teoria. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_036",
+    "priority": 18,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "midia"
+    ],
+    "resultTypes": [
+      "any"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um placa de pare que não parava ninguém assinou o boletim. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_037",
+    "priority": 18,
+    "cooldownDays": 6,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "porto"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um pombo com credencial virou evidência. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_038",
+    "priority": 18,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "resgate"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um cone em posição de liderança apareceu no relatório. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_039",
+    "priority": 18,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "comunicacao"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um carrinho de compras fugitivo atrasou a equipe. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_040",
+    "priority": 18,
+    "cooldownDays": 9,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "infiltracao"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um bueiro dramático derrubou a teoria. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_041",
+    "priority": 18,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "desastre"
+    ],
+    "resultTypes": [
+      "any"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um semáforo passivo-agressivo assinou o boletim. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_042",
+    "priority": 18,
+    "cooldownDays": 6,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "mercado"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um mochila testemunha virou evidência. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_043",
+    "priority": 18,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "drone"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um sirene com crise de identidade apareceu no relatório. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_044",
+    "priority": 18,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "dados"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um hidrante temperamental atrasou a equipe. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_045",
+    "priority": 18,
+    "cooldownDays": 9,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "hospital"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um drona arrependida derrubou a teoria. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_046",
+    "priority": 18,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "fuga"
+    ],
+    "resultTypes": [
+      "any"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um catraca sindicalizada assinou o boletim. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_047",
+    "priority": 18,
+    "cooldownDays": 6,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "trem"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um poste fofoqueiro virou evidência. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_048",
+    "priority": 18,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "refem"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um placa de pare que não parava ninguém apareceu no relatório. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_049",
+    "priority": 18,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "energia"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um pombo com credencial atrasou a equipe. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_050",
+    "priority": 18,
+    "cooldownDays": 9,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "civis"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um cone em posição de liderança derrubou a teoria. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_051",
+    "priority": 18,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "tecnologia"
+    ],
+    "resultTypes": [
+      "any"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um carrinho de compras fugitivo assinou o boletim. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_052",
+    "priority": 18,
+    "cooldownDays": 6,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "protesto"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um bueiro dramático virou evidência. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_053",
+    "priority": 18,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "chuva"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um semáforo passivo-agressivo apareceu no relatório. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_054",
+    "priority": 18,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "incendio"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um mochila testemunha atrasou a equipe. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_055",
+    "priority": 18,
+    "cooldownDays": 9,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "multidao"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um sirene com crise de identidade derrubou a teoria. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_056",
+    "priority": 18,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "agua"
+    ],
+    "resultTypes": [
+      "any"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um hidrante temperamental assinou o boletim. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_057",
+    "priority": 18,
+    "cooldownDays": 6,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "evacuacao"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um drona arrependida virou evidência. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_058",
+    "priority": 18,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "ponte"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um catraca sindicalizada apareceu no relatório. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_059",
+    "priority": 18,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "portal"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um poste fofoqueiro atrasou a equipe. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_060",
+    "priority": 18,
+    "cooldownDays": 9,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "sinal"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um placa de pare que não parava ninguém derrubou a teoria. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_061",
+    "priority": 18,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "subsolo"
+    ],
+    "resultTypes": [
+      "any"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um pombo com credencial assinou o boletim. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_062",
+    "priority": 18,
+    "cooldownDays": 6,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "captura"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um cone em posição de liderança virou evidência. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_063",
+    "priority": 18,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "escola"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um carrinho de compras fugitivo apareceu no relatório. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_064",
+    "priority": 18,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "crianca"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um bueiro dramático atrasou a equipe. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_065",
+    "priority": 18,
+    "cooldownDays": 9,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "quimica"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um semáforo passivo-agressivo derrubou a teoria. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_066",
+    "priority": 18,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "estrutura"
+    ],
+    "resultTypes": [
+      "any"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um mochila testemunha assinou o boletim. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_067",
+    "priority": 18,
+    "cooldownDays": 6,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "vilao"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um sirene com crise de identidade virou evidência. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_068",
+    "priority": 18,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "laboratorio"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um hidrante temperamental apareceu no relatório. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_069",
+    "priority": 18,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "noite"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um drona arrependida atrasou a equipe. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_070",
+    "priority": 18,
+    "cooldownDays": 9,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "transito"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um catraca sindicalizada derrubou a teoria. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_071",
+    "priority": 18,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "boato"
+    ],
+    "resultTypes": [
+      "any"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um poste fofoqueiro assinou o boletim. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_072",
+    "priority": 18,
+    "cooldownDays": 6,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "saude"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um placa de pare que não parava ninguém virou evidência. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_073",
+    "priority": 18,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "midia"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um pombo com credencial apareceu no relatório. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_074",
+    "priority": 18,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "porto"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um cone em posição de liderança atrasou a equipe. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_075",
+    "priority": 18,
+    "cooldownDays": 9,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "resgate"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um carrinho de compras fugitivo derrubou a teoria. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_076",
+    "priority": 18,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "comunicacao"
+    ],
+    "resultTypes": [
+      "any"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um bueiro dramático assinou o boletim. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_077",
+    "priority": 18,
+    "cooldownDays": 6,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "infiltracao"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um semáforo passivo-agressivo virou evidência. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_078",
+    "priority": 18,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "desastre"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um mochila testemunha apareceu no relatório. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_079",
+    "priority": 18,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "mercado"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um sirene com crise de identidade atrasou a equipe. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_080",
+    "priority": 18,
+    "cooldownDays": 9,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "drone"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um hidrante temperamental derrubou a teoria. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_081",
+    "priority": 18,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "dados"
+    ],
+    "resultTypes": [
+      "any"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um drona arrependida assinou o boletim. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_082",
+    "priority": 18,
+    "cooldownDays": 6,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "hospital"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um catraca sindicalizada virou evidência. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_083",
+    "priority": 18,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "fuga"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um poste fofoqueiro apareceu no relatório. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_084",
+    "priority": 18,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "trem"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um placa de pare que não parava ninguém atrasou a equipe. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_085",
+    "priority": 18,
+    "cooldownDays": 9,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "refem"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um pombo com credencial derrubou a teoria. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_086",
+    "priority": 18,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "energia"
+    ],
+    "resultTypes": [
+      "any"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um cone em posição de liderança assinou o boletim. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_087",
+    "priority": 18,
+    "cooldownDays": 6,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "civis"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um carrinho de compras fugitivo virou evidência. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_088",
+    "priority": 18,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "tecnologia"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um bueiro dramático apareceu no relatório. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_089",
+    "priority": 18,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "protesto"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um semáforo passivo-agressivo atrasou a equipe. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_090",
+    "priority": 18,
+    "cooldownDays": 9,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "chuva"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um mochila testemunha derrubou a teoria. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_091",
+    "priority": 18,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "incendio"
+    ],
+    "resultTypes": [
+      "any"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um sirene com crise de identidade assinou o boletim. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_092",
+    "priority": 18,
+    "cooldownDays": 6,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "multidao"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um hidrante temperamental virou evidência. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_093",
+    "priority": 18,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "agua"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um drona arrependida apareceu no relatório. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_094",
+    "priority": 18,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "evacuacao"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um catraca sindicalizada atrasou a equipe. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_095",
+    "priority": 18,
+    "cooldownDays": 9,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "ponte"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um poste fofoqueiro derrubou a teoria. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_096",
+    "priority": 18,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "portal"
+    ],
+    "resultTypes": [
+      "any"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um placa de pare que não parava ninguém assinou o boletim. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_097",
+    "priority": 18,
+    "cooldownDays": 6,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "sinal"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um pombo com credencial virou evidência. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_098",
+    "priority": 18,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "subsolo"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um cone em posição de liderança apareceu no relatório. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_099",
+    "priority": 18,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "captura"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um carrinho de compras fugitivo atrasou a equipe. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_100",
+    "priority": 18,
+    "cooldownDays": 9,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "escola"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um bueiro dramático derrubou a teoria. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_101",
+    "priority": 18,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "crianca"
+    ],
+    "resultTypes": [
+      "any"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um semáforo passivo-agressivo assinou o boletim. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_102",
+    "priority": 18,
+    "cooldownDays": 6,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "quimica"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um mochila testemunha virou evidência. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_103",
+    "priority": 18,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "estrutura"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um sirene com crise de identidade apareceu no relatório. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_104",
+    "priority": 18,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "vilao"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um hidrante temperamental atrasou a equipe. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_105",
+    "priority": 18,
+    "cooldownDays": 9,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "laboratorio"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um drona arrependida derrubou a teoria. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_106",
+    "priority": 18,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "noite"
+    ],
+    "resultTypes": [
+      "any"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um catraca sindicalizada assinou o boletim. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_107",
+    "priority": 18,
+    "cooldownDays": 6,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "transito"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um poste fofoqueiro virou evidência. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_108",
+    "priority": 18,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "boato"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um placa de pare que não parava ninguém apareceu no relatório. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_109",
+    "priority": 18,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "saude"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um pombo com credencial atrasou a equipe. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_110",
+    "priority": 18,
+    "cooldownDays": 9,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "midia"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um cone em posição de liderança derrubou a teoria. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_111",
+    "priority": 18,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "porto"
+    ],
+    "resultTypes": [
+      "any"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um carrinho de compras fugitivo assinou o boletim. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_112",
+    "priority": 18,
+    "cooldownDays": 6,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "resgate"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um bueiro dramático virou evidência. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_113",
+    "priority": 18,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "comunicacao"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um semáforo passivo-agressivo apareceu no relatório. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_114",
+    "priority": 18,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "infiltracao"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um mochila testemunha atrasou a equipe. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_115",
+    "priority": 18,
+    "cooldownDays": 9,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "desastre"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um sirene com crise de identidade derrubou a teoria. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_116",
+    "priority": 18,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "mercado"
+    ],
+    "resultTypes": [
+      "any"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um hidrante temperamental assinou o boletim. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_117",
+    "priority": 18,
+    "cooldownDays": 6,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "drone"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um drona arrependida virou evidência. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_118",
+    "priority": 18,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "dados"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um catraca sindicalizada apareceu no relatório. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_119",
+    "priority": 18,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "hospital"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um poste fofoqueiro atrasou a equipe. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_120",
+    "priority": 18,
+    "cooldownDays": 9,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "fuga"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um placa de pare que não parava ninguém derrubou a teoria. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_121",
+    "priority": 18,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "trem"
+    ],
+    "resultTypes": [
+      "any"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um pombo com credencial assinou o boletim. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_122",
+    "priority": 18,
+    "cooldownDays": 6,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "refem"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um cone em posição de liderança virou evidência. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_123",
+    "priority": 18,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "energia"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um carrinho de compras fugitivo apareceu no relatório. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_124",
+    "priority": 18,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "civis"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um bueiro dramático atrasou a equipe. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_125",
+    "priority": 18,
+    "cooldownDays": 9,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "tecnologia"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um semáforo passivo-agressivo derrubou a teoria. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_126",
+    "priority": 18,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "protesto"
+    ],
+    "resultTypes": [
+      "any"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um mochila testemunha assinou o boletim. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_127",
+    "priority": 18,
+    "cooldownDays": 6,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "chuva"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um sirene com crise de identidade virou evidência. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_128",
+    "priority": 18,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "incendio"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um hidrante temperamental apareceu no relatório. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_129",
+    "priority": 18,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "multidao"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um drona arrependida atrasou a equipe. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_130",
+    "priority": 18,
+    "cooldownDays": 9,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "agua"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um catraca sindicalizada derrubou a teoria. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_131",
+    "priority": 18,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "evacuacao"
+    ],
+    "resultTypes": [
+      "any"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um poste fofoqueiro assinou o boletim. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_132",
+    "priority": 18,
+    "cooldownDays": 6,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "ponte"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um placa de pare que não parava ninguém virou evidência. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_133",
+    "priority": 18,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "portal"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um pombo com credencial apareceu no relatório. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_134",
+    "priority": 18,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "sinal"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um cone em posição de liderança atrasou a equipe. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_135",
+    "priority": 18,
+    "cooldownDays": 9,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "subsolo"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um carrinho de compras fugitivo derrubou a teoria. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_136",
+    "priority": 18,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "captura"
+    ],
+    "resultTypes": [
+      "any"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um bueiro dramático assinou o boletim. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_137",
+    "priority": 18,
+    "cooldownDays": 6,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "escola"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um semáforo passivo-agressivo virou evidência. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_138",
+    "priority": 18,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "crianca"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um mochila testemunha apareceu no relatório. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_139",
+    "priority": 18,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "quimica"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um sirene com crise de identidade atrasou a equipe. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_140",
+    "priority": 18,
+    "cooldownDays": 9,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "estrutura"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um hidrante temperamental derrubou a teoria. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_141",
+    "priority": 18,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "vilao"
+    ],
+    "resultTypes": [
+      "any"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um drona arrependida assinou o boletim. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_142",
+    "priority": 18,
+    "cooldownDays": 6,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "laboratorio"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um catraca sindicalizada virou evidência. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_143",
+    "priority": 18,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "noite"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um poste fofoqueiro apareceu no relatório. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_144",
+    "priority": 18,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "transito"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um placa de pare que não parava ninguém atrasou a equipe. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_145",
+    "priority": 18,
+    "cooldownDays": 9,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "boato"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um pombo com credencial derrubou a teoria. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_146",
+    "priority": 18,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "saude"
+    ],
+    "resultTypes": [
+      "any"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um cone em posição de liderança assinou o boletim. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_147",
+    "priority": 18,
+    "cooldownDays": 6,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "midia"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um carrinho de compras fugitivo virou evidência. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_148",
+    "priority": 18,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "porto"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um bueiro dramático apareceu no relatório. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_149",
+    "priority": 18,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "resgate"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um semáforo passivo-agressivo atrasou a equipe. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_150",
+    "priority": 18,
+    "cooldownDays": 9,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "comunicacao"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um mochila testemunha derrubou a teoria. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_151",
+    "priority": 18,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "infiltracao"
+    ],
+    "resultTypes": [
+      "any"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um sirene com crise de identidade assinou o boletim. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_152",
+    "priority": 18,
+    "cooldownDays": 6,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "desastre"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um hidrante temperamental virou evidência. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_153",
+    "priority": 18,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "mercado"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um drona arrependida apareceu no relatório. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_154",
+    "priority": 18,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "drone"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um catraca sindicalizada atrasou a equipe. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_155",
+    "priority": 18,
+    "cooldownDays": 9,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "dados"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um poste fofoqueiro derrubou a teoria. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_156",
+    "priority": 18,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "hospital"
+    ],
+    "resultTypes": [
+      "any"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um placa de pare que não parava ninguém assinou o boletim. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_157",
+    "priority": 18,
+    "cooldownDays": 6,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "fuga"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um pombo com credencial virou evidência. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_158",
+    "priority": 18,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "trem"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um cone em posição de liderança apareceu no relatório. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_159",
+    "priority": 18,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "refem"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um carrinho de compras fugitivo atrasou a equipe. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_160",
+    "priority": 18,
+    "cooldownDays": 9,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "energia"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um bueiro dramático derrubou a teoria. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_161",
+    "priority": 18,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "civis"
+    ],
+    "resultTypes": [
+      "any"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um semáforo passivo-agressivo assinou o boletim. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_162",
+    "priority": 18,
+    "cooldownDays": 6,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "tecnologia"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um mochila testemunha virou evidência. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_163",
+    "priority": 18,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "protesto"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um sirene com crise de identidade apareceu no relatório. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_164",
+    "priority": 18,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "chuva"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um hidrante temperamental atrasou a equipe. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_165",
+    "priority": 18,
+    "cooldownDays": 9,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "incendio"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um drona arrependida derrubou a teoria. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_166",
+    "priority": 18,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "multidao"
+    ],
+    "resultTypes": [
+      "any"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um catraca sindicalizada assinou o boletim. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_167",
+    "priority": 18,
+    "cooldownDays": 6,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "agua"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um poste fofoqueiro virou evidência. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_168",
+    "priority": 18,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "evacuacao"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um placa de pare que não parava ninguém apareceu no relatório. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_169",
+    "priority": 18,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "ponte"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um pombo com credencial atrasou a equipe. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_170",
+    "priority": 18,
+    "cooldownDays": 9,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "portal"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um cone em posição de liderança derrubou a teoria. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_171",
+    "priority": 18,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "sinal"
+    ],
+    "resultTypes": [
+      "any"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um carrinho de compras fugitivo assinou o boletim. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_172",
+    "priority": 18,
+    "cooldownDays": 6,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "subsolo"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um bueiro dramático virou evidência. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_173",
+    "priority": 18,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "captura"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um semáforo passivo-agressivo apareceu no relatório. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_174",
+    "priority": 18,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "escola"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um mochila testemunha atrasou a equipe. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_175",
+    "priority": 18,
+    "cooldownDays": 9,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "crianca"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um sirene com crise de identidade derrubou a teoria. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_176",
+    "priority": 18,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "quimica"
+    ],
+    "resultTypes": [
+      "any"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um hidrante temperamental assinou o boletim. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_177",
+    "priority": 18,
+    "cooldownDays": 6,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "estrutura"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um drona arrependida virou evidência. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_178",
+    "priority": 18,
+    "cooldownDays": 7,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "vilao"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um catraca sindicalizada apareceu no relatório. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_179",
+    "priority": 18,
+    "cooldownDays": 8,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "laboratorio"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um poste fofoqueiro atrasou a equipe. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "absurd_fallback_180",
+    "priority": 18,
+    "cooldownDays": 9,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "noite"
+    ],
+    "resultTypes": [
+      "success"
+    ],
+    "tone": "comico absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Registro extra: um placa de pare que não parava ninguém derrubou a teoria. Não sei onde isso entra no protocolo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Coloca em anexos. Anexos existem para proteger a sanidade do relatório."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 0
+    }
+  },
+  {
+    "id": "gen_result_absurdo_1",
+    "priority": 33,
+    "cooldownDays": 4,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "absurdo"
+    ],
+    "tone": "absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "A ocorrência terminou antes do café esfriar. Infelizmente, o café era de ontem."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Vou registrar isso como procedimento e torcer para ninguém pedir detalhes."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_result_absurdo_2",
+    "priority": 33,
+    "cooldownDays": 4,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "absurdo"
+    ],
+    "tone": "absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Salvamos civis, equipamento e uma marmita emocionalmente importante."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Vou registrar isso como procedimento e torcer para ninguém pedir detalhes."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_result_absurdo_3",
+    "priority": 33,
+    "cooldownDays": 4,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "absurdo"
+    ],
+    "tone": "absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "A prefeitura perguntou pelo dano. Eu perguntei se ela preferia o bairro inteiro."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Vou registrar isso como procedimento e torcer para ninguém pedir detalhes."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_result_absurdo_4",
+    "priority": 33,
+    "cooldownDays": 4,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "absurdo"
+    ],
+    "tone": "absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Tinha um cone no lugar errado. Agora ele está em todos os lugares errados."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Vou registrar isso como procedimento e torcer para ninguém pedir detalhes."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_result_absurdo_5",
+    "priority": 33,
+    "cooldownDays": 4,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "absurdo"
+    ],
+    "tone": "absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Se isso virar treinamento obrigatério, eu nego que improvisei."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Vou registrar isso como procedimento e torcer para ninguém pedir detalhes."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_result_absurdo_6",
+    "priority": 33,
+    "cooldownDays": 4,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "absurdo"
+    ],
+    "tone": "absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Missão concluída. O rádio sobreviveu a três suspiros e uma ameaça ao mobiliário."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Vou registrar isso como procedimento e torcer para ninguém pedir detalhes."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_result_absurdo_7",
+    "priority": 33,
+    "cooldownDays": 4,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "absurdo"
+    ],
+    "tone": "absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "A cidade está salva e alguém precisa explicar o cheiro de pipoca queimada."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Vou registrar isso como procedimento e torcer para ninguém pedir detalhes."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_result_absurdo_8",
+    "priority": 33,
+    "cooldownDays": 4,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "absurdo"
+    ],
+    "tone": "absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Fizemos parecer plano. Essa é a parte mais perigosa."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Vou registrar isso como procedimento e torcer para ninguém pedir detalhes."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_result_absurdo_9",
+    "priority": 33,
+    "cooldownDays": 4,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "absurdo"
+    ],
+    "tone": "absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Eu pedi silêncio no canal. Recebi sarcasmo em alta definição."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Vou registrar isso como procedimento e torcer para ninguém pedir detalhes."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_result_absurdo_10",
+    "priority": 33,
+    "cooldownDays": 4,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "*"
+    ],
+    "resultTypes": [
+      "absurdo"
+    ],
+    "tone": "absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Tecnicamente, ninguém proibiu usar uma placa de trânsito como escudo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Vou registrar isso como procedimento e torcer para ninguém pedir detalhes."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_tag_1_1",
+    "priority": 38,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "resgate",
+      "tempo_curto"
+    ],
+    "resultTypes": [
+      "success",
+      "missao_controlada",
+      "vitoria_apertada",
+      "sucesso_com_dano"
+    ],
+    "tone": "comico",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Missão de resgate resolvida. Minha definição de normalidade acabou de piorar."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Normalidade é só caos com crachá."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_tag_1_4",
+    "priority": 38,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "resgate",
+      "tempo_curto"
+    ],
+    "resultTypes": [
+      "success",
+      "missao_controlada",
+      "vitoria_apertada",
+      "sucesso_com_dano"
+    ],
+    "tone": "comico",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Missão de resgate resolvida. Minha definição de normalidade acabou de piorar."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Você ainda chama isso de normalidade? Fofo."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_tag_1_7",
+    "priority": 38,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "resgate",
+      "tempo_curto"
+    ],
+    "resultTypes": [
+      "success",
+      "missao_controlada",
+      "vitoria_apertada",
+      "sucesso_com_dano"
+    ],
+    "tone": "comico",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Missão de resgate resolvida. Minha definição de normalidade acabou de piorar."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Normalidade é só caos com crachá."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_tag_1_10",
+    "priority": 38,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "resgate",
+      "tempo_curto"
+    ],
+    "resultTypes": [
+      "success",
+      "missao_controlada",
+      "vitoria_apertada",
+      "sucesso_com_dano"
+    ],
+    "tone": "comico",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Missão de resgate resolvida. Minha definição de normalidade acabou de piorar."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Você ainda chama isso de normalidade? Fofo."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_tag_2_1",
+    "priority": 38,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "estrutura",
+      "evacuacao"
+    ],
+    "resultTypes": [
+      "success",
+      "missao_controlada",
+      "vitoria_apertada",
+      "sucesso_com_dano"
+    ],
+    "tone": "comico",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Missão de estrutura resolvida. Minha definição de normalidade acabou de piorar."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Normalidade é só caos com crachá."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_tag_2_4",
+    "priority": 38,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "estrutura",
+      "evacuacao"
+    ],
+    "resultTypes": [
+      "success",
+      "missao_controlada",
+      "vitoria_apertada",
+      "sucesso_com_dano"
+    ],
+    "tone": "comico",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Missão de estrutura resolvida. Minha definição de normalidade acabou de piorar."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Você ainda chama isso de normalidade? Fofo."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_tag_2_7",
+    "priority": 38,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "estrutura",
+      "evacuacao"
+    ],
+    "resultTypes": [
+      "success",
+      "missao_controlada",
+      "vitoria_apertada",
+      "sucesso_com_dano"
+    ],
+    "tone": "comico",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Missão de estrutura resolvida. Minha definição de normalidade acabou de piorar."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Normalidade é só caos com crachá."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_tag_2_10",
+    "priority": 38,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "estrutura",
+      "evacuacao"
+    ],
+    "resultTypes": [
+      "success",
+      "missao_controlada",
+      "vitoria_apertada",
+      "sucesso_com_dano"
+    ],
+    "tone": "comico",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Missão de estrutura resolvida. Minha definição de normalidade acabou de piorar."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Você ainda chama isso de normalidade? Fofo."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_tag_3_1",
+    "priority": 38,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "energia",
+      "calor"
+    ],
+    "resultTypes": [
+      "success",
+      "missao_controlada",
+      "vitoria_apertada",
+      "sucesso_com_dano"
+    ],
+    "tone": "comico",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Missão de energia resolvida. Minha definição de normalidade acabou de piorar."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Normalidade é só caos com crachá."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_tag_3_4",
+    "priority": 38,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "energia",
+      "calor"
+    ],
+    "resultTypes": [
+      "success",
+      "missao_controlada",
+      "vitoria_apertada",
+      "sucesso_com_dano"
+    ],
+    "tone": "comico",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Missão de energia resolvida. Minha definição de normalidade acabou de piorar."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Você ainda chama isso de normalidade? Fofo."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_tag_3_7",
+    "priority": 38,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "energia",
+      "calor"
+    ],
+    "resultTypes": [
+      "success",
+      "missao_controlada",
+      "vitoria_apertada",
+      "sucesso_com_dano"
+    ],
+    "tone": "comico",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Missão de energia resolvida. Minha definição de normalidade acabou de piorar."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Normalidade é só caos com crachá."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_tag_3_10",
+    "priority": 38,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "energia",
+      "calor"
+    ],
+    "resultTypes": [
+      "success",
+      "missao_controlada",
+      "vitoria_apertada",
+      "sucesso_com_dano"
+    ],
+    "tone": "comico",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Missão de energia resolvida. Minha definição de normalidade acabou de piorar."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Você ainda chama isso de normalidade? Fofo."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_tag_4_1",
+    "priority": 38,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "dados",
+      "sinal"
+    ],
+    "resultTypes": [
+      "success",
+      "missao_controlada",
+      "vitoria_apertada",
+      "sucesso_com_dano"
+    ],
+    "tone": "comico",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Missão de dados resolvida. Minha definição de normalidade acabou de piorar."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Normalidade é só caos com crachá."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_tag_4_4",
+    "priority": 38,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "dados",
+      "sinal"
+    ],
+    "resultTypes": [
+      "success",
+      "missao_controlada",
+      "vitoria_apertada",
+      "sucesso_com_dano"
+    ],
+    "tone": "comico",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Missão de dados resolvida. Minha definição de normalidade acabou de piorar."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Você ainda chama isso de normalidade? Fofo."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_tag_4_7",
+    "priority": 38,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "dados",
+      "sinal"
+    ],
+    "resultTypes": [
+      "success",
+      "missao_controlada",
+      "vitoria_apertada",
+      "sucesso_com_dano"
+    ],
+    "tone": "comico",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Missão de dados resolvida. Minha definição de normalidade acabou de piorar."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Normalidade é só caos com crachá."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_tag_4_10",
+    "priority": 38,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "dados",
+      "sinal"
+    ],
+    "resultTypes": [
+      "success",
+      "missao_controlada",
+      "vitoria_apertada",
+      "sucesso_com_dano"
+    ],
+    "tone": "comico",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Missão de dados resolvida. Minha definição de normalidade acabou de piorar."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Você ainda chama isso de normalidade? Fofo."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_tag_5_1",
+    "priority": 38,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "multidao",
+      "boato"
+    ],
+    "resultTypes": [
+      "success",
+      "missao_controlada",
+      "vitoria_apertada",
+      "sucesso_com_dano"
+    ],
+    "tone": "comico",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Missão de multidao resolvida. Minha definição de normalidade acabou de piorar."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Normalidade é só caos com crachá."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_tag_5_4",
+    "priority": 38,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "multidao",
+      "boato"
+    ],
+    "resultTypes": [
+      "success",
+      "missao_controlada",
+      "vitoria_apertada",
+      "sucesso_com_dano"
+    ],
+    "tone": "comico",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Missão de multidao resolvida. Minha definição de normalidade acabou de piorar."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Você ainda chama isso de normalidade? Fofo."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_tag_5_7",
+    "priority": 38,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "multidao",
+      "boato"
+    ],
+    "resultTypes": [
+      "success",
+      "missao_controlada",
+      "vitoria_apertada",
+      "sucesso_com_dano"
+    ],
+    "tone": "comico",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Missão de multidao resolvida. Minha definição de normalidade acabou de piorar."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Normalidade é só caos com crachá."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_tag_5_10",
+    "priority": 38,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "multidao",
+      "boato"
+    ],
+    "resultTypes": [
+      "success",
+      "missao_controlada",
+      "vitoria_apertada",
+      "sucesso_com_dano"
+    ],
+    "tone": "comico",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Missão de multidao resolvida. Minha definição de normalidade acabou de piorar."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Você ainda chama isso de normalidade? Fofo."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_tag_6_1",
+    "priority": 38,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "agua",
+      "subsolo"
+    ],
+    "resultTypes": [
+      "success",
+      "missao_controlada",
+      "vitoria_apertada",
+      "sucesso_com_dano"
+    ],
+    "tone": "comico",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Missão de agua resolvida. Minha definição de normalidade acabou de piorar."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Normalidade é só caos com crachá."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_tag_6_4",
+    "priority": 38,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "agua",
+      "subsolo"
+    ],
+    "resultTypes": [
+      "success",
+      "missao_controlada",
+      "vitoria_apertada",
+      "sucesso_com_dano"
+    ],
+    "tone": "comico",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Missão de agua resolvida. Minha definição de normalidade acabou de piorar."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Você ainda chama isso de normalidade? Fofo."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_tag_6_7",
+    "priority": 38,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "agua",
+      "subsolo"
+    ],
+    "resultTypes": [
+      "success",
+      "missao_controlada",
+      "vitoria_apertada",
+      "sucesso_com_dano"
+    ],
+    "tone": "comico",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Missão de agua resolvida. Minha definição de normalidade acabou de piorar."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Normalidade é só caos com crachá."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_tag_6_10",
+    "priority": 38,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "agua",
+      "subsolo"
+    ],
+    "resultTypes": [
+      "success",
+      "missao_controlada",
+      "vitoria_apertada",
+      "sucesso_com_dano"
+    ],
+    "tone": "comico",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Missão de agua resolvida. Minha definição de normalidade acabou de piorar."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Você ainda chama isso de normalidade? Fofo."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_tag_7_1",
+    "priority": 38,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "quimica",
+      "biologia"
+    ],
+    "resultTypes": [
+      "success",
+      "missao_controlada",
+      "vitoria_apertada",
+      "sucesso_com_dano"
+    ],
+    "tone": "comico",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Missão de quimica resolvida. Minha definição de normalidade acabou de piorar."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Normalidade é só caos com crachá."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_tag_7_4",
+    "priority": 38,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "quimica",
+      "biologia"
+    ],
+    "resultTypes": [
+      "success",
+      "missao_controlada",
+      "vitoria_apertada",
+      "sucesso_com_dano"
+    ],
+    "tone": "comico",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Missão de quimica resolvida. Minha definição de normalidade acabou de piorar."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Você ainda chama isso de normalidade? Fofo."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_tag_7_7",
+    "priority": 38,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "quimica",
+      "biologia"
+    ],
+    "resultTypes": [
+      "success",
+      "missao_controlada",
+      "vitoria_apertada",
+      "sucesso_com_dano"
+    ],
+    "tone": "comico",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Missão de quimica resolvida. Minha definição de normalidade acabou de piorar."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Normalidade é só caos com crachá."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_tag_7_10",
+    "priority": 38,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "quimica",
+      "biologia"
+    ],
+    "resultTypes": [
+      "success",
+      "missao_controlada",
+      "vitoria_apertada",
+      "sucesso_com_dano"
+    ],
+    "tone": "comico",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Missão de quimica resolvida. Minha definição de normalidade acabou de piorar."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Você ainda chama isso de normalidade? Fofo."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_tag_8_1",
+    "priority": 38,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "transito",
+      "altura"
+    ],
+    "resultTypes": [
+      "success",
+      "missao_controlada",
+      "vitoria_apertada",
+      "sucesso_com_dano"
+    ],
+    "tone": "comico",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Missão de transito resolvida. Minha definição de normalidade acabou de piorar."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Normalidade é só caos com crachá."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_tag_8_4",
+    "priority": 38,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "transito",
+      "altura"
+    ],
+    "resultTypes": [
+      "success",
+      "missao_controlada",
+      "vitoria_apertada",
+      "sucesso_com_dano"
+    ],
+    "tone": "comico",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Missão de transito resolvida. Minha definição de normalidade acabou de piorar."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Você ainda chama isso de normalidade? Fofo."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_tag_8_7",
+    "priority": 38,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "transito",
+      "altura"
+    ],
+    "resultTypes": [
+      "success",
+      "missao_controlada",
+      "vitoria_apertada",
+      "sucesso_com_dano"
+    ],
+    "tone": "comico",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Missão de transito resolvida. Minha definição de normalidade acabou de piorar."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Normalidade é só caos com crachá."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_tag_8_10",
+    "priority": 38,
+    "cooldownDays": 5,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "transito",
+      "altura"
+    ],
+    "resultTypes": [
+      "success",
+      "missao_controlada",
+      "vitoria_apertada",
+      "sucesso_com_dano"
+    ],
+    "tone": "comico",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Missão de transito resolvida. Minha definição de normalidade acabou de piorar."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Você ainda chama isso de normalidade? Fofo."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_absurd_1",
+    "priority": 44,
+    "cooldownDays": 4,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "multidao",
+      "transito",
+      "energia",
+      "boato",
+      "*"
+    ],
+    "resultTypes": [
+      "absurdo",
+      "success",
+      "vitoria_apertada"
+    ],
+    "tone": "absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "A ocorrência terminou antes do café esfriar. Infelizmente, o café era de ontem."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Eu vou fingir que isso é uma metáfora operacional e não um pedido de férias."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_absurd_2",
+    "priority": 44,
+    "cooldownDays": 4,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "multidao",
+      "transito",
+      "energia",
+      "boato",
+      "*"
+    ],
+    "resultTypes": [
+      "absurdo",
+      "success",
+      "vitoria_apertada"
+    ],
+    "tone": "absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Salvamos civis, equipamento e uma marmita emocionalmente importante."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Eu vou fingir que isso é uma metáfora operacional e não um pedido de férias."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_absurd_3",
+    "priority": 44,
+    "cooldownDays": 4,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "multidao",
+      "transito",
+      "energia",
+      "boato",
+      "*"
+    ],
+    "resultTypes": [
+      "absurdo",
+      "success",
+      "vitoria_apertada"
+    ],
+    "tone": "absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "A prefeitura perguntou pelo dano. Eu perguntei se ela preferia o bairro inteiro."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Eu vou fingir que isso é uma metáfora operacional e não um pedido de férias."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_absurd_4",
+    "priority": 44,
+    "cooldownDays": 4,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "multidao",
+      "transito",
+      "energia",
+      "boato",
+      "*"
+    ],
+    "resultTypes": [
+      "absurdo",
+      "success",
+      "vitoria_apertada"
+    ],
+    "tone": "absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Tinha um cone no lugar errado. Agora ele está em todos os lugares errados."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Eu vou fingir que isso é uma metáfora operacional e não um pedido de férias."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_absurd_5",
+    "priority": 44,
+    "cooldownDays": 4,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "multidao",
+      "transito",
+      "energia",
+      "boato",
+      "*"
+    ],
+    "resultTypes": [
+      "absurdo",
+      "success",
+      "vitoria_apertada"
+    ],
+    "tone": "absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Se isso virar treinamento obrigatério, eu nego que improvisei."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Eu vou fingir que isso é uma metáfora operacional e não um pedido de férias."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_absurd_6",
+    "priority": 44,
+    "cooldownDays": 4,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "multidao",
+      "transito",
+      "energia",
+      "boato",
+      "*"
+    ],
+    "resultTypes": [
+      "absurdo",
+      "success",
+      "vitoria_apertada"
+    ],
+    "tone": "absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Missão concluída. O rádio sobreviveu a três suspiros e uma ameaça ao mobiliário."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Eu vou fingir que isso é uma metáfora operacional e não um pedido de férias."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_absurd_7",
+    "priority": 44,
+    "cooldownDays": 4,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "multidao",
+      "transito",
+      "energia",
+      "boato",
+      "*"
+    ],
+    "resultTypes": [
+      "absurdo",
+      "success",
+      "vitoria_apertada"
+    ],
+    "tone": "absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "A cidade está salva e alguém precisa explicar o cheiro de pipoca queimada."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Eu vou fingir que isso é uma metáfora operacional e não um pedido de férias."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_absurd_8",
+    "priority": 44,
+    "cooldownDays": 4,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "multidao",
+      "transito",
+      "energia",
+      "boato",
+      "*"
+    ],
+    "resultTypes": [
+      "absurdo",
+      "success",
+      "vitoria_apertada"
+    ],
+    "tone": "absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Fizemos parecer plano. Essa é a parte mais perigosa."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Eu vou fingir que isso é uma metáfora operacional e não um pedido de férias."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_absurd_9",
+    "priority": 44,
+    "cooldownDays": 4,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "multidao",
+      "transito",
+      "energia",
+      "boato",
+      "*"
+    ],
+    "resultTypes": [
+      "absurdo",
+      "success",
+      "vitoria_apertada"
+    ],
+    "tone": "absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Eu pedi silêncio no canal. Recebi sarcasmo em alta definição."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Eu vou fingir que isso é uma metáfora operacional e não um pedido de férias."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_absurd_10",
+    "priority": 44,
+    "cooldownDays": 4,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "multidao",
+      "transito",
+      "energia",
+      "boato",
+      "*"
+    ],
+    "resultTypes": [
+      "absurdo",
+      "success",
+      "vitoria_apertada"
+    ],
+    "tone": "absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Tecnicamente, ninguém proibiu usar uma placa de trânsito como escudo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Eu vou fingir que isso é uma metáfora operacional e não um pedido de férias."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_absurd_11",
+    "priority": 44,
+    "cooldownDays": 4,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "multidao",
+      "transito",
+      "energia",
+      "boato",
+      "*"
+    ],
+    "resultTypes": [
+      "absurdo",
+      "success",
+      "vitoria_apertada"
+    ],
+    "tone": "absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "A ocorrência terminou antes do café esfriar. Infelizmente, o café era de ontem."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Eu vou fingir que isso é uma metáfora operacional e não um pedido de férias."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_absurd_12",
+    "priority": 44,
+    "cooldownDays": 4,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "multidao",
+      "transito",
+      "energia",
+      "boato",
+      "*"
+    ],
+    "resultTypes": [
+      "absurdo",
+      "success",
+      "vitoria_apertada"
+    ],
+    "tone": "absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Salvamos civis, equipamento e uma marmita emocionalmente importante."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Eu vou fingir que isso é uma metáfora operacional e não um pedido de férias."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_absurd_13",
+    "priority": 44,
+    "cooldownDays": 4,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "multidao",
+      "transito",
+      "energia",
+      "boato",
+      "*"
+    ],
+    "resultTypes": [
+      "absurdo",
+      "success",
+      "vitoria_apertada"
+    ],
+    "tone": "absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "A prefeitura perguntou pelo dano. Eu perguntei se ela preferia o bairro inteiro."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Eu vou fingir que isso é uma metáfora operacional e não um pedido de férias."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_absurd_14",
+    "priority": 44,
+    "cooldownDays": 4,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "multidao",
+      "transito",
+      "energia",
+      "boato",
+      "*"
+    ],
+    "resultTypes": [
+      "absurdo",
+      "success",
+      "vitoria_apertada"
+    ],
+    "tone": "absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Tinha um cone no lugar errado. Agora ele está em todos os lugares errados."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Eu vou fingir que isso é uma metáfora operacional e não um pedido de férias."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_absurd_15",
+    "priority": 44,
+    "cooldownDays": 4,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "multidao",
+      "transito",
+      "energia",
+      "boato",
+      "*"
+    ],
+    "resultTypes": [
+      "absurdo",
+      "success",
+      "vitoria_apertada"
+    ],
+    "tone": "absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Se isso virar treinamento obrigatério, eu nego que improvisei."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Eu vou fingir que isso é uma metáfora operacional e não um pedido de férias."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_absurd_16",
+    "priority": 44,
+    "cooldownDays": 4,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "multidao",
+      "transito",
+      "energia",
+      "boato",
+      "*"
+    ],
+    "resultTypes": [
+      "absurdo",
+      "success",
+      "vitoria_apertada"
+    ],
+    "tone": "absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Missão concluída. O rádio sobreviveu a três suspiros e uma ameaça ao mobiliário."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Eu vou fingir que isso é uma metáfora operacional e não um pedido de férias."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_absurd_17",
+    "priority": 44,
+    "cooldownDays": 4,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "multidao",
+      "transito",
+      "energia",
+      "boato",
+      "*"
+    ],
+    "resultTypes": [
+      "absurdo",
+      "success",
+      "vitoria_apertada"
+    ],
+    "tone": "absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "A cidade está salva e alguém precisa explicar o cheiro de pipoca queimada."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Eu vou fingir que isso é uma metáfora operacional e não um pedido de férias."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_absurd_18",
+    "priority": 44,
+    "cooldownDays": 4,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "multidao",
+      "transito",
+      "energia",
+      "boato",
+      "*"
+    ],
+    "resultTypes": [
+      "absurdo",
+      "success",
+      "vitoria_apertada"
+    ],
+    "tone": "absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Fizemos parecer plano. Essa é a parte mais perigosa."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Eu vou fingir que isso é uma metáfora operacional e não um pedido de férias."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_absurd_19",
+    "priority": 44,
+    "cooldownDays": 4,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "multidao",
+      "transito",
+      "energia",
+      "boato",
+      "*"
+    ],
+    "resultTypes": [
+      "absurdo",
+      "success",
+      "vitoria_apertada"
+    ],
+    "tone": "absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Eu pedi silêncio no canal. Recebi sarcasmo em alta definição."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Eu vou fingir que isso é uma metáfora operacional e não um pedido de férias."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  },
+  {
+    "id": "gen_absurd_20",
+    "priority": 44,
+    "cooldownDays": 4,
+    "heroes": [
+      "*"
+    ],
+    "requiredRelationship": "any",
+    "missionTags": [
+      "multidao",
+      "transito",
+      "energia",
+      "boato",
+      "*"
+    ],
+    "resultTypes": [
+      "absurdo",
+      "success",
+      "vitoria_apertada"
+    ],
+    "tone": "absurdo",
+    "districtTags": [],
+    "factionTags": [],
+    "lines": [
+      {
+        "speaker": "hero:0",
+        "text": "Tecnicamente, ninguém proibiu usar uma placa de trânsito como escudo."
+      },
+      {
+        "speaker": "hero:1",
+        "text": "Eu vou fingir que isso é uma metáfora operacional e não um pedido de férias."
+      }
+    ],
+    "effects": {
+      "relationshipChange": 1,
+      "stressChange": -1,
+      "moralChange": 1
+    }
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "id": "enfermaria_basica",
+    "name": "Enfermaria Básica",
+    "description": "Reduz tempo de recuperação de ferimentos leves.",
+    "cost": 15000,
+    "category": "saude",
+    "level": 0,
+    "maxLevel": 1,
+    "effect": { "injuryRecoveryBonus": 1 }
+  },
+  {
+    "id": "sala_de_crise",
+    "name": "Sala de Crise",
+    "description": "Melhora a precisão operacional e dá pequena vantagem em missões complexas.",
+    "cost": 20000,
+    "category": "tatico",
+    "level": 0,
+    "maxLevel": 1,
+    "effect": { "missionChanceBonus": 3 }
+  },
+  {
+    "id": "nucleo_psicologico",
+    "name": "Núcleo Psicológico",
+    "description": "Reduz ganho de estresse após falhas.",
+    "cost": 18000,
+    "category": "equipe",
+    "level": 0,
+    "maxLevel": 1,
+    "effect": { "stressReduction": 3 }
+  },
+  {
+    "id": "departamento_imprensa",
+    "name": "Departamento de Imprensa",
+    "description": "Reduz perda de reputação por dano colateral e crise pública.",
+    "cost": 22000,
+    "category": "publico",
+    "level": 0,
+    "maxLevel": 1,
+    "effect": { "reputationShield": 2 }
+  },
+  {
+    "id": "cela_meta_humana",
+    "name": "Cela Meta-Humana",
+    "description": "Reduz risco de fuga de vilões contidos.",
+    "cost": 25000,
+    "category": "seguranca",
+    "level": 0,
+    "maxLevel": 1,
+    "effect": { "escapeRiskReduction": 8 }
+  },
+  {
+    "id": "sala_mediacao",
+    "name": "Sala de Mediação",
+    "description": "Aumenta chance de reforma de vilões.",
+    "cost": 16000,
+    "category": "reforma",
+    "level": 0,
+    "maxLevel": 1,
+    "effect": { "reformBonus": 8 }
+  },
+  {
+    "id": "simulador_tatico",
+    "name": "Simulador Tático",
+    "description": "Aumenta ganho de XP em missões e treinamentos futuros.",
+    "cost": 24000,
+    "category": "treinamento",
+    "level": 0,
+    "maxLevel": 1,
+    "effect": { "xpBonus": 2 }
+  }
+]

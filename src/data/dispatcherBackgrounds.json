@@ -1,0 +1,44 @@
+[
+  {
+    "id": "emergency_operator",
+    "title": "Ex-operador de emergência",
+    "description": "Você aprendeu a ouvir pânico no rádio e transformar caos em ordem antes do segundo toque.",
+    "attributes": { "lideranca": 7, "logistica": 7, "empatia": 6, "tatica": 5, "relacoesPublicas": 4, "sangueFrio": 8, "administracao": 5, "intuicao": 6 }
+  },
+  {
+    "id": "investigative_reporter",
+    "title": "Ex-jornalista investigativo",
+    "description": "Você sabe quando um alerta tem cheiro de história mal contada e quando a imprensa vai morder.",
+    "attributes": { "lideranca": 4, "logistica": 5, "empatia": 6, "tatica": 5, "relacoesPublicas": 8, "sangueFrio": 6, "administracao": 4, "intuicao": 8 }
+  },
+  {
+    "id": "logistics_military",
+    "title": "Ex-militar de logística",
+    "description": "Planilha, rota, combustível, tempo de chegada. Você enxerga a cidade como um tabuleiro de suprimentos.",
+    "attributes": { "lideranca": 7, "logistica": 9, "empatia": 3, "tatica": 8, "relacoesPublicas": 3, "sangueFrio": 7, "administracao": 7, "intuicao": 4 }
+  },
+  {
+    "id": "crisis_psychologist",
+    "title": "Psicólogo de crise",
+    "description": "Você entende que heróis também tremem, mentem que estão bem e precisam ser ouvidos antes de quebrar.",
+    "attributes": { "lideranca": 6, "logistica": 4, "empatia": 10, "tatica": 4, "relacoesPublicas": 6, "sangueFrio": 7, "administracao": 4, "intuicao": 7 }
+  },
+  {
+    "id": "city_bureaucrat",
+    "title": "Burocrata da prefeitura",
+    "description": "Você conhece a máquina pública, os atalhos legítimos e os formulários que ninguém deveria amar tanto.",
+    "attributes": { "lideranca": 4, "logistica": 6, "empatia": 5, "tatica": 4, "relacoesPublicas": 7, "sangueFrio": 5, "administracao": 10, "intuicao": 4 }
+  },
+  {
+    "id": "retired_hero",
+    "title": "Ex-herói aposentado",
+    "description": "Você já esteve do outro lado do rádio. Sabe o peso de uma ordem mal dada e de uma ordem necessária.",
+    "attributes": { "lideranca": 8, "logistica": 5, "empatia": 7, "tatica": 7, "relacoesPublicas": 5, "sangueFrio": 6, "administracao": 3, "intuicao": 7 }
+  },
+  {
+    "id": "central_sysadmin",
+    "title": "Técnico de sistemas da Central",
+    "description": "Você mantinha o sistema vivo com fita, café e raiva educada. Agora ele também obedece sua voz.",
+    "attributes": { "lideranca": 4, "logistica": 8, "empatia": 4, "tatica": 6, "relacoesPublicas": 4, "sangueFrio": 6, "administracao": 8, "intuicao": 6 }
+  }
+]

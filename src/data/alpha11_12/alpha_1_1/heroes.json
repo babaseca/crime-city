@@ -1,0 +1,1129 @@
+{
+  "schemaVersion": "1.1",
+  "heroes": [
+    {
+      "id": "HERO_001",
+      "codename": "Aurora",
+      "civilianName": "Helena Vilar",
+      "age": 34,
+      "pronouns": "ela/dela",
+      "role": [
+        "liderança",
+        "controle de campo",
+        "resgate"
+      ],
+      "powerSummary": "Fotocinese: cria barreiras, clarões, feixes de precisão e plataformas luminosas; perde controle fino sob exaustão.",
+      "powerLimits": [
+        "luz ambiente muito baixa aumenta custo",
+        "uso prolongado causa enxaqueca e visão turva",
+        "barreiras falham quando divide atenção entre mais de três alvos"
+      ],
+      "background": "Ex-coordenadora de defesa civil que ganhou poderes durante o Incidente da Linha Branca. Carrega a culpa por ter escolhido uma evacuação eficiente que deixou uma equipe para trás.",
+      "personality": {
+        "bigFive": {
+          "openness": 72,
+          "conscientiousness": 91,
+          "extraversion": 66,
+          "agreeableness": 63,
+          "neuroticism": 48
+        },
+        "facets": {
+          "impulseControl": 87,
+          "empathy": 71,
+          "assertiveness": 89,
+          "trustBaseline": 52,
+          "needForRecognition": 41,
+          "toleranceAmbiguity": 38,
+          "moralFlexibility": 34,
+          "resilience": 82,
+          "teamwork": 90,
+          "discipline": 94
+        },
+        "attachmentStyle": "seguro com traços controladores",
+        "conflictStyle": "direta e orientada a solução",
+        "copingStyle": "hiperplanejamento",
+        "values": [
+          "preservação de vidas",
+          "responsabilidade",
+          "competência"
+        ],
+        "needs": [
+          "dividir responsabilidade",
+          "aceitar incerteza"
+        ],
+        "fears": [
+          "falhar diante de civis",
+          "perder o controle da equipe"
+        ],
+        "triggers": [
+          "ordens vagas",
+          "improvisação sem comunicação",
+          "mortes evitáveis"
+        ],
+        "tells": [
+          "organiza objetos quando ansiosa",
+          "fala mais baixo quando está furiosa"
+        ],
+        "blindspots": [
+          "confunde proteção com controle",
+          "demora a admitir que precisa de apoio"
+        ]
+      },
+      "moralProfile": {
+        "axes": {
+          "preservationOfLife": 96,
+          "ruleOfLaw": 72,
+          "truthTransparency": 78,
+          "loyalty": 82,
+          "proportionality": 88,
+          "autonomy": 61,
+          "redemption": 67,
+          "collectiveGood": 91
+        },
+        "redLines": [
+          "sacrificar civis deliberadamente",
+          "tortura",
+          "abandonar companheiro consciente"
+        ],
+        "acceptableCosts": [
+          "danos materiais moderados para salvar vidas",
+          "desobedecer cadeia de comando diante de risco imediato"
+        ],
+        "rationalizations": [
+          "alguém precisa decidir",
+          "controle evita pânico"
+        ],
+        "guiltTriggers": [
+          "baixas sob seu comando",
+          "promessas não cumpridas"
+        ],
+        "forgivenessConditions": [
+          "assunção pública de responsabilidade",
+          "mudança sustentada"
+        ]
+      },
+      "missionPreferences": {
+        "favored": [
+          "rescue",
+          "disaster",
+          "containment"
+        ],
+        "disliked": [
+          "secret_order",
+          "illegal_order"
+        ],
+        "bonuses": {
+          "civilian_priority": 18,
+          "medical_emergency": 10
+        },
+        "penalties": {
+          "secret_order": -16,
+          "illegal_order": -35,
+          "evidence_fragile": -4
+        }
+      },
+      "baselineState": {
+        "stress": 24,
+        "morale": 76,
+        "fatigue": 14,
+        "trustInCommand": 62,
+        "publicPressure": 48,
+        "unresolvedTrauma": 42
+      },
+      "voice": {
+        "register": "firme, econômico e protetor",
+        "humor": "seco e raro",
+        "underStress": "ordens curtas; chama todos pelo codinome"
+      },
+      "arcHooks": [
+        "aprender a delegar",
+        "reabrir o caso da Linha Branca",
+        "aceitar um ex-vilão como agente útil"
+      ]
+    },
+    {
+      "id": "HERO_002",
+      "codename": "Bastião",
+      "civilianName": "Davi Moura",
+      "age": 41,
+      "pronouns": "ele/dele",
+      "role": [
+        "tanque",
+        "proteção",
+        "contenção"
+      ],
+      "powerSummary": "Absorção cinética e pele mineral temporária; converte impacto em força, mas acumula microfraturas.",
+      "powerLimits": [
+        "não absorve calor ou toxinas",
+        "excesso gera dor óssea e tremores",
+        "fica mais lento conforme endurece"
+      ],
+      "background": "Ex-policial afastado após denunciar uma operação encoberta. Entrou na Central para acreditar novamente em instituições, mas vigia cada concessão ética.",
+      "personality": {
+        "bigFive": {
+          "openness": 39,
+          "conscientiousness": 88,
+          "extraversion": 48,
+          "agreeableness": 54,
+          "neuroticism": 44
+        },
+        "facets": {
+          "impulseControl": 82,
+          "empathy": 58,
+          "assertiveness": 84,
+          "trustBaseline": 34,
+          "needForRecognition": 26,
+          "toleranceAmbiguity": 29,
+          "moralFlexibility": 22,
+          "resilience": 89,
+          "teamwork": 77,
+          "discipline": 92
+        },
+        "attachmentStyle": "evitativo leal",
+        "conflictStyle": "confronto baseado em princípios",
+        "copingStyle": "rotina e isolamento",
+        "values": [
+          "dever",
+          "justiça processual",
+          "proteção dos vulneráveis"
+        ],
+        "needs": [
+          "recuperar confiança institucional",
+          "aceitar nuances"
+        ],
+        "fears": [
+          "ser usado por autoridades corruptas",
+          "ferir inocentes em nome da ordem"
+        ],
+        "triggers": [
+          "provas ocultadas",
+          "favorecimento",
+          "ameaças a crianças"
+        ],
+        "tells": [
+          "fecha o punho esquerdo antes de discordar",
+          "evita sentar de costas para portas"
+        ],
+        "blindspots": [
+          "trata concessão como fraqueza",
+          "subestima necessidades emocionais"
+        ]
+      },
+      "moralProfile": {
+        "axes": {
+          "preservationOfLife": 91,
+          "ruleOfLaw": 94,
+          "truthTransparency": 89,
+          "loyalty": 74,
+          "proportionality": 92,
+          "autonomy": 55,
+          "redemption": 48,
+          "collectiveGood": 79
+        },
+        "redLines": [
+          "tortura",
+          "execução sem julgamento",
+          "falsificação de provas"
+        ],
+        "acceptableCosts": [
+          "risco pessoal extremo",
+          "perda de vantagem tática para preservar devido processo"
+        ],
+        "rationalizations": [
+          "regras existem para impedir monstros",
+          "confiança se prova em procedimento"
+        ],
+        "guiltTriggers": [
+          "cumplicidade institucional",
+          "excesso de força"
+        ],
+        "forgivenessConditions": [
+          "reparação às vítimas",
+          "cooperação legal consistente"
+        ]
+      },
+      "missionPreferences": {
+        "favored": [
+          "containment",
+          "escort",
+          "public_order"
+        ],
+        "disliked": [
+          "secret_order",
+          "deception"
+        ],
+        "bonuses": {
+          "hostage_situation": 10,
+          "juvenile_involved": 16
+        },
+        "penalties": {
+          "illegal_order": -45,
+          "secret_order": -24,
+          "ally_compromised": -8
+        }
+      },
+      "baselineState": {
+        "stress": 18,
+        "morale": 70,
+        "fatigue": 12,
+        "trustInCommand": 47,
+        "publicPressure": 36,
+        "unresolvedTrauma": 38
+      },
+      "voice": {
+        "register": "formal e direto",
+        "humor": "irônico, quase imperceptível",
+        "underStress": "recita protocolos e exige confirmação"
+      },
+      "arcHooks": [
+        "confiar em Aurora sem abrir mão de fiscalização",
+        "mentorar um vilão violento",
+        "encarar o ex-comandante corrupto"
+      ]
+    },
+    {
+      "id": "HERO_003",
+      "codename": "Vértice",
+      "civilianName": "Luiza Nascimento",
+      "age": 27,
+      "pronouns": "ela/dela",
+      "role": [
+        "mobilidade",
+        "infiltração",
+        "resgate rápido"
+      ],
+      "powerSummary": "Portais de curta distância entre pontos visíveis ou previamente marcados; transporta no máximo três pessoas.",
+      "powerLimits": [
+        "não abre portal para local desconhecido",
+        "vertigem cresce com massa transportada",
+        "falha sob desorientação espacial"
+      ],
+      "background": "Entregadora e alpinista urbana que usou os poderes inicialmente para pequenos golpes. Aceitou anistia para integrar a Central e teme ser reduzida ao próprio passado.",
+      "personality": {
+        "bigFive": {
+          "openness": 88,
+          "conscientiousness": 51,
+          "extraversion": 84,
+          "agreeableness": 69,
+          "neuroticism": 57
+        },
+        "facets": {
+          "impulseControl": 43,
+          "empathy": 74,
+          "assertiveness": 71,
+          "trustBaseline": 62,
+          "needForRecognition": 68,
+          "toleranceAmbiguity": 91,
+          "moralFlexibility": 76,
+          "resilience": 73,
+          "teamwork": 75,
+          "discipline": 45
+        },
+        "attachmentStyle": "ansioso-independente",
+        "conflictStyle": "humor, fuga e retorno tardio",
+        "copingStyle": "movimento e piadas",
+        "values": [
+          "liberdade",
+          "lealdade escolhida",
+          "segundas chances"
+        ],
+        "needs": [
+          "ser levada a sério",
+          "criar raízes"
+        ],
+        "fears": [
+          "confinamento",
+          "ser descartada após um erro"
+        ],
+        "triggers": [
+          "algemas",
+          "ser chamada de criminosa",
+          "planos sem saída alternativa"
+        ],
+        "tells": [
+          "bate os dedos em superfícies",
+          "faz piada antes de contar algo doloroso"
+        ],
+        "blindspots": [
+          "confunde espontaneidade com coragem",
+          "promete mais do que consegue cumprir"
+        ]
+      },
+      "moralProfile": {
+        "axes": {
+          "preservationOfLife": 86,
+          "ruleOfLaw": 41,
+          "truthTransparency": 59,
+          "loyalty": 91,
+          "proportionality": 72,
+          "autonomy": 96,
+          "redemption": 94,
+          "collectiveGood": 66
+        },
+        "redLines": [
+          "abandonar alguém preso",
+          "punir alguém por origem social",
+          "entregar rendido para execução"
+        ],
+        "acceptableCosts": [
+          "quebrar protocolo",
+          "enganar autoridade abusiva",
+          "danos materiais para criar rota de fuga"
+        ],
+        "rationalizations": [
+          "ninguém sobrevive seguindo todas as placas",
+          "eu conheço gente encurralada"
+        ],
+        "guiltTriggers": [
+          "trair confiança",
+          "não conseguir voltar por alguém"
+        ],
+        "forgivenessConditions": [
+          "pedido honesto",
+          "oportunidade concreta de reparar"
+        ]
+      },
+      "missionPreferences": {
+        "favored": [
+          "rescue",
+          "infiltration",
+          "pursuit"
+        ],
+        "disliked": [
+          "escort",
+          "public_order"
+        ],
+        "bonuses": {
+          "surrender_possible": 14,
+          "ally_compromised": 12
+        },
+        "penalties": {
+          "illegal_order": -18,
+          "secret_order": -6,
+          "political_pressure": -12
+        }
+      },
+      "baselineState": {
+        "stress": 31,
+        "morale": 79,
+        "fatigue": 18,
+        "trustInCommand": 58,
+        "publicPressure": 52,
+        "unresolvedTrauma": 49
+      },
+      "voice": {
+        "register": "coloquial, rápido e provocador",
+        "humor": "constante e defensivo",
+        "underStress": "fala demais e omite medo"
+      },
+      "arcHooks": [
+        "enfrentar antigos parceiros",
+        "provar disciplina sem perder liberdade",
+        "tornar-se mentora informal"
+      ]
+    },
+    {
+      "id": "HERO_004",
+      "codename": "Nexo",
+      "civilianName": "Caio Sato",
+      "age": 32,
+      "pronouns": "ele/dele",
+      "role": [
+        "inteligência",
+        "guerra eletrônica",
+        "suporte"
+      ],
+      "powerSummary": "Interage mentalmente com sistemas eletrônicos próximos, lê fluxos e injeta comandos; não controla máquinas analógicas.",
+      "powerLimits": [
+        "sobrecarga sensorial em redes densas",
+        "criptografia desconhecida exige tempo",
+        "risco de feedback neurológico"
+      ],
+      "background": "Pesquisador de segurança digital que expôs uma rede de vigilância ilegal e perdeu amigos após publicar dados sem medir consequências.",
+      "personality": {
+        "bigFive": {
+          "openness": 94,
+          "conscientiousness": 83,
+          "extraversion": 31,
+          "agreeableness": 46,
+          "neuroticism": 61
+        },
+        "facets": {
+          "impulseControl": 75,
+          "empathy": 48,
+          "assertiveness": 57,
+          "trustBaseline": 29,
+          "needForRecognition": 53,
+          "toleranceAmbiguity": 44,
+          "moralFlexibility": 63,
+          "resilience": 66,
+          "teamwork": 59,
+          "discipline": 86
+        },
+        "attachmentStyle": "evitativo intelectualizado",
+        "conflictStyle": "debate técnico e retirada",
+        "copingStyle": "análise compulsiva",
+        "values": [
+          "verdade verificável",
+          "privacidade",
+          "competência"
+        ],
+        "needs": [
+          "tolerar informação incompleta",
+          "reparar danos humanos"
+        ],
+        "fears": [
+          "ser manipulado por dados falsos",
+          "causar outra exposição catastrófica"
+        ],
+        "triggers": [
+          "afirmações sem evidência",
+          "acesso não auditado",
+          "pressão para decidir rápido"
+        ],
+        "tells": [
+          "corrige termos quando nervoso",
+          "olha para câmeras antes de falar"
+        ],
+        "blindspots": [
+          "trata sentimentos como ruído",
+          "confunde transparência com consentimento"
+        ]
+      },
+      "moralProfile": {
+        "axes": {
+          "preservationOfLife": 73,
+          "ruleOfLaw": 58,
+          "truthTransparency": 97,
+          "loyalty": 52,
+          "proportionality": 70,
+          "autonomy": 88,
+          "redemption": 61,
+          "collectiveGood": 81
+        },
+        "redLines": [
+          "apagamento de identidade",
+          "vigilância total sem controle",
+          "fabricar evidência"
+        ],
+        "acceptableCosts": [
+          "invadir sistemas hostis",
+          "reter informação até validação",
+          "expor autoridade corrupta"
+        ],
+        "rationalizations": [
+          "dados não têm intenção",
+          "a verdade precisa sobreviver ao desconforto"
+        ],
+        "guiltTriggers": [
+          "doxxing",
+          "informação correta usada para ferir"
+        ],
+        "forgivenessConditions": [
+          "auditoria independente",
+          "restituição de privacidade"
+        ]
+      },
+      "missionPreferences": {
+        "favored": [
+          "investigation",
+          "surveillance",
+          "raid"
+        ],
+        "disliked": [
+          "public_order",
+          "media_live"
+        ],
+        "bonuses": {
+          "evidence_fragile": 17,
+          "secret_order": 3
+        },
+        "penalties": {
+          "media_live": -15,
+          "illegal_order": -24,
+          "hostage_situation": -4
+        }
+      },
+      "baselineState": {
+        "stress": 36,
+        "morale": 65,
+        "fatigue": 23,
+        "trustInCommand": 45,
+        "publicPressure": 29,
+        "unresolvedTrauma": 51
+      },
+      "voice": {
+        "register": "preciso, analítico e pouco caloroso",
+        "humor": "referências técnicas",
+        "underStress": "narra probabilidades em voz alta"
+      },
+      "arcHooks": [
+        "rivalidade com Cifra",
+        "aprender a confiar em testemunho humano",
+        "descobrir a origem do sistema da Central"
+      ]
+    },
+    {
+      "id": "HERO_005",
+      "codename": "Maré",
+      "civilianName": "Joana Reis",
+      "age": 38,
+      "pronouns": "ela/dela",
+      "role": [
+        "resgate",
+        "controle ambiental",
+        "suporte médico"
+      ],
+      "powerSummary": "Controla água existente, pressão e umidade; sente alterações químicas básicas no líquido.",
+      "powerLimits": [
+        "não cria água",
+        "desidratação reduz potência",
+        "contaminação complexa exige análise externa"
+      ],
+      "background": "Enfermeira de emergência de região costeira. Perdeu o irmão para uma facção e escolheu trabalhar com reabilitação para impedir que outras famílias repitam o ciclo.",
+      "personality": {
+        "bigFive": {
+          "openness": 68,
+          "conscientiousness": 84,
+          "extraversion": 59,
+          "agreeableness": 92,
+          "neuroticism": 52
+        },
+        "facets": {
+          "impulseControl": 83,
+          "empathy": 97,
+          "assertiveness": 62,
+          "trustBaseline": 70,
+          "needForRecognition": 19,
+          "toleranceAmbiguity": 73,
+          "moralFlexibility": 67,
+          "resilience": 86,
+          "teamwork": 94,
+          "discipline": 82
+        },
+        "attachmentStyle": "seguro cuidador",
+        "conflictStyle": "mediação firme",
+        "copingStyle": "cuidado dos outros e rituais",
+        "values": [
+          "dignidade",
+          "cura",
+          "comunidade"
+        ],
+        "needs": [
+          "estabelecer limites",
+          "não assumir toda dor como sua"
+        ],
+        "fears": [
+          "desumanização de presos",
+          "falhar em reconhecer recaída"
+        ],
+        "triggers": [
+          "humilhação pública",
+          "negligência médica",
+          "vingança apresentada como justiça"
+        ],
+        "tells": [
+          "usa o nome civil das pessoas",
+          "lava as mãos mesmo fora do hospital"
+        ],
+        "blindspots": [
+          "salva quem não pediu ajuda",
+          "tolera manipulação por compaixão"
+        ]
+      },
+      "moralProfile": {
+        "axes": {
+          "preservationOfLife": 99,
+          "ruleOfLaw": 63,
+          "truthTransparency": 75,
+          "loyalty": 86,
+          "proportionality": 94,
+          "autonomy": 83,
+          "redemption": 99,
+          "collectiveGood": 89
+        },
+        "redLines": [
+          "negação de atendimento",
+          "tortura",
+          "usar dependentes como alavanca"
+        ],
+        "acceptableCosts": [
+          "reduzir pena por cooperação real",
+          "arriscar reputação por tratamento digno"
+        ],
+        "rationalizations": [
+          "compreender não é absolver",
+          "ninguém melhora sendo tratado como coisa"
+        ],
+        "guiltTriggers": [
+          "paciente abandonado",
+          "mentorando em recaída"
+        ],
+        "forgivenessConditions": [
+          "responsabilização",
+          "reparação e manutenção"
+        ]
+      },
+      "missionPreferences": {
+        "favored": [
+          "rescue",
+          "negotiation",
+          "disaster"
+        ],
+        "disliked": [
+          "raid",
+          "controlled_pressure"
+        ],
+        "bonuses": {
+          "medical_emergency": 20,
+          "surrender_possible": 18,
+          "civilian_priority": 15
+        },
+        "penalties": {
+          "illegal_order": -31,
+          "high_collateral_risk": -20,
+          "secret_order": -9
+        }
+      },
+      "baselineState": {
+        "stress": 27,
+        "morale": 81,
+        "fatigue": 20,
+        "trustInCommand": 67,
+        "publicPressure": 33,
+        "unresolvedTrauma": 46
+      },
+      "voice": {
+        "register": "calmo, humano e específico",
+        "humor": "gentil",
+        "underStress": "fica mais formal e faz perguntas de triagem"
+      },
+      "arcHooks": [
+        "liderar o programa de segunda chance",
+        "aceitar que nem toda recaída é culpa do mentor",
+        "confrontar o assassino do irmão"
+      ]
+    },
+    {
+      "id": "HERO_006",
+      "codename": "Eco",
+      "civilianName": "Ravi Campos",
+      "age": 25,
+      "pronouns": "ele/dele",
+      "role": [
+        "controle de multidão",
+        "comunicação",
+        "relações públicas"
+      ],
+      "powerSummary": "Manipula ondas sonoras, cria cancelamento, pulsos de impacto e comunicação direcional.",
+      "powerLimits": [
+        "silêncio absoluto reduz opções",
+        "uso intenso causa perda auditiva temporária",
+        "emoções fortes distorcem frequência"
+      ],
+      "background": "Músico e influenciador que virou herói em transmissão ao vivo. É carismático, mas teme que todos só gostem da persona.",
+      "personality": {
+        "bigFive": {
+          "openness": 81,
+          "conscientiousness": 49,
+          "extraversion": 96,
+          "agreeableness": 75,
+          "neuroticism": 64
+        },
+        "facets": {
+          "impulseControl": 39,
+          "empathy": 76,
+          "assertiveness": 83,
+          "trustBaseline": 73,
+          "needForRecognition": 91,
+          "toleranceAmbiguity": 78,
+          "moralFlexibility": 64,
+          "resilience": 69,
+          "teamwork": 72,
+          "discipline": 43
+        },
+        "attachmentStyle": "ansioso sociável",
+        "conflictStyle": "performance, desculpa rápida e recaída",
+        "copingStyle": "exposição e validação",
+        "values": [
+          "conexão",
+          "coragem pública",
+          "autenticidade"
+        ],
+        "needs": [
+          "silêncio interno",
+          "limites com público"
+        ],
+        "fears": [
+          "irrelevância",
+          "ser vaiado em momento crítico"
+        ],
+        "triggers": [
+          "câmeras desligadas após erro",
+          "críticas de covardia",
+          "ser ignorado"
+        ],
+        "tells": [
+          "fala com plateia inexistente",
+          "cantarola quando inseguro"
+        ],
+        "blindspots": [
+          "confunde popularidade com confiança",
+          "subestima efeito de piadas sobre traumas"
+        ]
+      },
+      "moralProfile": {
+        "axes": {
+          "preservationOfLife": 88,
+          "ruleOfLaw": 52,
+          "truthTransparency": 83,
+          "loyalty": 76,
+          "proportionality": 69,
+          "autonomy": 79,
+          "redemption": 84,
+          "collectiveGood": 72
+        },
+        "redLines": [
+          "silenciar vítimas",
+          "usar pânico como espetáculo",
+          "abandonar fã ou civil por imagem"
+        ],
+        "acceptableCosts": [
+          "assumir culpa pública",
+          "quebrar protocolo para transmitir alerta"
+        ],
+        "rationalizations": [
+          "se todos estão olhando, posso fazê-los agir",
+          "humor impede o medo de vencer"
+        ],
+        "guiltTriggers": [
+          "dano causado por espetáculo",
+          "mentira pública"
+        ],
+        "forgivenessConditions": [
+          "confissão sem edição",
+          "mudança visível"
+        ]
+      },
+      "missionPreferences": {
+        "favored": [
+          "public_order",
+          "rescue",
+          "negotiation"
+        ],
+        "disliked": [
+          "surveillance",
+          "secret_order"
+        ],
+        "bonuses": {
+          "media_live": 14,
+          "civilian_priority": 8
+        },
+        "penalties": {
+          "secret_order": -22,
+          "evidence_fragile": -7,
+          "ally_compromised": -5
+        }
+      },
+      "baselineState": {
+        "stress": 34,
+        "morale": 84,
+        "fatigue": 25,
+        "trustInCommand": 60,
+        "publicPressure": 79,
+        "unresolvedTrauma": 35
+      },
+      "voice": {
+        "register": "energético, pop e emocional",
+        "humor": "alto e constante",
+        "underStress": "narra o que faz para se manter focado"
+      },
+      "arcHooks": [
+        "ser herói sem audiência",
+        "rivalidade pública com Teatro",
+        "assumir uma falha sem controlar narrativa"
+      ]
+    },
+    {
+      "id": "HERO_007",
+      "codename": "Cinza",
+      "civilianName": "Mirela Duarte",
+      "age": 30,
+      "pronouns": "ela/dela",
+      "role": [
+        "furtividade",
+        "negação de área",
+        "infiltração"
+      ],
+      "powerSummary": "Controla fumaça, fuligem e gradientes térmicos; pode dispersar o corpo por segundos em nuvem.",
+      "powerLimits": [
+        "vento forte reduz controle",
+        "dispersão prolongada causa perda de memória recente",
+        "não é imune a toxinas misturadas à fumaça"
+      ],
+      "background": "Ex-contrabandista do Mercado Rubro. Entregou a própria quadrilha após uma operação que matou civis e ganhou liberdade condicionada para servir à Central.",
+      "personality": {
+        "bigFive": {
+          "openness": 76,
+          "conscientiousness": 68,
+          "extraversion": 37,
+          "agreeableness": 58,
+          "neuroticism": 72
+        },
+        "facets": {
+          "impulseControl": 66,
+          "empathy": 70,
+          "assertiveness": 64,
+          "trustBaseline": 21,
+          "needForRecognition": 22,
+          "toleranceAmbiguity": 86,
+          "moralFlexibility": 89,
+          "resilience": 78,
+          "teamwork": 61,
+          "discipline": 71
+        },
+        "attachmentStyle": "evitativo desconfiado",
+        "conflictStyle": "silêncio, teste e verdade abrupta",
+        "copingStyle": "vigilância e autossuficiência",
+        "values": [
+          "liberdade conquistada",
+          "lealdade concreta",
+          "reparação"
+        ],
+        "needs": [
+          "pertencimento sem dívida",
+          "aceitar cuidado"
+        ],
+        "fears": [
+          "ser devolvida à prisão por conveniência",
+          "recaír sob chantagem"
+        ],
+        "triggers": [
+          "ameaças à família",
+          "ser revistada sem explicação",
+          "segredos do Mercado Rubro"
+        ],
+        "tells": [
+          "conta saídas",
+          "mantém luvas mesmo em ambientes seguros"
+        ],
+        "blindspots": [
+          "interpreta ajuda como controle",
+          "protege antigos vínculos além do razoável"
+        ]
+      },
+      "moralProfile": {
+        "axes": {
+          "preservationOfLife": 82,
+          "ruleOfLaw": 28,
+          "truthTransparency": 46,
+          "loyalty": 95,
+          "proportionality": 61,
+          "autonomy": 98,
+          "redemption": 91,
+          "collectiveGood": 58
+        },
+        "redLines": [
+          "tráfico de pessoas",
+          "chantagem contra família",
+          "entregar informante exposto"
+        ],
+        "acceptableCosts": [
+          "mentir para proteger operação",
+          "negociar com criminoso",
+          "roubar recursos de facção hostil"
+        ],
+        "rationalizations": [
+          "sobrevivência também é moral",
+          "a lei nunca me deu saída"
+        ],
+        "guiltTriggers": [
+          "civis mortos por sua rede",
+          "antigo aliado preso por sua delação"
+        ],
+        "forgivenessConditions": [
+          "proteção real",
+          "liberdade sem coerção"
+        ]
+      },
+      "missionPreferences": {
+        "favored": [
+          "infiltration",
+          "surveillance",
+          "investigation"
+        ],
+        "disliked": [
+          "public_order",
+          "media_live"
+        ],
+        "bonuses": {
+          "secret_order": 8,
+          "ally_compromised": 14
+        },
+        "penalties": {
+          "juvenile_involved": -13,
+          "media_live": -18,
+          "illegal_order": -6
+        }
+      },
+      "baselineState": {
+        "stress": 43,
+        "morale": 61,
+        "fatigue": 19,
+        "trustInCommand": 31,
+        "publicPressure": 57,
+        "unresolvedTrauma": 72
+      },
+      "voice": {
+        "register": "baixo, afiado e econômico",
+        "humor": "sombrio",
+        "underStress": "abandona metáforas e usa nomes civis"
+      },
+      "arcHooks": [
+        "romper com Mariposa Negra",
+        "proteger a Central sem voltar ao crime",
+        "tornar-se prova viva de reabilitação"
+      ]
+    },
+    {
+      "id": "HERO_008",
+      "codename": "Farol",
+      "civilianName": "Samuel Azevedo",
+      "age": 46,
+      "pronouns": "ele/dele",
+      "role": [
+        "estratégia",
+        "negociação",
+        "precognição limitada"
+      ],
+      "powerSummary": "Recebe flashes probabilísticos de três a cinco segundos sobre ações imediatas; vê possibilidades, não certezas.",
+      "powerLimits": [
+        "múltiplos atores geram visões contraditórias",
+        "uso contínuo provoca náusea e lapsos",
+        "não prevê decisões ainda não formuladas"
+      ],
+      "background": "Psicólogo de crise que desenvolveu o dom após sobreviver a um atentado. Atua como estrategista e defensor de processos restaurativos.",
+      "personality": {
+        "bigFive": {
+          "openness": 89,
+          "conscientiousness": 79,
+          "extraversion": 54,
+          "agreeableness": 88,
+          "neuroticism": 42
+        },
+        "facets": {
+          "impulseControl": 91,
+          "empathy": 93,
+          "assertiveness": 58,
+          "trustBaseline": 68,
+          "needForRecognition": 15,
+          "toleranceAmbiguity": 96,
+          "moralFlexibility": 78,
+          "resilience": 80,
+          "teamwork": 89,
+          "discipline": 81
+        },
+        "attachmentStyle": "seguro reflexivo",
+        "conflictStyle": "perguntas e enquadramento",
+        "copingStyle": "respiração e escrita",
+        "values": [
+          "agência",
+          "responsabilidade",
+          "esperança realista"
+        ],
+        "needs": [
+          "aceitar limites da previsão",
+          "não carregar escolhas alheias"
+        ],
+        "fears": [
+          "transformar possibilidades em destino",
+          "manipular pacientes"
+        ],
+        "triggers": [
+          "fatalismo",
+          "coerção psicológica",
+          "uso de diagnóstico como arma"
+        ],
+        "tells": [
+          "fecha um olho durante flashes",
+          "faz pausa antes de responder certeza"
+        ],
+        "blindspots": [
+          "pode parecer evasivo",
+          "superestima efeito de diálogo em fanáticos"
+        ]
+      },
+      "moralProfile": {
+        "axes": {
+          "preservationOfLife": 94,
+          "ruleOfLaw": 70,
+          "truthTransparency": 81,
+          "loyalty": 79,
+          "proportionality": 95,
+          "autonomy": 97,
+          "redemption": 96,
+          "collectiveGood": 86
+        },
+        "redLines": [
+          "coerção mental",
+          "profecia usada para condenar",
+          "tratamento sem consentimento"
+        ],
+        "acceptableCosts": [
+          "adiar captura para evitar massacre",
+          "oferecer acordo supervisionado"
+        ],
+        "rationalizations": [
+          "uma possibilidade não é sentença",
+          "escolha informada vale mais que obediência"
+        ],
+        "guiltTriggers": [
+          "previsão mal interpretada",
+          "suicídio ou recaída de acompanhado"
+        ],
+        "forgivenessConditions": [
+          "reconstrução de agência",
+          "compromisso verificável"
+        ]
+      },
+      "missionPreferences": {
+        "favored": [
+          "negotiation",
+          "investigation",
+          "rescue"
+        ],
+        "disliked": [
+          "raid",
+          "public_order"
+        ],
+        "bonuses": {
+          "surrender_possible": 20,
+          "hostage_situation": 12
+        },
+        "penalties": {
+          "illegal_order": -39,
+          "political_pressure": -9,
+          "media_live": -5
+        }
+      },
+      "baselineState": {
+        "stress": 22,
+        "morale": 74,
+        "fatigue": 17,
+        "trustInCommand": 64,
+        "publicPressure": 27,
+        "unresolvedTrauma": 40
+      },
+      "voice": {
+        "register": "calmo, cuidadoso e socrático",
+        "humor": "leve e autoconsciente",
+        "underStress": "descreve opções, nunca certezas"
+      },
+      "arcHooks": [
+        "mentorar Mnemósine",
+        "discordar de Aurora sobre risco aceitável",
+        "falhar em prever uma recaída pública"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "scenarioId": "TUTORIAL_ALPHA_1_2_LIVING_CASE",
+  "title": "A porta que Ferrolho abriu",
+  "steps": [
+    {
+      "order": 1,
+      "action": "load demo CASE_004 in rehabilitation",
+      "teaches": [
+        "case timeline",
+        "custody needs"
+      ]
+    },
+    {
+      "order": 2,
+      "action": "run sample interrogation",
+      "teaches": [
+        "approach",
+        "cooperation vs reliability",
+        "rights"
+      ]
+    },
+    {
+      "order": 3,
+      "action": "corroborate depot intel",
+      "teaches": [
+        "provenance",
+        "confidence",
+        "mission unlock"
+      ]
+    },
+    {
+      "order": 4,
+      "action": "assign Bastião as mentor under boundaries",
+      "teaches": [
+        "fit",
+        "relationship direction",
+        "burnout"
+      ]
+    },
+    {
+      "order": 5,
+      "action": "trigger family medical bill pressure",
+      "teaches": [
+        "relapse warning",
+        "network stability"
+      ]
+    },
+    {
+      "order": 6,
+      "action": "choose support, surveillance or coercion",
+      "teaches": [
+        "real advantages and costs"
+      ]
+    },
+    {
+      "order": 7,
+      "action": "generate progress report",
+      "teaches": [
+        "evidence-linked reporting"
+      ]
+    }
+  ],
+  "successDefinition": "The player understands that custody is not the end of the villain's story and that every shortcut creates traceable risk."
+}

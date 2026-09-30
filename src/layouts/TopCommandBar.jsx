@@ -1,44 +1,53 @@
-import { CalendarDays, CircleDollarSign, Gauge, RadioTower, RotateCcw, Save, ShieldCheck, UsersRound } from "lucide-react";
-import Button from "../components/common/Button";
+import { AlertTriangle, ArrowRight, CalendarDays, CircleDollarSign, Gauge, RotateCcw, Save, Settings, UsersRound } from "lucide-react";
 import { getMoraleTier } from "../engine/teamMoraleSystem";
 
 const money = (value) =>
   new Intl.NumberFormat("pt-BR", { style: "currency", currency: "BRL", maximumFractionDigits: 0 }).format(value ?? 0);
 
-const activeStatuses = ["active_team", "assigned_by_command", "reformed_villain"];
+function TopMetric({ icon: Icon, label, value, detail, tone = "default" }) {
+  return (
+    <article className={`top-command-metric top-command-metric--${tone}`}>
+      <span className="top-command-metric__icon"><Icon size={17} aria-hidden="true" /></span>
+      <span>
+        <small>{label}</small>
+        <strong>{value}</strong>
+        {detail ? <em>{detail}</em> : null}
+      </span>
+    </article>
+  );
+}
 
 export default function TopCommandBar({ game, onEndDay, onReset, onSave, onToggleDensity }) {
-  const activeHeroes = (game.heroes ?? []).filter((hero) => activeStatuses.includes(hero.teamStatus) && hero.status !== "morto");
   const morale = game.teamMorale ?? 62;
   const moraleTier = getMoraleTier(morale);
-  const density = game.uiSettings?.density ?? "comfortable";
+  const criticalAlerts = (game.activeEvents ?? []).filter((event) => (event.nivelRisco ?? event.risco ?? 0) >= 4).length;
+  const calendarDay = 11 + ((game.day ?? 1) % 20);
 
   return (
     <header className="top-command-bar">
-      <div className="top-command-brand">
-        <ShieldCheck size={20} aria-hidden="true" />
-        <span>
-          <strong>Central de Crise</strong>
-          <small>Hub Operacional SRM-NA</small>
-        </span>
-      </div>
-
       <div className="top-command-metrics">
-        <span><CalendarDays size={15} aria-hidden="true" /> Dia {game.day}</span>
-        <span><Gauge size={15} aria-hidden="true" /> Rep. {game.reputation}</span>
-        <span><CircleDollarSign size={15} aria-hidden="true" /> {money(game.budget)}</span>
-        <span title={`Moral ${moraleTier.label}`}><UsersRound size={15} aria-hidden="true" /> Moral {morale}</span>
-        <span><RadioTower size={15} aria-hidden="true" /> {game.activeEvents?.length ?? 0} alertas</span>
-        <span>{activeHeroes.length}/{game.activeHeroLimit ?? 8} equipe</span>
+        <TopMetric icon={CalendarDays} label="Dia" value={game.day} detail={`${calendarDay} de Maio`} />
+        <TopMetric icon={Gauge} label="Reputação" value={game.reputation} detail="+4" tone="good" />
+        <TopMetric icon={CircleDollarSign} label="Orçamento" value={money(game.budget)} />
+        <TopMetric icon={UsersRound} label="Moral" value={morale} detail={moraleTier.label} tone="good" />
+        <TopMetric icon={AlertTriangle} label="Alertas" value={game.activeEvents?.length ?? 0} detail={`${criticalAlerts} críticos`} tone={criticalAlerts ? "danger" : "warn"} />
       </div>
 
       <div className="top-command-actions">
-        <Button variant="ghost" onClick={onToggleDensity}>
-          {density === "compact" ? "Modo confortável" : "Modo compacto"}
-        </Button>
-        <Button variant="secondary" icon={Save} onClick={onSave}>Salvar</Button>
-        <Button icon={CalendarDays} onClick={onEndDay}>Encerrar dia</Button>
-        <Button variant="ghost" icon={RotateCcw} onClick={onReset}>Reiniciar</Button>
+        <button className="command-action command-action--secondary" onClick={onSave} type="button">
+          <Save size={17} aria-hidden="true" />
+          <span>Salvar</span>
+        </button>
+        <button className="command-action command-action--primary" onClick={onEndDay} type="button">
+          <span>Encerrar dia</span>
+          <ArrowRight size={18} aria-hidden="true" />
+        </button>
+        <button className="command-icon-action" onClick={onToggleDensity} title="Alternar densidade" type="button">
+          <Settings size={18} aria-hidden="true" />
+        </button>
+        <button className="command-icon-action" onClick={onReset} title="Reiniciar plantão" type="button">
+          <RotateCcw size={17} aria-hidden="true" />
+        </button>
       </div>
     </header>
   );

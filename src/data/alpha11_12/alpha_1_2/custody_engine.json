@@ -1,0 +1,143 @@
+{
+  "schemaVersion": "1.2",
+  "caseStateMachine": {
+    "at_large": [
+      "captured",
+      "missing"
+    ],
+    "captured": [
+      "intake",
+      "escaped"
+    ],
+    "intake": [
+      "holding",
+      "interrogation",
+      "trial_pending",
+      "escaped"
+    ],
+    "holding": [
+      "interrogation",
+      "trial_pending",
+      "rehabilitation",
+      "escaped"
+    ],
+    "interrogation": [
+      "holding",
+      "trial_pending",
+      "informant_active",
+      "escaped"
+    ],
+    "trial_pending": [
+      "sentenced",
+      "released",
+      "rehabilitation"
+    ],
+    "sentenced": [
+      "rehabilitation",
+      "holding",
+      "supervised_release"
+    ],
+    "rehabilitation": [
+      "holding",
+      "supervised_release",
+      "informant_active",
+      "escaped"
+    ],
+    "supervised_release": [
+      "released",
+      "rehabilitation",
+      "holding",
+      "escaped"
+    ],
+    "informant_active": [
+      "holding",
+      "supervised_release",
+      "released",
+      "escaped"
+    ],
+    "escaped": [
+      "at_large",
+      "captured",
+      "missing"
+    ],
+    "released": [
+      "at_large",
+      "captured"
+    ],
+    "missing": [
+      "at_large",
+      "captured"
+    ]
+  },
+  "dailyTick": {
+    "inputs": [
+      "securityNeed",
+      "facilitySecurity",
+      "escapeRisk",
+      "medicalNeedCoverage",
+      "grievance",
+      "socialInfluence",
+      "incidentHistory",
+      "externalRescuePressure",
+      "privileges",
+      "staffFatigue"
+    ],
+    "escapePressure": "escapeRisk + unmetNeeds/2 + externalRescuePressure/2 + grievance/3 - facilitySecurity - rapportWithStaff/4",
+    "incidentPressure": "stress + grievance + socialInfluence/3 - medicalNeedCoverage/2 - meaningfulActivity/3",
+    "outputs": [
+      "escapeAttemptChance",
+      "incidentChance",
+      "stressDelta",
+      "grievanceDelta",
+      "relationshipDelta",
+      "privilegeReview"
+    ]
+  },
+  "securityLevels": [
+    {
+      "id": "S1",
+      "label": "supervisão comunitária",
+      "capacity": 25
+    },
+    {
+      "id": "S2",
+      "label": "custódia comum reforçada",
+      "capacity": 45
+    },
+    {
+      "id": "S3",
+      "label": "contenção especializada",
+      "capacity": 70
+    },
+    {
+      "id": "S4",
+      "label": "contenção de alto risco",
+      "capacity": 90
+    },
+    {
+      "id": "S5",
+      "label": "contenção singular",
+      "capacity": 100
+    }
+  ],
+  "principles": [
+    "Higher security without matched needs can increase grievance and long-term escape pressure.",
+    "Medical, legal and accessibility needs are mandatory, not privileges.",
+    "Privileges are behavior and treatment tools, never substitutes for rights.",
+    "Every escape must identify concrete failed controls; no arbitrary percentage-only escapes.",
+    "Custody incidents generate campaign news, audits and relationship consequences."
+  ],
+  "incidentTypes": [
+    "assault",
+    "self_harm_risk",
+    "coercion",
+    "recruitment",
+    "contraband",
+    "system_tampering",
+    "medical_crisis",
+    "escape_attempt",
+    "external_rescue",
+    "rights_violation",
+    "staff_corruption"
+  ]
+}

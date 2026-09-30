@@ -1,0 +1,119 @@
+{
+  "reportId": "REPORT_CASE_009_TICK_28",
+  "caseId": "CASE_009",
+  "period": {
+    "fromTick": 15,
+    "toTick": 28
+  },
+  "authorIds": [
+    "HERO_005",
+    "SYSTEM_CLINICAL"
+  ],
+  "statusSummary": "Estilhaço mantém participação regular, reconheceu duas vítimas pelo nome e relatou voluntariamente contato indireto da Matilha. Ainda reage mal a humilhação e precisa de moradia definida antes de qualquer saída supervisionada.",
+  "evidence": [
+    {
+      "eventId": "MENTOR_SESSION_009_01",
+      "observation": "Relatou o gatilho antes de escalar e aceitou pausa.",
+      "sourceType": "mentor_session",
+      "confidence": 88
+    },
+    {
+      "eventId": "INCIDENT_009_02",
+      "observation": "Quebrou objeto após provocação, mas não produziu fragmentos contra terceiros.",
+      "sourceType": "custody_observation",
+      "confidence": 94
+    },
+    {
+      "eventId": "DISCLOSURE_009_01",
+      "observation": "Informou tentativa de contato da Matilha sem solicitar benefício.",
+      "sourceType": "voluntary_disclosure",
+      "confidence": 79
+    }
+  ],
+  "dimensions": {
+    "accountability": {
+      "score": 66,
+      "delta": 8,
+      "evidenceIds": [
+        "MENTOR_SESSION_009_01"
+      ]
+    },
+    "empathy": {
+      "score": 74,
+      "delta": 6,
+      "evidenceIds": [
+        "MENTOR_SESSION_009_01"
+      ]
+    },
+    "selfRegulation": {
+      "score": 51,
+      "delta": 7,
+      "evidenceIds": [
+        "INCIDENT_009_02"
+      ]
+    },
+    "skillTransfer": {
+      "score": 62,
+      "delta": 3,
+      "evidenceIds": []
+    },
+    "networkStability": {
+      "score": 31,
+      "delta": 2,
+      "evidenceIds": [
+        "DISCLOSURE_009_01"
+      ]
+    },
+    "honesty": {
+      "score": 72,
+      "delta": 12,
+      "evidenceIds": [
+        "DISCLOSURE_009_01"
+      ]
+    },
+    "restitution": {
+      "score": 22,
+      "delta": 4,
+      "evidenceIds": []
+    },
+    "autonomy": {
+      "score": 48,
+      "delta": 5,
+      "evidenceIds": [
+        "MENTOR_SESSION_009_01"
+      ]
+    }
+  },
+  "riskAssessment": {
+    "relapseRisk": 49,
+    "escapeRisk": 34,
+    "harmRisk": 42,
+    "protectiveFactors": [
+      "vínculo com Maré",
+      "contato familiar",
+      "divulgação voluntária"
+    ],
+    "riskFactors": [
+      "moradia indefinida",
+      "pressão da Matilha",
+      "sensibilidade à humilhação"
+    ]
+  },
+  "incidents": [
+    "INCIDENT_009_02"
+  ],
+  "mentorAssessment": "Há progresso real, mas seria um erro confundir vínculo comigo com estabilidade fora da Central.",
+  "subjectStatement": "Eu ainda penso em voltar quando acho que ninguém daqui me quer. A diferença é que agora eu falo antes.",
+  "recommendations": [
+    "manter estágio de preparação",
+    "priorizar moradia e formação profissional",
+    "simular contato da facção com supervisão",
+    "não usar como informante neste período"
+  ],
+  "confidence": 87,
+  "generatedFromEventIds": [
+    "MENTOR_SESSION_009_01",
+    "INCIDENT_009_02",
+    "DISCLOSURE_009_01"
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "central-crise.case-record.schema.json",
+  "type": "object",
+  "required": [
+    "caseId",
+    "villainId",
+    "status",
+    "openedAtTick",
+    "custody",
+    "interrogations",
+    "intelIds",
+    "rehabilitation",
+    "mentor",
+    "relapse",
+    "informant",
+    "auditLog"
+  ],
+  "properties": {
+    "caseId": {
+      "type": "string",
+      "pattern": "^CASE_"
+    },
+    "villainId": {
+      "type": "string",
+      "pattern": "^VILLAIN_\\d{3}$"
+    },
+    "status": {
+      "enum": [
+        "at_large",
+        "captured",
+        "intake",
+        "holding",
+        "interrogation",
+        "trial_pending",
+        "sentenced",
+        "rehabilitation",
+        "supervised_release",
+        "informant_active",
+        "released",
+        "escaped",
+        "missing"
+      ]
+    },
+    "openedAtTick": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "custody": {
+      "type": "object"
+    },
+    "interrogations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "intelIds": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "rehabilitation": {
+      "type": "object"
+    },
+    "mentor": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "relapse": {
+      "type": "object"
+    },
+    "informant": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "auditLog": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "tick",
+          "eventType",
+          "summary"
+        ],
+        "properties": {
+          "tick": {
+            "type": "integer"
+          },
+          "eventType": {
+            "type": "string"
+          },
+          "summary": {
+            "type": "string"
+          },
+          "actorId": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  },
+  "additionalProperties": true
+}

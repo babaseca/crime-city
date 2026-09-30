@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "1.2",
+  "principles": [
+    "Rehabilitation is not a morality bar.",
+    "Progress is multidimensional, non-linear and documented.",
+    "Participation without accountability is not success.",
+    "A relapse does not erase all progress, but changes risk and supervision.",
+    "Victim safety and consent are required for restorative contact."
+  ],
+  "dimensions": {
+    "accountability": {
+      "weight": 1.3,
+      "description": "Recognizes actions and impact without hiding behind motive."
+    },
+    "empathy": {
+      "weight": 1.0,
+      "description": "Can represent victim experience without immediate self-defense."
+    },
+    "selfRegulation": {
+      "weight": 1.2,
+      "description": "Handles triggers and power use."
+    },
+    "skillTransfer": {
+      "weight": 0.8,
+      "description": "Uses abilities in safe, prosocial contexts."
+    },
+    "networkStability": {
+      "weight": 1.1,
+      "description": "Has housing, work and relationships not dependent on crime."
+    },
+    "honesty": {
+      "weight": 1.0,
+      "description": "Reports risk, contact and setbacks."
+    },
+    "restitution": {
+      "weight": 0.9,
+      "description": "Repairs harm where possible and consented."
+    },
+    "autonomy": {
+      "weight": 1.0,
+      "description": "Makes prosocial choices without coercive supervision."
+    }
+  },
+  "stageRules": [
+    {
+      "stage": "precontemplation",
+      "entry": "denies harm or sees no need to change",
+      "advance": "sustained recognition of personal cost and victim impact"
+    },
+    {
+      "stage": "contemplation",
+      "entry": "ambivalent recognition",
+      "advance": "chooses concrete goals and accepts monitoring"
+    },
+    {
+      "stage": "preparation",
+      "entry": "plan, mentor and safeguards defined",
+      "advance": "begins behavior change in controlled setting"
+    },
+    {
+      "stage": "action",
+      "entry": "active program participation",
+      "advance": "sustained progress across at least four dimensions"
+    },
+    {
+      "stage": "maintenance",
+      "entry": "progress sustained under realistic stress",
+      "advance": "safe community test"
+    },
+    {
+      "stage": "reintegration",
+      "entry": "supervised release and stable network",
+      "advance": "case closure or long-term support"
+    }
+  ],
+  "weeklyProgressFormula": "weighted dimension delta + attendance + verified repair - incidents - deception - trigger exposure without plan",
+  "possibleOutcomes": [
+    "advance_stage",
+    "hold_stage",
+    "modify_plan",
+    "increase_support",
+    "increase_supervision",
+    "pause_restorative_contact",
+    "relapse_protocol",
+    "graduate"
+  ],
+  "antiGamingRules": [
+    "Attendance alone cannot advance stage.",
+    "High skillTransfer cannot compensate for zero accountability.",
+    "Mentor opinion must be accompanied by observed evidence.",
+    "Informant cooperation cannot automatically reduce rehabilitation requirements."
+  ]
+}

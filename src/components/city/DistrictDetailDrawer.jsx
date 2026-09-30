@@ -1,3 +1,4 @@
+import { normalizeDisplayText, titleCase } from "../../utils/formatters";
 import DetailDrawer from "../common/DetailDrawer";
 import DistrictFactionInfluence from "./DistrictFactionInfluence";
 import DistrictStatBar from "./DistrictStatBar";
@@ -9,9 +10,9 @@ export default function DistrictDetailDrawer({ district, factions, socialPosts, 
 
   return (
     <DetailDrawer title={district.name} eyebrow="dossiê territorial" onClose={onClose}>
-      <p>{district.description}</p>
+      <p>{normalizeDisplayText(district.description)}</p>
       <div className="chip-row">
-        {district.tags.map((tag) => <span className="chip" key={tag}>{tag}</span>)}
+        {district.tags.map((tag) => <span className="chip" key={tag}>{titleCase(tag)}</span>)}
         <DistrictTrendBadge district={district} />
       </div>
       <DistrictStatBar district={district} />

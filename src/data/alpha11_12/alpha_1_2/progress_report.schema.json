@@ -1,0 +1,370 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "central-crise.progress-report.schema.json",
+  "type": "object",
+  "required": [
+    "reportId",
+    "caseId",
+    "period",
+    "authorIds",
+    "statusSummary",
+    "evidence",
+    "dimensions",
+    "riskAssessment",
+    "incidents",
+    "mentorAssessment",
+    "subjectStatement",
+    "recommendations",
+    "confidence",
+    "generatedFromEventIds"
+  ],
+  "properties": {
+    "reportId": {
+      "type": "string",
+      "pattern": "^REPORT_"
+    },
+    "caseId": {
+      "type": "string",
+      "pattern": "^CASE_"
+    },
+    "period": {
+      "type": "object",
+      "required": [
+        "fromTick",
+        "toTick"
+      ],
+      "properties": {
+        "fromTick": {
+          "type": "integer"
+        },
+        "toTick": {
+          "type": "integer"
+        }
+      }
+    },
+    "authorIds": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "statusSummary": {
+      "type": "string"
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "eventId",
+          "observation",
+          "sourceType"
+        ],
+        "properties": {
+          "eventId": {
+            "type": "string"
+          },
+          "observation": {
+            "type": "string"
+          },
+          "sourceType": {
+            "type": "string"
+          },
+          "confidence": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 100
+          }
+        }
+      }
+    },
+    "dimensions": {
+      "type": "object",
+      "properties": {
+        "accountability": {
+          "type": "object",
+          "required": [
+            "score",
+            "delta",
+            "evidenceIds"
+          ],
+          "properties": {
+            "score": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 100
+            },
+            "delta": {
+              "type": "integer",
+              "minimum": -100,
+              "maximum": 100
+            },
+            "evidenceIds": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "empathy": {
+          "type": "object",
+          "required": [
+            "score",
+            "delta",
+            "evidenceIds"
+          ],
+          "properties": {
+            "score": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 100
+            },
+            "delta": {
+              "type": "integer",
+              "minimum": -100,
+              "maximum": 100
+            },
+            "evidenceIds": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "selfRegulation": {
+          "type": "object",
+          "required": [
+            "score",
+            "delta",
+            "evidenceIds"
+          ],
+          "properties": {
+            "score": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 100
+            },
+            "delta": {
+              "type": "integer",
+              "minimum": -100,
+              "maximum": 100
+            },
+            "evidenceIds": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "skillTransfer": {
+          "type": "object",
+          "required": [
+            "score",
+            "delta",
+            "evidenceIds"
+          ],
+          "properties": {
+            "score": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 100
+            },
+            "delta": {
+              "type": "integer",
+              "minimum": -100,
+              "maximum": 100
+            },
+            "evidenceIds": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "networkStability": {
+          "type": "object",
+          "required": [
+            "score",
+            "delta",
+            "evidenceIds"
+          ],
+          "properties": {
+            "score": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 100
+            },
+            "delta": {
+              "type": "integer",
+              "minimum": -100,
+              "maximum": 100
+            },
+            "evidenceIds": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "honesty": {
+          "type": "object",
+          "required": [
+            "score",
+            "delta",
+            "evidenceIds"
+          ],
+          "properties": {
+            "score": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 100
+            },
+            "delta": {
+              "type": "integer",
+              "minimum": -100,
+              "maximum": 100
+            },
+            "evidenceIds": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "restitution": {
+          "type": "object",
+          "required": [
+            "score",
+            "delta",
+            "evidenceIds"
+          ],
+          "properties": {
+            "score": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 100
+            },
+            "delta": {
+              "type": "integer",
+              "minimum": -100,
+              "maximum": 100
+            },
+            "evidenceIds": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "autonomy": {
+          "type": "object",
+          "required": [
+            "score",
+            "delta",
+            "evidenceIds"
+          ],
+          "properties": {
+            "score": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 100
+            },
+            "delta": {
+              "type": "integer",
+              "minimum": -100,
+              "maximum": 100
+            },
+            "evidenceIds": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "riskAssessment": {
+      "type": "object",
+      "required": [
+        "relapseRisk",
+        "escapeRisk",
+        "harmRisk",
+        "protectiveFactors",
+        "riskFactors"
+      ],
+      "properties": {
+        "relapseRisk": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "escapeRisk": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "harmRisk": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "protectiveFactors": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "riskFactors": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "incidents": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "mentorAssessment": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "subjectStatement": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "recommendations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "confidence": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "generatedFromEventIds": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": false
+}

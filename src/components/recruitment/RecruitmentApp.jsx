@@ -64,7 +64,10 @@ export default function RecruitmentApp({ game, setGame }) {
   const [filter, setFilter] = useState("todos");
   const [pipeline, setPipeline] = useState("highlights");
   const [search, setSearch] = useState("");
-  const allVisibleApplicants = useMemo(() => visibleApplicantsForDay(game.applicants, game.day), [game.applicants, game.day]);
+  const allVisibleApplicants = useMemo(
+    () => visibleApplicantsForDay(game.applicants, game.day, game.heroes, game.recruitmentRotationState),
+    [game.applicants, game.day, game.heroes, game.recruitmentRotationState],
+  );
   const visibleApplicants = useMemo(
     () =>
       pickApplicantsForTab(allVisibleApplicants, pipeline)

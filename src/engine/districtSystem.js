@@ -104,6 +104,7 @@ export const applyMissionResultToDistrict = (district, missionResult) => {
   const infraFailure = sumModifier(district, event, "infrastructureFailureModifier");
   const repFailure = sumModifier(district, event, "reputationFailureModifier");
   const factionId = event.factionId ?? district.dominantFactionId;
+  const alpha = missionResult.alphaConsequences ?? {};
 
   let next = {
     ...district,
@@ -127,8 +128,8 @@ export const applyMissionResultToDistrict = (district, missionResult) => {
       ...(district.recentHistory ?? []),
     ].slice(0, 8),
     populationMood: clamp(district.populationMood + (success ? 1 + Math.floor(saved / 35) : -2 - damage)),
-    trustInCentral: clamp(district.trustInCentral + (success ? 2 + Math.floor(saved / 28) + trustSuccess : -3 - damage + trustFailure)),
-    stability: clamp(district.stability + (success ? 2 : -4 - damage)),
+    trustInCentral: clamp(district.trustInCentral + (success ? 2 + Math.floor(saved / 28) + trustSuccess : -3 - damage + trustFailure) + (alpha.districtTrust ?? 0)),
+    stability: clamp(district.stability + (success ? 2 : -4 - damage) + (alpha.districtStability ?? 0)),
     crimeLevel: clamp(district.crimeLevel + (success ? -2 : 3 + Math.floor(damage / 2))),
     infrastructure: clamp(district.infrastructure + (success ? -Math.max(0, damage - 4) : -damage + infraFailure)),
     mediaAttention: clamp(district.mediaAttention + Math.abs(missionResult.reputationDelta ?? 0) + (repFailure < 0 ? 2 : 0)),

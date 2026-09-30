@@ -1,0 +1,59 @@
+{
+  "reportId": "INFORMANT_REPORT_CASE_020_001",
+  "caseId": "CASE_020",
+  "informantId": "VILLAIN_020",
+  "handlerId": "HERO_003",
+  "motivation": [
+    "protect_family",
+    "self_preservation"
+  ],
+  "claims": [
+    {
+      "claim": "Dama de Sal planeja interromper as bombas do reservatório leste.",
+      "subjectIds": [
+        "VILLAIN_010"
+      ],
+      "locationId": "RESERVOIR_EAST",
+      "timeWindow": {
+        "fromTick": 40,
+        "toTick": 43
+      }
+    },
+    {
+      "claim": "Pedreira rejeitou participar porque há famílias no entorno.",
+      "subjectIds": [
+        "VILLAIN_017"
+      ],
+      "locationId": "RESERVOIR_EAST",
+      "timeWindow": {
+        "fromTick": 40,
+        "toTick": 43
+      }
+    }
+  ],
+  "scoresAtReceipt": {
+    "reliability": 80,
+    "access": 74,
+    "exposure": 33,
+    "doubleAgentRisk": 34
+  },
+  "requiredAction": [
+    "corroborar por sensor hídrico",
+    "não contatar a Frente Cinza diretamente",
+    "preparar extração marítima"
+  ],
+  "possibleOutcomes": [
+    "early_warning",
+    "faction_split_reveal",
+    "informant_exposure"
+  ],
+  "provenance": {
+    "communicationMethod": "dead_drop",
+    "receivedAtTick": 38,
+    "chainOfCustody": [
+      "HERO_003",
+      "HERO_005",
+      "INTEL_DESK"
+    ]
+  }
+}

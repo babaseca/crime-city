@@ -1,0 +1,196 @@
+{
+  "schemaVersion": "1.2",
+  "principles": [
+    "Interrogation never guarantees truth.",
+    "Approach effectiveness depends on subject, interrogator, evidence, relationship and legal conditions.",
+    "Pressure can produce compliance while reducing reliability.",
+    "Deception is mechanically available but creates legal, moral and relationship risk.",
+    "Every gain and every cost is persisted."
+  ],
+  "sessionInputRequired": [
+    "sessionId",
+    "subjectId",
+    "interrogatorIds",
+    "approach",
+    "objectives",
+    "evidenceIds",
+    "legalAuthorization",
+    "durationMinutes",
+    "environment",
+    "campaignSeed"
+  ],
+  "approaches": {
+    "rapport": {
+      "baseCompliance": 12,
+      "baseReliability": 10,
+      "stressDelta": -4,
+      "legalRisk": 0,
+      "bestAgainst": [
+        "fearOfConsequences high",
+        "rapportHooks matched"
+      ],
+      "failureModes": [
+        "emotional manipulation",
+        "false intimacy"
+      ]
+    },
+    "evidence_confrontation": {
+      "baseCompliance": 10,
+      "baseReliability": 14,
+      "stressDelta": 6,
+      "legalRisk": 1,
+      "bestAgainst": [
+        "deceptionSkill low",
+        "strong corroborated evidence"
+      ],
+      "failureModes": [
+        "evidence contamination",
+        "premature disclosure"
+      ]
+    },
+    "moral_appeal": {
+      "baseCompliance": 8,
+      "baseReliability": 8,
+      "stressDelta": 2,
+      "legalRisk": 0,
+      "bestAgainst": [
+        "empathyCapacity high",
+        "guiltTrigger matched"
+      ],
+      "failureModes": [
+        "moral grandstanding",
+        "subject hardening"
+      ]
+    },
+    "strategic_silence": {
+      "baseCompliance": 5,
+      "baseReliability": 7,
+      "stressDelta": 3,
+      "legalRisk": 0,
+      "bestAgainst": [
+        "needToControl high",
+        "extraversion high"
+      ],
+      "failureModes": [
+        "session stall",
+        "subject dissociation"
+      ]
+    },
+    "controlled_pressure": {
+      "baseCompliance": 18,
+      "baseReliability": -8,
+      "stressDelta": 15,
+      "legalRisk": 12,
+      "bestAgainst": [
+        "fearOfConsequences high"
+      ],
+      "failureModes": [
+        "false confession",
+        "hardening",
+        "hero moral injury"
+      ]
+    },
+    "legal_bargain": {
+      "baseCompliance": 15,
+      "baseReliability": 5,
+      "stressDelta": 4,
+      "legalRisk": 4,
+      "bestAgainst": [
+        "fearOfConsequences high",
+        "informantSuitability access high"
+      ],
+      "failureModes": [
+        "unfulfillable promise",
+        "public backlash"
+      ]
+    },
+    "deception": {
+      "baseCompliance": 13,
+      "baseReliability": -5,
+      "stressDelta": 8,
+      "legalRisk": 18,
+      "bestAgainst": [
+        "deceptionSkill low",
+        "subject has unverifiable fears"
+      ],
+      "failureModes": [
+        "legal exclusion",
+        "relationship collapse",
+        "paranoia amplification"
+      ]
+    }
+  },
+  "scoreFormula": {
+    "cooperation": "clamp(50 - resistance/2 + approach.baseCompliance + rapportMatch + leverage + relationshipTrust/5 - subjectStress/8 - approachMismatch + seededVariance, 0, 100)",
+    "truthReliability": "clamp(45 + approach.baseReliability + evidenceStrength/4 + corroboration/3 - deceptionSkill/3 - pressureDistortion - motiveToMislead + seededVariance, 0, 100)",
+    "intelYield": "round(objectiveCoverage * cooperation * access / 10000 * 100)",
+    "legalValidity": "clamp(100 - approach.legalRisk - authorizationPenalty - rightsViolationPenalty, 0, 100)"
+  },
+  "outcomeBands": [
+    {
+      "cooperation": [
+        0,
+        19
+      ],
+      "result": "shutdown",
+      "possible": [
+        "silence",
+        "hostility",
+        "session_end"
+      ]
+    },
+    {
+      "cooperation": [
+        20,
+        39
+      ],
+      "result": "minimal",
+      "possible": [
+        "minor_fact",
+        "deflection",
+        "conditional_offer"
+      ]
+    },
+    {
+      "cooperation": [
+        40,
+        69
+      ],
+      "result": "partial",
+      "possible": [
+        "mixed_truth",
+        "actionable_fragment",
+        "request_bargain"
+      ]
+    },
+    {
+      "cooperation": [
+        70,
+        100
+      ],
+      "result": "high",
+      "possible": [
+        "multiple_intel_items",
+        "informant_pitch",
+        "confession_fragment"
+      ]
+    }
+  ],
+  "mandatoryConsequences": [
+    "subject stress and trust change",
+    "interrogator stress or moral injury when approach conflicts with moral profile",
+    "intel items with separate confidence and provenance",
+    "legal validity",
+    "public risk where applicable",
+    "relationship memories",
+    "next-session cooldown"
+  ],
+  "hardSafetyRules": [
+    "No torture mechanic.",
+    "Rights violations are never optimal without traceable costs.",
+    "Medical or psychiatric needs cannot be withheld as leverage.",
+    "Threats against family or dependents are prohibited and flagged.",
+    "Mnemósine requires cognitive safeguards and at least two observers.",
+    "Mariposa Negra requires remote interaction and environmental protection."
+  ]
+}

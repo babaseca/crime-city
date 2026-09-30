@@ -64,6 +64,55 @@ export const getDialogueCategoriesForContext = (context) => {
 export const preloadDialoguesForContext = async (context) =>
   (await Promise.all(getDialogueCategoriesForContext(context).map(loadDialogueCategory))).flat();
 
+const systemSpeakers = new Set(["central", "dispatcher", "comando"]);
+
+const heroIndexFromSpeaker = (speaker) => {
+  const match = String(speaker ?? "").match(/^hero:(\d+)$/);
+  return match ? Number(match[1]) : null;
+};
+
+const heroIndexesFromText = (text = "") =>
+  [...String(text).matchAll(/\{hero:(\d+)\}/g)].map((match) => Number(match[1]));
+
+export const determineDialogueMode = (team = []) => {
+  if (team.length <= 1) return "solo";
+  if (team.length === 2) return "duo";
+  return "trio";
+};
+
+export const canRenderDialogue = (dialogue, context) => {
+  const team = context.team ?? [];
+  return (dialogue.lines ?? []).every((line) => {
+    const speaker = String(line.speaker ?? "");
+    if (!speaker) return false;
+
+    const speakerIndex = heroIndexFromSpeaker(speaker);
+    if (speakerIndex !== null && !team[speakerIndex]) return false;
+    if (!systemSpeakers.has(speaker) && /^h-/.test(speaker) && !team.some((hero) => hero.id === speaker)) return false;
+
+    return heroIndexesFromText(line.text).every((index) => Boolean(team[index]));
+  });
+};
+
+const renderDialogueText = (text, team) =>
+  String(text ?? "")
+    .replace(/\{hero:(\d+)\}/g, (_, rawIndex) => team[Number(rawIndex)]?.codinome ?? "a equipe")
+    .replace(/\b(undefined|null)\b/gi, "não informado");
+
+const completeDialogueForTrio = (lines, context) => {
+  if (determineDialogueMode(context.team) !== "trio") return lines;
+  const hasThirdHero = lines.some((line) => heroIndexFromSpeaker(line.speaker) === 2 || heroIndexesFromText(line.text).includes(2));
+  if (hasThirdHero) return lines;
+
+  return [
+    ...lines,
+    {
+      speaker: "hero:2",
+      text: "Eu cubro o terceiro eixo. Ninguém fecha essa ocorrência sem mim.",
+    },
+  ];
+};
+
 const lineSpeaker = (speaker, team) => {
   const key = String(speaker ?? "");
   if (key === "central") return "Central";
@@ -71,10 +120,10 @@ const lineSpeaker = (speaker, team) => {
   if (key === "comando") return "Comando";
   if (key.startsWith("hero:")) {
     const index = Number(key.split(":")[1]);
-    return team[index]?.codinome ?? team[0]?.codinome ?? "Equipe";
+    return team[index]?.codinome ?? null;
   }
 
-  return team.find((hero) => hero.id === key)?.codinome ?? key;
+  return team.find((hero) => hero.id === key)?.codinome ?? (/^h-/.test(key) ? null : key);
 };
 
 export const missionResultType = ({ success, margin, deaths, injuries, capturedVillain, materialDamage, outcome }) => {
@@ -93,6 +142,7 @@ const dialogueScore = (dialogue, context) => {
   const heroIds = context.team.map((hero) => hero.id);
   const recent = context.recentDialogues?.find((entry) => entry.id === dialogue.id);
   if (recent && context.day - recent.day < dialogue.cooldownDays) return -999;
+  if (!canRenderDialogue(dialogue, context)) return -999;
 
   const specificHeroes = dialogue.heroes.filter((id) => id !== "*");
   if (specificHeroes.some((id) => !heroIds.includes(id))) return -999;
@@ -183,15 +233,20 @@ export const selectDialogue = async ({ event, team, relationships, success, inju
   const chosen = ranked[0]?.dialogue;
 
   if (!chosen) return fallbackDialogue(team, success);
+  const lines = completeDialogueForTrio(chosen.lines, context)
+    .map((line) => ({
+      speaker: lineSpeaker(line.speaker, team),
+      text: renderDialogueText(line.text, team),
+    }))
+    .filter((line) => line.speaker && line.text);
+
+  if (!lines.length) return fallbackDialogue(team, success);
 
   return {
     id: chosen.id,
     temperature: chosen.tone,
     tone: chosen.tone,
     effects: chosen.effects ?? {},
-    lines: chosen.lines.map((line) => ({
-      speaker: lineSpeaker(line.speaker, team),
-      text: line.text,
-    })),
+    lines,
   };
 };

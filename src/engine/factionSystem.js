@@ -38,14 +38,15 @@ export const applyMissionResultToFaction = (faction, missionResult) => {
 
   const capture = Boolean(missionResult.capturedVillain);
   const success = missionResult.success;
+  const alpha = missionResult.alphaConsequences ?? {};
   const heatDelta = success ? 5 + (capture ? 10 : 0) : -3;
   const resourcesDelta = success ? -4 - (capture ? 7 : 0) : 5;
   const threatDelta = success ? -2 - (capture ? 2 : 0) : 4;
   const next = {
     ...faction,
-    heat: clamp(faction.heat + heatDelta),
-    resources: clamp(faction.resources + resourcesDelta),
-    threatLevel: clamp(faction.threatLevel + threatDelta),
+    heat: clamp(faction.heat + heatDelta + (alpha.factionHeat ?? 0)),
+    resources: clamp(faction.resources + resourcesDelta + (alpha.factionResources ?? 0)),
+    threatLevel: clamp(faction.threatLevel + threatDelta + (alpha.factionThreat ?? 0)),
     publicFear: clamp(faction.publicFear + (success ? -1 : 3)),
     recentEvents: [
       {

@@ -1,0 +1,101 @@
+{
+  "factions": [
+    {
+      "id": "FACTION_001",
+      "name": "Rede Limiar",
+      "type": "tecnocracia clandestina",
+      "members": [
+        "VILLAIN_001",
+        "VILLAIN_006",
+        "VILLAIN_008",
+        "VILLAIN_013"
+      ],
+      "goals": [
+        "substituir decisões públicas por sistemas privados",
+        "controlar infraestrutura crítica"
+      ],
+      "internalFaultLines": [
+        "Doutor Limiar quer comando absoluto",
+        "Cifra rejeita hierarquia",
+        "Oráculo de Vidro manipula os demais"
+      ]
+    },
+    {
+      "id": "FACTION_002",
+      "name": "Mercado Rubro",
+      "type": "rede mercenária",
+      "members": [
+        "VILLAIN_002",
+        "VILLAIN_004",
+        "VILLAIN_011",
+        "VILLAIN_016"
+      ],
+      "goals": [
+        "vender extração, espionagem e contrabando",
+        "manter neutralidade comercial"
+      ],
+      "internalFaultLines": [
+        "Vespa Rubra prioriza contratos",
+        "Mariposa Negra prioriza sobrevivência",
+        "Ferrolho teme abandono"
+      ]
+    },
+    {
+      "id": "FACTION_003",
+      "name": "Culto do Vazio",
+      "type": "movimento sectário",
+      "members": [
+        "VILLAIN_003",
+        "VILLAIN_005"
+      ],
+      "goals": [
+        "produzir colapso simbólico",
+        "recrutar pessoas traumatizadas"
+      ],
+      "internalFaultLines": [
+        "Mnemósine acredita em cura coercitiva",
+        "Rei do Vazio busca submissão total"
+      ]
+    },
+    {
+      "id": "FACTION_004",
+      "name": "Frente Cinza",
+      "type": "aliança eco-comunitária radicalizada",
+      "members": [
+        "VILLAIN_010",
+        "VILLAIN_017",
+        "VILLAIN_020"
+      ],
+      "goals": [
+        "forçar reparação ambiental e trabalhista",
+        "controlar territórios abandonados"
+      ],
+      "internalFaultLines": [
+        "Dama de Sal aceita sabotagem ampla",
+        "Pedreira protege moradores",
+        "Náufrago rejeita tráfico humano"
+      ]
+    },
+    {
+      "id": "FACTION_005",
+      "name": "Matilha",
+      "type": "gangue de proteção e espetáculo",
+      "members": [
+        "VILLAIN_009",
+        "VILLAIN_012",
+        "VILLAIN_015",
+        "VILLAIN_018"
+      ],
+      "goals": [
+        "controlar rotas urbanas",
+        "ganhar dinheiro com crimes transmitidos"
+      ],
+      "internalFaultLines": [
+        "Cão de Guarda exige lealdade",
+        "Queda Livre busca adrenalina",
+        "Ruído Branco desconfia de todos",
+        "Estilhaço quer pertencimento"
+      ]
+    }
+  ]
+}

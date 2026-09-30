@@ -1,0 +1,138 @@
+{
+  "schemaVersion": "1.2",
+  "intelItem": {
+    "required": [
+      "id",
+      "claim",
+      "sourceType",
+      "sourceId",
+      "obtainedAtTick",
+      "confidence",
+      "state",
+      "sensitivity",
+      "expiryTick",
+      "dependencies",
+      "unlocks",
+      "risks"
+    ],
+    "confidenceBands": [
+      {
+        "min": 0,
+        "max": 19,
+        "label": "speculative"
+      },
+      {
+        "min": 20,
+        "max": 39,
+        "label": "weak"
+      },
+      {
+        "min": 40,
+        "max": 59,
+        "label": "plausible"
+      },
+      {
+        "min": 60,
+        "max": 79,
+        "label": "strong"
+      },
+      {
+        "min": 80,
+        "max": 100,
+        "label": "high"
+      }
+    ]
+  },
+  "sourceTypes": [
+    "interrogation",
+    "informant",
+    "forensics",
+    "surveillance",
+    "public_tip",
+    "captured_device",
+    "hero_observation",
+    "villain_statement"
+  ],
+  "stateTransitions": {
+    "rumor": [
+      "unverified",
+      "disproven",
+      "expired"
+    ],
+    "unverified": [
+      "partially_corroborated",
+      "disproven",
+      "expired",
+      "compromised"
+    ],
+    "partially_corroborated": [
+      "corroborated",
+      "disproven",
+      "compromised",
+      "expired"
+    ],
+    "corroborated": [
+      "actionable",
+      "compromised",
+      "expired"
+    ],
+    "actionable": [
+      "expired",
+      "compromised"
+    ],
+    "compromised": [
+      "disproven",
+      "partially_corroborated"
+    ],
+    "disproven": [],
+    "expired": []
+  },
+  "corroborationRules": [
+    {
+      "id": "INDEPENDENT_SOURCE",
+      "condition": "new source has no shared dependency",
+      "confidenceDelta": 18
+    },
+    {
+      "id": "MATCHING_FORENSICS",
+      "condition": "forensics match claim",
+      "confidenceDelta": 24
+    },
+    {
+      "id": "MOTIVATED_SOURCE",
+      "condition": "source benefits directly from belief",
+      "confidenceDelta": -12
+    },
+    {
+      "id": "PRESSURE_DISTORTION",
+      "condition": "intel from controlled_pressure or deception",
+      "confidenceDelta": -10
+    },
+    {
+      "id": "STALE",
+      "condition": "currentTick > expiryTick",
+      "state": "expired"
+    },
+    {
+      "id": "DOUBLE_AGENT_SIGNAL",
+      "condition": "informant doubleAgentRisk > 70 and contradiction detected",
+      "state": "compromised",
+      "confidenceDelta": -25
+    }
+  ],
+  "campaignEffects": {
+    "missionUnlock": "requires state actionable OR confidence >= 70 and command accepts risk",
+    "ambushRiskReduction": "0..25 based on confidence and freshness",
+    "countermeasureBonus": "0..20 when claim identifies power limit or escape vector",
+    "civilianRiskReduction": "0..15 when location and timing are corroborated",
+    "falseIntelPenalty": [
+      "mission spawns wrong location",
+      "target preparedness increases",
+      "informant exposure",
+      "public trust loss"
+    ],
+    "networkReveal": "intel can add nodes and weighted edges to villain network graph"
+  },
+  "provenanceRequired": true,
+  "explainabilityRequired": true
+}

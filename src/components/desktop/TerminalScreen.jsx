@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import { Database, LogIn, Play, RotateCcw, ShieldCheck, Users } from "lucide-react";
-import { eventCount } from "../../data/events";
+import { activeEventCount } from "../../data/eventCatalog";
 import Button from "../common/Button";
 
 const bootLines = [
@@ -48,7 +48,7 @@ export default function TerminalScreen({ hasSave, heroCount, onAccess, onNewGame
 
         <div className="terminal-metrics">
           <span><ShieldCheck size={16} aria-hidden="true" /> cidade monitorada</span>
-          <span><Database size={16} aria-hidden="true" /> {eventCount} alertas no banco</span>
+          <span><Database size={16} aria-hidden="true" /> {activeEventCount} alertas no banco</span>
           <span><Users size={16} aria-hidden="true" /> {heroCount} heróis cadastrados</span>
           <span>SRM-NA Alpha 0.9.5 · Missões Cinematográficas</span>
         </div>

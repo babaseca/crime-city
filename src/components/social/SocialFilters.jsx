@@ -1,11 +1,20 @@
-const filters = ["todos", "elogio", "critica", "meme", "teoria", "denuncia", "facção", "luto"];
+const filters = [
+  ["todos", "todos"],
+  ["elogio", "elogio"],
+  ["critica", "crítica"],
+  ["meme", "meme"],
+  ["teoria", "teoria"],
+  ["denuncia", "denúncia"],
+  ["facção", "facção"],
+  ["luto", "luto"],
+];
 
 export default function SocialFilters({ value, onChange }) {
   return (
     <div className="tab-strip wrap">
-      {filters.map((filter) => (
+      {filters.map(([filter, label]) => (
         <button className={value === filter ? "active" : ""} key={filter} onClick={() => onChange(filter)} type="button">
-          {filter}
+          {label}
         </button>
       ))}
     </div>

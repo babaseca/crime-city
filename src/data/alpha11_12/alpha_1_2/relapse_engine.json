@@ -1,0 +1,92 @@
+{
+  "schemaVersion": "1.2",
+  "riskFormula": "baseRisk + triggerExposure + networkPressure + unmetNeeds + shame + opportunity - copingPlan - mentorSupport - stableNetwork - voluntaryDisclosure",
+  "warningSigns": [
+    "missed_sessions",
+    "secret_contact",
+    "rationalization_return",
+    "sleep_disruption",
+    "power_testing",
+    "financial_crisis",
+    "hostility_to_monitoring",
+    "idealization_of_old_network",
+    "withheld_information"
+  ],
+  "severityBands": [
+    {
+      "min": 0,
+      "max": 24,
+      "label": "stable",
+      "response": [
+        "continue_plan"
+      ]
+    },
+    {
+      "min": 25,
+      "max": 44,
+      "label": "watch",
+      "response": [
+        "increase_checkins",
+        "review_triggers"
+      ]
+    },
+    {
+      "min": 45,
+      "max": 64,
+      "label": "elevated",
+      "response": [
+        "crisis_session",
+        "reduce_access",
+        "activate_support"
+      ]
+    },
+    {
+      "min": 65,
+      "max": 84,
+      "label": "high",
+      "response": [
+        "temporary_containment",
+        "protect_targets",
+        "network_intervention"
+      ]
+    },
+    {
+      "min": 85,
+      "max": 100,
+      "label": "imminent",
+      "response": [
+        "emergency_protocol",
+        "mission_spawn",
+        "custody_review"
+      ]
+    }
+  ],
+  "relapseEventRequired": [
+    "type",
+    "severity",
+    "triggerIds",
+    "warningSignsObserved",
+    "harm",
+    "voluntaryDisclosure",
+    "response",
+    "progressPreserved",
+    "newSafeguards"
+  ],
+  "progressPreservation": {
+    "technical": "preserve 80..95 percent depending on disclosure",
+    "behavioral": "preserve 65..90 percent",
+    "criminal": "preserve 35..75 percent",
+    "violent": "preserve 10..55 percent",
+    "flight": "preserve 20..60 percent"
+  },
+  "consequences": [
+    "victim_safety_review",
+    "mentor_stress",
+    "public_trust_change",
+    "custody_status_change",
+    "intel_compromise",
+    "relationship_memory",
+    "program_revision"
+  ],
+  "noBinaryReset": true
+}

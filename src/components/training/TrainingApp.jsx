@@ -1,7 +1,9 @@
 import { useMemo, useState } from "react";
 import { GraduationCap, WalletCards } from "lucide-react";
 import trainingPrograms from "../../data/trainingPrograms.json";
-import { assignTraining } from "../../engine/trainingSystem";
+import { scheduleStatuses } from "../../engine/scheduleSystem";
+import { assignTraining, trainingProgramCost } from "../../engine/trainingSystem";
+import { titleCase } from "../../utils/formatters";
 import Button from "../common/Button";
 import ProgressBar from "../common/ProgressBar";
 
@@ -51,7 +53,7 @@ export default function TrainingApp({ game, setGame }) {
               <img src={hero.imageUrl} alt="" />
               <span>
                 <strong>{hero.codinome}</strong>
-                <small>{hero.scheduleStatus ?? "on_duty"} · fadiga {hero.fatigue ?? 0}</small>
+                <small>{scheduleStatuses[hero.scheduleStatus ?? "on_duty"] ?? titleCase(hero.scheduleStatus ?? "plantão")} · fadiga {hero.fatigue ?? 0}</small>
               </span>
             </button>
           ))}
@@ -63,7 +65,7 @@ export default function TrainingApp({ game, setGame }) {
             {trainingPrograms.map((program) => (
               <button className={selectedProgram?.id === program.id ? "active" : ""} key={program.id} onClick={() => setProgramId(program.id)} type="button">
                 <strong>{program.name}</strong>
-                <span>{program.durationDays} dia(s) · {money(program.cost)}</span>
+                <span>{program.durationDays} dia(s) · {money(trainingProgramCost(program))}</span>
               </button>
             ))}
           </div>

@@ -1,0 +1,153 @@
+{
+  "packageId": "central-de-crise-alpha-1-1-1-2",
+  "version": "1.2.0-alpha-package.1",
+  "locale": "pt-BR",
+  "encoding": "UTF-8",
+  "rngPolicy": {
+    "algorithm": "seeded-deterministic",
+    "campaignSeedRequired": true,
+    "logEveryRoll": true,
+    "allowUnloggedRandom": false
+  },
+  "scales": {
+    "attribute": {
+      "min": 0,
+      "max": 100
+    },
+    "relationship": {
+      "min": -100,
+      "max": 100
+    },
+    "probability": {
+      "min": 0,
+      "max": 1
+    },
+    "confidence": {
+      "min": 0,
+      "max": 100
+    },
+    "risk": {
+      "min": 0,
+      "max": 100
+    }
+  },
+  "activeRoster": {
+    "heroes": 8,
+    "villains": 20
+  },
+  "missionTeamSizes": [
+    1,
+    2,
+    3
+  ],
+  "corePrinciples": [
+    "Personality and history alter decisions before powers alter outcomes.",
+    "Every interrogation can produce benefits, costs, uncertainty or resistance.",
+    "Custody, rehabilitation, relapse and informant work are persistent campaign systems.",
+    "Narrative output is generated from domain state and never replaces domain logic.",
+    "Every state change must be explainable in logs and reports."
+  ],
+  "enums": {
+    "missionTypes": [
+      "rescue",
+      "containment",
+      "investigation",
+      "pursuit",
+      "negotiation",
+      "escort",
+      "disaster",
+      "raid",
+      "surveillance",
+      "public_order",
+      "infiltration"
+    ],
+    "missionEthicalTags": [
+      "civilian_priority",
+      "high_collateral_risk",
+      "secret_order",
+      "illegal_order",
+      "surrender_possible",
+      "juvenile_involved",
+      "media_live",
+      "political_pressure",
+      "hostage_situation",
+      "medical_emergency",
+      "ally_compromised",
+      "evidence_fragile",
+      "public_order"
+    ],
+    "relationshipAxes": [
+      "trust",
+      "respect",
+      "affection",
+      "fear",
+      "resentment",
+      "rivalry",
+      "dependence",
+      "ideologicalAlignment",
+      "operationalSynergy",
+      "intimacy",
+      "debt"
+    ],
+    "custodyStatuses": [
+      "at_large",
+      "captured",
+      "intake",
+      "holding",
+      "interrogation",
+      "trial_pending",
+      "sentenced",
+      "rehabilitation",
+      "supervised_release",
+      "informant_active",
+      "released",
+      "escaped",
+      "missing"
+    ],
+    "rehabStages": [
+      "precontemplation",
+      "contemplation",
+      "preparation",
+      "action",
+      "maintenance",
+      "reintegration"
+    ],
+    "intelStates": [
+      "rumor",
+      "unverified",
+      "partially_corroborated",
+      "corroborated",
+      "actionable",
+      "expired",
+      "disproven",
+      "compromised"
+    ],
+    "relapseTypes": [
+      "technical",
+      "behavioral",
+      "criminal",
+      "ideological",
+      "violent",
+      "flight",
+      "substance",
+      "contact_network"
+    ],
+    "interrogationApproaches": [
+      "rapport",
+      "evidence_confrontation",
+      "moral_appeal",
+      "strategic_silence",
+      "controlled_pressure",
+      "legal_bargain",
+      "deception"
+    ],
+    "speakerRoles": [
+      "hero",
+      "villain",
+      "dispatcher",
+      "comando",
+      "civilian",
+      "narrator"
+    ]
+  }
+}

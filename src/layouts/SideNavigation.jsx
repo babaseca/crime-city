@@ -2,18 +2,17 @@ import {
   Archive,
   Building2,
   CalendarClock,
-  ClipboardList,
-  FileBarChart,
-  Gauge,
   GraduationCap,
   Handshake,
   HeartHandshake,
+  Home,
   MapPinned,
   MessageCircle,
   Newspaper,
   RadioTower,
   Settings,
   ShieldAlert,
+  ShieldCheck,
   Skull,
   UsersRound,
 } from "lucide-react";
@@ -22,36 +21,36 @@ export const hubNavigation = [
   {
     label: "Operação",
     items: [
-      { id: "home", title: "Central Hoje", icon: Gauge },
-      { id: "dispatch", title: "Despacho", icon: RadioTower },
-      { id: "schedule", title: "Escala", icon: CalendarClock },
-      { id: "city", title: "Mapa da Cidade", icon: MapPinned },
+      { id: "home", title: "Início", subtitle: "Resumo Operacional", icon: Home },
+      { id: "dispatch", title: "Despacho", subtitle: "Alertas ativos", icon: RadioTower },
+      { id: "schedule", title: "Escala", subtitle: "Turnos e fadiga", icon: CalendarClock },
+      { id: "city", title: "Mapa da Cidade", subtitle: "Bairros críticos", icon: MapPinned },
     ],
   },
   {
     label: "Equipe",
     items: [
-      { id: "heroes", title: "Equipe", icon: UsersRound },
-      { id: "training", title: "Treinamento", icon: GraduationCap },
-      { id: "memorial", title: "Memorial", icon: Archive },
+      { id: "heroes", title: "Equipe", subtitle: "Heróis ativos", icon: UsersRound },
+      { id: "training", title: "Treinamento", subtitle: "Programas", icon: GraduationCap },
+      { id: "memorial", title: "Memorial", subtitle: "Legado", icon: Archive },
     ],
   },
   {
     label: "Cidade",
     items: [
-      { id: "factions", title: "Facções", icon: ShieldAlert },
-      { id: "social", title: "Rede Aurora", icon: MessageCircle },
-      { id: "reports", title: "Jornal e Relatórios", icon: Newspaper },
+      { id: "factions", title: "Facções", subtitle: "Influência", icon: ShieldAlert },
+      { id: "social", title: "Rede Aurora", subtitle: "Opinião pública", icon: MessageCircle },
+      { id: "reports", title: "Jornal e Relatórios", subtitle: "Arquivo diário", icon: Newspaper },
     ],
   },
   {
     label: "Administração",
     items: [
-      { id: "recruitment", title: "RH Heroico", icon: HeartHandshake },
-      { id: "base", title: "Infraestrutura", icon: Building2 },
-      { id: "villains", title: "Arquivo de Vilões", icon: Skull },
-      { id: "command", title: "Comando", icon: Handshake },
-      { id: "settings", title: "Configurações", icon: Settings },
+      { id: "recruitment", title: "RH Heroico", subtitle: "Candidatos", icon: HeartHandshake },
+      { id: "base", title: "Infraestrutura", subtitle: "Projetos", icon: Building2 },
+      { id: "villains", title: "Arquivo de Vilões", subtitle: "Custódia", icon: Skull },
+      { id: "command", title: "Comando", subtitle: "Objetivos", icon: Handshake },
+      { id: "settings", title: "Configurações", subtitle: "Sistema", icon: Settings },
     ],
   },
 ];
@@ -63,10 +62,12 @@ export default function SideNavigation({ activeApp, onOpenApp }) {
   return (
     <nav className="hub-side-navigation" aria-label="Módulos da Central">
       <div className="hub-side-header">
-        <ClipboardList size={22} aria-hidden="true" />
+        <div className="hub-side-emblem">
+          <ShieldCheck size={25} aria-hidden="true" />
+        </div>
         <span>
-          <strong>SRM-NA</strong>
-          <small>Alpha 0.9.5</small>
+          <strong>Central de Crise</strong>
+          <small>Heróis de Plantão</small>
         </span>
       </div>
 
@@ -77,13 +78,17 @@ export default function SideNavigation({ activeApp, onOpenApp }) {
             const Icon = item.icon;
             return (
               <button className={activeApp === item.id ? "active" : ""} key={item.id} onClick={() => onOpenApp(item.id)} type="button">
-                <Icon size={17} aria-hidden="true" />
-                <span>{item.title}</span>
+                <span className="hub-nav-icon"><Icon size={18} aria-hidden="true" /></span>
+                <span className="hub-nav-copy">
+                  <strong>{item.title}</strong>
+                  <small>{item.subtitle}</small>
+                </span>
               </button>
             );
           })}
         </section>
       ))}
+      <span className="hub-side-version">v0.9.5-alpha</span>
     </nav>
   );
 }

@@ -1,5 +1,6 @@
 import { Bed, Brain, BriefcaseMedical, CalendarClock, Dumbbell, RadioTower } from "lucide-react";
 import { scheduleStatuses, setHeroSchedule } from "../../engine/scheduleSystem";
+import { formatHeroRole, formatStatusLabel } from "../../utils/formatters";
 import ProgressBar from "../common/ProgressBar";
 import StatusPill from "../common/StatusPill";
 
@@ -37,10 +38,10 @@ export default function ScheduleApp({ game, setGame }) {
             <img src={hero.imageUrl} alt="" />
             <div>
               <strong>{hero.codinome}</strong>
-              <small>{hero.funcao}</small>
+              <small>{formatHeroRole(hero.funcao)}</small>
               <span className="chip">{scheduleStatuses[hero.scheduleStatus ?? "on_duty"]}</span>
             </div>
-            <StatusPill status={hero.status}>{hero.status}</StatusPill>
+            <StatusPill status={hero.status}>{formatStatusLabel(hero.status)}</StatusPill>
             <div className="schedule-bars">
               <ProgressBar value={hero.energia ?? 0} tone="energy" label="Energia" />
               <ProgressBar value={hero.estresse ?? 0} tone="stress" label="Estresse" />

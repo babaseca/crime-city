@@ -1,0 +1,181 @@
+{
+  "heroes": [
+    {
+      "id": "HERO_001",
+      "codename": "Aurora",
+      "civilianName": "Helena Vilar"
+    },
+    {
+      "id": "HERO_002",
+      "codename": "Bastião",
+      "civilianName": "Davi Moura"
+    },
+    {
+      "id": "HERO_003",
+      "codename": "Vértice",
+      "civilianName": "Luiza Nascimento"
+    },
+    {
+      "id": "HERO_004",
+      "codename": "Nexo",
+      "civilianName": "Caio Sato"
+    },
+    {
+      "id": "HERO_005",
+      "codename": "Maré",
+      "civilianName": "Joana Reis"
+    },
+    {
+      "id": "HERO_006",
+      "codename": "Eco",
+      "civilianName": "Ravi Campos"
+    },
+    {
+      "id": "HERO_007",
+      "codename": "Cinza",
+      "civilianName": "Mirela Duarte"
+    },
+    {
+      "id": "HERO_008",
+      "codename": "Farol",
+      "civilianName": "Samuel Azevedo"
+    }
+  ],
+  "villains": [
+    {
+      "id": "VILLAIN_001",
+      "codename": "Doutor Limiar",
+      "civilianName": "Raul Ferraz"
+    },
+    {
+      "id": "VILLAIN_002",
+      "codename": "Vespa Rubra",
+      "civilianName": "Camila Braga"
+    },
+    {
+      "id": "VILLAIN_003",
+      "codename": "Mnemósine",
+      "civilianName": "Teresa Vale"
+    },
+    {
+      "id": "VILLAIN_004",
+      "codename": "Ferrolho",
+      "civilianName": "Bruno Leal"
+    },
+    {
+      "id": "VILLAIN_005",
+      "codename": "Rei do Vazio",
+      "civilianName": "Otávio Brandão"
+    },
+    {
+      "id": "VILLAIN_006",
+      "codename": "Cifra",
+      "civilianName": "Isadora Neves"
+    },
+    {
+      "id": "VILLAIN_007",
+      "codename": "Brasa Fria",
+      "civilianName": "André Nunes"
+    },
+    {
+      "id": "VILLAIN_008",
+      "codename": "Colmeia",
+      "civilianName": "Mônica Paes"
+    },
+    {
+      "id": "VILLAIN_009",
+      "codename": "Estilhaço",
+      "civilianName": "Yuri Tavares"
+    },
+    {
+      "id": "VILLAIN_010",
+      "codename": "Dama de Sal",
+      "civilianName": "Laura Salgado"
+    },
+    {
+      "id": "VILLAIN_011",
+      "codename": "Teatro",
+      "civilianName": "Murilo Ramos"
+    },
+    {
+      "id": "VILLAIN_012",
+      "codename": "Cão de Guarda",
+      "civilianName": "Jonas Pires"
+    },
+    {
+      "id": "VILLAIN_013",
+      "codename": "Oráculo de Vidro",
+      "civilianName": "Aline Prado"
+    },
+    {
+      "id": "VILLAIN_014",
+      "codename": "Lamparina",
+      "civilianName": "Nara Luz"
+    },
+    {
+      "id": "VILLAIN_015",
+      "codename": "Queda Livre",
+      "civilianName": "Eduardo Luz"
+    },
+    {
+      "id": "VILLAIN_016",
+      "codename": "Mariposa Negra",
+      "civilianName": "Beatriz Neri"
+    },
+    {
+      "id": "VILLAIN_017",
+      "codename": "Pedreira",
+      "civilianName": "Cássio Rocha"
+    },
+    {
+      "id": "VILLAIN_018",
+      "codename": "Ruído Branco",
+      "civilianName": "Felipe Moura"
+    },
+    {
+      "id": "VILLAIN_019",
+      "codename": "Sangria",
+      "civilianName": "Vânia Freitas"
+    },
+    {
+      "id": "VILLAIN_020",
+      "codename": "Náufrago",
+      "civilianName": "Iago Serra"
+    }
+  ],
+  "factions": [
+    {
+      "id": "FACTION_001",
+      "name": "Rede Limiar"
+    },
+    {
+      "id": "FACTION_002",
+      "name": "Mercado Rubro"
+    },
+    {
+      "id": "FACTION_003",
+      "name": "Culto do Vazio"
+    },
+    {
+      "id": "FACTION_004",
+      "name": "Frente Cinza"
+    },
+    {
+      "id": "FACTION_005",
+      "name": "Matilha"
+    }
+  ],
+  "reservedPrefixes": {
+    "mission": "MISSION_",
+    "event": "EVENT_",
+    "relationship": "REL_",
+    "case": "CASE_",
+    "intel": "INTEL_",
+    "interrogation": "INTERROGATION_",
+    "report": "REPORT_",
+    "incident": "INCIDENT_",
+    "mentorSession": "MENTOR_SESSION_",
+    "relapse": "RELAPSE_",
+    "informantReport": "INFORMANT_REPORT_"
+  }
+}

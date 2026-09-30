@@ -1,0 +1,36 @@
+{
+  "version": "0.9.5",
+  "economy": {
+    "startingBudget": 110000,
+    "minimumDailyOperationalGrant": 9000,
+    "baseMissionReward": 6500,
+    "successRewardMultiplier": 1.25,
+    "controlledMissionRewardMultiplier": 1.0,
+    "partialFailureRewardMultiplier": 0.45,
+    "criticalFailureRewardMultiplier": 0.1,
+    "civilianSavedReward": 55,
+    "districtTrustBonusReward": 700,
+    "factionCaptureBonus": 4500,
+    "dailyFixedCostPerActiveHero": 350,
+    "dailyFixedCostPerReserveHero": 120,
+    "salaryDailyDivisor": 30,
+    "trainingCostMultiplier": 0.75,
+    "treatmentCostMultiplier": 0.65,
+    "baseUpgradeCostMultiplier": 0.85,
+    "reformProgramCostMultiplier": 0.75,
+    "commandEmergencyGrantChance": 0.18,
+    "commandEmergencyGrantAmount": [
+      6000,
+      18000
+    ],
+    "budgetWarningThreshold": 25000,
+    "budgetSoftFloor": 12000,
+    "allowNegativeBudget": false
+  },
+  "notes": [
+    "Objetivo: reduzir a sensação de que o dinheiro vai embora rápido demais.",
+    "Aumenta orçamento inicial e receita mínima diária.",
+    "Reduz custo de treinamento, tratamento e reforma.",
+    "Adiciona verba operacional mínima para evitar espiral de falência nos primeiros dias."
+  ]
+}

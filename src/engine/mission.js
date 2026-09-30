@@ -1,13 +1,17 @@
-import { chooseVillainForMission } from "./villainSystem";
+﻿import { chooseVillainForMission } from "./villainSystem";
 import { baseUpgradeEffect } from "./baseUpgradeSystem";
 import { calculateComboEffects, getAvailableCombos } from "./comboSystem";
 import { dispatcherChanceModifier, dispatcherRelationshipBonus, dispatcherReputationShield } from "./dispatcherSystem";
+import { calculateMissionPayout, calculateScaledCost } from "./economySystem";
 import { missionResultType, selectDialogue } from "./dialogueSystem";
+import { deriveMissionFacts, relationshipDeltaFromFacts } from "./missionFacts";
+import { analyzeTeamMorals } from "./moralSystem";
 import {
+  adjustRelationshipProfile,
   averageTeamRelationship,
-  clampRelationship,
   pairKey,
   relationshipLabel,
+  relationshipScore,
   relationshipValue,
 } from "./relationships";
 
@@ -32,7 +36,7 @@ export const heroOperationalStatus = (hero) => {
   if (hero.energia <= 18 || hero.estresse >= 86) return "exausto";
   if (hero.energia <= 38 || hero.estresse >= 68) return "sobrecarregado";
   if (hero.energia <= 55 || hero.estresse >= 50) return "cansado";
-  return "disponivel";
+  return "disponível";
 };
 
 const roleMatchBonus = (event, hero) => {
@@ -78,7 +82,7 @@ const schedulePenalty = (hero) => {
   if (hero.scheduleStatus === "resting") return 7;
   if (hero.scheduleStatus === "training") return 9;
   if (hero.scheduleStatus === "therapy") return 12;
-  if (hero.scheduleStatus === "medical") return 22;
+  if (hero.scheduleStatus === "médical") return 22;
   return 15;
 };
 
@@ -108,6 +112,9 @@ export const calculateMissionChance = (event, team, relationships, dispatcher = 
       upgradeBonus: 0,
       comboBonus: 0,
       moraleBonus: 0,
+      moralBonus: 0,
+      moralStress: 0,
+      moralTension: 0,
       injuryRisk: 0,
       deathRisk: 0,
       woundRiskLabel: "baixo",
@@ -134,8 +141,10 @@ export const calculateMissionChance = (event, team, relationships, dispatcher = 
   const comboEffects = calculateComboEffects(activeCombos);
   const comboBonus = comboEffects.successChanceBonus;
   const moraleBonus = moraleMissionBonus(options.teamMorale);
+  const moralAnalysis = analyzeTeamMorals(event, team, relationships);
+  const moralBonus = moralAnalysis.bonus;
   const sizeBonus = team.length === 1 ? -4 : team.length === 2 ? 5 : 8;
-  const riskPressure = event.nivelRisco * 4.5;
+  const riskPressure = event.nívelRisco * 4.5;
   const raw =
     48 +
     capability +
@@ -145,27 +154,39 @@ export const calculateMissionChance = (event, team, relationships, dispatcher = 
     upgradeBonus +
     comboBonus +
     moraleBonus +
+    moralBonus +
     sizeBonus -
     fatiguePenalty -
     event.dificuldade * 0.82 -
     riskPressure;
   const chance = Math.round(clamp(raw, 6, 96));
   const injuryRisk = Math.round(
-    clamp(event.nivelRisco * 5 + (100 - chance) * 0.28 + fatiguePenalty * 0.24 + relationPressure(team, relationships) - comboEffects.injuryRiskReduction, 3, 82),
+    clamp(
+      event.nívelRisco * 5 +
+        (100 - chance) * 0.28 +
+        fatiguePenalty * 0.24 +
+        relationPressure(team, relationships) +
+        moralAnalysis.stress +
+        moralAnalysis.tensionRisk * 0.1 -
+        comboEffects.injuryRiskReduction,
+      3,
+      82,
+    ),
   );
   const deathRisk =
-    event.nivelRisco >= 4
+    event.nívelRisco >= 4
       ? Math.round(
           clamp(
-            (event.nivelRisco - 3) * 4 +
+            (event.nívelRisco - 3) * 4 +
               Math.max(0, event.dificuldade - 70) * 0.2 +
               Math.max(0, fatiguePenalty - 22) * 0.18 +
-              relationPressure(team, relationships) * 0.16,
+              relationPressure(team, relationships) * 0.16 +
+              moralAnalysis.tensionRisk * 0.05,
             0,
             34,
           ),
         )
-      : Math.round(clamp(Math.max(0, event.nivelRisco - 2) + Math.max(0, 45 - chance) * 0.08, 0, 9));
+      : Math.round(clamp(Math.max(0, event.nívelRisco - 2) + Math.max(0, 45 - chance) * 0.08, 0, 9));
 
   return {
     chance,
@@ -177,6 +198,10 @@ export const calculateMissionChance = (event, team, relationships, dispatcher = 
     upgradeBonus,
     comboBonus,
     moraleBonus,
+    moralBonus,
+    moralStress: moralAnalysis.stress,
+    moralTension: moralAnalysis.tensionRisk,
+    moralAnalysis,
     activeCombos,
     injuryRisk,
     deathRisk,
@@ -197,7 +222,7 @@ const outcomeText = (success, margin, deaths, injuries) => {
 };
 
 const materialDamage = (event, success, margin) => {
-  const value = success ? event.nivelRisco * 8 - Math.max(0, margin) : event.nivelRisco * 18 + Math.abs(margin);
+  const value = success ? event.nívelRisco * 8 - Math.max(0, margin) : event.nívelRisco * 18 + Math.abs(margin);
   if (value >= 78) return "severo";
   if (value >= 46) return "alto";
   if (value >= 22) return "médio";
@@ -205,7 +230,7 @@ const materialDamage = (event, success, margin) => {
 };
 
 const civiliansSaved = (event, success, margin) =>
-  Math.max(0, Math.round(event.nivelRisco * 8 + event.dificuldade / 5 + (success ? 10 : -8) + Math.max(-8, margin / 3)));
+  Math.max(0, Math.round(event.nívelRisco * 8 + event.dificuldade / 5 + (success ? 10 : -8) + Math.max(-8, margin / 3)));
 
 const missionNarrative = (event, team, success, chance, deaths) => {
   const leader = team.reduce((best, hero) => (hero.energia > best.energia ? hero : best), team[0]);
@@ -249,12 +274,14 @@ export const resolveMission = async ({
   teamMorale = 60,
   unlockedCombos = [],
 }) => {
+  const missionId = `mission-${event.id}-${Date.now()}`;
   const preview = calculateMissionChance(event, team, relationships, dispatcher, baseUpgrades, { teamMorale, unlockedCombos });
   const comboEffects = calculateComboEffects(preview.activeCombos ?? []);
+  const moralFitByHero = new Map((preview.moralAnalysis?.heroFits ?? []).map((fit) => [fit.heroId, fit]));
   const roll = Math.floor(Math.random() * 100) + 1;
   const success = roll <= preview.chance;
   const margin = preview.chance - roll;
-  const captureRoll = success && event.nivelRisco >= 3 && Math.random() * 100 < 26 + event.nivelRisco * 4;
+  const captureRoll = success && event.nívelRisco >= 3 && Math.random() * 100 < 26 + event.nívelRisco * 4;
   const capturedVillain = captureRoll ? chooseVillainForMission(villains, event) : null;
   const injuries = [];
   const deaths = [];
@@ -272,11 +299,12 @@ export const resolveMission = async ({
 
   const heroUpdates = team.map((hero) => {
     const enduranceRelief = hero.atributos.resistencia * 0.75;
-    const energyLoss = Math.round(clamp(event.nivelRisco * 5 + event.dificuldade / 13 - enduranceRelief, 6, 34));
+    const energyLoss = Math.round(clamp(event.nívelRisco * 5 + event.dificuldade / 13 - enduranceRelief, 6, 34));
     const stressRelief = success ? 0 : baseUpgradeEffect(baseUpgrades, "stressReduction");
+    const moralStress = moralFitByHero.get(hero.id)?.stress ?? 0;
     const stressGain = Math.round(
-      clamp((success ? event.nivelRisco * 3 : event.nivelRisco * 6) + Math.max(0, 70 - preview.chance) / 8, 3, 34),
-    ) - stressRelief - comboEffects.stressReduction;
+      clamp((success ? event.nívelRisco * 3 : event.nívelRisco * 6) + Math.max(0, 70 - preview.chance) / 8, 3, 34),
+    ) + moralStress - stressRelief - comboEffects.stressReduction;
     const xpBonus = baseUpgradeEffect(baseUpgrades, "xpBonus");
     const individualDeathRisk =
       preview.deathRisk +
@@ -284,7 +312,7 @@ export const resolveMission = async ({
       (hero.estresse > 78 ? 5 : 0) +
       ((hero.ferimentos ?? []).length > 0 ? 5 : 0) +
       (success ? 0 : 5);
-    const dies = event.nivelRisco >= 4 && Math.random() * 100 < individualDeathRisk * 0.32;
+    const dies = event.nívelRisco >= 4 && Math.random() * 100 < individualDeathRisk * 0.32;
     const injured = !dies && Math.random() * 100 < preview.injuryRisk * (success ? 0.35 : 0.58);
     const nextHero = {
       ...hero,
@@ -292,7 +320,7 @@ export const resolveMission = async ({
       estresse: dies ? 100 : Math.min(100, hero.estresse + stressGain),
       experiencia:
         hero.experiencia +
-        (success ? Math.round(7 + event.dificuldade / 9 + event.nivelRisco * 2) : Math.round(4 + event.nivelRisco * 1.5)) +
+        (success ? Math.round(7 + event.dificuldade / 9 + event.nívelRisco * 2) : Math.round(4 + event.nívelRisco * 1.5)) +
         xpBonus,
       missoes: (hero.missoes ?? 0) + 1,
       sucessos: (hero.sucessos ?? 0) + (success ? 1 : 0),
@@ -304,13 +332,13 @@ export const resolveMission = async ({
       const injury = {
         id: `injury-${event.id}-${hero.id}-${Date.now()}`,
         name: injuryName(event),
-        severity: event.nivelRisco >= 5 || !success ? "grave" : "leve",
-        durationDays: event.nivelRisco >= 5 || !success ? 3 : 2,
-        daysRemaining: event.nivelRisco >= 5 || !success ? 3 : 2,
+        severity: event.nívelRisco >= 5 || !success ? "grave" : "leve",
+        durationDays: event.nívelRisco >= 5 || !success ? 3 : 2,
+        daysRemaining: event.nívelRisco >= 5 || !success ? 3 : 2,
         source: event.titulo,
-        statPenalties: event.nivelRisco >= 5 || !success ? { resistencia: -2, mobilidade: -1 } : { resistencia: -1 },
-        riskIfDeployed: event.nivelRisco >= 5 || !success ? 28 : 12,
-        treatmentCost: event.nivelRisco >= 5 || !success ? 3600 : 1200,
+        statPenalties: event.nívelRisco >= 5 || !success ? { resistencia: -2, mobilidade: -1 } : { resistencia: -1 },
+        riskIfDeployed: event.nívelRisco >= 5 || !success ? 28 : 12,
+        treatmentCost: calculateScaledCost(event.nívelRisco >= 5 || !success ? 3600 : 1200, "treatmentCostMultiplier"),
       };
       nextHero.ferimentos = [...(nextHero.ferimentos ?? []), injury];
       injuries.push({ heroId: hero.id, name: hero.codinome, injury });
@@ -348,27 +376,51 @@ export const resolveMission = async ({
 
   const relationshipChanges = [];
   const nextRelationships = { ...relationships };
+  const missionFacts = deriveMissionFacts({
+    event,
+    team,
+    success,
+    margin,
+    civiliansSaved: saved,
+    materialDamage: damage,
+    moralAnalysis: preview.moralAnalysis,
+  });
   const dispatcherRelationBonus = dispatcherRelationshipBonus(dispatcher);
 
   for (let i = 0; i < team.length; i += 1) {
-    for (let j = i + 1; j < team.length; j += 1) {
+    for (let j = 0; j < team.length; j += 1) {
+      if (i === j) continue;
       const first = team[i];
       const second = team[j];
       const key = pairKey(first.id, second.id);
       const current = relationshipValue(nextRelationships, first.id, second.id);
-      const sharedTraits = first.tracos.filter((trait) => second.tracos.includes(trait)).length;
-      const delta = Math.round((success ? 3 : -4) + sharedTraits + dispatcherRelationBonus + (margin > 25 ? 2 : 0) + (margin < -25 ? -2 : 0));
-      const nextValue = clampRelationship(current + delta);
+      const factChange = relationshipDeltaFromFacts({
+        fromHero: first,
+        toHero: second,
+        event,
+        facts: missionFacts,
+        relationships: nextRelationships,
+        success,
+      });
+      if (!factChange) continue;
+      const nextProfile = adjustRelationshipProfile(nextRelationships[key], dispatcherRelationBonus * 0.4, {
+        ...factChange.delta,
+        flags: factChange.sourceFactIds,
+      });
+      const nextValue = relationshipScore(nextProfile);
 
-      nextRelationships[key] = nextValue;
+      nextRelationships[key] = nextProfile;
       relationshipChanges.push({
+        ...factChange,
         key,
         heroIds: [first.id, second.id],
         names: [first.codinome, second.codinome],
-        delta,
+        sourceMissionId: missionId,
         from: current,
         to: nextValue,
         label: relationshipLabel(nextValue),
+        axes: nextProfile,
+        moralFriction: (preview.moralAnalysis?.pairFriction ?? []).find((item) => item.heroIds.includes(first.id) && item.heroIds.includes(second.id)) ?? null,
       });
     }
   }
@@ -399,9 +451,10 @@ export const resolveMission = async ({
   const moralEffect = dialogue.effects?.moralChange ?? 0;
   if (relationshipEffect !== 0 && team.length > 1) {
     for (let i = 0; i < team.length; i += 1) {
-      for (let j = i + 1; j < team.length; j += 1) {
+      for (let j = 0; j < team.length; j += 1) {
+        if (i === j) continue;
         const key = pairKey(team[i].id, team[j].id);
-        nextRelationships[key] = clampRelationship((nextRelationships[key] ?? 0) + relationshipEffect);
+        nextRelationships[key] = adjustRelationshipProfile(nextRelationships[key], relationshipEffect);
       }
     }
   }
@@ -417,17 +470,22 @@ export const resolveMission = async ({
     });
   }
 
-  const budgetDelta = success
-    ? Math.round(event.nivelRisco * 1300 + saved * 35 - (injuries.length + deaths.length) * 450)
-    : -Math.round(event.nivelRisco * 1100 + event.dificuldade * 35);
+  const budgetDelta = calculateMissionPayout({
+    event,
+    success,
+    resultType: finalResultType,
+    civiliansSaved: saved,
+    capturedVillain,
+    materialDamage: damage,
+  });
   const rawReputationDelta = success
-    ? Math.max(2, Math.round(event.nivelRisco * 2 + Math.max(0, margin) / 15 - deaths.length * 5 + comboEffects.reputationBonus))
-    : -Math.max(3, Math.round(event.nivelRisco * 3 + Math.abs(margin) / 12 + deaths.length * 5));
+    ? Math.max(2, Math.round(event.nívelRisco * 2 + Math.max(0, margin) / 15 - deaths.length * 5 + comboEffects.reputationBonus))
+    : -Math.max(3, Math.round(event.nívelRisco * 3 + Math.abs(margin) / 12 + deaths.length * 5));
   const upgradeShield = baseUpgradeEffect(baseUpgrades, "reputationShield");
   const reputationDelta = dispatcherReputationShield(dispatcher, rawReputationDelta < 0 ? Math.min(-1, rawReputationDelta + upgradeShield) : rawReputationDelta);
 
   return {
-    id: `mission-${event.id}-${Date.now()}`,
+    id: missionId,
     day,
     event,
     heroIds: team.map((hero) => hero.id),
@@ -442,8 +500,9 @@ export const resolveMission = async ({
     budgetDelta,
     civiliansSaved: saved,
     materialDamage: damage,
-    experienceGain: success ? Math.round(7 + event.dificuldade / 9 + event.nivelRisco * 2) : Math.round(4 + event.nivelRisco * 1.5),
+    experienceGain: success ? Math.round(7 + event.dificuldade / 9 + event.nívelRisco * 2) : Math.round(4 + event.nívelRisco * 1.5),
     heroUpdates,
+    missionFacts,
     relationshipChanges,
     injuries,
     deaths,
@@ -452,11 +511,20 @@ export const resolveMission = async ({
     relationships: nextRelationships,
     breakdown: preview,
     activeCombos: preview.activeCombos ?? [],
+    moralAnalysis: preview.moralAnalysis,
     emotionalConsequences: [
       deaths.length > 0 ? "luto coletivo por 3 dias" : null,
       injuries.length > 0 ? "enfermaria acionada" : null,
       relationshipEffect > 0 ? "a equipe saiu mais próxima" : relationshipEffect < 0 ? "a equipe saiu em atrito" : null,
       stressEffect < 0 ? "a cena reduziu a tensão da equipe" : stressEffect > 0 ? "a cena deixou nervos expostos" : null,
+      preview.moralAnalysis?.tensionRisk >= 16 ? "conflito moral registrado" : null,
+      preview.moralAnalysis?.bonus >= 4 ? "valores da equipe favoreceram a resposta" : null,
+      missionFacts.some((fact) => fact.type === "hospital_saved") ? "hospital preservado por decisao de campo" : null,
+      missionFacts.some((fact) => fact.type === "neighborhood_blackout") ? "apagão de bairro entrou no relatório" : null,
     ].filter(Boolean),
   };
 };
+
+
+
+

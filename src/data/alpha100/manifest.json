@@ -1,0 +1,47 @@
+{
+  "package": "Central de Crise Alpha 1.0.0 Events Expansion",
+  "createdAt": "2026-06-05T19:39:02.720205Z",
+  "sourceNotes": "Base criada usando bairros/modelos do events.js atual como referência e vilões da base do projeto.",
+  "counts": {
+    "events": 500,
+    "playByPlayVariants": 7500,
+    "playByPlayVariantsPerEvent": 15,
+    "uniqueVillainsUsed": 306,
+    "uniqueDistrictsUsed": 14,
+    "uniqueFactionsUsed": 12
+  },
+  "files": {
+    "alpha100_events_500.json": {
+      "sha256": "d130f52f5b94063237c985c143860b8136e818f0efa2413261d98dbdbe737eb5"
+    },
+    "alpha100_events_500.js": {
+      "sha256": "2e8a1164f455b86dcf8dfa9ce127a35e03949767ecc255f5b2bdcec88237acce"
+    },
+    "alpha100_event_index.json": {
+      "sha256": "be448fc863ac7d22f58664c421a1f95985b6392c7911fc74538dd671646a47db"
+    },
+    "alpha100_codex_implementation_prompt.txt": {
+      "sha256": "327f5de5cb68652fdcdf9146d2b5f32e98052896f8ff2941b4548786fdd86aa9"
+    },
+    "alpha100_playbyplay_part_001.json": {
+      "sha256": "e74a4d0ffe8c183dc079953ec7e38e2e6564bebf134929194095917178bf47e0",
+      "variants": 1500
+    },
+    "alpha100_playbyplay_part_002.json": {
+      "sha256": "e8505080a4b1d3bf3713d0fc009a94c330966b51f112f576cfe4d250bbff744e",
+      "variants": 1500
+    },
+    "alpha100_playbyplay_part_003.json": {
+      "sha256": "8e9d355bc2faaffed16220c63cae032d9904faf4cc6dd40b509fcd2cca4c57ee",
+      "variants": 1500
+    },
+    "alpha100_playbyplay_part_004.json": {
+      "sha256": "22b163cd70c749a4d2cb85e3309c4c4888b1d4944db35ed1550ecae179073717",
+      "variants": 1500
+    },
+    "alpha100_playbyplay_part_005.json": {
+      "sha256": "1d5de9089269bca36ae428e53e798732bd1d6fb6d968f74cff7c1cfb364349bf",
+      "variants": 1500
+    }
+  }
+}

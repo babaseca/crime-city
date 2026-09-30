@@ -1,4 +1,4 @@
-import playByPlayIndex from "../data/playByPlay/playByPlayIndex.json";
+﻿import playByPlayIndex from "../data/playByPlay/playByPlayIndex.json";
 import genericBeats from "../data/playByPlay/genericBeats.json";
 import resultBeats from "../data/playByPlay/resultBeats.json";
 import districtBeats from "../data/playByPlay/districtBeats.json";
@@ -10,6 +10,7 @@ import captureBeats from "../data/playByPlay/captureBeats.json";
 import eventVariantsPart001 from "../data/playByPlay/eventVariants/part-001.json";
 import eventVariantsPart002 from "../data/playByPlay/eventVariants/part-002.json";
 import eventVariantsPart003 from "../data/playByPlay/eventVariants/part-003.json";
+import { normalizeDisplayText } from "../utils/formatters";
 
 const phaseIcons = {
   chamado: "radio",
@@ -54,6 +55,39 @@ export const staticPlayByPlayData = {
   eventVariants: [...eventVariantsPart001, ...eventVariantsPart002, ...eventVariantsPart003],
 };
 
+const alpha100EventVariantLoaders = import.meta.glob("../data/playByPlay/alpha100/part-*.json");
+const alpha100VariantCache = new Map();
+
+const alpha100PartForEventId = (eventId = "") => {
+  const match = String(eventId).match(/alpha100-evt-(\d+)/);
+  if (!match) return null;
+  const eventNumber = Number(match[1]);
+  if (!Number.isFinite(eventNumber)) return null;
+  return String(Math.floor((eventNumber - 1) / 100) + 1).padStart(3, "0");
+};
+
+const loadAlpha100EventVariants = async (eventId) => {
+  const part = alpha100PartForEventId(eventId);
+  if (!part) return [];
+  if (alpha100VariantCache.has(part)) return alpha100VariantCache.get(part);
+  const loader = alpha100EventVariantLoaders[`../data/playByPlay/alpha100/part-${part}.json`];
+  if (!loader) return [];
+  const module = await loader();
+  const variants = module.default ?? module;
+  alpha100VariantCache.set(part, variants);
+  return variants;
+};
+
+const playByPlayDataForContext = async (context, data = null) => {
+  if (data) return data;
+  const alpha100Variants = await loadAlpha100EventVariants(context.eventId);
+  if (!alpha100Variants.length) return staticPlayByPlayData;
+  return {
+    ...staticPlayByPlayData,
+    eventVariants: [...staticPlayByPlayData.eventVariants, ...alpha100Variants],
+  };
+};
+
 const stableHash = (value = "") => {
   let hash = 0;
   const text = String(value);
@@ -72,15 +106,15 @@ const normalizeKey = (value = "") =>
     .replace(/^_+|_+$/g, "");
 
 const titleCase = (value = "") =>
-  String(value)
+  normalizeDisplayText(String(value)
     .replace(/[_-]+/g, " ")
     .replace(/\s+/g, " ")
     .trim()
-    .replace(/\b\w/g, (letter) => letter.toUpperCase());
+    .replace(/\b\w/g, (letter) => letter.toUpperCase()));
 
 const publicText = (value, fallback) => {
   if (value === undefined || value === null || value === "") return fallback;
-  return String(value).includes("_") || String(value).includes("-") ? titleCase(value) : String(value);
+  return normalizeDisplayText(String(value).includes("_") || String(value).includes("-") ? titleCase(value) : String(value));
 };
 
 const itemMissionTags = (item) => [...(item.missionTags ?? []), ...(item.archetypes ?? [])];
@@ -124,11 +158,55 @@ const factionMatches = (item, context) => {
   return !factionIds.length || factionIds.includes(context.factionId);
 };
 
+const villainMatches = (item, context) => {
+  const villainIds = item.villainIds ?? [];
+  return !villainIds.length || villainIds.includes(context.villainId);
+};
+
 const heroCountMatches = (item, context) => {
   const minHeroes = item.minHeroes ?? 1;
   const maxHeroes = item.maxHeroes ?? 3;
   return context.heroCount >= minHeroes && context.heroCount <= maxHeroes;
 };
+
+export const getRequiredHeroIndexesFromText = (text = "") =>
+  [...String(text).matchAll(/\{hero:(\d+)\}/g)].map((match) => Number(match[1]));
+
+const itemTextBlocks = (item = {}) => [
+  item.text,
+  item.summary,
+  ...(item.beats ?? []).map((beat) => beat.text),
+  ...((item.seeds?.headlineSeeds ?? [])),
+  ...((item.seeds?.socialSeeds ?? [])),
+  ...((item.seeds?.legacySeeds ?? [])),
+];
+
+const optionalHeroCountMatches = (item = {}, heroCount = 0) => {
+  const optional = item.optionalWhen ?? {};
+  if (optional.minHeroes && heroCount < optional.minHeroes) return false;
+  if (optional.maxHeroes && heroCount > optional.maxHeroes) return false;
+  return true;
+};
+
+const itemTextBlocksForHeroCount = (item = {}, heroCount = 0) => [
+  item.text,
+  item.summary,
+  ...(item.beats ?? [])
+    .filter((beat) => optionalHeroCountMatches(beat, heroCount))
+    .map((beat) => beat.text),
+  ...((item.seeds?.headlineSeeds ?? [])),
+  ...((item.seeds?.socialSeeds ?? [])),
+  ...((item.seeds?.legacySeeds ?? [])),
+];
+
+export const beatCompatibleWithHeroCount = (beat, heroCount = 0) =>
+  optionalHeroCountMatches(beat, heroCount) &&
+  getRequiredHeroIndexesFromText(beat?.text ?? "").every((index) => index < heroCount);
+
+export const variantCompatibleWithHeroCount = (variant, heroCount = 0) =>
+  itemTextBlocksForHeroCount(variant, heroCount).every((text) =>
+    getRequiredHeroIndexesFromText(text ?? "").every((index) => index < heroCount),
+  );
 
 const requiresMatches = (requires = {}, context) => {
   if (requires.capture && !context.captures?.length) return false;
@@ -151,7 +229,9 @@ const isCompatible = (item, context, recentPlayByPlay = []) =>
   roleMatches(item, context) &&
   districtMatches(item, context) &&
   factionMatches(item, context) &&
+  villainMatches(item, context) &&
   heroCountMatches(item, context) &&
+  variantCompatibleWithHeroCount(item, context.heroCount) &&
   requiresMatches(item.requires ?? {}, context) &&
   !isPlayByPlayOnCooldown(item.id, recentPlayByPlay, context.day, item.cooldownDays ?? 0);
 
@@ -221,11 +301,69 @@ const normalizeBeat = (beat, index, total, context) => ({
   phase: beat.phase,
   time: beat.time ?? timeForIndex(index, total, context),
   icon: beat.icon ?? phaseIcons[normalizeKey(beat.phase)] ?? "activity",
-  text: renderPlayByPlayText(beat.text, context),
+  text: normalizeDisplayText(renderPlayByPlayText(beat.text, context)),
 });
 
 const renderBeats = (beats, context) =>
-  beats.map((beat, index) => normalizeBeat(beat, index, beats.length, context));
+  beats
+    .filter((beat) => beatCompatibleWithHeroCount(beat, context.heroCount))
+    .map((beat, index, filteredBeats) => normalizeBeat(beat, index, filteredBeats.length, context));
+
+const alpha11ContextBeat = (context) => {
+  const heroes = context.selectedHeroes ?? [];
+  if (heroes.length < 2) return null;
+  const facts = new Set((context.missionFacts ?? []).map((fact) => fact.type));
+  const highCivil = heroes.find((hero) => (hero.moralProfile?.civilianPriority ?? 0) >= 90);
+  const highCollateral = heroes.find((hero) => (hero.moralProfile?.collateralTolerance ?? 0) >= 55);
+  const planner = heroes.find((hero) => (hero.atributos?.investigacao ?? 0) >= 8);
+  const fastMover = heroes.find((hero) => (hero.atributos?.mobilidade ?? 0) >= 8);
+  const publicVoice = heroes.find((hero) => (hero.moralProfile?.publicExposureComfort ?? 0) >= 75);
+  const protocolBreaker = heroes.find((hero) => (hero.moralProfile?.authorityRespect ?? 50) <= 40);
+
+  if (highCivil && highCollateral && (facts.has("infrastructure_destroyed") || facts.has("neighborhood_blackout"))) {
+    return {
+      id: `alpha11-moral-collision-${context.eventId}`,
+      phase: "complicacao",
+      time: "18:40",
+      icon: "alert-triangle",
+      text: `${highCivil.codinome} pediu mais trinta segundos para retirar os últimos civis. ${highCollateral.codinome} respondeu que a estrutura não aguentaria tanto. Pela primeira vez naquela noite, nenhum dos dois esperou que a Central resolvesse o impasse por eles.`,
+    };
+  }
+
+  if (planner && fastMover && facts.has("mission_success_clean")) {
+    return {
+      id: `alpha11-clean-sync-${context.eventId}`,
+      phase: "sinergia",
+      time: "16:20",
+      icon: "users",
+      text: `${planner.codinome} recalculou a rota antes que ${fastMover.codinome} terminasse a travessia. Não houve discurso, só a eficiência de duas pessoas que já sabiam como a outra pensava.`,
+    };
+  }
+
+  if (publicVoice && protocolBreaker && facts.has("hero_disobeyed_order")) {
+    return {
+      id: `alpha11-public-friction-${context.eventId}`,
+      phase: "consequencia",
+      time: "fim",
+      icon: "radio",
+      text: `${publicVoice.codinome} manteve o canal público limpo enquanto ${protocolBreaker.codinome} cortava caminho pelo risco. A missão avançou, mas a imagem da Central ficou pendurada entre coragem e indisciplina.`,
+    };
+  }
+
+  return null;
+};
+
+const withAlpha11ContextBeat = (playByPlay, context) => {
+  const beat = alpha11ContextBeat(context);
+  if (!playByPlay || !beat || (playByPlay.beats ?? []).some((existing) => existing.id === beat.id)) return playByPlay;
+  const beats = playByPlay.beats ?? [];
+  const insertAt = Math.max(1, beats.length - 1);
+  return {
+    ...playByPlay,
+    beats: [...beats.slice(0, insertAt), beat, ...beats.slice(insertAt)],
+    usedVariantIds: [...(playByPlay.usedVariantIds ?? []), beat.id],
+  };
+};
 
 const summaryFromContext = (context) => {
   if (context.heroCount === 0) return `Sem equipe designada, ${context.eventTitle} evoluiu em ${context.districtName} até virar custo público.`;
@@ -286,13 +424,13 @@ export function renderPlayByPlayText(text, context) {
     teamMorale: publicText(context.teamMorale, "estável"),
   };
 
-  return String(text ?? "")
+  return normalizeDisplayText(String(text ?? "")
     .replace(/\{hero:(\d+)\}/g, (_, rawIndex) => {
       const hero = heroes[Number(rawIndex)];
       return hero?.codinome ?? (heroes.length ? "a equipe" : "a Central");
     })
     .replace(/\{([a-zA-Z]+)\}/g, (_, key) => replacements[key] ?? fallbackValues[key] ?? "o relatório")
-    .replace(/\b(undefined|null)\b/gi, "não informado");
+    .replace(/\b(undefined|null)\b/gi, "não informado"));
 }
 
 export function isPlayByPlayOnCooldown(id, recentPlayByPlay = [], currentDay = 1, cooldownDays = 0) {
@@ -316,6 +454,7 @@ export function scorePlayByPlayVariant(variant, context, recentPlayByPlay = []) 
   if ((variant.resultTypes ?? []).some((type) => context.resultTypes?.includes(type))) score += 35;
   if ((variant.districtIds ?? []).includes(context.districtId)) score += 25;
   if ((variant.factionIds ?? []).includes(context.factionId)) score += 25;
+  if ((variant.villainIds ?? []).includes(context.villainId)) score += 35;
   score += itemMissionTags(variant).filter((tag) => context.missionTags?.includes(tag)).length * 5;
   if (heroCountMatches(variant, context)) score += 15;
   if (variant.requires?.combo && context.activeCombos?.length) score += 20;
@@ -430,7 +569,7 @@ export function formatPlayByPlayForReport(playByPlay) {
       phase: beat.phase ?? "registro",
       time: beat.time ?? "",
       icon: beat.icon ?? phaseIcons[normalizeKey(beat.phase)] ?? "activity",
-      text: beat.text ? String(beat.text) : "Registro operacional indisponível.",
+      text: beat.text ? normalizeDisplayText(beat.text) : "Registro operacional indisponível.",
     })),
     seeds: {
       headlineSeeds: playByPlay.seeds?.headlineSeeds ?? [],
@@ -440,16 +579,48 @@ export function formatPlayByPlayForReport(playByPlay) {
   };
 }
 
-export function generateMissionPlayByPlay(context, playByPlayData = staticPlayByPlayData, gameState = {}) {
+export function ensureAllSelectedHeroesRepresented(playByPlay, context) {
+  const heroes = context.selectedHeroes ?? [];
+  if (!playByPlay || heroes.length < 3) return playByPlay;
+
+  const storyText = [
+    playByPlay.summary,
+    ...(playByPlay.beats ?? []).map((beat) => beat.text),
+    ...(playByPlay.seeds?.headlineSeeds ?? []),
+    ...(playByPlay.seeds?.socialSeeds ?? []),
+    ...(playByPlay.seeds?.legacySeeds ?? []),
+  ].join(" ");
+  const missingHeroes = heroes.filter((hero) => hero?.codinome && !storyText.includes(hero.codinome));
+  if (!missingHeroes.length) return playByPlay;
+
+  const contributionBeats = missingHeroes.map((hero, index) => ({
+    id: `hero-contribution-${context.eventId}-${hero.id}`,
+    phase: "sinergia",
+    time: `${String(12 + index * 3).padStart(2, "0")}:40`,
+    icon: "users",
+    text: `${hero.codinome} assumiu um eixo paralelo da ocorrência e manteve a equipe inteira sincronizada.`,
+  }));
+  const beats = playByPlay.beats ?? [];
+  const insertAt = Math.max(1, beats.length - 1);
+
+  return {
+    ...playByPlay,
+    beats: [...beats.slice(0, insertAt), ...contributionBeats, ...beats.slice(insertAt)],
+    usedVariantIds: [...(playByPlay.usedVariantIds ?? []), ...contributionBeats.map((beat) => beat.id)],
+  };
+}
+
+export async function generateMissionPlayByPlay(context, playByPlayData = null, gameState = {}) {
+  const resolvedPlayByPlayData = await playByPlayDataForContext(context, playByPlayData);
   const recentPlayByPlay = gameState.recentPlayByPlay ?? [];
-  const rankedVariants = getEligiblePlayByPlayVariants(context, playByPlayData, recentPlayByPlay)
+  const rankedVariants = getEligiblePlayByPlayVariants(context, resolvedPlayByPlayData, recentPlayByPlay)
     .map((variant) => ({ item: variant, score: scorePlayByPlayVariant(variant, context, recentPlayByPlay) }))
     .filter((entry) => entry.score > -999)
     .sort((first, second) => second.score - first.score);
   const variant = bestOfTopFive(rankedVariants, context);
 
   if (variant) {
-    return formatPlayByPlayForReport({
+    const generated = {
       id: `generated-pbp-${variant.id}-${context.day}`,
       source: "event_variant",
       title: "Como aconteceu",
@@ -459,13 +630,15 @@ export function generateMissionPlayByPlay(context, playByPlayData = staticPlayBy
       usedVariantIds: [variant.id],
       tags: [...new Set([...(variant.missionTags ?? []), ...(context.missionTags ?? [])])],
       seeds: renderSeeds(mergeSeeds(seedsFromContext(context), variant.seeds), context),
-    });
+    };
+
+    return formatPlayByPlayForReport(ensureAllSelectedHeroesRepresented(withAlpha11ContextBeat(generated, context), context));
   }
 
-  const assembled = assemblePlayByPlayFromBeats(context, playByPlayData, recentPlayByPlay);
-  if (assembled) return formatPlayByPlayForReport(assembled);
+  const assembled = assemblePlayByPlayFromBeats(context, resolvedPlayByPlayData, recentPlayByPlay);
+  if (assembled) return formatPlayByPlayForReport(ensureAllSelectedHeroesRepresented(withAlpha11ContextBeat(assembled, context), context));
 
-  return formatPlayByPlayForReport(buildFallbackPlayByPlay(context));
+  return formatPlayByPlayForReport(ensureAllSelectedHeroesRepresented(withAlpha11ContextBeat(buildFallbackPlayByPlay(context), context), context));
 }
 
 export function rememberUsedPlayByPlay(usedIds = [], gameState, meta = {}) {
@@ -481,3 +654,7 @@ export function rememberUsedPlayByPlay(usedIds = [], gameState, meta = {}) {
 
   return [...entries, ...(gameState?.recentPlayByPlay ?? [])].slice(0, 100);
 }
+
+
+
+

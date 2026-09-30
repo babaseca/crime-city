@@ -1,0 +1,1162 @@
+{
+  "schemaVersion": "1.2",
+  "cases": [
+    {
+      "caseId": "CASE_001",
+      "villainId": "VILLAIN_001",
+      "status": "at_large",
+      "openedAtTick": 0,
+      "custody": {
+        "securityNeed": 96,
+        "escapeRisk": 92,
+        "facilityId": null,
+        "securityLevel": null,
+        "medicalNeeds": [
+          "controle de enxaqueca vestibular"
+        ],
+        "separationNeeds": [
+          "sem acesso a componentes geométricos ou mapas detalhados"
+        ],
+        "grievance": 20,
+        "stress": 30,
+        "incidentIds": []
+      },
+      "interrogations": [],
+      "intelIds": [],
+      "rehabilitation": {
+        "eligible": true,
+        "stage": "precontemplation",
+        "basePotential": 23,
+        "dimensions": {
+          "accountability": 12,
+          "empathy": 29,
+          "selfRegulation": 40,
+          "skillTransfer": 94,
+          "networkStability": 25,
+          "honesty": 35,
+          "restitution": 10,
+          "autonomy": 35
+        },
+        "goals": [],
+        "programIds": [],
+        "progressEventIds": []
+      },
+      "mentor": null,
+      "relapse": {
+        "currentRisk": 89,
+        "warningSigns": [],
+        "eventIds": [],
+        "safeguards": []
+      },
+      "informant": null,
+      "auditLog": [
+        {
+          "tick": 0,
+          "eventType": "CASE_CREATED",
+          "summary": "Dossiê inicial criado a partir do perfil ativo.",
+          "actorId": "SYSTEM"
+        }
+      ]
+    },
+    {
+      "caseId": "CASE_002",
+      "villainId": "VILLAIN_002",
+      "status": "at_large",
+      "openedAtTick": 0,
+      "custody": {
+        "securityNeed": 73,
+        "escapeRisk": 76,
+        "facilityId": null,
+        "securityLevel": null,
+        "medicalNeeds": [
+          "fisioterapia de coluna"
+        ],
+        "separationNeeds": [
+          "sem peças metálicas leves ou baterias"
+        ],
+        "grievance": 20,
+        "stress": 30,
+        "incidentIds": []
+      },
+      "interrogations": [],
+      "intelIds": [],
+      "rehabilitation": {
+        "eligible": true,
+        "stage": "precontemplation",
+        "basePotential": 68,
+        "dimensions": {
+          "accountability": 55,
+          "empathy": 61,
+          "selfRegulation": 40,
+          "skillTransfer": 88,
+          "networkStability": 25,
+          "honesty": 35,
+          "restitution": 10,
+          "autonomy": 35
+        },
+        "goals": [],
+        "programIds": [],
+        "progressEventIds": []
+      },
+      "mentor": null,
+      "relapse": {
+        "currentRisk": 66,
+        "warningSigns": [],
+        "eventIds": [],
+        "safeguards": []
+      },
+      "informant": null,
+      "auditLog": [
+        {
+          "tick": 0,
+          "eventType": "CASE_CREATED",
+          "summary": "Dossiê inicial criado a partir do perfil ativo.",
+          "actorId": "SYSTEM"
+        }
+      ]
+    },
+    {
+      "caseId": "CASE_003",
+      "villainId": "VILLAIN_003",
+      "status": "at_large",
+      "openedAtTick": 0,
+      "custody": {
+        "securityNeed": 99,
+        "escapeRisk": 68,
+        "facilityId": null,
+        "securityLevel": null,
+        "medicalNeeds": [
+          "monitoramento dissociativo"
+        ],
+        "separationNeeds": [
+          "barreiras visuais",
+          "interações em dupla",
+          "registro audiovisual redundante"
+        ],
+        "grievance": 20,
+        "stress": 30,
+        "incidentIds": []
+      },
+      "interrogations": [],
+      "intelIds": [],
+      "rehabilitation": {
+        "eligible": true,
+        "stage": "precontemplation",
+        "basePotential": 52,
+        "dimensions": {
+          "accountability": 36,
+          "empathy": 85,
+          "selfRegulation": 40,
+          "skillTransfer": 79,
+          "networkStability": 25,
+          "honesty": 35,
+          "restitution": 10,
+          "autonomy": 35
+        },
+        "goals": [],
+        "programIds": [],
+        "progressEventIds": []
+      },
+      "mentor": null,
+      "relapse": {
+        "currentRisk": 74,
+        "warningSigns": [],
+        "eventIds": [],
+        "safeguards": []
+      },
+      "informant": null,
+      "auditLog": [
+        {
+          "tick": 0,
+          "eventType": "CASE_CREATED",
+          "summary": "Dossiê inicial criado a partir do perfil ativo.",
+          "actorId": "SYSTEM"
+        }
+      ]
+    },
+    {
+      "caseId": "CASE_004",
+      "villainId": "VILLAIN_004",
+      "status": "at_large",
+      "openedAtTick": 0,
+      "custody": {
+        "securityNeed": 75,
+        "escapeRisk": 81,
+        "facilityId": null,
+        "securityLevel": null,
+        "medicalNeeds": [
+          "hipertensão"
+        ],
+        "separationNeeds": [
+          "ambiente sem ferragens expostas"
+        ],
+        "grievance": 20,
+        "stress": 30,
+        "incidentIds": []
+      },
+      "interrogations": [],
+      "intelIds": [],
+      "rehabilitation": {
+        "eligible": true,
+        "stage": "precontemplation",
+        "basePotential": 82,
+        "dimensions": {
+          "accountability": 69,
+          "empathy": 74,
+          "selfRegulation": 40,
+          "skillTransfer": 91,
+          "networkStability": 25,
+          "honesty": 35,
+          "restitution": 10,
+          "autonomy": 35
+        },
+        "goals": [],
+        "programIds": [],
+        "progressEventIds": []
+      },
+      "mentor": null,
+      "relapse": {
+        "currentRisk": 59,
+        "warningSigns": [],
+        "eventIds": [],
+        "safeguards": []
+      },
+      "informant": null,
+      "auditLog": [
+        {
+          "tick": 0,
+          "eventType": "CASE_CREATED",
+          "summary": "Dossiê inicial criado a partir do perfil ativo.",
+          "actorId": "SYSTEM"
+        }
+      ]
+    },
+    {
+      "caseId": "CASE_005",
+      "villainId": "VILLAIN_005",
+      "status": "at_large",
+      "openedAtTick": 0,
+      "custody": {
+        "securityNeed": 100,
+        "escapeRisk": 79,
+        "facilityId": null,
+        "securityLevel": null,
+        "medicalNeeds": [
+          "monitoramento cardíaco"
+        ],
+        "separationNeeds": [
+          "isolamento de seguidores sem privação sensorial abusiva"
+        ],
+        "grievance": 20,
+        "stress": 30,
+        "incidentIds": []
+      },
+      "interrogations": [],
+      "intelIds": [],
+      "rehabilitation": {
+        "eligible": false,
+        "stage": "precontemplation",
+        "basePotential": 6,
+        "dimensions": {
+          "accountability": 2,
+          "empathy": 18,
+          "selfRegulation": 40,
+          "skillTransfer": 35,
+          "networkStability": 25,
+          "honesty": 35,
+          "restitution": 10,
+          "autonomy": 35
+        },
+        "goals": [],
+        "programIds": [],
+        "progressEventIds": []
+      },
+      "mentor": null,
+      "relapse": {
+        "currentRisk": 95,
+        "warningSigns": [],
+        "eventIds": [],
+        "safeguards": []
+      },
+      "informant": null,
+      "auditLog": [
+        {
+          "tick": 0,
+          "eventType": "CASE_CREATED",
+          "summary": "Dossiê inicial criado a partir do perfil ativo.",
+          "actorId": "SYSTEM"
+        }
+      ]
+    },
+    {
+      "caseId": "CASE_006",
+      "villainId": "VILLAIN_006",
+      "status": "at_large",
+      "openedAtTick": 0,
+      "custody": {
+        "securityNeed": 93,
+        "escapeRisk": 88,
+        "facilityId": null,
+        "securityLevel": null,
+        "medicalNeeds": [
+          "tratamento de insônia"
+        ],
+        "separationNeeds": [
+          "ambiente Faraday",
+          "dispositivos sem firmware regravável"
+        ],
+        "grievance": 20,
+        "stress": 30,
+        "incidentIds": []
+      },
+      "interrogations": [],
+      "intelIds": [],
+      "rehabilitation": {
+        "eligible": true,
+        "stage": "precontemplation",
+        "basePotential": 76,
+        "dimensions": {
+          "accountability": 49,
+          "empathy": 63,
+          "selfRegulation": 40,
+          "skillTransfer": 99,
+          "networkStability": 25,
+          "honesty": 35,
+          "restitution": 10,
+          "autonomy": 35
+        },
+        "goals": [],
+        "programIds": [],
+        "progressEventIds": []
+      },
+      "mentor": null,
+      "relapse": {
+        "currentRisk": 62,
+        "warningSigns": [],
+        "eventIds": [],
+        "safeguards": []
+      },
+      "informant": null,
+      "auditLog": [
+        {
+          "tick": 0,
+          "eventType": "CASE_CREATED",
+          "summary": "Dossiê inicial criado a partir do perfil ativo.",
+          "actorId": "SYSTEM"
+        }
+      ]
+    },
+    {
+      "caseId": "CASE_007",
+      "villainId": "VILLAIN_007",
+      "status": "at_large",
+      "openedAtTick": 0,
+      "custody": {
+        "securityNeed": 88,
+        "escapeRisk": 61,
+        "facilityId": null,
+        "securityLevel": null,
+        "medicalNeeds": [
+          "controle térmico",
+          "tratamento de queimaduras internas"
+        ],
+        "separationNeeds": [
+          "cela termicamente estável"
+        ],
+        "grievance": 20,
+        "stress": 30,
+        "incidentIds": []
+      },
+      "interrogations": [],
+      "intelIds": [],
+      "rehabilitation": {
+        "eligible": true,
+        "stage": "precontemplation",
+        "basePotential": 64,
+        "dimensions": {
+          "accountability": 47,
+          "empathy": 72,
+          "selfRegulation": 40,
+          "skillTransfer": 58,
+          "networkStability": 25,
+          "honesty": 35,
+          "restitution": 10,
+          "autonomy": 35
+        },
+        "goals": [],
+        "programIds": [],
+        "progressEventIds": []
+      },
+      "mentor": null,
+      "relapse": {
+        "currentRisk": 68,
+        "warningSigns": [],
+        "eventIds": [],
+        "safeguards": []
+      },
+      "informant": null,
+      "auditLog": [
+        {
+          "tick": 0,
+          "eventType": "CASE_CREATED",
+          "summary": "Dossiê inicial criado a partir do perfil ativo.",
+          "actorId": "SYSTEM"
+        }
+      ]
+    },
+    {
+      "caseId": "CASE_008",
+      "villainId": "VILLAIN_008",
+      "status": "at_large",
+      "openedAtTick": 0,
+      "custody": {
+        "securityNeed": 95,
+        "escapeRisk": 84,
+        "facilityId": null,
+        "securityLevel": null,
+        "medicalNeeds": [
+          "controle de dor neural"
+        ],
+        "separationNeeds": [
+          "blindagem de radiofrequência",
+          "checagem de implantes"
+        ],
+        "grievance": 20,
+        "stress": 30,
+        "incidentIds": []
+      },
+      "interrogations": [],
+      "intelIds": [],
+      "rehabilitation": {
+        "eligible": true,
+        "stage": "precontemplation",
+        "basePotential": 49,
+        "dimensions": {
+          "accountability": 41,
+          "empathy": 48,
+          "selfRegulation": 40,
+          "skillTransfer": 96,
+          "networkStability": 25,
+          "honesty": 35,
+          "restitution": 10,
+          "autonomy": 35
+        },
+        "goals": [],
+        "programIds": [],
+        "progressEventIds": []
+      },
+      "mentor": null,
+      "relapse": {
+        "currentRisk": 76,
+        "warningSigns": [],
+        "eventIds": [],
+        "safeguards": []
+      },
+      "informant": null,
+      "auditLog": [
+        {
+          "tick": 0,
+          "eventType": "CASE_CREATED",
+          "summary": "Dossiê inicial criado a partir do perfil ativo.",
+          "actorId": "SYSTEM"
+        }
+      ]
+    },
+    {
+      "caseId": "CASE_009",
+      "villainId": "VILLAIN_009",
+      "status": "at_large",
+      "openedAtTick": 0,
+      "custody": {
+        "securityNeed": 61,
+        "escapeRisk": 52,
+        "facilityId": null,
+        "securityLevel": null,
+        "medicalNeeds": [
+          "analgesia e reposição mineral"
+        ],
+        "separationNeeds": [
+          "longe de recrutadores da facção"
+        ],
+        "grievance": 20,
+        "stress": 30,
+        "incidentIds": []
+      },
+      "interrogations": [],
+      "intelIds": [],
+      "rehabilitation": {
+        "eligible": true,
+        "stage": "precontemplation",
+        "basePotential": 91,
+        "dimensions": {
+          "accountability": 58,
+          "empathy": 78,
+          "selfRegulation": 40,
+          "skillTransfer": 67,
+          "networkStability": 25,
+          "honesty": 35,
+          "restitution": 10,
+          "autonomy": 35
+        },
+        "goals": [],
+        "programIds": [],
+        "progressEventIds": []
+      },
+      "mentor": null,
+      "relapse": {
+        "currentRisk": 55,
+        "warningSigns": [],
+        "eventIds": [],
+        "safeguards": []
+      },
+      "informant": null,
+      "auditLog": [
+        {
+          "tick": 0,
+          "eventType": "CASE_CREATED",
+          "summary": "Dossiê inicial criado a partir do perfil ativo.",
+          "actorId": "SYSTEM"
+        }
+      ]
+    },
+    {
+      "caseId": "CASE_010",
+      "villainId": "VILLAIN_010",
+      "status": "at_large",
+      "openedAtTick": 0,
+      "custody": {
+        "securityNeed": 91,
+        "escapeRisk": 63,
+        "facilityId": null,
+        "securityLevel": null,
+        "medicalNeeds": [
+          "hidratação controlada",
+          "função renal"
+        ],
+        "separationNeeds": [
+          "materiais com baixo teor salino"
+        ],
+        "grievance": 20,
+        "stress": 30,
+        "incidentIds": []
+      },
+      "interrogations": [],
+      "intelIds": [],
+      "rehabilitation": {
+        "eligible": true,
+        "stage": "precontemplation",
+        "basePotential": 61,
+        "dimensions": {
+          "accountability": 51,
+          "empathy": 68,
+          "selfRegulation": 40,
+          "skillTransfer": 87,
+          "networkStability": 25,
+          "honesty": 35,
+          "restitution": 10,
+          "autonomy": 35
+        },
+        "goals": [],
+        "programIds": [],
+        "progressEventIds": []
+      },
+      "mentor": null,
+      "relapse": {
+        "currentRisk": 70,
+        "warningSigns": [],
+        "eventIds": [],
+        "safeguards": []
+      },
+      "informant": null,
+      "auditLog": [
+        {
+          "tick": 0,
+          "eventType": "CASE_CREATED",
+          "summary": "Dossiê inicial criado a partir do perfil ativo.",
+          "actorId": "SYSTEM"
+        }
+      ]
+    },
+    {
+      "caseId": "CASE_011",
+      "villainId": "VILLAIN_011",
+      "status": "at_large",
+      "openedAtTick": 0,
+      "custody": {
+        "securityNeed": 78,
+        "escapeRisk": 74,
+        "facilityId": null,
+        "securityLevel": null,
+        "medicalNeeds": [
+          "avaliação vocal"
+        ],
+        "separationNeeds": [
+          "autenticação biométrica múltipla"
+        ],
+        "grievance": 20,
+        "stress": 30,
+        "incidentIds": []
+      },
+      "interrogations": [],
+      "intelIds": [],
+      "rehabilitation": {
+        "eligible": true,
+        "stage": "precontemplation",
+        "basePotential": 73,
+        "dimensions": {
+          "accountability": 43,
+          "empathy": 65,
+          "selfRegulation": 40,
+          "skillTransfer": 84,
+          "networkStability": 25,
+          "honesty": 35,
+          "restitution": 10,
+          "autonomy": 35
+        },
+        "goals": [],
+        "programIds": [],
+        "progressEventIds": []
+      },
+      "mentor": null,
+      "relapse": {
+        "currentRisk": 64,
+        "warningSigns": [],
+        "eventIds": [],
+        "safeguards": []
+      },
+      "informant": null,
+      "auditLog": [
+        {
+          "tick": 0,
+          "eventType": "CASE_CREATED",
+          "summary": "Dossiê inicial criado a partir do perfil ativo.",
+          "actorId": "SYSTEM"
+        }
+      ]
+    },
+    {
+      "caseId": "CASE_012",
+      "villainId": "VILLAIN_012",
+      "status": "at_large",
+      "openedAtTick": 0,
+      "custody": {
+        "securityNeed": 82,
+        "escapeRisk": 70,
+        "facilityId": null,
+        "securityLevel": null,
+        "medicalNeeds": [
+          "tratamento auditivo",
+          "sono regulado"
+        ],
+        "separationNeeds": [
+          "afastamento gradual de líder abusivo"
+        ],
+        "grievance": 20,
+        "stress": 30,
+        "incidentIds": []
+      },
+      "interrogations": [],
+      "intelIds": [],
+      "rehabilitation": {
+        "eligible": true,
+        "stage": "precontemplation",
+        "basePotential": 74,
+        "dimensions": {
+          "accountability": 53,
+          "empathy": 66,
+          "selfRegulation": 40,
+          "skillTransfer": 79,
+          "networkStability": 25,
+          "honesty": 35,
+          "restitution": 10,
+          "autonomy": 35
+        },
+        "goals": [],
+        "programIds": [],
+        "progressEventIds": []
+      },
+      "mentor": null,
+      "relapse": {
+        "currentRisk": 63,
+        "warningSigns": [],
+        "eventIds": [],
+        "safeguards": []
+      },
+      "informant": null,
+      "auditLog": [
+        {
+          "tick": 0,
+          "eventType": "CASE_CREATED",
+          "summary": "Dossiê inicial criado a partir do perfil ativo.",
+          "actorId": "SYSTEM"
+        }
+      ]
+    },
+    {
+      "caseId": "CASE_013",
+      "villainId": "VILLAIN_013",
+      "status": "at_large",
+      "openedAtTick": 0,
+      "custody": {
+        "securityNeed": 89,
+        "escapeRisk": 55,
+        "facilityId": null,
+        "securityLevel": null,
+        "medicalNeeds": [
+          "controle de enxaqueca"
+        ],
+        "separationNeeds": [
+          "sem vidro reflexivo ou dados de mercado em tempo real"
+        ],
+        "grievance": 20,
+        "stress": 30,
+        "incidentIds": []
+      },
+      "interrogations": [],
+      "intelIds": [],
+      "rehabilitation": {
+        "eligible": true,
+        "stage": "precontemplation",
+        "basePotential": 28,
+        "dimensions": {
+          "accountability": 17,
+          "empathy": 39,
+          "selfRegulation": 40,
+          "skillTransfer": 97,
+          "networkStability": 25,
+          "honesty": 35,
+          "restitution": 10,
+          "autonomy": 35
+        },
+        "goals": [],
+        "programIds": [],
+        "progressEventIds": []
+      },
+      "mentor": null,
+      "relapse": {
+        "currentRisk": 86,
+        "warningSigns": [],
+        "eventIds": [],
+        "safeguards": []
+      },
+      "informant": null,
+      "auditLog": [
+        {
+          "tick": 0,
+          "eventType": "CASE_CREATED",
+          "summary": "Dossiê inicial criado a partir do perfil ativo.",
+          "actorId": "SYSTEM"
+        }
+      ]
+    },
+    {
+      "caseId": "CASE_014",
+      "villainId": "VILLAIN_014",
+      "status": "at_large",
+      "openedAtTick": 0,
+      "custody": {
+        "securityNeed": 68,
+        "escapeRisk": 49,
+        "facilityId": null,
+        "securityLevel": null,
+        "medicalNeeds": [
+          "hidratação",
+          "cuidado respiratório"
+        ],
+        "separationNeeds": [
+          "materiais não inflamáveis"
+        ],
+        "grievance": 20,
+        "stress": 30,
+        "incidentIds": []
+      },
+      "interrogations": [],
+      "intelIds": [],
+      "rehabilitation": {
+        "eligible": true,
+        "stage": "precontemplation",
+        "basePotential": 92,
+        "dimensions": {
+          "accountability": 66,
+          "empathy": 86,
+          "selfRegulation": 40,
+          "skillTransfer": 81,
+          "networkStability": 25,
+          "honesty": 35,
+          "restitution": 10,
+          "autonomy": 35
+        },
+        "goals": [],
+        "programIds": [],
+        "progressEventIds": []
+      },
+      "mentor": null,
+      "relapse": {
+        "currentRisk": 54,
+        "warningSigns": [],
+        "eventIds": [],
+        "safeguards": []
+      },
+      "informant": null,
+      "auditLog": [
+        {
+          "tick": 0,
+          "eventType": "CASE_CREATED",
+          "summary": "Dossiê inicial criado a partir do perfil ativo.",
+          "actorId": "SYSTEM"
+        }
+      ]
+    },
+    {
+      "caseId": "CASE_015",
+      "villainId": "VILLAIN_015",
+      "status": "at_large",
+      "openedAtTick": 0,
+      "custody": {
+        "securityNeed": 77,
+        "escapeRisk": 90,
+        "facilityId": null,
+        "securityLevel": null,
+        "medicalNeeds": [
+          "fisioterapia vestibular"
+        ],
+        "separationNeeds": [
+          "âncoras redundantes",
+          "sem vãos verticais"
+        ],
+        "grievance": 20,
+        "stress": 30,
+        "incidentIds": []
+      },
+      "interrogations": [],
+      "intelIds": [],
+      "rehabilitation": {
+        "eligible": true,
+        "stage": "precontemplation",
+        "basePotential": 85,
+        "dimensions": {
+          "accountability": 57,
+          "empathy": 68,
+          "selfRegulation": 40,
+          "skillTransfer": 86,
+          "networkStability": 25,
+          "honesty": 35,
+          "restitution": 10,
+          "autonomy": 35
+        },
+        "goals": [],
+        "programIds": [],
+        "progressEventIds": []
+      },
+      "mentor": null,
+      "relapse": {
+        "currentRisk": 58,
+        "warningSigns": [],
+        "eventIds": [],
+        "safeguards": []
+      },
+      "informant": null,
+      "auditLog": [
+        {
+          "tick": 0,
+          "eventType": "CASE_CREATED",
+          "summary": "Dossiê inicial criado a partir do perfil ativo.",
+          "actorId": "SYSTEM"
+        }
+      ]
+    },
+    {
+      "caseId": "CASE_016",
+      "villainId": "VILLAIN_016",
+      "status": "at_large",
+      "openedAtTick": 0,
+      "custody": {
+        "securityNeed": 100,
+        "escapeRisk": 83,
+        "facilityId": null,
+        "securityLevel": null,
+        "medicalNeeds": [
+          "desintoxicação",
+          "controle hormonal"
+        ],
+        "separationNeeds": [
+          "respiradores",
+          "interações remotas",
+          "amostras biológicas controladas"
+        ],
+        "grievance": 20,
+        "stress": 30,
+        "incidentIds": []
+      },
+      "interrogations": [],
+      "intelIds": [],
+      "rehabilitation": {
+        "eligible": true,
+        "stage": "precontemplation",
+        "basePotential": 43,
+        "dimensions": {
+          "accountability": 29,
+          "empathy": 74,
+          "selfRegulation": 40,
+          "skillTransfer": 92,
+          "networkStability": 25,
+          "honesty": 35,
+          "restitution": 10,
+          "autonomy": 35
+        },
+        "goals": [],
+        "programIds": [],
+        "progressEventIds": []
+      },
+      "mentor": null,
+      "relapse": {
+        "currentRisk": 79,
+        "warningSigns": [],
+        "eventIds": [],
+        "safeguards": []
+      },
+      "informant": null,
+      "auditLog": [
+        {
+          "tick": 0,
+          "eventType": "CASE_CREATED",
+          "summary": "Dossiê inicial criado a partir do perfil ativo.",
+          "actorId": "SYSTEM"
+        }
+      ]
+    },
+    {
+      "caseId": "CASE_017",
+      "villainId": "VILLAIN_017",
+      "status": "at_large",
+      "openedAtTick": 0,
+      "custody": {
+        "securityNeed": 84,
+        "escapeRisk": 65,
+        "facilityId": null,
+        "securityLevel": null,
+        "medicalNeeds": [
+          "articulações",
+          "controle mineral"
+        ],
+        "separationNeeds": [
+          "estrutura flexível sem concreto exposto"
+        ],
+        "grievance": 20,
+        "stress": 30,
+        "incidentIds": []
+      },
+      "interrogations": [],
+      "intelIds": [],
+      "rehabilitation": {
+        "eligible": true,
+        "stage": "precontemplation",
+        "basePotential": 79,
+        "dimensions": {
+          "accountability": 68,
+          "empathy": 81,
+          "selfRegulation": 40,
+          "skillTransfer": 93,
+          "networkStability": 25,
+          "honesty": 35,
+          "restitution": 10,
+          "autonomy": 35
+        },
+        "goals": [],
+        "programIds": [],
+        "progressEventIds": []
+      },
+      "mentor": null,
+      "relapse": {
+        "currentRisk": 61,
+        "warningSigns": [],
+        "eventIds": [],
+        "safeguards": []
+      },
+      "informant": null,
+      "auditLog": [
+        {
+          "tick": 0,
+          "eventType": "CASE_CREATED",
+          "summary": "Dossiê inicial criado a partir do perfil ativo.",
+          "actorId": "SYSTEM"
+        }
+      ]
+    },
+    {
+      "caseId": "CASE_018",
+      "villainId": "VILLAIN_018",
+      "status": "at_large",
+      "openedAtTick": 0,
+      "custody": {
+        "securityNeed": 79,
+        "escapeRisk": 58,
+        "facilityId": null,
+        "securityLevel": null,
+        "medicalNeeds": [
+          "avaliação psiquiátrica independente",
+          "sono"
+        ],
+        "separationNeeds": [
+          "ambiente previsível e sem vigilância oculta não declarada"
+        ],
+        "grievance": 20,
+        "stress": 30,
+        "incidentIds": []
+      },
+      "interrogations": [],
+      "intelIds": [],
+      "rehabilitation": {
+        "eligible": true,
+        "stage": "precontemplation",
+        "basePotential": 69,
+        "dimensions": {
+          "accountability": 42,
+          "empathy": 61,
+          "selfRegulation": 40,
+          "skillTransfer": 74,
+          "networkStability": 25,
+          "honesty": 35,
+          "restitution": 10,
+          "autonomy": 35
+        },
+        "goals": [],
+        "programIds": [],
+        "progressEventIds": []
+      },
+      "mentor": null,
+      "relapse": {
+        "currentRisk": 66,
+        "warningSigns": [],
+        "eventIds": [],
+        "safeguards": []
+      },
+      "informant": null,
+      "auditLog": [
+        {
+          "tick": 0,
+          "eventType": "CASE_CREATED",
+          "summary": "Dossiê inicial criado a partir do perfil ativo.",
+          "actorId": "SYSTEM"
+        }
+      ]
+    },
+    {
+      "caseId": "CASE_019",
+      "villainId": "VILLAIN_019",
+      "status": "at_large",
+      "openedAtTick": 0,
+      "custody": {
+        "securityNeed": 86,
+        "escapeRisk": 47,
+        "facilityId": null,
+        "securityLevel": null,
+        "medicalNeeds": [
+          "tratamento degenerativo",
+          "controle de dor",
+          "barreira de contato"
+        ],
+        "separationNeeds": [
+          "sem contato físico não consentido"
+        ],
+        "grievance": 20,
+        "stress": 30,
+        "incidentIds": []
+      },
+      "interrogations": [],
+      "intelIds": [],
+      "rehabilitation": {
+        "eligible": true,
+        "stage": "precontemplation",
+        "basePotential": 88,
+        "dimensions": {
+          "accountability": 72,
+          "empathy": 85,
+          "selfRegulation": 40,
+          "skillTransfer": 52,
+          "networkStability": 25,
+          "honesty": 35,
+          "restitution": 10,
+          "autonomy": 35
+        },
+        "goals": [],
+        "programIds": [],
+        "progressEventIds": []
+      },
+      "mentor": null,
+      "relapse": {
+        "currentRisk": 56,
+        "warningSigns": [],
+        "eventIds": [],
+        "safeguards": []
+      },
+      "informant": null,
+      "auditLog": [
+        {
+          "tick": 0,
+          "eventType": "CASE_CREATED",
+          "summary": "Dossiê inicial criado a partir do perfil ativo.",
+          "actorId": "SYSTEM"
+        }
+      ]
+    },
+    {
+      "caseId": "CASE_020",
+      "villainId": "VILLAIN_020",
+      "status": "at_large",
+      "openedAtTick": 0,
+      "custody": {
+        "securityNeed": 74,
+        "escapeRisk": 82,
+        "facilityId": null,
+        "securityLevel": null,
+        "medicalNeeds": [
+          "hidratação salina",
+          "pele"
+        ],
+        "separationNeeds": [
+          "controle de tubulações e drenagem"
+        ],
+        "grievance": 20,
+        "stress": 30,
+        "incidentIds": []
+      },
+      "interrogations": [],
+      "intelIds": [],
+      "rehabilitation": {
+        "eligible": true,
+        "stage": "precontemplation",
+        "basePotential": 84,
+        "dimensions": {
+          "accountability": 66,
+          "empathy": 79,
+          "selfRegulation": 40,
+          "skillTransfer": 90,
+          "networkStability": 25,
+          "honesty": 35,
+          "restitution": 10,
+          "autonomy": 35
+        },
+        "goals": [],
+        "programIds": [],
+        "progressEventIds": []
+      },
+      "mentor": null,
+      "relapse": {
+        "currentRisk": 58,
+        "warningSigns": [],
+        "eventIds": [],
+        "safeguards": []
+      },
+      "informant": null,
+      "auditLog": [
+        {
+          "tick": 0,
+          "eventType": "CASE_CREATED",
+          "summary": "Dossiê inicial criado a partir do perfil ativo.",
+          "actorId": "SYSTEM"
+        }
+      ]
+    }
+  ]
+}

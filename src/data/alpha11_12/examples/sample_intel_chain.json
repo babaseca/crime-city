@@ -1,0 +1,53 @@
+{
+  "items": [
+    {
+      "id": "INTEL_MERCADO_DEPOT_01",
+      "claim": "O Mercado Rubro usa o armazém 14 do Porto Velho às quintas-feiras.",
+      "sourceType": "interrogation",
+      "sourceId": "INTERROGATION_CASE_004_001",
+      "obtainedAtTick": 31,
+      "confidence": 58,
+      "state": "partially_corroborated",
+      "sensitivity": "restricted",
+      "expiryTick": 45,
+      "dependencies": [
+        "Ferrolho acredita que a rota não mudou."
+      ],
+      "unlocks": [],
+      "risks": [
+        "Vespa Rubra pode alterar rota se souber da custódia de Ferrolho."
+      ]
+    },
+    {
+      "id": "INTEL_MERCADO_DEPOT_02",
+      "claim": "O consumo elétrico do armazém 14 sobe antes das operações do Mercado Rubro.",
+      "sourceType": "surveillance",
+      "sourceId": "SURVEILLANCE_PORT_14",
+      "obtainedAtTick": 33,
+      "confidence": 76,
+      "state": "corroborated",
+      "sensitivity": "internal",
+      "expiryTick": 41,
+      "dependencies": [],
+      "unlocks": [
+        "MISSION_MARKET_RED_DEPOT"
+      ],
+      "risks": [
+        "Pode refletir atividade industrial legítima."
+      ]
+    }
+  ],
+  "corroborationEvent": {
+    "eventType": "INTEL_CORROBORATED",
+    "intelId": "INTEL_MERCADO_DEPOT_01",
+    "sourceId": "INTEL_MERCADO_DEPOT_02",
+    "confidenceBefore": 58,
+    "confidenceAfter": 78,
+    "stateAfter": "actionable",
+    "effects": {
+      "missionUnlocked": "MISSION_MARKET_RED_DEPOT",
+      "ambushRiskReduction": 12,
+      "countermeasureBonus": 7
+    }
+  }
+}

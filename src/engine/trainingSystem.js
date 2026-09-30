@@ -1,23 +1,27 @@
 import trainingPrograms from "../data/trainingPrograms.json";
 import { baseUpgradeEffect } from "./baseUpgradeSystem";
+import { calculateScaledCost } from "./economySystem";
 import { clamp, heroOperationalStatus } from "./mission";
 
 export const initializeTrainingAssignments = () => [];
 
 export const getTrainingProgram = (trainingId) => trainingPrograms.find((program) => program.id === trainingId) ?? trainingPrograms[0];
 
+export const trainingProgramCost = (program) => calculateScaledCost(program?.cost ?? 0, "trainingCostMultiplier");
+
 export const assignTraining = (state, heroId, trainingId) => {
   const program = getTrainingProgram(trainingId);
   if (!program) return { state, message: "Treino não encontrado." };
-  if (state.budget < program.cost) return { state, message: "Orçamento insuficiente para esse treino." };
+  const cost = trainingProgramCost(program);
+  if (state.budget < cost) return { state, message: "Orcamento insuficiente para esse treino." };
   if ((state.trainingAssignments ?? []).some((assignment) => assignment.heroId === heroId)) {
-    return { state, message: "Esse herói já tem uma atividade em andamento." };
+    return { state, message: "Esse heroi ja tem uma atividade em andamento." };
   }
 
   return {
     state: {
       ...state,
-      budget: state.budget - program.cost,
+      budget: state.budget - cost,
       trainingAssignments: [
         ...(state.trainingAssignments ?? []),
         {
@@ -32,7 +36,7 @@ export const assignTraining = (state, heroId, trainingId) => {
       heroes: state.heroes.map((hero) => (hero.id === heroId ? { ...hero, scheduleStatus: program.id === "terapia_operacional" ? "therapy" : "training" } : hero)),
       budgetLog: [
         ...(state.budgetLog ?? []),
-        { id: `budget-training-${heroId}-${Date.now()}`, day: state.day, type: "expense", label: `Treinamento: ${program.name}`, amount: program.cost },
+        { id: `budget-training-${heroId}-${Date.now()}`, day: state.day, type: "expense", label: `Treinamento: ${program.name}`, amount: cost },
       ],
     },
     message: `${program.name} agendado.`,

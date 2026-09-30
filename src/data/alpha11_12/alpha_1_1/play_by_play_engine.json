@@ -1,0 +1,1633 @@
+{
+  "schemaVersion": "1.1",
+  "separationOfConcerns": {
+    "domainEventFirst": true,
+    "narrativeConsumesImmutableSnapshot": true,
+    "narrativeCannotChangeOutcome": true
+  },
+  "supportedTeamSizes": [
+    1,
+    2,
+    3
+  ],
+  "speakerSafety": {
+    "validRoles": [
+      "hero",
+      "villain",
+      "dispatcher",
+      "comando",
+      "civilian",
+      "narrator"
+    ],
+    "rules": [
+      "Never emit heroB or heroC when team size does not provide them.",
+      "Never resolve hero:2 or hero:3 without bounds checking.",
+      "dispatcher and comando are explicit speakers and never remapped to a hero.",
+      "If a requested speaker is unavailable, use narrator fallback and log FALLBACK_SPEAKER.",
+      "A captured, unconscious or absent character cannot speak unless event context explicitly allows remote communication."
+    ],
+    "fallback": {
+      "speakerRole": "narrator",
+      "text": "A situação muda antes que alguém consiga responder."
+    }
+  },
+  "selectionPipeline": [
+    "1. Receive finalized domain event and immutable context snapshot.",
+    "2. Build tags from mission, characters, moral conflicts, relationships, state, intel and custody history.",
+    "3. Filter templates by eventType, required context and speaker availability.",
+    "4. Score by tag match, relationship salience, unresolved memory, voice compatibility and cooldown.",
+    "5. Select with seeded deterministic RNG among top three.",
+    "6. Resolve placeholders through safe resolvers; missing optional values use neutral clauses.",
+    "7. Emit narrative line, explanation trace and no domain mutations."
+  ],
+  "tagSources": {
+    "mission": [
+      "type",
+      "ethicalTags",
+      "civilianRisk band",
+      "collateral band",
+      "visibility"
+    ],
+    "character": [
+      "personality facets",
+      "voice",
+      "moral axes",
+      "triggers",
+      "redLines",
+      "powerLimits"
+    ],
+    "relationship": [
+      "state",
+      "axes > 60 or < -35",
+      "top unresolved memory",
+      "debt"
+    ],
+    "dynamicState": [
+      "stress bands",
+      "fatigue bands",
+      "morale bands",
+      "injury",
+      "guilt debt"
+    ],
+    "alpha12": [
+      "intel confidence",
+      "informant reliability",
+      "custody failure",
+      "rehab history",
+      "interrogation cost"
+    ]
+  },
+  "salienceRules": [
+    {
+      "when": "redLine conflict",
+      "priority": 100
+    },
+    {
+      "when": "relationship memory weight >= 70",
+      "priority": 90
+    },
+    {
+      "when": "stress >= 75 and trigger match",
+      "priority": 85
+    },
+    {
+      "when": "power limit crossed",
+      "priority": 80
+    },
+    {
+      "when": "intel changed mission outcome",
+      "priority": 75
+    },
+    {
+      "when": "relationship axis crossed a threshold",
+      "priority": 70
+    }
+  ],
+  "placeholderResolvers": {
+    "heroA": "primary actor or narrator fallback",
+    "heroB": "secondary actor if available",
+    "leader": "mission leader or comando",
+    "villain": "target actor",
+    "relationshipMemory": "highest salience unresolved memory between referenced characters",
+    "moralConflict": "plain-language comparison between mission demand and strongest conflicting axis",
+    "redLine": "matched character red line",
+    "powerA": "actor powerSummary compressed to action phrase",
+    "powerLimitA": "matched power limit",
+    "intelConfidence": "integer plus band",
+    "civilianRisk": "integer plus band"
+  },
+  "templates": [
+    {
+      "id": "PBP_001",
+      "eventType": "approach",
+      "tone": "controlled",
+      "weight": 1.0,
+      "requires": {
+        "all": [],
+        "any": [
+          "low_stress",
+          "professional"
+        ],
+        "none": []
+      },
+      "text": "{leader} confirma a rota e distribui funções. {locationClause}",
+      "relationshipEffects": {},
+      "stateEffects": {},
+      "cooldown": {
+        "sameTemplate": 8,
+        "sameOpening": 3
+      }
+    },
+    {
+      "id": "PBP_002",
+      "eventType": "approach",
+      "tone": "personal",
+      "weight": 1.1,
+      "requires": {
+        "all": [],
+        "any": [
+          "relationship_memory",
+          "emotional"
+        ],
+        "none": []
+      },
+      "text": "{heroA} procura {heroB} antes do primeiro passo; a memória de {relationshipMemory} pesa mais que o briefing.",
+      "relationshipEffects": {},
+      "stateEffects": {},
+      "cooldown": {
+        "sameTemplate": 8,
+        "sameOpening": 3
+      }
+    },
+    {
+      "id": "PBP_003",
+      "eventType": "approach",
+      "tone": "strained",
+      "weight": 1.2,
+      "requires": {
+        "all": [],
+        "any": [
+          "high_stress",
+          "moral_conflict"
+        ],
+        "none": []
+      },
+      "text": "A entrada já começa errada para {heroA}: {triggerClause}. Mesmo assim, {leader} exige movimento.",
+      "relationshipEffects": {},
+      "stateEffects": {},
+      "cooldown": {
+        "sameTemplate": 8,
+        "sameOpening": 3
+      }
+    },
+    {
+      "id": "PBP_004",
+      "eventType": "approach",
+      "tone": "triumphant",
+      "weight": 0.9,
+      "requires": {
+        "all": [],
+        "any": [
+          "advantage",
+          "team_synergy"
+        ],
+        "none": []
+      },
+      "text": "A equipe cruza o limite da operação em sincronia. {synergyClause}",
+      "relationshipEffects": {},
+      "stateEffects": {},
+      "cooldown": {
+        "sameTemplate": 8,
+        "sameOpening": 3
+      }
+    },
+    {
+      "id": "PBP_005",
+      "eventType": "threat_detected",
+      "tone": "controlled",
+      "weight": 1.0,
+      "requires": {
+        "all": [],
+        "any": [
+          "low_stress",
+          "professional"
+        ],
+        "none": []
+      },
+      "text": "{heroA} identifica {threatClause} e ajusta a posição sem quebrar a formação.",
+      "relationshipEffects": {},
+      "stateEffects": {},
+      "cooldown": {
+        "sameTemplate": 8,
+        "sameOpening": 3
+      }
+    },
+    {
+      "id": "PBP_006",
+      "eventType": "threat_detected",
+      "tone": "personal",
+      "weight": 1.1,
+      "requires": {
+        "all": [],
+        "any": [
+          "relationship_memory",
+          "emotional"
+        ],
+        "none": []
+      },
+      "text": "Quando {villain} aparece, {heroA} não vê apenas um alvo; vê {relationshipMemory}.",
+      "relationshipEffects": {},
+      "stateEffects": {},
+      "cooldown": {
+        "sameTemplate": 8,
+        "sameOpening": 3
+      }
+    },
+    {
+      "id": "PBP_007",
+      "eventType": "threat_detected",
+      "tone": "strained",
+      "weight": 1.2,
+      "requires": {
+        "all": [],
+        "any": [
+          "high_stress",
+          "moral_conflict"
+        ],
+        "none": []
+      },
+      "text": "{threatClause} confirma o pior receio de {heroA}. O estresse transforma segundos em escolhas morais.",
+      "relationshipEffects": {},
+      "stateEffects": {},
+      "cooldown": {
+        "sameTemplate": 8,
+        "sameOpening": 3
+      }
+    },
+    {
+      "id": "PBP_008",
+      "eventType": "threat_detected",
+      "tone": "triumphant",
+      "weight": 0.9,
+      "requires": {
+        "all": [],
+        "any": [
+          "advantage",
+          "team_synergy"
+        ],
+        "none": []
+      },
+      "text": "A ameaça se revela, mas a inteligência de {intelSource} já havia removido o elemento surpresa.",
+      "relationshipEffects": {},
+      "stateEffects": {},
+      "cooldown": {
+        "sameTemplate": 8,
+        "sameOpening": 3
+      }
+    },
+    {
+      "id": "PBP_009",
+      "eventType": "rescue_action",
+      "tone": "controlled",
+      "weight": 1.0,
+      "requires": {
+        "all": [],
+        "any": [
+          "low_stress",
+          "professional"
+        ],
+        "none": []
+      },
+      "text": "{heroA} abandona a linha ideal para retirar {civilian} da zona de risco.",
+      "relationshipEffects": {},
+      "stateEffects": {},
+      "cooldown": {
+        "sameTemplate": 8,
+        "sameOpening": 3
+      }
+    },
+    {
+      "id": "PBP_010",
+      "eventType": "rescue_action",
+      "tone": "personal",
+      "weight": 1.1,
+      "requires": {
+        "all": [],
+        "any": [
+          "relationship_memory",
+          "emotional"
+        ],
+        "none": []
+      },
+      "text": "{heroA} ouve {civilian} pedir ajuda e reage antes da ordem; {valueClause} fala mais alto.",
+      "relationshipEffects": {},
+      "stateEffects": {},
+      "cooldown": {
+        "sameTemplate": 8,
+        "sameOpening": 3
+      }
+    },
+    {
+      "id": "PBP_011",
+      "eventType": "rescue_action",
+      "tone": "strained",
+      "weight": 1.2,
+      "requires": {
+        "all": [],
+        "any": [
+          "high_stress",
+          "moral_conflict"
+        ],
+        "none": []
+      },
+      "text": "Salvar {civilian} custa a {heroA} a vantagem sobre {villain}. {moralCostClause}",
+      "relationshipEffects": {},
+      "stateEffects": {},
+      "cooldown": {
+        "sameTemplate": 8,
+        "sameOpening": 3
+      }
+    },
+    {
+      "id": "PBP_012",
+      "eventType": "rescue_action",
+      "tone": "triumphant",
+      "weight": 0.9,
+      "requires": {
+        "all": [],
+        "any": [
+          "advantage",
+          "team_synergy"
+        ],
+        "none": []
+      },
+      "text": "{heroA} alcança {civilian} enquanto {heroB} fecha a brecha. {synergyClause}",
+      "relationshipEffects": {},
+      "stateEffects": {},
+      "cooldown": {
+        "sameTemplate": 8,
+        "sameOpening": 3
+      }
+    },
+    {
+      "id": "PBP_013",
+      "eventType": "civilian_endangered",
+      "tone": "controlled",
+      "weight": 1.0,
+      "requires": {
+        "all": [],
+        "any": [
+          "low_stress",
+          "professional"
+        ],
+        "none": []
+      },
+      "text": "O risco civil sobe para {civilianRisk}. {leader} redefine a prioridade.",
+      "relationshipEffects": {},
+      "stateEffects": {},
+      "cooldown": {
+        "sameTemplate": 8,
+        "sameOpening": 3
+      }
+    },
+    {
+      "id": "PBP_014",
+      "eventType": "civilian_endangered",
+      "tone": "personal",
+      "weight": 1.1,
+      "requires": {
+        "all": [],
+        "any": [
+          "relationship_memory",
+          "emotional"
+        ],
+        "none": []
+      },
+      "text": "O rosto de {civilian} aciona em {heroA} a lembrança de {guiltTrigger}.",
+      "relationshipEffects": {},
+      "stateEffects": {},
+      "cooldown": {
+        "sameTemplate": 8,
+        "sameOpening": 3
+      }
+    },
+    {
+      "id": "PBP_015",
+      "eventType": "civilian_endangered",
+      "tone": "strained",
+      "weight": 1.2,
+      "requires": {
+        "all": [],
+        "any": [
+          "high_stress",
+          "moral_conflict"
+        ],
+        "none": []
+      },
+      "text": "{villain} força a escolha que {heroA} mais teme: perseguir ou proteger.",
+      "relationshipEffects": {},
+      "stateEffects": {},
+      "cooldown": {
+        "sameTemplate": 8,
+        "sameOpening": 3
+      }
+    },
+    {
+      "id": "PBP_016",
+      "eventType": "civilian_endangered",
+      "tone": "triumphant",
+      "weight": 0.9,
+      "requires": {
+        "all": [],
+        "any": [
+          "advantage",
+          "team_synergy"
+        ],
+        "none": []
+      },
+      "text": "Antes que o pânico se espalhe, {heroA} cria uma saída e {heroB} mantém a ameaça ocupada.",
+      "relationshipEffects": {},
+      "stateEffects": {},
+      "cooldown": {
+        "sameTemplate": 8,
+        "sameOpening": 3
+      }
+    },
+    {
+      "id": "PBP_017",
+      "eventType": "moral_dispute",
+      "tone": "controlled",
+      "weight": 1.0,
+      "requires": {
+        "all": [],
+        "any": [
+          "low_stress",
+          "professional"
+        ],
+        "none": []
+      },
+      "text": "{heroA} contesta o método de {heroB}: {moralConflict}. A missão continua, mas a relação registra a fratura.",
+      "relationshipEffects": {},
+      "stateEffects": {},
+      "cooldown": {
+        "sameTemplate": 8,
+        "sameOpening": 3
+      }
+    },
+    {
+      "id": "PBP_018",
+      "eventType": "moral_dispute",
+      "tone": "personal",
+      "weight": 1.1,
+      "requires": {
+        "all": [],
+        "any": [
+          "relationship_memory",
+          "emotional"
+        ],
+        "none": []
+      },
+      "text": "A discussão não é sobre tática. É sobre {relationshipMemory}, e ambos sabem.",
+      "relationshipEffects": {},
+      "stateEffects": {},
+      "cooldown": {
+        "sameTemplate": 8,
+        "sameOpening": 3
+      }
+    },
+    {
+      "id": "PBP_019",
+      "eventType": "moral_dispute",
+      "tone": "strained",
+      "weight": 1.2,
+      "requires": {
+        "all": [],
+        "any": [
+          "high_stress",
+          "moral_conflict"
+        ],
+        "none": []
+      },
+      "text": "{heroA} se recusa a cruzar a linha: {redLine}. {leader} precisa alterar o plano ou impor a ordem.",
+      "relationshipEffects": {},
+      "stateEffects": {},
+      "cooldown": {
+        "sameTemplate": 8,
+        "sameOpening": 3
+      }
+    },
+    {
+      "id": "PBP_020",
+      "eventType": "moral_dispute",
+      "tone": "triumphant",
+      "weight": 0.9,
+      "requires": {
+        "all": [],
+        "any": [
+          "advantage",
+          "team_synergy"
+        ],
+        "none": []
+      },
+      "text": "A discordância encontra uma terceira via. {heroA} preserva {valueA}; {heroB}, {valueB}.",
+      "relationshipEffects": {},
+      "stateEffects": {},
+      "cooldown": {
+        "sameTemplate": 8,
+        "sameOpening": 3
+      }
+    },
+    {
+      "id": "PBP_021",
+      "eventType": "coordination",
+      "tone": "controlled",
+      "weight": 1.0,
+      "requires": {
+        "all": [],
+        "any": [
+          "low_stress",
+          "professional"
+        ],
+        "none": []
+      },
+      "text": "{heroA} cria a abertura e {heroB} executa no tempo combinado.",
+      "relationshipEffects": {},
+      "stateEffects": {},
+      "cooldown": {
+        "sameTemplate": 8,
+        "sameOpening": 3
+      }
+    },
+    {
+      "id": "PBP_022",
+      "eventType": "coordination",
+      "tone": "personal",
+      "weight": 1.1,
+      "requires": {
+        "all": [],
+        "any": [
+          "relationship_memory",
+          "emotional"
+        ],
+        "none": []
+      },
+      "text": "A confiança entre {heroA} e {heroB} dispensa explicação; {relationshipMemory} virou reflexo.",
+      "relationshipEffects": {},
+      "stateEffects": {},
+      "cooldown": {
+        "sameTemplate": 8,
+        "sameOpening": 3
+      }
+    },
+    {
+      "id": "PBP_023",
+      "eventType": "coordination",
+      "tone": "strained",
+      "weight": 1.2,
+      "requires": {
+        "all": [],
+        "any": [
+          "high_stress",
+          "moral_conflict"
+        ],
+        "none": []
+      },
+      "text": "A coordenação acontece apesar de {resentmentClause}. O resultado funciona, mas não resolve nada.",
+      "relationshipEffects": {},
+      "stateEffects": {},
+      "cooldown": {
+        "sameTemplate": 8,
+        "sameOpening": 3
+      }
+    },
+    {
+      "id": "PBP_024",
+      "eventType": "coordination",
+      "tone": "triumphant",
+      "weight": 0.9,
+      "requires": {
+        "all": [],
+        "any": [
+          "advantage",
+          "team_synergy"
+        ],
+        "none": []
+      },
+      "text": "{heroA} e {heroB} transformam {synergyClause} em uma vantagem que nenhum dos dois teria sozinho.",
+      "relationshipEffects": {},
+      "stateEffects": {},
+      "cooldown": {
+        "sameTemplate": 8,
+        "sameOpening": 3
+      }
+    },
+    {
+      "id": "PBP_025",
+      "eventType": "power_combo",
+      "tone": "controlled",
+      "weight": 1.0,
+      "requires": {
+        "all": [],
+        "any": [
+          "low_stress",
+          "professional"
+        ],
+        "none": []
+      },
+      "text": "{heroA} combina {powerA} com {powerB} de {heroB}, respeitando os limites de ambos.",
+      "relationshipEffects": {},
+      "stateEffects": {},
+      "cooldown": {
+        "sameTemplate": 8,
+        "sameOpening": 3
+      }
+    },
+    {
+      "id": "PBP_026",
+      "eventType": "power_combo",
+      "tone": "personal",
+      "weight": 1.1,
+      "requires": {
+        "all": [],
+        "any": [
+          "relationship_memory",
+          "emotional"
+        ],
+        "none": []
+      },
+      "text": "{heroB} confia o próprio limite a {heroA}. A combinação exige mais intimidade que força.",
+      "relationshipEffects": {},
+      "stateEffects": {},
+      "cooldown": {
+        "sameTemplate": 8,
+        "sameOpening": 3
+      }
+    },
+    {
+      "id": "PBP_027",
+      "eventType": "power_combo",
+      "tone": "strained",
+      "weight": 1.2,
+      "requires": {
+        "all": [],
+        "any": [
+          "high_stress",
+          "moral_conflict"
+        ],
+        "none": []
+      },
+      "text": "A combinação funciona, mas força {heroA} além de {powerLimitA}.",
+      "relationshipEffects": {},
+      "stateEffects": {},
+      "cooldown": {
+        "sameTemplate": 8,
+        "sameOpening": 3
+      }
+    },
+    {
+      "id": "PBP_028",
+      "eventType": "power_combo",
+      "tone": "triumphant",
+      "weight": 0.9,
+      "requires": {
+        "all": [],
+        "any": [
+          "advantage",
+          "team_synergy"
+        ],
+        "none": []
+      },
+      "text": "{powerA} encontra {powerB}; o campo de batalha muda de forma em um único movimento.",
+      "relationshipEffects": {},
+      "stateEffects": {},
+      "cooldown": {
+        "sameTemplate": 8,
+        "sameOpening": 3
+      }
+    },
+    {
+      "id": "PBP_029",
+      "eventType": "setback",
+      "tone": "controlled",
+      "weight": 1.0,
+      "requires": {
+        "all": [],
+        "any": [
+          "low_stress",
+          "professional"
+        ],
+        "none": []
+      },
+      "text": "O plano perde {advantageLost}. {leader} solicita nova leitura da situação.",
+      "relationshipEffects": {},
+      "stateEffects": {},
+      "cooldown": {
+        "sameTemplate": 8,
+        "sameOpening": 3
+      }
+    },
+    {
+      "id": "PBP_030",
+      "eventType": "setback",
+      "tone": "personal",
+      "weight": 1.1,
+      "requires": {
+        "all": [],
+        "any": [
+          "relationship_memory",
+          "emotional"
+        ],
+        "none": []
+      },
+      "text": "O erro toca o ponto cego de {heroA}: {blindspotClause}.",
+      "relationshipEffects": {},
+      "stateEffects": {},
+      "cooldown": {
+        "sameTemplate": 8,
+        "sameOpening": 3
+      }
+    },
+    {
+      "id": "PBP_031",
+      "eventType": "setback",
+      "tone": "strained",
+      "weight": 1.2,
+      "requires": {
+        "all": [],
+        "any": [
+          "high_stress",
+          "moral_conflict"
+        ],
+        "none": []
+      },
+      "text": "O revés confirma a racionalização perigosa de {heroA}: {rationalization}.",
+      "relationshipEffects": {},
+      "stateEffects": {},
+      "cooldown": {
+        "sameTemplate": 8,
+        "sameOpening": 3
+      }
+    },
+    {
+      "id": "PBP_032",
+      "eventType": "setback",
+      "tone": "triumphant",
+      "weight": 0.9,
+      "requires": {
+        "all": [],
+        "any": [
+          "advantage",
+          "team_synergy"
+        ],
+        "none": []
+      },
+      "text": "O plano falha sem quebrar a equipe. {heroB} cobre {heroA} antes que o erro vire desastre.",
+      "relationshipEffects": {},
+      "stateEffects": {},
+      "cooldown": {
+        "sameTemplate": 8,
+        "sameOpening": 3
+      }
+    },
+    {
+      "id": "PBP_033",
+      "eventType": "injury",
+      "tone": "controlled",
+      "weight": 1.0,
+      "requires": {
+        "all": [],
+        "any": [
+          "low_stress",
+          "professional"
+        ],
+        "none": []
+      },
+      "text": "{injured} sofre {injuryClause}. A equipe recalcula capacidade e rota de retirada.",
+      "relationshipEffects": {},
+      "stateEffects": {},
+      "cooldown": {
+        "sameTemplate": 8,
+        "sameOpening": 3
+      }
+    },
+    {
+      "id": "PBP_034",
+      "eventType": "injury",
+      "tone": "personal",
+      "weight": 1.1,
+      "requires": {
+        "all": [],
+        "any": [
+          "relationship_memory",
+          "emotional"
+        ],
+        "none": []
+      },
+      "text": "Ver {injured} cair altera {heroA}; confiança vira medo em tempo real.",
+      "relationshipEffects": {},
+      "stateEffects": {},
+      "cooldown": {
+        "sameTemplate": 8,
+        "sameOpening": 3
+      }
+    },
+    {
+      "id": "PBP_035",
+      "eventType": "injury",
+      "tone": "strained",
+      "weight": 1.2,
+      "requires": {
+        "all": [],
+        "any": [
+          "high_stress",
+          "moral_conflict"
+        ],
+        "none": []
+      },
+      "text": "{heroA} culpa {heroB} pela queda de {injured}. O ressentimento sobe antes mesmo do socorro.",
+      "relationshipEffects": {},
+      "stateEffects": {},
+      "cooldown": {
+        "sameTemplate": 8,
+        "sameOpening": 3
+      }
+    },
+    {
+      "id": "PBP_036",
+      "eventType": "injury",
+      "tone": "triumphant",
+      "weight": 0.9,
+      "requires": {
+        "all": [],
+        "any": [
+          "advantage",
+          "team_synergy"
+        ],
+        "none": []
+      },
+      "text": "{injured} permanece consciente e entrega a função a {heroB}, preservando a operação.",
+      "relationshipEffects": {},
+      "stateEffects": {},
+      "cooldown": {
+        "sameTemplate": 8,
+        "sameOpening": 3
+      }
+    },
+    {
+      "id": "PBP_037",
+      "eventType": "surrender_offer",
+      "tone": "controlled",
+      "weight": 1.0,
+      "requires": {
+        "all": [],
+        "any": [
+          "low_stress",
+          "professional"
+        ],
+        "none": []
+      },
+      "text": "{villain} reduz a postura ofensiva e apresenta condições. A probabilidade de rendição chega a {surrenderLikelihood}.",
+      "relationshipEffects": {},
+      "stateEffects": {},
+      "cooldown": {
+        "sameTemplate": 8,
+        "sameOpening": 3
+      }
+    },
+    {
+      "id": "PBP_038",
+      "eventType": "surrender_offer",
+      "tone": "personal",
+      "weight": 1.1,
+      "requires": {
+        "all": [],
+        "any": [
+          "relationship_memory",
+          "emotional"
+        ],
+        "none": []
+      },
+      "text": "{heroA} reconhece em {villain} um motivo que conhece: {villainNeed}.",
+      "relationshipEffects": {},
+      "stateEffects": {},
+      "cooldown": {
+        "sameTemplate": 8,
+        "sameOpening": 3
+      }
+    },
+    {
+      "id": "PBP_039",
+      "eventType": "surrender_offer",
+      "tone": "strained",
+      "weight": 1.2,
+      "requires": {
+        "all": [],
+        "any": [
+          "high_stress",
+          "moral_conflict"
+        ],
+        "none": []
+      },
+      "text": "Aceitar a rendição exige confiar em alguém ligado a {relationshipMemory}.",
+      "relationshipEffects": {},
+      "stateEffects": {},
+      "cooldown": {
+        "sameTemplate": 8,
+        "sameOpening": 3
+      }
+    },
+    {
+      "id": "PBP_040",
+      "eventType": "surrender_offer",
+      "tone": "triumphant",
+      "weight": 0.9,
+      "requires": {
+        "all": [],
+        "any": [
+          "advantage",
+          "team_synergy"
+        ],
+        "none": []
+      },
+      "text": "{heroA} oferece uma saída sem absolvição: rendição, custódia segura e direito de responder pelos danos.",
+      "relationshipEffects": {},
+      "stateEffects": {},
+      "cooldown": {
+        "sameTemplate": 8,
+        "sameOpening": 3
+      }
+    },
+    {
+      "id": "PBP_041",
+      "eventType": "capture_attempt",
+      "tone": "controlled",
+      "weight": 1.0,
+      "requires": {
+        "all": [],
+        "any": [
+          "low_stress",
+          "professional"
+        ],
+        "none": []
+      },
+      "text": "{heroA} inicia contenção compatível com o risco de fuga {escapeRisk}.",
+      "relationshipEffects": {},
+      "stateEffects": {},
+      "cooldown": {
+        "sameTemplate": 8,
+        "sameOpening": 3
+      }
+    },
+    {
+      "id": "PBP_042",
+      "eventType": "capture_attempt",
+      "tone": "personal",
+      "weight": 1.1,
+      "requires": {
+        "all": [],
+        "any": [
+          "relationship_memory",
+          "emotional"
+        ],
+        "none": []
+      },
+      "text": "{heroA} chama {villain} pelo nome civil antes de fechar a contenção.",
+      "relationshipEffects": {},
+      "stateEffects": {},
+      "cooldown": {
+        "sameTemplate": 8,
+        "sameOpening": 3
+      }
+    },
+    {
+      "id": "PBP_043",
+      "eventType": "capture_attempt",
+      "tone": "strained",
+      "weight": 1.2,
+      "requires": {
+        "all": [],
+        "any": [
+          "high_stress",
+          "moral_conflict"
+        ],
+        "none": []
+      },
+      "text": "A captura exige o método que {heroA} jurou evitar: {moralCostClause}.",
+      "relationshipEffects": {},
+      "stateEffects": {},
+      "cooldown": {
+        "sameTemplate": 8,
+        "sameOpening": 3
+      }
+    },
+    {
+      "id": "PBP_044",
+      "eventType": "capture_attempt",
+      "tone": "triumphant",
+      "weight": 0.9,
+      "requires": {
+        "all": [],
+        "any": [
+          "advantage",
+          "team_synergy"
+        ],
+        "none": []
+      },
+      "text": "A inteligência sobre {custodyWeakness} permite uma captura limpa e auditável.",
+      "relationshipEffects": {},
+      "stateEffects": {},
+      "cooldown": {
+        "sameTemplate": 8,
+        "sameOpening": 3
+      }
+    },
+    {
+      "id": "PBP_045",
+      "eventType": "escape_attempt",
+      "tone": "controlled",
+      "weight": 1.0,
+      "requires": {
+        "all": [],
+        "any": [
+          "low_stress",
+          "professional"
+        ],
+        "none": []
+      },
+      "text": "{villain} explora {escapeVector}. {heroA} interrompe a rota principal.",
+      "relationshipEffects": {},
+      "stateEffects": {},
+      "cooldown": {
+        "sameTemplate": 8,
+        "sameOpening": 3
+      }
+    },
+    {
+      "id": "PBP_046",
+      "eventType": "escape_attempt",
+      "tone": "personal",
+      "weight": 1.1,
+      "requires": {
+        "all": [],
+        "any": [
+          "relationship_memory",
+          "emotional"
+        ],
+        "none": []
+      },
+      "text": "{villain} usa {relationshipMemory} para hesitar {heroA} por um segundo.",
+      "relationshipEffects": {},
+      "stateEffects": {},
+      "cooldown": {
+        "sameTemplate": 8,
+        "sameOpening": 3
+      }
+    },
+    {
+      "id": "PBP_047",
+      "eventType": "escape_attempt",
+      "tone": "strained",
+      "weight": 1.2,
+      "requires": {
+        "all": [],
+        "any": [
+          "high_stress",
+          "moral_conflict"
+        ],
+        "none": []
+      },
+      "text": "A fuga nasce de uma falha previsível de custódia: {custodyFailure}.",
+      "relationshipEffects": {},
+      "stateEffects": {},
+      "cooldown": {
+        "sameTemplate": 8,
+        "sameOpening": 3
+      }
+    },
+    {
+      "id": "PBP_048",
+      "eventType": "escape_attempt",
+      "tone": "triumphant",
+      "weight": 0.9,
+      "requires": {
+        "all": [],
+        "any": [
+          "advantage",
+          "team_synergy"
+        ],
+        "none": []
+      },
+      "text": "O plano de contingência fecha a rota antes que {villain} perceba que foi identificado.",
+      "relationshipEffects": {},
+      "stateEffects": {},
+      "cooldown": {
+        "sameTemplate": 8,
+        "sameOpening": 3
+      }
+    },
+    {
+      "id": "PBP_049",
+      "eventType": "collateral_event",
+      "tone": "controlled",
+      "weight": 1.0,
+      "requires": {
+        "all": [],
+        "any": [
+          "low_stress",
+          "professional"
+        ],
+        "none": []
+      },
+      "text": "O dano colateral alcança {collateralValue}. A equipe registra causa, responsável e prioridade de mitigação.",
+      "relationshipEffects": {},
+      "stateEffects": {},
+      "cooldown": {
+        "sameTemplate": 8,
+        "sameOpening": 3
+      }
+    },
+    {
+      "id": "PBP_050",
+      "eventType": "collateral_event",
+      "tone": "personal",
+      "weight": 1.1,
+      "requires": {
+        "all": [],
+        "any": [
+          "relationship_memory",
+          "emotional"
+        ],
+        "none": []
+      },
+      "text": "Para {heroA}, o prédio danificado lembra {guiltTrigger}; o combate deixa de ser abstrato.",
+      "relationshipEffects": {},
+      "stateEffects": {},
+      "cooldown": {
+        "sameTemplate": 8,
+        "sameOpening": 3
+      }
+    },
+    {
+      "id": "PBP_051",
+      "eventType": "collateral_event",
+      "tone": "strained",
+      "weight": 1.2,
+      "requires": {
+        "all": [],
+        "any": [
+          "high_stress",
+          "moral_conflict"
+        ],
+        "none": []
+      },
+      "text": "{heroA} aceita {moralCostClause} para impedir algo pior. A decisão será cobrada no relatório.",
+      "relationshipEffects": {},
+      "stateEffects": {},
+      "cooldown": {
+        "sameTemplate": 8,
+        "sameOpening": 3
+      }
+    },
+    {
+      "id": "PBP_052",
+      "eventType": "collateral_event",
+      "tone": "triumphant",
+      "weight": 0.9,
+      "requires": {
+        "all": [],
+        "any": [
+          "advantage",
+          "team_synergy"
+        ],
+        "none": []
+      },
+      "text": "{heroB} contém a propagação enquanto {heroA} mantém pressão sobre {villain}.",
+      "relationshipEffects": {},
+      "stateEffects": {},
+      "cooldown": {
+        "sameTemplate": 8,
+        "sameOpening": 3
+      }
+    },
+    {
+      "id": "PBP_053",
+      "eventType": "intel_discovery",
+      "tone": "controlled",
+      "weight": 1.0,
+      "requires": {
+        "all": [],
+        "any": [
+          "low_stress",
+          "professional"
+        ],
+        "none": []
+      },
+      "text": "{heroA} encontra {intelPiece}. A confiança inicial é {intelConfidence}; nada é tratado como certeza.",
+      "relationshipEffects": {},
+      "stateEffects": {},
+      "cooldown": {
+        "sameTemplate": 8,
+        "sameOpening": 3
+      }
+    },
+    {
+      "id": "PBP_054",
+      "eventType": "intel_discovery",
+      "tone": "personal",
+      "weight": 1.1,
+      "requires": {
+        "all": [],
+        "any": [
+          "relationship_memory",
+          "emotional"
+        ],
+        "none": []
+      },
+      "text": "A fonte de {intelPiece} é {intelSource}, alguém em quem {heroA} ainda não sabe se pode confiar.",
+      "relationshipEffects": {},
+      "stateEffects": {},
+      "cooldown": {
+        "sameTemplate": 8,
+        "sameOpening": 3
+      }
+    },
+    {
+      "id": "PBP_055",
+      "eventType": "intel_discovery",
+      "tone": "strained",
+      "weight": 1.2,
+      "requires": {
+        "all": [],
+        "any": [
+          "high_stress",
+          "moral_conflict"
+        ],
+        "none": []
+      },
+      "text": "A informação contradiz {relationshipMemory}. Usá-la pode salvar a missão e destruir uma relação.",
+      "relationshipEffects": {},
+      "stateEffects": {},
+      "cooldown": {
+        "sameTemplate": 8,
+        "sameOpening": 3
+      }
+    },
+    {
+      "id": "PBP_056",
+      "eventType": "intel_discovery",
+      "tone": "triumphant",
+      "weight": 0.9,
+      "requires": {
+        "all": [],
+        "any": [
+          "advantage",
+          "team_synergy"
+        ],
+        "none": []
+      },
+      "text": "Duas fontes independentes corroboram {intelPiece}; uma nova missão é desbloqueada.",
+      "relationshipEffects": {},
+      "stateEffects": {},
+      "cooldown": {
+        "sameTemplate": 8,
+        "sameOpening": 3
+      }
+    },
+    {
+      "id": "PBP_057",
+      "eventType": "betrayal_reveal",
+      "tone": "controlled",
+      "weight": 1.0,
+      "requires": {
+        "all": [],
+        "any": [
+          "low_stress",
+          "professional"
+        ],
+        "none": []
+      },
+      "text": "A fonte {intelSource} está comprometida. O sistema rebaixa toda inteligência dependente dela.",
+      "relationshipEffects": {},
+      "stateEffects": {},
+      "cooldown": {
+        "sameTemplate": 8,
+        "sameOpening": 3
+      }
+    },
+    {
+      "id": "PBP_058",
+      "eventType": "betrayal_reveal",
+      "tone": "personal",
+      "weight": 1.1,
+      "requires": {
+        "all": [],
+        "any": [
+          "relationship_memory",
+          "emotional"
+        ],
+        "none": []
+      },
+      "text": "{heroA} percebe que {relationshipMemory} foi usado como alavanca.",
+      "relationshipEffects": {},
+      "stateEffects": {},
+      "cooldown": {
+        "sameTemplate": 8,
+        "sameOpening": 3
+      }
+    },
+    {
+      "id": "PBP_059",
+      "eventType": "betrayal_reveal",
+      "tone": "strained",
+      "weight": 1.2,
+      "requires": {
+        "all": [],
+        "any": [
+          "high_stress",
+          "moral_conflict"
+        ],
+        "none": []
+      },
+      "text": "A traição aciona {triggerClause}; {heroA} perde foco e {leader} precisa intervir.",
+      "relationshipEffects": {},
+      "stateEffects": {},
+      "cooldown": {
+        "sameTemplate": 8,
+        "sameOpening": 3
+      }
+    },
+    {
+      "id": "PBP_060",
+      "eventType": "betrayal_reveal",
+      "tone": "triumphant",
+      "weight": 0.9,
+      "requires": {
+        "all": [],
+        "any": [
+          "advantage",
+          "team_synergy"
+        ],
+        "none": []
+      },
+      "text": "O duplo jogo é revelado cedo porque {heroB} exigiu corroborar a informação.",
+      "relationshipEffects": {},
+      "stateEffects": {},
+      "cooldown": {
+        "sameTemplate": 8,
+        "sameOpening": 3
+      }
+    },
+    {
+      "id": "PBP_061",
+      "eventType": "sacrifice_choice",
+      "tone": "controlled",
+      "weight": 1.0,
+      "requires": {
+        "all": [],
+        "any": [
+          "low_stress",
+          "professional"
+        ],
+        "none": []
+      },
+      "text": "{heroA} assume {personalCost} para reduzir o risco coletivo.",
+      "relationshipEffects": {},
+      "stateEffects": {},
+      "cooldown": {
+        "sameTemplate": 8,
+        "sameOpening": 3
+      }
+    },
+    {
+      "id": "PBP_062",
+      "eventType": "sacrifice_choice",
+      "tone": "personal",
+      "weight": 1.1,
+      "requires": {
+        "all": [],
+        "any": [
+          "relationship_memory",
+          "emotional"
+        ],
+        "none": []
+      },
+      "text": "A escolha nasce de {valueClause}, não de cálculo de poder.",
+      "relationshipEffects": {},
+      "stateEffects": {},
+      "cooldown": {
+        "sameTemplate": 8,
+        "sameOpening": 3
+      }
+    },
+    {
+      "id": "PBP_063",
+      "eventType": "sacrifice_choice",
+      "tone": "strained",
+      "weight": 1.2,
+      "requires": {
+        "all": [],
+        "any": [
+          "high_stress",
+          "moral_conflict"
+        ],
+        "none": []
+      },
+      "text": "{heroA} aceita um custo que alimenta {guiltTrigger}. Vitória e dano chegam juntos.",
+      "relationshipEffects": {},
+      "stateEffects": {},
+      "cooldown": {
+        "sameTemplate": 8,
+        "sameOpening": 3
+      }
+    },
+    {
+      "id": "PBP_064",
+      "eventType": "sacrifice_choice",
+      "tone": "triumphant",
+      "weight": 0.9,
+      "requires": {
+        "all": [],
+        "any": [
+          "advantage",
+          "team_synergy"
+        ],
+        "none": []
+      },
+      "text": "{heroB} se recusa a deixar o sacrifício ser solitário e divide {personalCost}.",
+      "relationshipEffects": {},
+      "stateEffects": {},
+      "cooldown": {
+        "sameTemplate": 8,
+        "sameOpening": 3
+      }
+    },
+    {
+      "id": "PBP_065",
+      "eventType": "aftermath",
+      "tone": "controlled",
+      "weight": 1.0,
+      "requires": {
+        "all": [],
+        "any": [
+          "low_stress",
+          "professional"
+        ],
+        "none": []
+      },
+      "text": "A cena termina com {outcome}. O relatório separará resultado, custo, responsabilidade e incerteza.",
+      "relationshipEffects": {},
+      "stateEffects": {},
+      "cooldown": {
+        "sameTemplate": 8,
+        "sameOpening": 3
+      }
+    },
+    {
+      "id": "PBP_066",
+      "eventType": "aftermath",
+      "tone": "personal",
+      "weight": 1.1,
+      "requires": {
+        "all": [],
+        "any": [
+          "relationship_memory",
+          "emotional"
+        ],
+        "none": []
+      },
+      "text": "{heroA} procura {heroB}; o que mudou entre eles não cabe no placar da missão.",
+      "relationshipEffects": {},
+      "stateEffects": {},
+      "cooldown": {
+        "sameTemplate": 8,
+        "sameOpening": 3
+      }
+    },
+    {
+      "id": "PBP_067",
+      "eventType": "aftermath",
+      "tone": "strained",
+      "weight": 1.2,
+      "requires": {
+        "all": [],
+        "any": [
+          "high_stress",
+          "moral_conflict"
+        ],
+        "none": []
+      },
+      "text": "A missão termina, mas {unresolvedIssue} permanece aberto e ganha peso de memória.",
+      "relationshipEffects": {},
+      "stateEffects": {},
+      "cooldown": {
+        "sameTemplate": 8,
+        "sameOpening": 3
+      }
+    },
+    {
+      "id": "PBP_068",
+      "eventType": "aftermath",
+      "tone": "triumphant",
+      "weight": 0.9,
+      "requires": {
+        "all": [],
+        "any": [
+          "advantage",
+          "team_synergy"
+        ],
+        "none": []
+      },
+      "text": "O objetivo é cumprido sem apagar o preço. {leader} reconhece quem carregou o custo.",
+      "relationshipEffects": {},
+      "stateEffects": {},
+      "cooldown": {
+        "sameTemplate": 8,
+        "sameOpening": 3
+      }
+    },
+    {
+      "id": "PBP_069",
+      "eventType": "interrogation_callback",
+      "tone": "controlled",
+      "weight": 1.0,
+      "requires": {
+        "all": [],
+        "any": [
+          "low_stress",
+          "professional"
+        ],
+        "none": []
+      },
+      "text": "A informação obtida em {sessionId} antecipa {threatClause}, com confiança {intelConfidence}.",
+      "relationshipEffects": {},
+      "stateEffects": {},
+      "cooldown": {
+        "sameTemplate": 8,
+        "sameOpening": 3
+      }
+    },
+    {
+      "id": "PBP_070",
+      "eventType": "interrogation_callback",
+      "tone": "personal",
+      "weight": 1.1,
+      "requires": {
+        "all": [],
+        "any": [
+          "relationship_memory",
+          "emotional"
+        ],
+        "none": []
+      },
+      "text": "{heroA} precisa agir com base no depoimento de {informant}, apesar de {relationshipMemory}.",
+      "relationshipEffects": {},
+      "stateEffects": {},
+      "cooldown": {
+        "sameTemplate": 8,
+        "sameOpening": 3
+      }
+    },
+    {
+      "id": "PBP_071",
+      "eventType": "interrogation_callback",
+      "tone": "strained",
+      "weight": 1.2,
+      "requires": {
+        "all": [],
+        "any": [
+          "high_stress",
+          "moral_conflict"
+        ],
+        "none": []
+      },
+      "text": "O interrogatório forneceu vantagem, mas o método gerou {interrogationCost}; a equipe sente isso agora.",
+      "relationshipEffects": {},
+      "stateEffects": {},
+      "cooldown": {
+        "sameTemplate": 8,
+        "sameOpening": 3
+      }
+    },
+    {
+      "id": "PBP_072",
+      "eventType": "interrogation_callback",
+      "tone": "triumphant",
+      "weight": 0.9,
+      "requires": {
+        "all": [],
+        "any": [
+          "advantage",
+          "team_synergy"
+        ],
+        "none": []
+      },
+      "text": "A cooperação de {informant} remove uma armadilha e melhora a chance de captura sem baixas.",
+      "relationshipEffects": {},
+      "stateEffects": {},
+      "cooldown": {
+        "sameTemplate": 8,
+        "sameOpening": 3
+      }
+    }
+  ]
+}

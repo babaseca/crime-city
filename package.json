@@ -4,9 +4,9 @@
   "version": "0.9.5-alpha",
   "type": "module",
   "scripts": {
-    "dev": "vite --host 127.0.0.1 --port 5197 --strictPort",
+    "dev": "vite --host 0.0.0.0 --port 5197 --strictPort",
     "build": "vite build",
-    "preview": "vite preview --host 127.0.0.1 --port 4197 --strictPort",
+    "preview": "vite preview --host 0.0.0.0 --port 4197 --strictPort",
     "validate:narrative": "node scripts/validateNarrative.js"
   },
   "dependencies": {

@@ -1,0 +1,65 @@
+{
+  "schemaVersion": "1.2",
+  "recruitmentRequirements": [
+    "subject has access >= 40",
+    "clear motivation recorded",
+    "handler assigned",
+    "legal authorization recorded",
+    "boundaries and prohibited tasks recorded",
+    "exposure and double-agent risk assessed"
+  ],
+  "motivations": [
+    "sentence_reduction",
+    "protect_family",
+    "revenge",
+    "ideology",
+    "money",
+    "belonging",
+    "guilt",
+    "self_preservation",
+    "rivalry",
+    "rehabilitation"
+  ],
+  "scores": {
+    "reliability": "baseline reliability + fulfilled promises + corroborated reports + voluntary bad news - contradictions - manipulation - relapse concealment",
+    "access": "current network access - time since custody - exposure - faction purge",
+    "exposure": "mission use + communication frequency + visible protection changes + enemy counterintelligence",
+    "doubleAgentRisk": "profile risk + conflicting loyalty + coercion + uncorroborated success - transparent motivation - handler trust"
+  },
+  "handlerRules": [
+    "One primary handler and one backup.",
+    "Handler cannot make sentencing promises outside authority.",
+    "All actionable intel requires provenance.",
+    "Do not use an informant to provoke crimes they would not otherwise commit.",
+    "Informant safety plan is mandatory.",
+    "A rehabilitating person is not required to become an informant."
+  ],
+  "outcomes": [
+    "useful_report",
+    "partial_report",
+    "false_report",
+    "compromised_report",
+    "double_agent_signal",
+    "exposure_event",
+    "extraction_request",
+    "refusal",
+    "relationship_shift"
+  ],
+  "campaignEffects": {
+    "positive": [
+      "early_warning",
+      "mission_unlock",
+      "faction_map",
+      "countermeasure",
+      "reduced_collateral"
+    ],
+    "negative": [
+      "ambush",
+      "wrong_target",
+      "informant_harmed",
+      "legal_scandal",
+      "handler_moral_injury",
+      "faction_retaliation"
+    ]
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "schemaVersion": "1.2",
+  "eligibility": {
+    "heroStressMax": 75,
+    "heroFatigueMax": 70,
+    "minimumTrustOrConsent": 20,
+    "forbidActiveUnresolvedAbuse": true,
+    "maxActiveMenteesPerHero": 2
+  },
+  "fitFormula": "sharedValues + skillCompatibility + triggerSafety + relationshipPotential + boundaryStrength - traumaCollision - manipulationRisk - heroBurnout",
+  "fitBands": [
+    {
+      "min": 0,
+      "max": 29,
+      "label": "unsafe",
+      "assignmentAllowed": false
+    },
+    {
+      "min": 30,
+      "max": 49,
+      "label": "weak",
+      "assignmentAllowed": "only with co-mentor"
+    },
+    {
+      "min": 50,
+      "max": 69,
+      "label": "workable",
+      "assignmentAllowed": true
+    },
+    {
+      "min": 70,
+      "max": 100,
+      "label": "strong",
+      "assignmentAllowed": true
+    }
+  ],
+  "sessionTypes": [
+    "goal_setting",
+    "skills_practice",
+    "accountability_review",
+    "trigger_rehearsal",
+    "restorative_preparation",
+    "community_reentry",
+    "crisis_session"
+  ],
+  "boundaryEvents": [
+    {
+      "id": "OVERIDENTIFICATION",
+      "effect": [
+        "mentorStress +10",
+        "objectivity -12",
+        "reportFlag"
+      ]
+    },
+    {
+      "id": "RESCUER_PATTERN",
+      "effect": [
+        "menteeAutonomy -8",
+        "mentorBurnout +12"
+      ]
+    },
+    {
+      "id": "MANIPULATION_DETECTED",
+      "effect": [
+        "trust -15",
+        "supervisionReview"
+      ]
+    },
+    {
+      "id": "BOUNDARY_HELD",
+      "effect": [
+        "trust +4",
+        "autonomy +5",
+        "mentorConfidence +3"
+      ]
+    },
+    {
+      "id": "HONEST_SETBACK",
+      "effect": [
+        "honesty +8",
+        "shortTermRisk +3",
+        "longTermRisk -4"
+      ]
+    }
+  ],
+  "recommendedSeeds": {
+    "HERO_001": [
+      "VILLAIN_002",
+      "VILLAIN_007"
+    ],
+    "HERO_002": [
+      "VILLAIN_004",
+      "VILLAIN_012",
+      "VILLAIN_017"
+    ],
+    "HERO_003": [
+      "VILLAIN_015",
+      "VILLAIN_020"
+    ],
+    "HERO_004": [
+      "VILLAIN_006",
+      "VILLAIN_008",
+      "VILLAIN_013"
+    ],
+    "HERO_005": [
+      "VILLAIN_009",
+      "VILLAIN_010",
+      "VILLAIN_019"
+    ],
+    "HERO_006": [
+      "VILLAIN_011",
+      "VILLAIN_014"
+    ],
+    "HERO_007": [
+      "VILLAIN_002",
+      "VILLAIN_004",
+      "VILLAIN_016"
+    ],
+    "HERO_008": [
+      "VILLAIN_003",
+      "VILLAIN_005",
+      "VILLAIN_018"
+    ]
+  }
+}

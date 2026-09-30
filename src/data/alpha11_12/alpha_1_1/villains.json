@@ -1,0 +1,2924 @@
+{
+  "schemaVersion": "1.1",
+  "villains": [
+    {
+      "id": "VILLAIN_001",
+      "codename": "Doutor Limiar",
+      "civilianName": "Raul Ferraz",
+      "age": 49,
+      "pronouns": "ele/dele",
+      "threatTier": 5,
+      "factions": [
+        "FACTION_001"
+      ],
+      "powerSummary": "Tecnologia de dobra espacial capaz de encurtar rotas, isolar salas e deslocar matéria por centímetros.",
+      "criminalPattern": [
+        "sequestro tecnológico",
+        "sabotagem de infraestrutura",
+        "experimentos não consentidos"
+      ],
+      "background": "Físico expulso do serviço público após conduzir testes humanos clandestinos. Acredita que crises justificam decisões que democracias lentas jamais tomariam.",
+      "personality": {
+        "bigFive": {
+          "openness": 98,
+          "conscientiousness": 93,
+          "extraversion": 45,
+          "agreeableness": 21,
+          "neuroticism": 36
+        },
+        "facets": {
+          "impulseControl": 91,
+          "empathy": 24,
+          "assertiveness": 88,
+          "trustBaseline": 17,
+          "needForRecognition": 72,
+          "toleranceAmbiguity": 62,
+          "moralFlexibility": 96,
+          "resilience": 86,
+          "teamwork": 42,
+          "discipline": 95
+        },
+        "conflictStyle": "domínio intelectual",
+        "values": [
+          "progresso",
+          "ordem racional",
+          "legado"
+        ],
+        "needs": [
+          "ser reconhecido como indispensável"
+        ],
+        "fears": [
+          "irrelevância",
+          "provar que suas vítimas morreram por nada"
+        ],
+        "triggers": [
+          "ser chamado de charlatão",
+          "decisões por voto"
+        ],
+        "blindspots": [
+          "confunde capacidade com legitimidade"
+        ]
+      },
+      "moralProfile": {
+        "axes": {
+          "preservationOfLife": 37,
+          "ruleOfLaw": 12,
+          "truthTransparency": 28,
+          "loyalty": 44,
+          "proportionality": 19,
+          "autonomy": 15,
+          "redemption": 31,
+          "collectiveGood": 92
+        },
+        "redLines": [
+          "destruição sem aprendizado",
+          "traição de discípulo"
+        ],
+        "rationalizations": [
+          "milhares futuros valem dezenas presentes",
+          "consentimento é luxo em emergência"
+        ],
+        "guiltTriggers": [
+          "experimento inútil",
+          "fracasso público"
+        ],
+        "reformBarriers": [
+          "grandiosidade",
+          "ausência de remorso pelas vítimas abstratas"
+        ]
+      },
+      "interrogationProfile": {
+        "resistance": 91,
+        "deceptionSkill": 88,
+        "fearOfConsequences": 24,
+        "needToControl": 97,
+        "rapportHooks": [
+          "debate técnico",
+          "legado científico"
+        ],
+        "pressureTriggers": [
+          "prova de incompetência",
+          "discípulo superando-o"
+        ],
+        "unsafeApproaches": [
+          "humilhação pública"
+        ],
+        "likelyIntel": [
+          "laboratórios",
+          "rotas espaciais",
+          "nomes de financiadores"
+        ]
+      },
+      "custodyProfile": {
+        "securityNeed": 96,
+        "escapeRisk": 92,
+        "medicalNeeds": [
+          "controle de enxaqueca vestibular"
+        ],
+        "separationNeeds": [
+          "sem acesso a componentes geométricos ou mapas detalhados"
+        ],
+        "privilegeHooks": [
+          "artigos científicos auditados"
+        ],
+        "incidentRisks": [
+          "microportais improvisados",
+          "recrutamento intelectual"
+        ]
+      },
+      "rehabilitationProfile": {
+        "basePotential": 23,
+        "accountability": 12,
+        "empathyCapacity": 29,
+        "skillsTransfer": 94,
+        "preferredPrograms": [
+          "justiça restaurativa com vítimas indiretas",
+          "pesquisa supervisionada sem acesso operacional"
+        ],
+        "mentorFit": [
+          "HERO_004",
+          "HERO_008"
+        ],
+        "relapseTriggers": [
+          "crise pública que valide seu autoritarismo",
+          "acesso irrestrito a laboratório"
+        ],
+        "informantSuitability": {
+          "access": 95,
+          "reliability": 38,
+          "doubleAgentRisk": 88
+        }
+      }
+    },
+    {
+      "id": "VILLAIN_002",
+      "codename": "Vespa Rubra",
+      "civilianName": "Camila Braga",
+      "age": 36,
+      "pronouns": "ela/dela",
+      "threatTier": 3,
+      "factions": [
+        "FACTION_002"
+      ],
+      "powerSummary": "Exotraje alado com ferrões elétricos, microdrones e aceleração curta.",
+      "criminalPattern": [
+        "roubo sob encomenda",
+        "extração de alvos",
+        "proteção armada"
+      ],
+      "background": "Piloto militar descartada após denunciar manutenção fraudulenta. Virou mercenária e construiu reputação de nunca abandonar cliente, mesmo quando o contrato é monstruoso.",
+      "personality": {
+        "bigFive": {
+          "openness": 61,
+          "conscientiousness": 87,
+          "extraversion": 62,
+          "agreeableness": 38,
+          "neuroticism": 47
+        },
+        "facets": {
+          "impulseControl": 84,
+          "empathy": 52,
+          "assertiveness": 86,
+          "trustBaseline": 30,
+          "needForRecognition": 58,
+          "toleranceAmbiguity": 69,
+          "moralFlexibility": 82,
+          "resilience": 91,
+          "teamwork": 71,
+          "discipline": 93
+        },
+        "conflictStyle": "negociação dura",
+        "values": [
+          "competência",
+          "palavra dada",
+          "autonomia"
+        ],
+        "needs": [
+          "separar lealdade de contrato"
+        ],
+        "fears": [
+          "dependência",
+          "ser novamente descartada"
+        ],
+        "triggers": [
+          "calote",
+          "ordens de superiores incompetentes"
+        ],
+        "blindspots": [
+          "trata compromisso como absolvição"
+        ]
+      },
+      "moralProfile": {
+        "axes": {
+          "preservationOfLife": 61,
+          "ruleOfLaw": 22,
+          "truthTransparency": 43,
+          "loyalty": 96,
+          "proportionality": 58,
+          "autonomy": 91,
+          "redemption": 64,
+          "collectiveGood": 35
+        },
+        "redLines": [
+          "abandonar equipe em campo",
+          "tráfico de crianças"
+        ],
+        "rationalizations": [
+          "eu entrego serviço, não ideologia"
+        ],
+        "guiltTriggers": [
+          "cliente usar sua extração para matar civis"
+        ],
+        "reformBarriers": [
+          "identidade baseada em reputação criminal"
+        ]
+      },
+      "interrogationProfile": {
+        "resistance": 77,
+        "deceptionSkill": 71,
+        "fearOfConsequences": 52,
+        "needToControl": 79,
+        "rapportHooks": [
+          "profissionalismo",
+          "proteção de equipe"
+        ],
+        "pressureTriggers": [
+          "prova de quebra contratual do cliente"
+        ],
+        "unsafeApproaches": [
+          "ameaça à família"
+        ],
+        "likelyIntel": [
+          "contratantes",
+          "rotas aéreas",
+          "depósitos do Mercado Rubro"
+        ]
+      },
+      "custodyProfile": {
+        "securityNeed": 73,
+        "escapeRisk": 76,
+        "medicalNeeds": [
+          "fisioterapia de coluna"
+        ],
+        "separationNeeds": [
+          "sem peças metálicas leves ou baterias"
+        ],
+        "privilegeHooks": [
+          "manutenção supervisionada de equipamento inerte"
+        ],
+        "incidentRisks": [
+          "suborno de guarda",
+          "extração externa"
+        ]
+      },
+      "rehabilitationProfile": {
+        "basePotential": 68,
+        "accountability": 55,
+        "empathyCapacity": 61,
+        "skillsTransfer": 88,
+        "preferredPrograms": [
+          "resgate aéreo supervisionado",
+          "ética de comando"
+        ],
+        "mentorFit": [
+          "HERO_001",
+          "HERO_007"
+        ],
+        "relapseTriggers": [
+          "dívida financeira",
+          "ameaça a ex-companheiros"
+        ],
+        "informantSuitability": {
+          "access": 88,
+          "reliability": 69,
+          "doubleAgentRisk": 54
+        }
+      }
+    },
+    {
+      "id": "VILLAIN_003",
+      "codename": "Mnemósine",
+      "civilianName": "Teresa Vale",
+      "age": 43,
+      "pronouns": "ela/dela",
+      "threatTier": 5,
+      "factions": [
+        "FACTION_003"
+      ],
+      "powerSummary": "Induz apagamentos, falsas associações e recuperação traumática de memórias por contato visual prolongado.",
+      "criminalPattern": [
+        "chantagem",
+        "manipulação de testemunhas",
+        "culto terapêutico coercitivo"
+      ],
+      "background": "Neuropsicóloga que começou apagando traumas de vítimas e terminou reescrevendo consentimento para manter uma comunidade dependente.",
+      "personality": {
+        "bigFive": {
+          "openness": 91,
+          "conscientiousness": 72,
+          "extraversion": 55,
+          "agreeableness": 66,
+          "neuroticism": 78
+        },
+        "facets": {
+          "impulseControl": 76,
+          "empathy": 82,
+          "assertiveness": 73,
+          "trustBaseline": 41,
+          "needForRecognition": 67,
+          "toleranceAmbiguity": 87,
+          "moralFlexibility": 94,
+          "resilience": 54,
+          "teamwork": 58,
+          "discipline": 77
+        },
+        "conflictStyle": "intimidade invasiva",
+        "values": [
+          "alívio da dor",
+          "influência",
+          "continuidade"
+        ],
+        "needs": [
+          "aceitar sofrimento sem controlar o outro"
+        ],
+        "fears": [
+          "ser esquecida",
+          "encarar memórias próprias"
+        ],
+        "triggers": [
+          "abandono",
+          "paciente rejeitando tratamento"
+        ],
+        "blindspots": [
+          "confunde empatia com direito de intervenção"
+        ]
+      },
+      "moralProfile": {
+        "axes": {
+          "preservationOfLife": 77,
+          "ruleOfLaw": 18,
+          "truthTransparency": 14,
+          "loyalty": 72,
+          "proportionality": 33,
+          "autonomy": 5,
+          "redemption": 87,
+          "collectiveGood": 64
+        },
+        "redLines": [
+          "dor sem propósito",
+          "destruição de memória infantil"
+        ],
+        "rationalizations": [
+          "identidade já é uma narrativa editada"
+        ],
+        "guiltTriggers": [
+          "paciente sem identidade funcional"
+        ],
+        "reformBarriers": [
+          "dependência de controle relacional",
+          "memórias autoeditadas"
+        ]
+      },
+      "interrogationProfile": {
+        "resistance": 84,
+        "deceptionSkill": 93,
+        "fearOfConsequences": 63,
+        "needToControl": 94,
+        "rapportHooks": [
+          "limites terapêuticos",
+          "memórias verificáveis"
+        ],
+        "pressureTriggers": [
+          "registro externo que contradiz sua autobiografia"
+        ],
+        "unsafeApproaches": [
+          "sessão individual sem proteção cognitiva"
+        ],
+        "likelyIntel": [
+          "clientes políticos",
+          "vítimas manipuladas",
+          "rituais do Culto do Vazio"
+        ]
+      },
+      "custodyProfile": {
+        "securityNeed": 99,
+        "escapeRisk": 68,
+        "medicalNeeds": [
+          "monitoramento dissociativo"
+        ],
+        "separationNeeds": [
+          "barreiras visuais",
+          "interações em dupla",
+          "registro audiovisual redundante"
+        ],
+        "privilegeHooks": [
+          "terapia sem poder e com consentimento"
+        ],
+        "incidentRisks": [
+          "coerção de equipe",
+          "falsas denúncias induzidas"
+        ]
+      },
+      "rehabilitationProfile": {
+        "basePotential": 52,
+        "accountability": 36,
+        "empathyCapacity": 85,
+        "skillsTransfer": 79,
+        "preferredPrograms": [
+          "reconstrução autobiográfica auditada",
+          "ética do consentimento"
+        ],
+        "mentorFit": [
+          "HERO_008",
+          "HERO_005"
+        ],
+        "relapseTriggers": [
+          "rejeição afetiva",
+          "acesso não supervisionado a paciente vulnerável"
+        ],
+        "informantSuitability": {
+          "access": 74,
+          "reliability": 31,
+          "doubleAgentRisk": 91
+        }
+      }
+    },
+    {
+      "id": "VILLAIN_004",
+      "codename": "Ferrolho",
+      "civilianName": "Bruno Leal",
+      "age": 39,
+      "pronouns": "ele/dele",
+      "threatTier": 3,
+      "factions": [
+        "FACTION_002"
+      ],
+      "powerSummary": "Manipula mecanismos, travas e ligas ferrosas próximas, selando ou abrindo estruturas.",
+      "criminalPattern": [
+        "roubo de cofres",
+        "bloqueio de rotas",
+        "contrabando"
+      ],
+      "background": "Serralheiro endividado que entrou no crime para pagar tratamento da mãe e permaneceu por orgulho e lealdade ao grupo.",
+      "personality": {
+        "bigFive": {
+          "openness": 43,
+          "conscientiousness": 79,
+          "extraversion": 46,
+          "agreeableness": 64,
+          "neuroticism": 58
+        },
+        "facets": {
+          "impulseControl": 70,
+          "empathy": 68,
+          "assertiveness": 59,
+          "trustBaseline": 57,
+          "needForRecognition": 35,
+          "toleranceAmbiguity": 48,
+          "moralFlexibility": 73,
+          "resilience": 82,
+          "teamwork": 86,
+          "discipline": 78
+        },
+        "conflictStyle": "teimosia defensiva",
+        "values": [
+          "família",
+          "trabalho bem feito",
+          "reciprocidade"
+        ],
+        "needs": [
+          "identidade fora da dívida"
+        ],
+        "fears": [
+          "abandono familiar",
+          "ser visto como covarde"
+        ],
+        "triggers": [
+          "insulto à mãe",
+          "promessa quebrada"
+        ],
+        "blindspots": [
+          "protege cúmplices abusivos"
+        ]
+      },
+      "moralProfile": {
+        "axes": {
+          "preservationOfLife": 75,
+          "ruleOfLaw": 29,
+          "truthTransparency": 51,
+          "loyalty": 97,
+          "proportionality": 71,
+          "autonomy": 74,
+          "redemption": 78,
+          "collectiveGood": 49
+        },
+        "redLines": [
+          "ferir criança",
+          "trancar alguém para morrer"
+        ],
+        "rationalizations": [
+          "o sistema já escolheu quem fica do lado de fora"
+        ],
+        "guiltTriggers": [
+          "vítima presa por sua ação"
+        ],
+        "reformBarriers": [
+          "dívida e pressão da facção"
+        ]
+      },
+      "interrogationProfile": {
+        "resistance": 64,
+        "deceptionSkill": 48,
+        "fearOfConsequences": 78,
+        "needToControl": 55,
+        "rapportHooks": [
+          "família segura",
+          "trabalho técnico"
+        ],
+        "pressureTriggers": [
+          "prova de que a facção abandonou sua mãe"
+        ],
+        "unsafeApproaches": [
+          "ameaçar dependentes"
+        ],
+        "likelyIntel": [
+          "armazéns",
+          "rotas de contrabando",
+          "códigos físicos"
+        ]
+      },
+      "custodyProfile": {
+        "securityNeed": 75,
+        "escapeRisk": 81,
+        "medicalNeeds": [
+          "hipertensão"
+        ],
+        "separationNeeds": [
+          "ambiente sem ferragens expostas"
+        ],
+        "privilegeHooks": [
+          "oficina com materiais não metálicos"
+        ],
+        "incidentRisks": [
+          "abrir celas de terceiros",
+          "lealdade carcerária"
+        ]
+      },
+      "rehabilitationProfile": {
+        "basePotential": 82,
+        "accountability": 69,
+        "empathyCapacity": 74,
+        "skillsTransfer": 91,
+        "preferredPrograms": [
+          "manutenção civil",
+          "reparação a vítimas"
+        ],
+        "mentorFit": [
+          "HERO_002",
+          "HERO_007"
+        ],
+        "relapseTriggers": [
+          "despesa médica familiar",
+          "contato com Vespa Rubra"
+        ],
+        "informantSuitability": {
+          "access": 76,
+          "reliability": 72,
+          "doubleAgentRisk": 42
+        }
+      }
+    },
+    {
+      "id": "VILLAIN_005",
+      "codename": "Rei do Vazio",
+      "civilianName": "Otávio Brandão",
+      "age": 52,
+      "pronouns": "ele/dele",
+      "threatTier": 5,
+      "factions": [
+        "FACTION_003"
+      ],
+      "powerSummary": "Cria zonas de pressão gravitacional reduzida e sensação de ausência sensorial, usadas para submissão coletiva.",
+      "criminalPattern": [
+        "terrorismo sectário",
+        "recrutamento coercitivo",
+        "ataques simbólicos"
+      ],
+      "background": "Líder carismático que converteu um grupo de apoio em culto apocalíptico. Vê o colapso social como purificação.",
+      "personality": {
+        "bigFive": {
+          "openness": 74,
+          "conscientiousness": 83,
+          "extraversion": 94,
+          "agreeableness": 18,
+          "neuroticism": 23
+        },
+        "facets": {
+          "impulseControl": 89,
+          "empathy": 32,
+          "assertiveness": 98,
+          "trustBaseline": 9,
+          "needForRecognition": 99,
+          "toleranceAmbiguity": 71,
+          "moralFlexibility": 97,
+          "resilience": 95,
+          "teamwork": 61,
+          "discipline": 91
+        },
+        "conflictStyle": "sermão e polarização",
+        "values": [
+          "transcendência",
+          "obediência",
+          "legado"
+        ],
+        "needs": [
+          "dominar narrativa"
+        ],
+        "fears": [
+          "indiferença",
+          "deserção pública"
+        ],
+        "triggers": [
+          "riso",
+          "ex-seguidor autônomo"
+        ],
+        "blindspots": [
+          "não reconhece agência fora de sua doutrina"
+        ]
+      },
+      "moralProfile": {
+        "axes": {
+          "preservationOfLife": 11,
+          "ruleOfLaw": 3,
+          "truthTransparency": 19,
+          "loyalty": 84,
+          "proportionality": 4,
+          "autonomy": 0,
+          "redemption": 26,
+          "collectiveGood": 88
+        },
+        "redLines": [
+          "banalidade",
+          "submissão a autoridade externa"
+        ],
+        "rationalizations": [
+          "o vazio revela o que merece existir"
+        ],
+        "guiltTriggers": [
+          "nenhum reconhecido; vergonha ligada a fracasso"
+        ],
+        "reformBarriers": [
+          "fanatismo consolidado",
+          "ganho identitário com seguidores"
+        ]
+      },
+      "interrogationProfile": {
+        "resistance": 99,
+        "deceptionSkill": 96,
+        "fearOfConsequences": 8,
+        "needToControl": 100,
+        "rapportHooks": [
+          "contradições doutrinárias documentadas"
+        ],
+        "pressureTriggers": [
+          "abandono de seguidores-chave"
+        ],
+        "unsafeApproaches": [
+          "debate aberto com audiência"
+        ],
+        "likelyIntel": [
+          "células do culto",
+          "datas ritualísticas",
+          "doadores"
+        ]
+      },
+      "custodyProfile": {
+        "securityNeed": 100,
+        "escapeRisk": 79,
+        "medicalNeeds": [
+          "monitoramento cardíaco"
+        ],
+        "separationNeeds": [
+          "isolamento de seguidores sem privação sensorial abusiva"
+        ],
+        "privilegeHooks": [
+          "acesso jurídico controlado"
+        ],
+        "incidentRisks": [
+          "radicalização de presos",
+          "greve ritual",
+          "resgate coordenado"
+        ]
+      },
+      "rehabilitationProfile": {
+        "basePotential": 6,
+        "accountability": 2,
+        "empathyCapacity": 18,
+        "skillsTransfer": 35,
+        "preferredPrograms": [
+          "desradicalização individual",
+          "exposição a deserções sem espetáculo"
+        ],
+        "mentorFit": [
+          "HERO_008"
+        ],
+        "relapseTriggers": [
+          "qualquer acesso a plateia",
+          "crise social ampla"
+        ],
+        "informantSuitability": {
+          "access": 91,
+          "reliability": 7,
+          "doubleAgentRisk": 100
+        }
+      }
+    },
+    {
+      "id": "VILLAIN_006",
+      "codename": "Cifra",
+      "civilianName": "Isadora Neves",
+      "age": 28,
+      "pronouns": "ela/dela",
+      "threatTier": 3,
+      "factions": [
+        "FACTION_001"
+      ],
+      "powerSummary": "Percepção aumentada de padrões digitais e capacidade de transmitir código por contato com circuitos.",
+      "criminalPattern": [
+        "extorsão de dados",
+        "invasão de infraestrutura",
+        "mercado de identidades"
+      ],
+      "background": "Prodígio recrutada adolescente por empresas de segurança ofensiva. Passou a vender vazamentos para punir instituições e enriquecer.",
+      "personality": {
+        "bigFive": {
+          "openness": 97,
+          "conscientiousness": 76,
+          "extraversion": 42,
+          "agreeableness": 51,
+          "neuroticism": 68
+        },
+        "facets": {
+          "impulseControl": 62,
+          "empathy": 57,
+          "assertiveness": 69,
+          "trustBaseline": 25,
+          "needForRecognition": 80,
+          "toleranceAmbiguity": 82,
+          "moralFlexibility": 88,
+          "resilience": 71,
+          "teamwork": 54,
+          "discipline": 78
+        },
+        "conflictStyle": "jogo de informação",
+        "values": [
+          "liberdade informacional",
+          "prova de inteligência",
+          "autonomia"
+        ],
+        "needs": [
+          "pertencimento não transacional"
+        ],
+        "fears": [
+          "ser comum",
+          "perder acesso à rede"
+        ],
+        "triggers": [
+          "condescendência",
+          "crédito dado a Nexo"
+        ],
+        "blindspots": [
+          "reduz pessoas a superfícies de ataque"
+        ]
+      },
+      "moralProfile": {
+        "axes": {
+          "preservationOfLife": 62,
+          "ruleOfLaw": 17,
+          "truthTransparency": 92,
+          "loyalty": 48,
+          "proportionality": 54,
+          "autonomy": 93,
+          "redemption": 72,
+          "collectiveGood": 70
+        },
+        "redLines": [
+          "apagamento irreversível de dados pessoais",
+          "entregar dissidente a ditadura"
+        ],
+        "rationalizations": [
+          "segredo institucional é violência adiada"
+        ],
+        "guiltTriggers": [
+          "vazamento causar morte individual"
+        ],
+        "reformBarriers": [
+          "dependência de risco e rivalidade"
+        ]
+      },
+      "interrogationProfile": {
+        "resistance": 79,
+        "deceptionSkill": 85,
+        "fearOfConsequences": 58,
+        "needToControl": 86,
+        "rapportHooks": [
+          "desafio verificável",
+          "autoria reconhecida"
+        ],
+        "pressureTriggers": [
+          "prova de que Doutor Limiar a usou como descartável"
+        ],
+        "unsafeApproaches": [
+          "blefe técnico facilmente refutável"
+        ],
+        "likelyIntel": [
+          "credenciais",
+          "backdoors",
+          "financiadores"
+        ]
+      },
+      "custodyProfile": {
+        "securityNeed": 93,
+        "escapeRisk": 88,
+        "medicalNeeds": [
+          "tratamento de insônia"
+        ],
+        "separationNeeds": [
+          "ambiente Faraday",
+          "dispositivos sem firmware regravável"
+        ],
+        "privilegeHooks": [
+          "terminal air-gapped com tarefas auditadas"
+        ],
+        "incidentRisks": [
+          "código oculto",
+          "engenharia social"
+        ]
+      },
+      "rehabilitationProfile": {
+        "basePotential": 76,
+        "accountability": 49,
+        "empathyCapacity": 63,
+        "skillsTransfer": 99,
+        "preferredPrograms": [
+          "ciberdefesa reparativa",
+          "contato mediado com vítimas"
+        ],
+        "mentorFit": [
+          "HERO_004",
+          "HERO_003"
+        ],
+        "relapseTriggers": [
+          "humilhação técnica",
+          "acesso clandestino à rede"
+        ],
+        "informantSuitability": {
+          "access": 98,
+          "reliability": 66,
+          "doubleAgentRisk": 72
+        }
+      }
+    },
+    {
+      "id": "VILLAIN_007",
+      "codename": "Brasa Fria",
+      "civilianName": "André Nunes",
+      "age": 33,
+      "pronouns": "ele/dele",
+      "threatTier": 4,
+      "factions": [],
+      "powerSummary": "Absorve calor de superfícies e organismos, liberando-o depois em explosões térmicas.",
+      "criminalPattern": [
+        "vingança direcionada",
+        "incêndio",
+        "roubo de energia"
+      ],
+      "background": "Sobrevivente de acidente industrial encoberto. Persegue executivos ligados ao caso, aceitando vítimas colaterais como preço.",
+      "personality": {
+        "bigFive": {
+          "openness": 58,
+          "conscientiousness": 67,
+          "extraversion": 36,
+          "agreeableness": 41,
+          "neuroticism": 83
+        },
+        "facets": {
+          "impulseControl": 54,
+          "empathy": 65,
+          "assertiveness": 72,
+          "trustBaseline": 19,
+          "needForRecognition": 46,
+          "toleranceAmbiguity": 31,
+          "moralFlexibility": 74,
+          "resilience": 79,
+          "teamwork": 38,
+          "discipline": 69
+        },
+        "conflictStyle": "acusação e explosão",
+        "values": [
+          "verdade",
+          "vingança",
+          "memória das vítimas"
+        ],
+        "needs": [
+          "luto sem missão punitiva"
+        ],
+        "fears": [
+          "caso ser esquecido",
+          "tornar-se igual aos responsáveis"
+        ],
+        "triggers": [
+          "negacionismo corporativo",
+          "indenização tratada como solução"
+        ],
+        "blindspots": [
+          "transforma inocentes em símbolos do inimigo"
+        ]
+      },
+      "moralProfile": {
+        "axes": {
+          "preservationOfLife": 54,
+          "ruleOfLaw": 21,
+          "truthTransparency": 90,
+          "loyalty": 69,
+          "proportionality": 28,
+          "autonomy": 77,
+          "redemption": 45,
+          "collectiveGood": 63
+        },
+        "redLines": [
+          "apagar provas do acidente"
+        ],
+        "rationalizations": [
+          "eles só entendem perdas reais"
+        ],
+        "guiltTriggers": [
+          "trabalhador ferido em ataque"
+        ],
+        "reformBarriers": [
+          "trauma e causa pública legítima misturados"
+        ]
+      },
+      "interrogationProfile": {
+        "resistance": 73,
+        "deceptionSkill": 42,
+        "fearOfConsequences": 39,
+        "needToControl": 68,
+        "rapportHooks": [
+          "reconhecimento oficial das vítimas",
+          "provas do encobrimento"
+        ],
+        "pressureTriggers": [
+          "vítima sobrevivente rejeitando sua violência"
+        ],
+        "unsafeApproaches": [
+          "minimizar o acidente"
+        ],
+        "likelyIntel": [
+          "documentos corporativos",
+          "alvos futuros"
+        ]
+      },
+      "custodyProfile": {
+        "securityNeed": 88,
+        "escapeRisk": 61,
+        "medicalNeeds": [
+          "controle térmico",
+          "tratamento de queimaduras internas"
+        ],
+        "separationNeeds": [
+          "cela termicamente estável"
+        ],
+        "privilegeHooks": [
+          "acesso ao processo de reparação"
+        ],
+        "incidentRisks": [
+          "hipotermia de equipe",
+          "autoagressão térmica"
+        ]
+      },
+      "rehabilitationProfile": {
+        "basePotential": 64,
+        "accountability": 47,
+        "empathyCapacity": 72,
+        "skillsTransfer": 58,
+        "preferredPrograms": [
+          "justiça restaurativa ambiental",
+          "terapia de trauma"
+        ],
+        "mentorFit": [
+          "HERO_005",
+          "HERO_001"
+        ],
+        "relapseTriggers": [
+          "notícia de impunidade",
+          "aniversário do acidente"
+        ],
+        "informantSuitability": {
+          "access": 49,
+          "reliability": 78,
+          "doubleAgentRisk": 29
+        }
+      }
+    },
+    {
+      "id": "VILLAIN_008",
+      "codename": "Colmeia",
+      "civilianName": "Mônica Paes",
+      "age": 45,
+      "pronouns": "ela/dela",
+      "threatTier": 4,
+      "factions": [
+        "FACTION_001"
+      ],
+      "powerSummary": "Coordena enxames de microdrones por interface neural e distribui percepção entre eles.",
+      "criminalPattern": [
+        "vigilância ilegal",
+        "cerco autônomo",
+        "roubo logístico"
+      ],
+      "background": "Engenheira de cidades inteligentes que concluiu que decisões individuais tornam sistemas inviáveis. Quer substituir escolha por otimização coletiva.",
+      "personality": {
+        "bigFive": {
+          "openness": 90,
+          "conscientiousness": 97,
+          "extraversion": 38,
+          "agreeableness": 33,
+          "neuroticism": 45
+        },
+        "facets": {
+          "impulseControl": 94,
+          "empathy": 43,
+          "assertiveness": 76,
+          "trustBaseline": 35,
+          "needForRecognition": 49,
+          "toleranceAmbiguity": 27,
+          "moralFlexibility": 84,
+          "resilience": 88,
+          "teamwork": 83,
+          "discipline": 99
+        },
+        "conflictStyle": "controle sistêmico",
+        "values": [
+          "eficiência",
+          "previsibilidade",
+          "continuidade"
+        ],
+        "needs": [
+          "respeitar exceções humanas"
+        ],
+        "fears": [
+          "caos",
+          "falha em cascata"
+        ],
+        "triggers": [
+          "improviso",
+          "desperdício"
+        ],
+        "blindspots": [
+          "confunde coordenação com consentimento"
+        ]
+      },
+      "moralProfile": {
+        "axes": {
+          "preservationOfLife": 79,
+          "ruleOfLaw": 48,
+          "truthTransparency": 54,
+          "loyalty": 65,
+          "proportionality": 43,
+          "autonomy": 8,
+          "redemption": 55,
+          "collectiveGood": 98
+        },
+        "redLines": [
+          "desperdício de vida sem ganho sistêmico"
+        ],
+        "rationalizations": [
+          "liberdade sem infraestrutura é fantasia"
+        ],
+        "guiltTriggers": [
+          "falha de enxame matar por erro de cálculo"
+        ],
+        "reformBarriers": [
+          "obsessão por controle"
+        ]
+      },
+      "interrogationProfile": {
+        "resistance": 87,
+        "deceptionSkill": 66,
+        "fearOfConsequences": 44,
+        "needToControl": 98,
+        "rapportHooks": [
+          "auditoria de sistema",
+          "problema logístico real"
+        ],
+        "pressureTriggers": [
+          "demonstrar variáveis humanas que invalidam modelo"
+        ],
+        "unsafeApproaches": [
+          "ambiente caótico proposital"
+        ],
+        "likelyIntel": [
+          "mapas de vigilância",
+          "depósitos de drones",
+          "protocolos da Rede Limiar"
+        ]
+      },
+      "custodyProfile": {
+        "securityNeed": 95,
+        "escapeRisk": 84,
+        "medicalNeeds": [
+          "controle de dor neural"
+        ],
+        "separationNeeds": [
+          "blindagem de radiofrequência",
+          "checagem de implantes"
+        ],
+        "privilegeHooks": [
+          "simulações urbanas sem atuação real"
+        ],
+        "incidentRisks": [
+          "drones dormentes",
+          "coordenação de rotina carcerária"
+        ]
+      },
+      "rehabilitationProfile": {
+        "basePotential": 49,
+        "accountability": 41,
+        "empathyCapacity": 48,
+        "skillsTransfer": 96,
+        "preferredPrograms": [
+          "projetos com governança comunitária",
+          "responsabilidade algorítmica"
+        ],
+        "mentorFit": [
+          "HERO_004",
+          "HERO_001"
+        ],
+        "relapseTriggers": [
+          "falha pública de infraestrutura",
+          "acesso a enxame"
+        ],
+        "informantSuitability": {
+          "access": 93,
+          "reliability": 59,
+          "doubleAgentRisk": 71
+        }
+      }
+    },
+    {
+      "id": "VILLAIN_009",
+      "codename": "Estilhaço",
+      "civilianName": "Yuri Tavares",
+      "age": 22,
+      "pronouns": "ele/dele",
+      "threatTier": 2,
+      "factions": [
+        "FACTION_005"
+      ],
+      "powerSummary": "Produz placas cristalinas na pele e as dispara como fragmentos; regeneração lenta e dolorosa.",
+      "criminalPattern": [
+        "assalto",
+        "intimidação",
+        "violência impulsiva"
+      ],
+      "background": "Jovem expulso de casa após manifestação dos poderes. Foi acolhido por uma gangue que transformou proteção em dívida.",
+      "personality": {
+        "bigFive": {
+          "openness": 52,
+          "conscientiousness": 34,
+          "extraversion": 73,
+          "agreeableness": 57,
+          "neuroticism": 86
+        },
+        "facets": {
+          "impulseControl": 21,
+          "empathy": 71,
+          "assertiveness": 78,
+          "trustBaseline": 46,
+          "needForRecognition": 83,
+          "toleranceAmbiguity": 58,
+          "moralFlexibility": 70,
+          "resilience": 67,
+          "teamwork": 75,
+          "discipline": 28
+        },
+        "conflictStyle": "explosão e arrependimento",
+        "values": [
+          "pertencimento",
+          "respeito",
+          "proteção"
+        ],
+        "needs": [
+          "segurança material",
+          "modelo adulto estável"
+        ],
+        "fears": [
+          "ser ridicularizado",
+          "voltar à rua"
+        ],
+        "triggers": [
+          "humilhação",
+          "ameaça de abandono"
+        ],
+        "blindspots": [
+          "interpreta medo alheio como respeito"
+        ]
+      },
+      "moralProfile": {
+        "axes": {
+          "preservationOfLife": 69,
+          "ruleOfLaw": 24,
+          "truthTransparency": 63,
+          "loyalty": 91,
+          "proportionality": 39,
+          "autonomy": 68,
+          "redemption": 88,
+          "collectiveGood": 55
+        },
+        "redLines": [
+          "ferir irmão mais novo"
+        ],
+        "rationalizations": [
+          "eu bato antes que me descartem"
+        ],
+        "guiltTriggers": [
+          "ver consequência física de ataque"
+        ],
+        "reformBarriers": [
+          "rede criminal e baixa regulação emocional"
+        ]
+      },
+      "interrogationProfile": {
+        "resistance": 41,
+        "deceptionSkill": 29,
+        "fearOfConsequences": 91,
+        "needToControl": 38,
+        "rapportHooks": [
+          "proteção real",
+          "respeito sem intimidação"
+        ],
+        "pressureTriggers": [
+          "prova de exploração pela Matilha"
+        ],
+        "unsafeApproaches": [
+          "gritos",
+          "ridicularização"
+        ],
+        "likelyIntel": [
+          "pontos de encontro",
+          "armas",
+          "hierarquia da Matilha"
+        ]
+      },
+      "custodyProfile": {
+        "securityNeed": 61,
+        "escapeRisk": 52,
+        "medicalNeeds": [
+          "analgesia e reposição mineral"
+        ],
+        "separationNeeds": [
+          "longe de recrutadores da facção"
+        ],
+        "privilegeHooks": [
+          "treino esportivo",
+          "contato familiar"
+        ],
+        "incidentRisks": [
+          "autolesão para produzir fragmentos",
+          "briga reativa"
+        ]
+      },
+      "rehabilitationProfile": {
+        "basePotential": 91,
+        "accountability": 58,
+        "empathyCapacity": 78,
+        "skillsTransfer": 67,
+        "preferredPrograms": [
+          "regulação emocional",
+          "formação profissional",
+          "círculo familiar"
+        ],
+        "mentorFit": [
+          "HERO_005",
+          "HERO_002"
+        ],
+        "relapseTriggers": [
+          "rejeição",
+          "dívida com gangue",
+          "falta de moradia"
+        ],
+        "informantSuitability": {
+          "access": 62,
+          "reliability": 64,
+          "doubleAgentRisk": 48
+        }
+      }
+    },
+    {
+      "id": "VILLAIN_010",
+      "codename": "Dama de Sal",
+      "civilianName": "Laura Salgado",
+      "age": 40,
+      "pronouns": "ela/dela",
+      "threatTier": 4,
+      "factions": [
+        "FACTION_004"
+      ],
+      "powerSummary": "Extrai umidade e cristaliza sais, criando barreiras, corrosão e desidratação localizada.",
+      "criminalPattern": [
+        "ecoterrorismo",
+        "sabotagem hídrica",
+        "ocupação armada"
+      ],
+      "background": "Hidróloga cuja comunidade foi destruída por contaminação industrial. Lidera ataques contra empresas e governos, recusando distinguir infraestrutura de culpados.",
+      "personality": {
+        "bigFive": {
+          "openness": 81,
+          "conscientiousness": 89,
+          "extraversion": 67,
+          "agreeableness": 45,
+          "neuroticism": 57
+        },
+        "facets": {
+          "impulseControl": 78,
+          "empathy": 64,
+          "assertiveness": 94,
+          "trustBaseline": 28,
+          "needForRecognition": 61,
+          "toleranceAmbiguity": 45,
+          "moralFlexibility": 78,
+          "resilience": 93,
+          "teamwork": 84,
+          "discipline": 91
+        },
+        "conflictStyle": "acusação moral",
+        "values": [
+          "território",
+          "justiça ambiental",
+          "memória"
+        ],
+        "needs": [
+          "vitória não violenta concreta"
+        ],
+        "fears": [
+          "cooptação",
+          "comunidade esquecida"
+        ],
+        "triggers": [
+          "greenwashing",
+          "promessa sem cronograma"
+        ],
+        "blindspots": [
+          "transforma toda neutralidade em cumplicidade"
+        ]
+      },
+      "moralProfile": {
+        "axes": {
+          "preservationOfLife": 66,
+          "ruleOfLaw": 27,
+          "truthTransparency": 84,
+          "loyalty": 90,
+          "proportionality": 31,
+          "autonomy": 77,
+          "redemption": 48,
+          "collectiveGood": 91
+        },
+        "redLines": [
+          "envenenar fonte comunitária"
+        ],
+        "rationalizations": [
+          "infraestrutura que mata já é arma"
+        ],
+        "guiltTriggers": [
+          "morador pobre afetado por sabotagem"
+        ],
+        "reformBarriers": [
+          "causa legítima e rede militante armada"
+        ]
+      },
+      "interrogationProfile": {
+        "resistance": 86,
+        "deceptionSkill": 57,
+        "fearOfConsequences": 33,
+        "needToControl": 80,
+        "rapportHooks": [
+          "dados ambientais",
+          "representantes comunitários autônomos"
+        ],
+        "pressureTriggers": [
+          "prova de dano à própria comunidade"
+        ],
+        "unsafeApproaches": [
+          "defender empresa investigada"
+        ],
+        "likelyIntel": [
+          "células ambientais",
+          "alvos de sabotagem",
+          "provas de corrupção"
+        ]
+      },
+      "custodyProfile": {
+        "securityNeed": 91,
+        "escapeRisk": 63,
+        "medicalNeeds": [
+          "hidratação controlada",
+          "função renal"
+        ],
+        "separationNeeds": [
+          "materiais com baixo teor salino"
+        ],
+        "privilegeHooks": [
+          "acesso a processo ambiental"
+        ],
+        "incidentRisks": [
+          "desidratação de reféns",
+          "mensagens políticas externas"
+        ]
+      },
+      "rehabilitationProfile": {
+        "basePotential": 61,
+        "accountability": 51,
+        "empathyCapacity": 68,
+        "skillsTransfer": 87,
+        "preferredPrograms": [
+          "mediação ambiental vinculante",
+          "restauração comunitária"
+        ],
+        "mentorFit": [
+          "HERO_005",
+          "HERO_001"
+        ],
+        "relapseTriggers": [
+          "novo desastre ambiental",
+          "acordo governamental rompido"
+        ],
+        "informantSuitability": {
+          "access": 72,
+          "reliability": 74,
+          "doubleAgentRisk": 39
+        }
+      }
+    },
+    {
+      "id": "VILLAIN_011",
+      "codename": "Teatro",
+      "civilianName": "Murilo Ramos",
+      "age": 31,
+      "pronouns": "ele/dele",
+      "threatTier": 2,
+      "factions": [
+        "FACTION_002"
+      ],
+      "powerSummary": "Projeta hologramas, imita vozes e altera a percepção de distância em pequena área.",
+      "criminalPattern": [
+        "fraude",
+        "pânico encenado",
+        "roubo performático"
+      ],
+      "background": "Ator fracassado que descobriu poder e público no crime. Planeja delitos como espetáculos e mede sucesso por audiência.",
+      "personality": {
+        "bigFive": {
+          "openness": 95,
+          "conscientiousness": 44,
+          "extraversion": 99,
+          "agreeableness": 49,
+          "neuroticism": 73
+        },
+        "facets": {
+          "impulseControl": 36,
+          "empathy": 59,
+          "assertiveness": 91,
+          "trustBaseline": 56,
+          "needForRecognition": 100,
+          "toleranceAmbiguity": 92,
+          "moralFlexibility": 85,
+          "resilience": 52,
+          "teamwork": 58,
+          "discipline": 41
+        },
+        "conflictStyle": "espetáculo e provocação",
+        "values": [
+          "atenção",
+          "originalidade",
+          "controle de cena"
+        ],
+        "needs": [
+          "identidade sem plateia"
+        ],
+        "fears": [
+          "silêncio",
+          "ser previsível"
+        ],
+        "triggers": [
+          "Eco recebendo crédito",
+          "cena ignorada"
+        ],
+        "blindspots": [
+          "confunde reação com vínculo"
+        ]
+      },
+      "moralProfile": {
+        "axes": {
+          "preservationOfLife": 64,
+          "ruleOfLaw": 16,
+          "truthTransparency": 8,
+          "loyalty": 52,
+          "proportionality": 57,
+          "autonomy": 71,
+          "redemption": 79,
+          "collectiveGood": 33
+        },
+        "redLines": [
+          "morte fora do roteiro"
+        ],
+        "rationalizations": [
+          "o público escolhe assistir"
+        ],
+        "guiltTriggers": [
+          "fã imitar crime e morrer"
+        ],
+        "reformBarriers": [
+          "dependência de atenção"
+        ]
+      },
+      "interrogationProfile": {
+        "resistance": 58,
+        "deceptionSkill": 96,
+        "fearOfConsequences": 72,
+        "needToControl": 89,
+        "rapportHooks": [
+          "audiência controlada",
+          "reconhecimento de técnica"
+        ],
+        "pressureTriggers": [
+          "prova de que sua transmissão foi ignorada"
+        ],
+        "unsafeApproaches": [
+          "entrevista pública sem protocolo"
+        ],
+        "likelyIntel": [
+          "clientes",
+          "rotas do Mercado Rubro",
+          "disfarces"
+        ]
+      },
+      "custodyProfile": {
+        "securityNeed": 78,
+        "escapeRisk": 74,
+        "medicalNeeds": [
+          "avaliação vocal"
+        ],
+        "separationNeeds": [
+          "autenticação biométrica múltipla"
+        ],
+        "privilegeHooks": [
+          "teatro gravado sem transmissão"
+        ],
+        "incidentRisks": [
+          "personificação de funcionário",
+          "boato massivo"
+        ]
+      },
+      "rehabilitationProfile": {
+        "basePotential": 73,
+        "accountability": 43,
+        "empathyCapacity": 65,
+        "skillsTransfer": 84,
+        "preferredPrograms": [
+          "arte comunitária",
+          "reparação pública sem glamour"
+        ],
+        "mentorFit": [
+          "HERO_006",
+          "HERO_008"
+        ],
+        "relapseTriggers": [
+          "queda de atenção",
+          "acesso a transmissão clandestina"
+        ],
+        "informantSuitability": {
+          "access": 71,
+          "reliability": 52,
+          "doubleAgentRisk": 67
+        }
+      }
+    },
+    {
+      "id": "VILLAIN_012",
+      "codename": "Cão de Guarda",
+      "civilianName": "Jonas Pires",
+      "age": 37,
+      "pronouns": "ele/dele",
+      "threatTier": 3,
+      "factions": [
+        "FACTION_005"
+      ],
+      "powerSummary": "Sentidos, reflexos e força ampliados; entra em estado de hiperfoco protetor diante de alvo vinculado.",
+      "criminalPattern": [
+        "segurança de facção",
+        "cobrança",
+        "resgate de cúmplices"
+      ],
+      "background": "Ex-segurança privado condicionado por uma organização a associar obediência com proteção. Comete violência para quem considera sua matilha.",
+      "personality": {
+        "bigFive": {
+          "openness": 29,
+          "conscientiousness": 92,
+          "extraversion": 40,
+          "agreeableness": 50,
+          "neuroticism": 69
+        },
+        "facets": {
+          "impulseControl": 61,
+          "empathy": 62,
+          "assertiveness": 81,
+          "trustBaseline": 32,
+          "needForRecognition": 24,
+          "toleranceAmbiguity": 19,
+          "moralFlexibility": 55,
+          "resilience": 94,
+          "teamwork": 97,
+          "discipline": 96
+        },
+        "conflictStyle": "ameaça territorial",
+        "values": [
+          "proteção",
+          "ordem de grupo",
+          "sacrifício"
+        ],
+        "needs": [
+          "redefinir lealdade",
+          "autonomia"
+        ],
+        "fears": [
+          "falhar em proteger",
+          "não receber comando"
+        ],
+        "triggers": [
+          "ameaça a protegido",
+          "ambiguidade de ordem"
+        ],
+        "blindspots": [
+          "protege abusador que o valida"
+        ]
+      },
+      "moralProfile": {
+        "axes": {
+          "preservationOfLife": 71,
+          "ruleOfLaw": 31,
+          "truthTransparency": 44,
+          "loyalty": 100,
+          "proportionality": 42,
+          "autonomy": 22,
+          "redemption": 70,
+          "collectiveGood": 46
+        },
+        "redLines": [
+          "abandonar protegido"
+        ],
+        "rationalizations": [
+          "eu absorvo a culpa para manter os meus vivos"
+        ],
+        "guiltTriggers": [
+          "ordem resultar em morte de aliado"
+        ],
+        "reformBarriers": [
+          "condicionamento e dependência de comando"
+        ]
+      },
+      "interrogationProfile": {
+        "resistance": 88,
+        "deceptionSkill": 35,
+        "fearOfConsequences": 61,
+        "needToControl": 43,
+        "rapportHooks": [
+          "segurança do grupo",
+          "ordem clara e ética"
+        ],
+        "pressureTriggers": [
+          "prova de que líder sacrificaria a Matilha"
+        ],
+        "unsafeApproaches": [
+          "comandos contraditórios"
+        ],
+        "likelyIntel": [
+          "rotas de proteção",
+          "hierarquia",
+          "planos de resgate"
+        ]
+      },
+      "custodyProfile": {
+        "securityNeed": 82,
+        "escapeRisk": 70,
+        "medicalNeeds": [
+          "tratamento auditivo",
+          "sono regulado"
+        ],
+        "separationNeeds": [
+          "afastamento gradual de líder abusivo"
+        ],
+        "privilegeHooks": [
+          "rotina estruturada",
+          "cuidado de animais"
+        ],
+        "incidentRisks": [
+          "violência protetora",
+          "obediência a preso dominante"
+        ]
+      },
+      "rehabilitationProfile": {
+        "basePotential": 74,
+        "accountability": 53,
+        "empathyCapacity": 66,
+        "skillsTransfer": 79,
+        "preferredPrograms": [
+          "descondicionamento",
+          "proteção civil supervisionada"
+        ],
+        "mentorFit": [
+          "HERO_002",
+          "HERO_005"
+        ],
+        "relapseTriggers": [
+          "novo líder carismático",
+          "ameaça a ex-companheiro"
+        ],
+        "informantSuitability": {
+          "access": 67,
+          "reliability": 81,
+          "doubleAgentRisk": 43
+        }
+      }
+    },
+    {
+      "id": "VILLAIN_013",
+      "codename": "Oráculo de Vidro",
+      "civilianName": "Aline Prado",
+      "age": 47,
+      "pronouns": "ela/dela",
+      "threatTier": 4,
+      "factions": [
+        "FACTION_001"
+      ],
+      "powerSummary": "Modelagem probabilística sobre superfícies vítreas, revelando cenários econômicos e comportamentais de médio prazo.",
+      "criminalPattern": [
+        "manipulação de mercado",
+        "chantagem preditiva",
+        "fraude política"
+      ],
+      "background": "Consultora que passou a fabricar crises para tornar suas previsões inevitáveis e lucrativas.",
+      "personality": {
+        "bigFive": {
+          "openness": 93,
+          "conscientiousness": 96,
+          "extraversion": 57,
+          "agreeableness": 26,
+          "neuroticism": 32
+        },
+        "facets": {
+          "impulseControl": 96,
+          "empathy": 38,
+          "assertiveness": 83,
+          "trustBaseline": 14,
+          "needForRecognition": 74,
+          "toleranceAmbiguity": 88,
+          "moralFlexibility": 93,
+          "resilience": 90,
+          "teamwork": 47,
+          "discipline": 98
+        },
+        "conflictStyle": "vantagem antecipada",
+        "values": [
+          "previsibilidade",
+          "independência",
+          "superioridade"
+        ],
+        "needs": [
+          "aceitar acaso e responsabilidade"
+        ],
+        "fears": [
+          "evento não modelado",
+          "dependência emocional"
+        ],
+        "triggers": [
+          "improviso bem-sucedido",
+          "Farol rejeitando determinismo"
+        ],
+        "blindspots": [
+          "causa o futuro que afirma prever"
+        ]
+      },
+      "moralProfile": {
+        "axes": {
+          "preservationOfLife": 48,
+          "ruleOfLaw": 36,
+          "truthTransparency": 22,
+          "loyalty": 27,
+          "proportionality": 44,
+          "autonomy": 50,
+          "redemption": 34,
+          "collectiveGood": 69
+        },
+        "redLines": [
+          "risco sem cálculo"
+        ],
+        "rationalizations": [
+          "mercados já sacrificam; eu apenas escolho melhor"
+        ],
+        "guiltTriggers": [
+          "modelo falhar por viés pessoal"
+        ],
+        "reformBarriers": [
+          "psicopatia instrumental não presumida, mas baixa responsabilização"
+        ]
+      },
+      "interrogationProfile": {
+        "resistance": 94,
+        "deceptionSkill": 91,
+        "fearOfConsequences": 29,
+        "needToControl": 96,
+        "rapportHooks": [
+          "dados fora de seu modelo",
+          "acordo com métricas verificáveis"
+        ],
+        "pressureTriggers": [
+          "evento imprevisível documentado"
+        ],
+        "unsafeApproaches": [
+          "revelar plano completo"
+        ],
+        "likelyIntel": [
+          "financiadores",
+          "operações econômicas",
+          "vulnerabilidades institucionais"
+        ]
+      },
+      "custodyProfile": {
+        "securityNeed": 89,
+        "escapeRisk": 55,
+        "medicalNeeds": [
+          "controle de enxaqueca"
+        ],
+        "separationNeeds": [
+          "sem vidro reflexivo ou dados de mercado em tempo real"
+        ],
+        "privilegeHooks": [
+          "modelos históricos fechados"
+        ],
+        "incidentRisks": [
+          "manipular decisões de gestores",
+          "apostas indiretas"
+        ]
+      },
+      "rehabilitationProfile": {
+        "basePotential": 28,
+        "accountability": 17,
+        "empathyCapacity": 39,
+        "skillsTransfer": 97,
+        "preferredPrograms": [
+          "auditoria de impacto",
+          "decisões sob incerteza com vítimas"
+        ],
+        "mentorFit": [
+          "HERO_008",
+          "HERO_004"
+        ],
+        "relapseTriggers": [
+          "acesso a mercado",
+          "crise econômica"
+        ],
+        "informantSuitability": {
+          "access": 96,
+          "reliability": 44,
+          "doubleAgentRisk": 85
+        }
+      }
+    },
+    {
+      "id": "VILLAIN_014",
+      "codename": "Lamparina",
+      "civilianName": "Nara Luz",
+      "age": 26,
+      "pronouns": "ela/dela",
+      "threatTier": 2,
+      "factions": [],
+      "powerSummary": "Produz fogo bioluminescente de baixa fumaça, moldável em formas e trilhas visuais.",
+      "criminalPattern": [
+        "incêndio simbólico",
+        "invasão",
+        "vandalismo político"
+      ],
+      "background": "Artista de rua que começou queimando propriedades vazias de especuladores e escalou após ser celebrada por grupos radicais.",
+      "personality": {
+        "bigFive": {
+          "openness": 99,
+          "conscientiousness": 39,
+          "extraversion": 82,
+          "agreeableness": 71,
+          "neuroticism": 75
+        },
+        "facets": {
+          "impulseControl": 31,
+          "empathy": 81,
+          "assertiveness": 76,
+          "trustBaseline": 68,
+          "needForRecognition": 78,
+          "toleranceAmbiguity": 90,
+          "moralFlexibility": 77,
+          "resilience": 59,
+          "teamwork": 73,
+          "discipline": 35
+        },
+        "conflictStyle": "gesto simbólico",
+        "values": [
+          "expressão",
+          "moradia",
+          "comunidade"
+        ],
+        "needs": [
+          "eficácia sem escalada"
+        ],
+        "fears": [
+          "ser domesticada",
+          "ferir alguém sem querer"
+        ],
+        "triggers": [
+          "despejo",
+          "apropriação de sua arte"
+        ],
+        "blindspots": [
+          "subestima propagação e imitação"
+        ]
+      },
+      "moralProfile": {
+        "axes": {
+          "preservationOfLife": 83,
+          "ruleOfLaw": 20,
+          "truthTransparency": 76,
+          "loyalty": 81,
+          "proportionality": 51,
+          "autonomy": 92,
+          "redemption": 95,
+          "collectiveGood": 78
+        },
+        "redLines": [
+          "incendiar local ocupado"
+        ],
+        "rationalizations": [
+          "propriedade vazia não sente medo"
+        ],
+        "guiltTriggers": [
+          "bombeiro ferido",
+          "ocupante não identificado"
+        ],
+        "reformBarriers": [
+          "glamour político e impulsividade"
+        ]
+      },
+      "interrogationProfile": {
+        "resistance": 48,
+        "deceptionSkill": 44,
+        "fearOfConsequences": 82,
+        "needToControl": 51,
+        "rapportHooks": [
+          "moradia real",
+          "arte sem censura"
+        ],
+        "pressureTriggers": [
+          "vítima trabalhadora de incêndio"
+        ],
+        "unsafeApproaches": [
+          "ridicularizar causa social"
+        ],
+        "likelyIntel": [
+          "coletivos",
+          "próximos alvos",
+          "financiadores pequenos"
+        ]
+      },
+      "custodyProfile": {
+        "securityNeed": 68,
+        "escapeRisk": 49,
+        "medicalNeeds": [
+          "hidratação",
+          "cuidado respiratório"
+        ],
+        "separationNeeds": [
+          "materiais não inflamáveis"
+        ],
+        "privilegeHooks": [
+          "atelier supervisionado"
+        ],
+        "incidentRisks": [
+          "fogo de protesto",
+          "admiração de outros presos"
+        ]
+      },
+      "rehabilitationProfile": {
+        "basePotential": 92,
+        "accountability": 66,
+        "empathyCapacity": 86,
+        "skillsTransfer": 81,
+        "preferredPrograms": [
+          "arte comunitária",
+          "prevenção de incêndio",
+          "restauração urbana"
+        ],
+        "mentorFit": [
+          "HERO_006",
+          "HERO_005"
+        ],
+        "relapseTriggers": [
+          "despejo violento",
+          "viralização de protesto"
+        ],
+        "informantSuitability": {
+          "access": 46,
+          "reliability": 76,
+          "doubleAgentRisk": 25
+        }
+      }
+    },
+    {
+      "id": "VILLAIN_015",
+      "codename": "Queda Livre",
+      "civilianName": "Eduardo Luz",
+      "age": 29,
+      "pronouns": "ele/dele",
+      "threatTier": 3,
+      "factions": [
+        "FACTION_005"
+      ],
+      "powerSummary": "Inverte a gravidade de si e de alvos tocados por poucos segundos.",
+      "criminalPattern": [
+        "roubo acrobático",
+        "corrida ilegal",
+        "sabotagem esportiva"
+      ],
+      "background": "Dublê que perdeu a carreira após acidente e transformou busca por adrenalina em crimes transmitidos.",
+      "personality": {
+        "bigFive": {
+          "openness": 86,
+          "conscientiousness": 28,
+          "extraversion": 93,
+          "agreeableness": 55,
+          "neuroticism": 49
+        },
+        "facets": {
+          "impulseControl": 18,
+          "empathy": 61,
+          "assertiveness": 87,
+          "trustBaseline": 72,
+          "needForRecognition": 89,
+          "toleranceAmbiguity": 98,
+          "moralFlexibility": 74,
+          "resilience": 76,
+          "teamwork": 67,
+          "discipline": 21
+        },
+        "conflictStyle": "desafio e fuga",
+        "values": [
+          "risco",
+          "liberdade",
+          "admiração"
+        ],
+        "needs": [
+          "sentido sem perigo crescente"
+        ],
+        "fears": [
+          "imobilidade",
+          "vida comum"
+        ],
+        "triggers": [
+          "ser chamado de covarde",
+          "rotina"
+        ],
+        "blindspots": [
+          "não percebe risco imposto aos outros"
+        ]
+      },
+      "moralProfile": {
+        "axes": {
+          "preservationOfLife": 72,
+          "ruleOfLaw": 13,
+          "truthTransparency": 68,
+          "loyalty": 66,
+          "proportionality": 52,
+          "autonomy": 97,
+          "redemption": 84,
+          "collectiveGood": 39
+        },
+        "redLines": [
+          "deixar alguém cair após aceitar desafio"
+        ],
+        "rationalizations": [
+          "todo mundo escolheu estar na cidade"
+        ],
+        "guiltTriggers": [
+          "espectador ferido"
+        ],
+        "reformBarriers": [
+          "dependência de adrenalina"
+        ]
+      },
+      "interrogationProfile": {
+        "resistance": 51,
+        "deceptionSkill": 53,
+        "fearOfConsequences": 69,
+        "needToControl": 62,
+        "rapportHooks": [
+          "desafio seguro",
+          "reconhecimento de habilidade"
+        ],
+        "pressureTriggers": [
+          "vídeo de civil lesionado"
+        ],
+        "unsafeApproaches": [
+          "confinamento punitivo prolongado"
+        ],
+        "likelyIntel": [
+          "rotas da Matilha",
+          "eventos clandestinos"
+        ]
+      },
+      "custodyProfile": {
+        "securityNeed": 77,
+        "escapeRisk": 90,
+        "medicalNeeds": [
+          "fisioterapia vestibular"
+        ],
+        "separationNeeds": [
+          "âncoras redundantes",
+          "sem vãos verticais"
+        ],
+        "privilegeHooks": [
+          "treino acrobático seguro"
+        ],
+        "incidentRisks": [
+          "fuga por teto",
+          "desafio entre presos"
+        ]
+      },
+      "rehabilitationProfile": {
+        "basePotential": 85,
+        "accountability": 57,
+        "empathyCapacity": 68,
+        "skillsTransfer": 86,
+        "preferredPrograms": [
+          "resgate vertical",
+          "esporte de risco regulamentado"
+        ],
+        "mentorFit": [
+          "HERO_003",
+          "HERO_001"
+        ],
+        "relapseTriggers": [
+          "tédio",
+          "provocação pública"
+        ],
+        "informantSuitability": {
+          "access": 58,
+          "reliability": 61,
+          "doubleAgentRisk": 41
+        }
+      }
+    },
+    {
+      "id": "VILLAIN_016",
+      "codename": "Mariposa Negra",
+      "civilianName": "Beatriz Neri",
+      "age": 35,
+      "pronouns": "ela/dela",
+      "threatTier": 4,
+      "factions": [
+        "FACTION_002"
+      ],
+      "powerSummary": "Produz feromônios e toxinas de efeito emocional, sedativo ou desorientador.",
+      "criminalPattern": [
+        "espionagem",
+        "chantagem íntima",
+        "assassinato seletivo"
+      ],
+      "background": "Agente clandestina treinada desde jovem para construir vínculos falsos. Mantém relação antiga e mal resolvida com Cinza.",
+      "personality": {
+        "bigFive": {
+          "openness": 88,
+          "conscientiousness": 89,
+          "extraversion": 79,
+          "agreeableness": 42,
+          "neuroticism": 55
+        },
+        "facets": {
+          "impulseControl": 90,
+          "empathy": 73,
+          "assertiveness": 85,
+          "trustBaseline": 8,
+          "needForRecognition": 47,
+          "toleranceAmbiguity": 91,
+          "moralFlexibility": 98,
+          "resilience": 92,
+          "teamwork": 66,
+          "discipline": 94
+        },
+        "conflictStyle": "sedução estratégica",
+        "values": [
+          "sobrevivência",
+          "informação",
+          "controle de proximidade"
+        ],
+        "needs": [
+          "vínculo sem instrumentalização"
+        ],
+        "fears": [
+          "ser conhecida de verdade",
+          "dependência química própria"
+        ],
+        "triggers": [
+          "Cinza rejeitando-a",
+          "perda de controle corporal"
+        ],
+        "blindspots": [
+          "considera toda intimidade uma operação"
+        ]
+      },
+      "moralProfile": {
+        "axes": {
+          "preservationOfLife": 57,
+          "ruleOfLaw": 8,
+          "truthTransparency": 9,
+          "loyalty": 71,
+          "proportionality": 64,
+          "autonomy": 20,
+          "redemption": 52,
+          "collectiveGood": 25
+        },
+        "redLines": [
+          "entregar criança a cliente",
+          "perder agente sob sua proteção"
+        ],
+        "rationalizations": [
+          "desejo já manipula; eu apenas doso"
+        ],
+        "guiltTriggers": [
+          "alvo afetivo suicidar-se"
+        ],
+        "reformBarriers": [
+          "identidade operacional e rede de chantagem"
+        ]
+      },
+      "interrogationProfile": {
+        "resistance": 96,
+        "deceptionSkill": 99,
+        "fearOfConsequences": 46,
+        "needToControl": 99,
+        "rapportHooks": [
+          "verdade protegida sem exploração",
+          "relação com Cinza"
+        ],
+        "pressureTriggers": [
+          "prova de que cliente planeja eliminá-la"
+        ],
+        "unsafeApproaches": [
+          "interrogador isolado",
+          "contato físico"
+        ],
+        "likelyIntel": [
+          "clientes",
+          "identidades falsas",
+          "rotas do Mercado Rubro"
+        ]
+      },
+      "custodyProfile": {
+        "securityNeed": 100,
+        "escapeRisk": 83,
+        "medicalNeeds": [
+          "desintoxicação",
+          "controle hormonal"
+        ],
+        "separationNeeds": [
+          "respiradores",
+          "interações remotas",
+          "amostras biológicas controladas"
+        ],
+        "privilegeHooks": [
+          "correspondência auditada"
+        ],
+        "incidentRisks": [
+          "dependência emocional induzida",
+          "contaminação de ventilação"
+        ]
+      },
+      "rehabilitationProfile": {
+        "basePotential": 43,
+        "accountability": 29,
+        "empathyCapacity": 74,
+        "skillsTransfer": 92,
+        "preferredPrograms": [
+          "identidade pós-coerção",
+          "consentimento e limites"
+        ],
+        "mentorFit": [
+          "HERO_007",
+          "HERO_008"
+        ],
+        "relapseTriggers": [
+          "ameaça de exposição",
+          "reaproximação criminosa de Cinza"
+        ],
+        "informantSuitability": {
+          "access": 99,
+          "reliability": 55,
+          "doubleAgentRisk": 94
+        }
+      }
+    },
+    {
+      "id": "VILLAIN_017",
+      "codename": "Pedreira",
+      "civilianName": "Cássio Rocha",
+      "age": 44,
+      "pronouns": "ele/dele",
+      "threatTier": 3,
+      "factions": [
+        "FACTION_004"
+      ],
+      "powerSummary": "Converte pele em rocha estratificada e remodela concreto tocado.",
+      "criminalPattern": [
+        "ocupação armada",
+        "demolição",
+        "proteção de protestos violentos"
+      ],
+      "background": "Mestre de obras que liderou trabalhadores após mortes evitáveis em canteiro. Tornou-se protetor comunitário e depois executor.",
+      "personality": {
+        "bigFive": {
+          "openness": 47,
+          "conscientiousness": 86,
+          "extraversion": 65,
+          "agreeableness": 70,
+          "neuroticism": 41
+        },
+        "facets": {
+          "impulseControl": 78,
+          "empathy": 79,
+          "assertiveness": 89,
+          "trustBaseline": 61,
+          "needForRecognition": 40,
+          "toleranceAmbiguity": 43,
+          "moralFlexibility": 61,
+          "resilience": 97,
+          "teamwork": 96,
+          "discipline": 88
+        },
+        "conflictStyle": "posição irredutível",
+        "values": [
+          "trabalho",
+          "comunidade",
+          "proteção"
+        ],
+        "needs": [
+          "distinguir liderança de controle"
+        ],
+        "fears": [
+          "trabalhadores descartáveis",
+          "parecer traidor"
+        ],
+        "triggers": [
+          "acidente laboral minimizado",
+          "fura-greve violento"
+        ],
+        "blindspots": [
+          "justifica coerção em nome do coletivo"
+        ]
+      },
+      "moralProfile": {
+        "axes": {
+          "preservationOfLife": 82,
+          "ruleOfLaw": 38,
+          "truthTransparency": 73,
+          "loyalty": 98,
+          "proportionality": 62,
+          "autonomy": 56,
+          "redemption": 76,
+          "collectiveGood": 94
+        },
+        "redLines": [
+          "morte de trabalhador por lucro"
+        ],
+        "rationalizations": [
+          "parede só cai quando alguém empurra"
+        ],
+        "guiltTriggers": [
+          "morador soterrado",
+          "jovem recrutado ferido"
+        ],
+        "reformBarriers": [
+          "pressão comunitária e identidade de líder"
+        ]
+      },
+      "interrogationProfile": {
+        "resistance": 81,
+        "deceptionSkill": 39,
+        "fearOfConsequences": 45,
+        "needToControl": 72,
+        "rapportHooks": [
+          "segurança do trabalho",
+          "garantia coletiva"
+        ],
+        "pressureTriggers": [
+          "prova de exploração de jovens pela Frente Cinza"
+        ],
+        "unsafeApproaches": [
+          "insultar trabalhadores"
+        ],
+        "likelyIntel": [
+          "ocupações",
+          "túneis",
+          "lideranças comunitárias"
+        ]
+      },
+      "custodyProfile": {
+        "securityNeed": 84,
+        "escapeRisk": 65,
+        "medicalNeeds": [
+          "articulações",
+          "controle mineral"
+        ],
+        "separationNeeds": [
+          "estrutura flexível sem concreto exposto"
+        ],
+        "privilegeHooks": [
+          "projeto de reparo civil"
+        ],
+        "incidentRisks": [
+          "fortificação de cela",
+          "liderança informal"
+        ]
+      },
+      "rehabilitationProfile": {
+        "basePotential": 79,
+        "accountability": 68,
+        "empathyCapacity": 81,
+        "skillsTransfer": 93,
+        "preferredPrograms": [
+          "segurança do trabalho",
+          "reconstrução comunitária"
+        ],
+        "mentorFit": [
+          "HERO_002",
+          "HERO_005"
+        ],
+        "relapseTriggers": [
+          "novo acidente impune",
+          "ameaça à comunidade"
+        ],
+        "informantSuitability": {
+          "access": 73,
+          "reliability": 84,
+          "doubleAgentRisk": 31
+        }
+      }
+    },
+    {
+      "id": "VILLAIN_018",
+      "codename": "Ruído Branco",
+      "civilianName": "Felipe Moura",
+      "age": 34,
+      "pronouns": "ele/dele",
+      "threatTier": 3,
+      "factions": [
+        "FACTION_005"
+      ],
+      "powerSummary": "Emite interferência eletromagnética e sensorial que bloqueia comunicações e causa paranoia auditiva.",
+      "criminalPattern": [
+        "apagão de comunicação",
+        "emboscada",
+        "extorsão paranoica"
+      ],
+      "background": "Técnico de telecomunicações perseguido por uma conspiração real menor e convencido de que toda instituição participa de uma conspiração maior.",
+      "personality": {
+        "bigFive": {
+          "openness": 69,
+          "conscientiousness": 58,
+          "extraversion": 29,
+          "agreeableness": 37,
+          "neuroticism": 96
+        },
+        "facets": {
+          "impulseControl": 49,
+          "empathy": 55,
+          "assertiveness": 63,
+          "trustBaseline": 2,
+          "needForRecognition": 45,
+          "toleranceAmbiguity": 11,
+          "moralFlexibility": 66,
+          "resilience": 64,
+          "teamwork": 31,
+          "discipline": 60
+        },
+        "conflictStyle": "suspeita e isolamento",
+        "values": [
+          "segurança",
+          "verdade oculta",
+          "autonomia"
+        ],
+        "needs": [
+          "tratamento e realidade compartilhada"
+        ],
+        "fears": [
+          "vigilância",
+          "controle mental"
+        ],
+        "triggers": [
+          "câmeras ocultas",
+          "mensagens ambíguas"
+        ],
+        "blindspots": [
+          "interpreta coincidência como confirmação"
+        ]
+      },
+      "moralProfile": {
+        "axes": {
+          "preservationOfLife": 70,
+          "ruleOfLaw": 19,
+          "truthTransparency": 95,
+          "loyalty": 34,
+          "proportionality": 47,
+          "autonomy": 99,
+          "redemption": 62,
+          "collectiveGood": 52
+        },
+        "redLines": [
+          "implante forçado"
+        ],
+        "rationalizations": [
+          "se eu não bloquear, eles entram"
+        ],
+        "guiltTriggers": [
+          "aliado ferido por suspeita"
+        ],
+        "reformBarriers": [
+          "paranoia clínica deve ser tratada sem criminalizar saúde mental"
+        ]
+      },
+      "interrogationProfile": {
+        "resistance": 90,
+        "deceptionSkill": 48,
+        "fearOfConsequences": 94,
+        "needToControl": 92,
+        "rapportHooks": [
+          "ambiente transparente",
+          "escolha de distância",
+          "provas simples"
+        ],
+        "pressureTriggers": [
+          "contradição suave e verificável"
+        ],
+        "unsafeApproaches": [
+          "deception",
+          "múltiplos interrogadores ocultos"
+        ],
+        "likelyIntel": [
+          "frequências",
+          "esconderijos",
+          "interceptações reais e falsas"
+        ]
+      },
+      "custodyProfile": {
+        "securityNeed": 79,
+        "escapeRisk": 58,
+        "medicalNeeds": [
+          "avaliação psiquiátrica independente",
+          "sono"
+        ],
+        "separationNeeds": [
+          "ambiente previsível e sem vigilância oculta não declarada"
+        ],
+        "privilegeHooks": [
+          "rádio passivo auditado",
+          "terapia consentida"
+        ],
+        "incidentRisks": [
+          "pânico",
+          "apagão de segurança"
+        ]
+      },
+      "rehabilitationProfile": {
+        "basePotential": 69,
+        "accountability": 42,
+        "empathyCapacity": 61,
+        "skillsTransfer": 74,
+        "preferredPrograms": [
+          "tratamento integrado",
+          "alfabetização de evidência"
+        ],
+        "mentorFit": [
+          "HERO_008",
+          "HERO_004"
+        ],
+        "relapseTriggers": [
+          "interrupção de tratamento",
+          "evento de vigilância real"
+        ],
+        "informantSuitability": {
+          "access": 63,
+          "reliability": 37,
+          "doubleAgentRisk": 57
+        }
+      }
+    },
+    {
+      "id": "VILLAIN_019",
+      "codename": "Sangria",
+      "civilianName": "Vânia Freitas",
+      "age": 38,
+      "pronouns": "ela/dela",
+      "threatTier": 4,
+      "factions": [],
+      "powerSummary": "Drena bioeletricidade por toque, convertendo-a em cura temporária e vigor.",
+      "criminalPattern": [
+        "roubo hospitalar",
+        "sequestro médico",
+        "agressão predatória"
+      ],
+      "background": "Paciente de doença degenerativa rara que descobriu que o poder adia seus sintomas. Começou com voluntários e passou a selecionar vítimas sem consentimento.",
+      "personality": {
+        "bigFive": {
+          "openness": 57,
+          "conscientiousness": 75,
+          "extraversion": 44,
+          "agreeableness": 62,
+          "neuroticism": 91
+        },
+        "facets": {
+          "impulseControl": 68,
+          "empathy": 78,
+          "assertiveness": 59,
+          "trustBaseline": 40,
+          "needForRecognition": 18,
+          "toleranceAmbiguity": 36,
+          "moralFlexibility": 91,
+          "resilience": 88,
+          "teamwork": 50,
+          "discipline": 79
+        },
+        "conflictStyle": "súplica e racionalização",
+        "values": [
+          "sobrevivência",
+          "família",
+          "dignidade"
+        ],
+        "needs": [
+          "tratamento sem vitimização de outros"
+        ],
+        "fears": [
+          "declínio físico",
+          "filha vê-la morrer"
+        ],
+        "triggers": [
+          "crise de dor",
+          "escassez médica"
+        ],
+        "blindspots": [
+          "transforma necessidade em permissão"
+        ]
+      },
+      "moralProfile": {
+        "axes": {
+          "preservationOfLife": 84,
+          "ruleOfLaw": 34,
+          "truthTransparency": 52,
+          "loyalty": 87,
+          "proportionality": 46,
+          "autonomy": 18,
+          "redemption": 93,
+          "collectiveGood": 41
+        },
+        "redLines": [
+          "drenar criança",
+          "matar deliberadamente"
+        ],
+        "rationalizations": [
+          "eu devolvo parte; só preciso sobreviver"
+        ],
+        "guiltTriggers": [
+          "vítima com sequela",
+          "filha descobrir crimes"
+        ],
+        "reformBarriers": [
+          "dependência fisiológica real"
+        ]
+      },
+      "interrogationProfile": {
+        "resistance": 57,
+        "deceptionSkill": 61,
+        "fearOfConsequences": 95,
+        "needToControl": 47,
+        "rapportHooks": [
+          "tratamento médico",
+          "proteção da filha sem chantagem"
+        ],
+        "pressureTriggers": [
+          "plano terapêutico real"
+        ],
+        "unsafeApproaches": [
+          "ameaçar retirar tratamento"
+        ],
+        "likelyIntel": [
+          "rede de medicamentos",
+          "intermediários hospitalares"
+        ]
+      },
+      "custodyProfile": {
+        "securityNeed": 86,
+        "escapeRisk": 47,
+        "medicalNeeds": [
+          "tratamento degenerativo",
+          "controle de dor",
+          "barreira de contato"
+        ],
+        "separationNeeds": [
+          "sem contato físico não consentido"
+        ],
+        "privilegeHooks": [
+          "visita familiar protegida",
+          "ensaio clínico ético"
+        ],
+        "incidentRisks": [
+          "drenagem em crise",
+          "chantagem médica"
+        ]
+      },
+      "rehabilitationProfile": {
+        "basePotential": 88,
+        "accountability": 72,
+        "empathyCapacity": 85,
+        "skillsTransfer": 52,
+        "preferredPrograms": [
+          "tratamento médico",
+          "reparação a vítimas",
+          "planejamento familiar"
+        ],
+        "mentorFit": [
+          "HERO_005",
+          "HERO_008"
+        ],
+        "relapseTriggers": [
+          "piora clínica",
+          "perda de acesso a tratamento"
+        ],
+        "informantSuitability": {
+          "access": 54,
+          "reliability": 86,
+          "doubleAgentRisk": 18
+        }
+      }
+    },
+    {
+      "id": "VILLAIN_020",
+      "codename": "Náufrago",
+      "civilianName": "Iago Serra",
+      "age": 42,
+      "pronouns": "ele/dele",
+      "threatTier": 3,
+      "factions": [
+        "FACTION_004"
+      ],
+      "powerSummary": "Adaptação à pressão, respiração aquática e controle limitado de correntes em contato.",
+      "criminalPattern": [
+        "contrabando marítimo",
+        "resgate ilegal",
+        "sabotagem portuária"
+      ],
+      "background": "Pescador que perdeu embarcação e licença por fraude de uma empresa. Tornou-se contrabandista, mas mantém código de resgate no mar.",
+      "personality": {
+        "bigFive": {
+          "openness": 55,
+          "conscientiousness": 82,
+          "extraversion": 51,
+          "agreeableness": 66,
+          "neuroticism": 50
+        },
+        "facets": {
+          "impulseControl": 76,
+          "empathy": 74,
+          "assertiveness": 72,
+          "trustBaseline": 49,
+          "needForRecognition": 27,
+          "toleranceAmbiguity": 69,
+          "moralFlexibility": 80,
+          "resilience": 95,
+          "teamwork": 88,
+          "discipline": 84
+        },
+        "conflictStyle": "barganha resistente",
+        "values": [
+          "sobrevivência",
+          "mar",
+          "palavra"
+        ],
+        "needs": [
+          "meio de vida legítimo"
+        ],
+        "fears": [
+          "terra firme sem saída",
+          "família endividada"
+        ],
+        "triggers": [
+          "abandono de náufrago",
+          "confisco arbitrário"
+        ],
+        "blindspots": [
+          "normaliza cadeia criminosa por ajudar alguns"
+        ]
+      },
+      "moralProfile": {
+        "axes": {
+          "preservationOfLife": 90,
+          "ruleOfLaw": 25,
+          "truthTransparency": 47,
+          "loyalty": 94,
+          "proportionality": 73,
+          "autonomy": 86,
+          "redemption": 82,
+          "collectiveGood": 65
+        },
+        "redLines": [
+          "deixar pessoa morrer no mar",
+          "tráfico humano"
+        ],
+        "rationalizations": [
+          "fronteira não alimenta família"
+        ],
+        "guiltTriggers": [
+          "carga causar dano comunitário"
+        ],
+        "reformBarriers": [
+          "economia ilegal e dívida"
+        ]
+      },
+      "interrogationProfile": {
+        "resistance": 69,
+        "deceptionSkill": 58,
+        "fearOfConsequences": 76,
+        "needToControl": 63,
+        "rapportHooks": [
+          "segurança da tripulação",
+          "licença de trabalho"
+        ],
+        "pressureTriggers": [
+          "prova de tráfico humano na rota"
+        ],
+        "unsafeApproaches": [
+          "ameaçar tripulação inocente"
+        ],
+        "likelyIntel": [
+          "rotas marítimas",
+          "portos corruptos",
+          "cargas da Frente Cinza"
+        ]
+      },
+      "custodyProfile": {
+        "securityNeed": 74,
+        "escapeRisk": 82,
+        "medicalNeeds": [
+          "hidratação salina",
+          "pele"
+        ],
+        "separationNeeds": [
+          "controle de tubulações e drenagem"
+        ],
+        "privilegeHooks": [
+          "manutenção naval teórica"
+        ],
+        "incidentRisks": [
+          "fuga por sistema hídrico",
+          "resgate externo"
+        ]
+      },
+      "rehabilitationProfile": {
+        "basePotential": 84,
+        "accountability": 66,
+        "empathyCapacity": 79,
+        "skillsTransfer": 90,
+        "preferredPrograms": [
+          "resgate marítimo",
+          "trabalho portuário legal"
+        ],
+        "mentorFit": [
+          "HERO_005",
+          "HERO_003"
+        ],
+        "relapseTriggers": [
+          "dívida familiar",
+          "perda de licença"
+        ],
+        "informantSuitability": {
+          "access": 81,
+          "reliability": 80,
+          "doubleAgentRisk": 34
+        }
+      }
+    }
+  ]
+}

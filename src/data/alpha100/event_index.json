@@ -1,0 +1,181 @@
+{
+  "version": "1.0.0-alpha",
+  "eventCount": 500,
+  "playByPlayVariantCount": 7500,
+  "variantsPerEvent": 15,
+  "districts": [
+    {
+      "id": "setor_rubi",
+      "nome": "Setor Rubi",
+      "nota": "com laboratórios civis e oficinas densas",
+      "tags": [
+        "industrial",
+        "laboratorios",
+        "oficinas"
+      ],
+      "ajusteRisco": 2
+    },
+    {
+      "id": "mercado_nimbus",
+      "nome": "Mercado Nimbus",
+      "nota": "entre toldos suspensos e ruas lotadas",
+      "tags": [
+        "comercial",
+        "multidao",
+        "boatos"
+      ],
+      "ajusteRisco": 1
+    },
+    {
+      "id": "jardins_de_vidro",
+      "nome": "Jardins de Vidro",
+      "nota": "onde estufas públicas cruzam passarelas altas",
+      "tags": [
+        "residencial",
+        "estufas",
+        "passarelas"
+      ],
+      "ajusteRisco": 0
+    },
+    {
+      "id": "alto_candeal",
+      "nome": "Alto Candeal",
+      "nota": "no topo de ladeiras ventosas",
+      "tags": [
+        "encosta",
+        "ladeiras",
+        "vento"
+      ],
+      "ajusteRisco": 1
+    },
+    {
+      "id": "cintura_verde",
+      "nome": "Cintura Verde",
+      "nota": "em meio a corredores de vegetação urbana",
+      "tags": [
+        "vegetacao",
+        "corredores",
+        "ambiental"
+      ],
+      "ajusteRisco": 0
+    },
+    {
+      "id": "vila_farol",
+      "nome": "Vila Farol",
+      "nota": "perto da costa e de sirenes comunitárias",
+      "tags": [
+        "costeiro",
+        "sirenes",
+        "comunidade"
+      ],
+      "ajusteRisco": 0
+    },
+    {
+      "id": "baixada_azul",
+      "nome": "Baixada Azul",
+      "nota": "onde canais e subsolos se encontram",
+      "tags": [
+        "hidrico",
+        "subsolo",
+        "canais"
+      ],
+      "ajusteRisco": 1
+    },
+    {
+      "id": "estacao_norte",
+      "nome": "Estação Norte",
+      "nota": "ao redor de trilhos, plataformas e oficinas",
+      "tags": [
+        "transporte",
+        "trilhos",
+        "plataformas"
+      ],
+      "ajusteRisco": 1
+    },
+    {
+      "id": "porto_velado",
+      "nome": "Porto Velado",
+      "nota": "entre contêineres esquecidos e neblina portuária",
+      "tags": [
+        "porto",
+        "conteineres",
+        "neblina"
+      ],
+      "ajusteRisco": 2
+    },
+    {
+      "id": "coroa_sul",
+      "nome": "Coroa Sul",
+      "nota": "perto de prédios públicos e clubes fechados",
+      "tags": [
+        "politico",
+        "elite",
+        "predios-publicos"
+      ],
+      "ajusteRisco": 1
+    },
+    {
+      "id": "distrito_lumen",
+      "nome": "Distrito Lúmen",
+      "nota": "sob a malha elétrica principal da cidade",
+      "tags": [
+        "energia",
+        "malha-eletrica",
+        "infraestrutura"
+      ],
+      "ajusteRisco": 1
+    },
+    {
+      "id": "morro_das_antenas",
+      "nome": "Morro das Antenas",
+      "nota": "onde rádios comunitárias disputam sinal com torres improvisadas",
+      "tags": [
+        "comunicacao",
+        "antenas",
+        "radio"
+      ],
+      "ajusteRisco": 1
+    },
+    {
+      "id": "doca_leste",
+      "nome": "Doca Leste",
+      "nota": "com ruas estreitas e guindastes antigos",
+      "tags": [
+        "docas",
+        "guindastes",
+        "ruas-estreitas"
+      ],
+      "ajusteRisco": 1
+    },
+    {
+      "id": "mirante_solar",
+      "nome": "Mirante Solar",
+      "nota": "com torres de luz e mirantes turísticos",
+      "tags": [
+        "solar",
+        "turismo",
+        "altura"
+      ],
+      "ajusteRisco": 0
+    }
+  ],
+  "files": {
+    "eventsJson": "alpha100_events_500.json",
+    "eventsJs": "alpha100_events_500.js",
+    "playByPlayChunks": [
+      "alpha100_playbyplay_part_001.json",
+      "alpha100_playbyplay_part_002.json",
+      "alpha100_playbyplay_part_003.json",
+      "alpha100_playbyplay_part_004.json",
+      "alpha100_playbyplay_part_005.json"
+    ]
+  },
+  "coverage": {
+    "eventsWithVillainId": 500,
+    "eventsWithFactionId": 500,
+    "eventsWithDistrictId": 500,
+    "uniqueVillainsUsed": 306,
+    "uniqueFactionsUsed": 12,
+    "uniqueDistrictsUsed": 14
+  }
+}

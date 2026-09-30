@@ -1,0 +1,46 @@
+{
+  "sessionId": "MENTOR_SESSION_014_003",
+  "caseId": "CASE_014",
+  "heroId": "HERO_006",
+  "subjectId": "VILLAIN_014",
+  "sessionType": "skills_practice",
+  "goal": "Criar uma instalação artística pública sem ignição não autorizada.",
+  "observations": [
+    {
+      "text": "Lamparina pediu revisão do plano de segurança antes de iniciar.",
+      "confidence": 90,
+      "dimension": "selfRegulation"
+    },
+    {
+      "text": "Eco tentou transformar a sessão em conteúdo e foi lembrado do limite de privacidade.",
+      "confidence": 95,
+      "dimension": "autonomy"
+    }
+  ],
+  "boundaryEvents": [
+    {
+      "id": "BOUNDARY_HELD",
+      "actorId": "VILLAIN_014",
+      "effect": "Lamparina recusou transmissão sem romper a sessão."
+    }
+  ],
+  "stateDeltas": {
+    "subject": {
+      "selfRegulation": 6,
+      "autonomy": 5,
+      "honesty": 2
+    },
+    "mentor": {
+      "stress": 3,
+      "publicPressure": -2
+    }
+  },
+  "relationshipDeltas": [
+    {
+      "relationshipId": "REL_VILLAIN_014_HERO_006",
+      "axis": "trust",
+      "delta": 4,
+      "cause": "Eco desligou a transmissão quando o limite foi explicitado."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "schemaVersion": "1.1",
+  "axes": [
+    {
+      "id": "preservationOfLife",
+      "label": "Preservação da vida",
+      "low": "Aceita perdas humanas como instrumento",
+      "high": "Prioriza vida mesmo com custo estratégico"
+    },
+    {
+      "id": "ruleOfLaw",
+      "label": "Estado de direito",
+      "low": "Resultado acima de processo",
+      "high": "Processo, prova e devido direito"
+    },
+    {
+      "id": "truthTransparency",
+      "label": "Verdade e transparência",
+      "low": "Segredo e manipulação são normais",
+      "high": "Verdade auditável é obrigação"
+    },
+    {
+      "id": "loyalty",
+      "label": "Lealdade",
+      "low": "Vínculos são descartáveis",
+      "high": "Compromissos pessoais dominam escolhas"
+    },
+    {
+      "id": "proportionality",
+      "label": "Proporcionalidade",
+      "low": "Escalada ampla por objetivos",
+      "high": "Força mínima e custo compatível"
+    },
+    {
+      "id": "autonomy",
+      "label": "Autonomia",
+      "low": "Coerção é aceitável",
+      "high": "Consentimento e agência são centrais"
+    },
+    {
+      "id": "redemption",
+      "label": "Redenção",
+      "low": "Pessoas são definidas pelo pior ato",
+      "high": "Mudança sustentada deve alterar tratamento"
+    },
+    {
+      "id": "collectiveGood",
+      "label": "Bem coletivo",
+      "low": "Prioridade ao interesse individual",
+      "high": "Aceita sacrifícios pessoais pelo conjunto"
+    }
+  ],
+  "evaluationRules": [
+    {
+      "id": "MORAL_CONFLICT",
+      "when": "abs(heroAxis - missionDemand) >= 35",
+      "effect": "add moralConflict tag; reactionScore -10 to -30; generate dialogue"
+    },
+    {
+      "id": "RED_LINE",
+      "when": "mission tag intersects character.redLines or explicit redLine mapping",
+      "effect": "character may refuse, disobey, freeze or demand alternative"
+    },
+    {
+      "id": "RATIONALIZATION",
+      "when": "stress >= 65 and mission supports a known rationalization",
+      "effect": "temporarily reduce internal resistance but add guilt debt"
+    },
+    {
+      "id": "GUILT_TRIGGER",
+      "when": "outcome intersects guiltTriggers",
+      "effect": "stress +8..25; morale -5..18; relationship memory"
+    }
+  ]
+}

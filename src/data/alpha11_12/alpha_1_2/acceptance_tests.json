@@ -1,0 +1,99 @@
+{
+  "suite": "ALPHA_1_2_ACCEPTANCE",
+  "tests": [
+    {
+      "id": "A12_001",
+      "given": "weak evidence and controlled pressure",
+      "when": "interrogation resolves",
+      "then": [
+        "cooperation may rise",
+        "truth reliability falls",
+        "false intel is possible",
+        "legal and moral costs persist"
+      ]
+    },
+    {
+      "id": "A12_002",
+      "given": "rapport hook matched for Ferrolho and family safety is verified",
+      "when": "rapport interrogation resolves",
+      "then": [
+        "cooperation bonus applies",
+        "family is not threatened",
+        "intel provenance points to session"
+      ]
+    },
+    {
+      "id": "A12_003",
+      "given": "intel from one motivated source",
+      "when": "mission unlock evaluated",
+      "then": [
+        "not automatically actionable",
+        "corroboration requirement visible"
+      ]
+    },
+    {
+      "id": "A12_004",
+      "given": "two independent sources corroborate claim",
+      "when": "confidence crosses threshold",
+      "then": [
+        "state becomes corroborated or actionable",
+        "mission/countermeasure unlock emitted"
+      ]
+    },
+    {
+      "id": "A12_005",
+      "given": "custody needs unmet and concrete control fails",
+      "when": "escape occurs",
+      "then": [
+        "failed control listed",
+        "no unexplained random escape",
+        "case status transitions to escaped"
+      ]
+    },
+    {
+      "id": "A12_006",
+      "given": "rehab attendance high but accountability zero",
+      "when": "stage review runs",
+      "then": [
+        "stage does not advance"
+      ]
+    },
+    {
+      "id": "A12_007",
+      "given": "technical relapse disclosed voluntarily",
+      "when": "relapse protocol resolves",
+      "then": [
+        "progress partially preserved",
+        "honesty may increase",
+        "safeguards revised"
+      ]
+    },
+    {
+      "id": "A12_008",
+      "given": "mentor stress above eligibility maximum",
+      "when": "new assignment attempted",
+      "then": [
+        "assignment blocked or co-mentor required"
+      ]
+    },
+    {
+      "id": "A12_009",
+      "given": "informant report with doubleAgentRisk high",
+      "when": "used without corroboration",
+      "then": [
+        "ambush/compromise risk increases",
+        "handler and command see warning"
+      ]
+    },
+    {
+      "id": "A12_010",
+      "given": "progress report generated",
+      "when": "each claim inspected",
+      "then": [
+        "every observation references persisted event",
+        "report confidence is present",
+        "no invented narrative fact"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "missions": [
+    {
+      "missionId": "MISSION_SAMPLE_001",
+      "type": "rescue",
+      "ethicalTags": [
+        "civilian_priority",
+        "hostage_situation",
+        "medical_emergency",
+        "media_live",
+        "surrender_possible"
+      ],
+      "location": {
+        "districtId": "DISTRICT_CENTRO",
+        "siteType": "hospital",
+        "visibility": "media_live"
+      },
+      "team": [
+        "HERO_001",
+        "HERO_005",
+        "HERO_003"
+      ],
+      "leaderId": "HERO_001",
+      "targetIds": [
+        "VILLAIN_019"
+      ],
+      "threat": {
+        "tier": 4,
+        "immediacy": 82
+      },
+      "civilianRisk": 91,
+      "collateralForecast": 38,
+      "warrantStatus": "emergency_exception",
+      "evidenceQuality": 88,
+      "lethalAuthorization": false,
+      "deceptionRequirement": 10,
+      "surrenderLikelihood": 66,
+      "knownTriggers": [
+        "crise de dor",
+        "escassez médica"
+      ],
+      "briefingFacts": [
+        "Sangria mantém três profissionais de saúde perto do laboratório.",
+        "Há tratamento experimental no local."
+      ],
+      "unknowns": [
+        "A filha da suspeita está no hospital?"
+      ]
+    },
+    {
+      "missionId": "MISSION_SAMPLE_002",
+      "type": "raid",
+      "ethicalTags": [
+        "secret_order",
+        "evidence_fragile",
+        "political_pressure",
+        "high_collateral_risk"
+      ],
+      "location": {
+        "districtId": "DISTRICT_PORTO",
+        "siteType": "armazém",
+        "visibility": "private"
+      },
+      "team": [
+        "HERO_002",
+        "HERO_004",
+        "HERO_007"
+      ],
+      "leaderId": "HERO_002",
+      "targetIds": [
+        "VILLAIN_002",
+        "VILLAIN_016"
+      ],
+      "threat": {
+        "tier": 4,
+        "immediacy": 47
+      },
+      "civilianRisk": 44,
+      "collateralForecast": 72,
+      "warrantStatus": "pending",
+      "evidenceQuality": 46,
+      "lethalAuthorization": false,
+      "deceptionRequirement": 74,
+      "surrenderLikelihood": 24,
+      "knownTriggers": [
+        "ameaças à família",
+        "perda de controle corporal"
+      ],
+      "briefingFacts": [
+        "O comando exige ação antes da assinatura do mandado.",
+        "A fonte é um informante ainda não corroborado."
+      ],
+      "unknowns": [
+        "Há carga humana no armazém?",
+        "Cinza foi identificada pela antiga rede?"
+      ]
+    },
+    {
+      "missionId": "MISSION_SAMPLE_003",
+      "type": "negotiation",
+      "ethicalTags": [
+        "public_order",
+        "media_live",
+        "surrender_possible",
+        "civilian_priority"
+      ],
+      "location": {
+        "districtId": "DISTRICT_OPERARIO",
+        "siteType": "obra ocupada",
+        "visibility": "media_live"
+      },
+      "team": [
+        "HERO_005",
+        "HERO_002"
+      ],
+      "leaderId": "HERO_005",
+      "targetIds": [
+        "VILLAIN_017"
+      ],
+      "threat": {
+        "tier": 3,
+        "immediacy": 58
+      },
+      "civilianRisk": 63,
+      "collateralForecast": 55,
+      "warrantStatus": "valid",
+      "evidenceQuality": 72,
+      "lethalAuthorization": false,
+      "deceptionRequirement": 0,
+      "surrenderLikelihood": 61,
+      "knownTriggers": [
+        "acidente laboral minimizado"
+      ],
+      "briefingFacts": [
+        "A construtora aceitou negociar parcialmente.",
+        "Há trabalhadores e famílias dentro da estrutura."
+      ],
+      "unknowns": [
+        "Dama de Sal enviou apoio?"
+      ]
+    },
+    {
+      "missionId": "MISSION_SAMPLE_004",
+      "type": "investigation",
+      "ethicalTags": [
+        "evidence_fragile",
+        "secret_order",
+        "ally_compromised"
+      ],
+      "location": {
+        "districtId": "DISTRICT_TECH",
+        "siteType": "data_center",
+        "visibility": "private"
+      },
+      "team": [
+        "HERO_004"
+      ],
+      "leaderId": "HERO_004",
+      "targetIds": [
+        "VILLAIN_006"
+      ],
+      "threat": {
+        "tier": 3,
+        "immediacy": 39
+      },
+      "civilianRisk": 12,
+      "collateralForecast": 18,
+      "warrantStatus": "valid",
+      "evidenceQuality": 35,
+      "lethalAuthorization": false,
+      "deceptionRequirement": 48,
+      "surrenderLikelihood": 18,
+      "knownTriggers": [
+        "condescendência",
+        "crédito dado a Nexo"
+      ],
+      "briefingFacts": [
+        "Um backdoor contém assinatura semelhante à de Cifra."
+      ],
+      "unknowns": [
+        "A assinatura é falsa?",
+        "Doutor Limiar está usando o caso para testar Nexo?"
+      ]
+    }
+  ]
+}

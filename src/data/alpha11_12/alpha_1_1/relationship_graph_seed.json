@@ -1,0 +1,3274 @@
+{
+  "schemaVersion": "1.1",
+  "directional": true,
+  "defaultEdgeFactory": {
+    "heroToHero": {
+      "axes": {
+        "trust": 35,
+        "respect": 45,
+        "affection": 20,
+        "fear": 0,
+        "resentment": 0,
+        "rivalry": 10,
+        "dependence": 5,
+        "ideologicalAlignment": 40,
+        "operationalSynergy": 40,
+        "intimacy": 10,
+        "debt": 0
+      },
+      "state": "neutral"
+    },
+    "heroToVillain": {
+      "axes": {
+        "trust": -35,
+        "respect": 10,
+        "affection": -20,
+        "fear": 15,
+        "resentment": 30,
+        "rivalry": 20,
+        "dependence": 0,
+        "ideologicalAlignment": -25,
+        "operationalSynergy": -30,
+        "intimacy": -30,
+        "debt": 0
+      },
+      "state": "tense"
+    },
+    "villainToVillain": {
+      "axes": {
+        "trust": 5,
+        "respect": 15,
+        "affection": 0,
+        "fear": 10,
+        "resentment": 5,
+        "rivalry": 15,
+        "dependence": 5,
+        "ideologicalAlignment": 10,
+        "operationalSynergy": 10,
+        "intimacy": 0,
+        "debt": 0
+      },
+      "state": "neutral"
+    }
+  },
+  "edges": [
+    {
+      "id": "REL_HERO_001_HERO_002",
+      "fromCharacterId": "HERO_001",
+      "toCharacterId": "HERO_002",
+      "axes": {
+        "trust": 63,
+        "respect": 88,
+        "affection": 42,
+        "fear": 8,
+        "resentment": 18,
+        "rivalry": 25,
+        "dependence": 28,
+        "ideologicalAlignment": 72,
+        "operationalSynergy": 91,
+        "intimacy": 35,
+        "debt": 10
+      },
+      "state": "cooperative",
+      "memories": [
+        {
+          "eventId": "SEED_BACKSTORY",
+          "summary": "Bastião contestou uma ordem de Aurora e salvou provas sem comprometer o resgate.",
+          "valence": 45,
+          "weight": 55,
+          "decay": 0.02,
+          "tags": [
+            "backstory",
+            "seed"
+          ]
+        }
+      ],
+      "boundaries": [],
+      "unresolvedIssues": [],
+      "lastUpdatedTick": 0
+    },
+    {
+      "id": "REL_HERO_001_HERO_003",
+      "fromCharacterId": "HERO_001",
+      "toCharacterId": "HERO_003",
+      "axes": {
+        "trust": 47,
+        "respect": 57,
+        "affection": 28,
+        "fear": 6,
+        "resentment": 14,
+        "rivalry": 31,
+        "dependence": 36,
+        "ideologicalAlignment": 76,
+        "operationalSynergy": 61,
+        "intimacy": 30,
+        "debt": -4
+      },
+      "state": "cooperative",
+      "memories": [
+        {
+          "eventId": "SEED_BACKSTORY",
+          "summary": "Aurora e Vértice concluíram uma operação difícil sem ruptura.",
+          "valence": 33,
+          "weight": 55,
+          "decay": 0.02,
+          "tags": [
+            "backstory",
+            "seed"
+          ]
+        }
+      ],
+      "boundaries": [],
+      "unresolvedIssues": [],
+      "lastUpdatedTick": 0
+    },
+    {
+      "id": "REL_HERO_001_HERO_004",
+      "fromCharacterId": "HERO_001",
+      "toCharacterId": "HERO_004",
+      "axes": {
+        "trust": 34,
+        "respect": 66,
+        "affection": 48,
+        "fear": 10,
+        "resentment": 5,
+        "rivalry": 46,
+        "dependence": 30,
+        "ideologicalAlignment": 44,
+        "operationalSynergy": 78,
+        "intimacy": 44,
+        "debt": 6
+      },
+      "state": "cooperative",
+      "memories": [
+        {
+          "eventId": "SEED_BACKSTORY",
+          "summary": "Aurora e Nexo concluíram uma operação difícil sem ruptura.",
+          "valence": 29,
+          "weight": 55,
+          "decay": 0.02,
+          "tags": [
+            "backstory",
+            "seed"
+          ]
+        }
+      ],
+      "boundaries": [],
+      "unresolvedIssues": [],
+      "lastUpdatedTick": 0
+    },
+    {
+      "id": "REL_HERO_001_HERO_005",
+      "fromCharacterId": "HERO_001",
+      "toCharacterId": "HERO_005",
+      "axes": {
+        "trust": 51,
+        "respect": 69,
+        "affection": 32,
+        "fear": 18,
+        "resentment": 12,
+        "rivalry": 12,
+        "dependence": 36,
+        "ideologicalAlignment": 70,
+        "operationalSynergy": 39,
+        "intimacy": 35,
+        "debt": 19
+      },
+      "state": "cooperative",
+      "memories": [
+        {
+          "eventId": "SEED_BACKSTORY",
+          "summary": "Aurora e Maré concluíram uma operação difícil sem ruptura.",
+          "valence": 39,
+          "weight": 55,
+          "decay": 0.02,
+          "tags": [
+            "backstory",
+            "seed"
+          ]
+        }
+      ],
+      "boundaries": [],
+      "unresolvedIssues": [],
+      "lastUpdatedTick": 0
+    },
+    {
+      "id": "REL_HERO_001_HERO_006",
+      "fromCharacterId": "HERO_001",
+      "toCharacterId": "HERO_006",
+      "axes": {
+        "trust": 41,
+        "respect": 62,
+        "affection": 29,
+        "fear": 13,
+        "resentment": 11,
+        "rivalry": 2,
+        "dependence": 38,
+        "ideologicalAlignment": 35,
+        "operationalSynergy": 64,
+        "intimacy": 48,
+        "debt": 13
+      },
+      "state": "cooperative",
+      "memories": [
+        {
+          "eventId": "SEED_BACKSTORY",
+          "summary": "Aurora e Eco concluíram uma operação difícil sem ruptura.",
+          "valence": 30,
+          "weight": 55,
+          "decay": 0.02,
+          "tags": [
+            "backstory",
+            "seed"
+          ]
+        }
+      ],
+      "boundaries": [],
+      "unresolvedIssues": [],
+      "lastUpdatedTick": 0
+    },
+    {
+      "id": "REL_HERO_001_HERO_007",
+      "fromCharacterId": "HERO_001",
+      "toCharacterId": "HERO_007",
+      "axes": {
+        "trust": 51,
+        "respect": 71,
+        "affection": 68,
+        "fear": 9,
+        "resentment": 4,
+        "rivalry": 25,
+        "dependence": 41,
+        "ideologicalAlignment": 45,
+        "operationalSynergy": 55,
+        "intimacy": 38,
+        "debt": 26
+      },
+      "state": "close",
+      "memories": [
+        {
+          "eventId": "SEED_BACKSTORY",
+          "summary": "Aurora e Cinza concluíram uma operação difícil sem ruptura.",
+          "valence": 47,
+          "weight": 55,
+          "decay": 0.02,
+          "tags": [
+            "backstory",
+            "seed"
+          ]
+        }
+      ],
+      "boundaries": [],
+      "unresolvedIssues": [],
+      "lastUpdatedTick": 0
+    },
+    {
+      "id": "REL_HERO_001_HERO_008",
+      "fromCharacterId": "HERO_001",
+      "toCharacterId": "HERO_008",
+      "axes": {
+        "trust": 78,
+        "respect": 91,
+        "affection": 55,
+        "fear": 3,
+        "resentment": 10,
+        "rivalry": 22,
+        "dependence": 44,
+        "ideologicalAlignment": 73,
+        "operationalSynergy": 88,
+        "intimacy": 53,
+        "debt": 17
+      },
+      "state": "close",
+      "memories": [
+        {
+          "eventId": "SEED_BACKSTORY",
+          "summary": "Farol ajudou Aurora a reconhecer que sua necessidade de controle estava afetando a equipe.",
+          "valence": 68,
+          "weight": 55,
+          "decay": 0.02,
+          "tags": [
+            "backstory",
+            "seed"
+          ]
+        }
+      ],
+      "boundaries": [],
+      "unresolvedIssues": [],
+      "lastUpdatedTick": 0
+    },
+    {
+      "id": "REL_HERO_002_HERO_001",
+      "fromCharacterId": "HERO_002",
+      "toCharacterId": "HERO_001",
+      "axes": {
+        "trust": 54,
+        "respect": 92,
+        "affection": 38,
+        "fear": 4,
+        "resentment": 29,
+        "rivalry": 23,
+        "dependence": 22,
+        "ideologicalAlignment": 61,
+        "operationalSynergy": 89,
+        "intimacy": 26,
+        "debt": 6
+      },
+      "state": "cooperative",
+      "memories": [
+        {
+          "eventId": "SEED_BACKSTORY",
+          "summary": "Aurora admitiu diante da equipe que Bastião estava certo sobre a cadeia de custódia.",
+          "valence": 25,
+          "weight": 55,
+          "decay": 0.02,
+          "tags": [
+            "backstory",
+            "seed"
+          ]
+        }
+      ],
+      "boundaries": [],
+      "unresolvedIssues": [],
+      "lastUpdatedTick": 0
+    },
+    {
+      "id": "REL_HERO_002_HERO_003",
+      "fromCharacterId": "HERO_002",
+      "toCharacterId": "HERO_003",
+      "axes": {
+        "trust": 51,
+        "respect": 45,
+        "affection": 59,
+        "fear": -3,
+        "resentment": -4,
+        "rivalry": 40,
+        "dependence": 40,
+        "ideologicalAlignment": 47,
+        "operationalSynergy": 64,
+        "intimacy": 12,
+        "debt": 1
+      },
+      "state": "cooperative",
+      "memories": [
+        {
+          "eventId": "SEED_BACKSTORY",
+          "summary": "Bastião e Vértice concluíram uma operação difícil sem ruptura.",
+          "valence": 55,
+          "weight": 55,
+          "decay": 0.02,
+          "tags": [
+            "backstory",
+            "seed"
+          ]
+        }
+      ],
+      "boundaries": [],
+      "unresolvedIssues": [],
+      "lastUpdatedTick": 0
+    },
+    {
+      "id": "REL_HERO_002_HERO_004",
+      "fromCharacterId": "HERO_002",
+      "toCharacterId": "HERO_004",
+      "axes": {
+        "trust": 48,
+        "respect": 40,
+        "affection": 47,
+        "fear": -3,
+        "resentment": -3,
+        "rivalry": 15,
+        "dependence": 40,
+        "ideologicalAlignment": 47,
+        "operationalSynergy": 79,
+        "intimacy": 52,
+        "debt": 9
+      },
+      "state": "cooperative",
+      "memories": [
+        {
+          "eventId": "SEED_BACKSTORY",
+          "summary": "Bastião e Nexo concluíram uma operação difícil sem ruptura.",
+          "valence": 51,
+          "weight": 55,
+          "decay": 0.02,
+          "tags": [
+            "backstory",
+            "seed"
+          ]
+        }
+      ],
+      "boundaries": [],
+      "unresolvedIssues": [],
+      "lastUpdatedTick": 0
+    },
+    {
+      "id": "REL_HERO_002_HERO_005",
+      "fromCharacterId": "HERO_002",
+      "toCharacterId": "HERO_005",
+      "axes": {
+        "trust": 58,
+        "respect": 52,
+        "affection": 63,
+        "fear": 9,
+        "resentment": 24,
+        "rivalry": 27,
+        "dependence": 16,
+        "ideologicalAlignment": 68,
+        "operationalSynergy": 60,
+        "intimacy": 35,
+        "debt": 0
+      },
+      "state": "cooperative",
+      "memories": [
+        {
+          "eventId": "SEED_BACKSTORY",
+          "summary": "Bastião e Maré concluíram uma operação difícil sem ruptura.",
+          "valence": 34,
+          "weight": 55,
+          "decay": 0.02,
+          "tags": [
+            "backstory",
+            "seed"
+          ]
+        }
+      ],
+      "boundaries": [],
+      "unresolvedIssues": [],
+      "lastUpdatedTick": 0
+    },
+    {
+      "id": "REL_HERO_002_HERO_006",
+      "fromCharacterId": "HERO_002",
+      "toCharacterId": "HERO_006",
+      "axes": {
+        "trust": 63,
+        "respect": 57,
+        "affection": 49,
+        "fear": 13,
+        "resentment": -5,
+        "rivalry": 30,
+        "dependence": 9,
+        "ideologicalAlignment": 45,
+        "operationalSynergy": 67,
+        "intimacy": 46,
+        "debt": 1
+      },
+      "state": "cooperative",
+      "memories": [
+        {
+          "eventId": "SEED_BACKSTORY",
+          "summary": "Bastião e Eco concluíram uma operação difícil sem ruptura.",
+          "valence": 68,
+          "weight": 55,
+          "decay": 0.02,
+          "tags": [
+            "backstory",
+            "seed"
+          ]
+        }
+      ],
+      "boundaries": [],
+      "unresolvedIssues": [],
+      "lastUpdatedTick": 0
+    },
+    {
+      "id": "REL_HERO_002_HERO_007",
+      "fromCharacterId": "HERO_002",
+      "toCharacterId": "HERO_007",
+      "axes": {
+        "trust": 19,
+        "respect": 57,
+        "affection": 8,
+        "fear": 12,
+        "resentment": 46,
+        "rivalry": 33,
+        "dependence": 9,
+        "ideologicalAlignment": 12,
+        "operationalSynergy": 65,
+        "intimacy": -24,
+        "debt": 0
+      },
+      "state": "tense",
+      "memories": [
+        {
+          "eventId": "SEED_BACKSTORY",
+          "summary": "Bastião descobriu que Cinza omitiu contato com o Mercado Rubro.",
+          "valence": -27,
+          "weight": 55,
+          "decay": 0.02,
+          "tags": [
+            "backstory",
+            "seed"
+          ]
+        }
+      ],
+      "boundaries": [],
+      "unresolvedIssues": [],
+      "lastUpdatedTick": 0
+    },
+    {
+      "id": "REL_HERO_002_HERO_008",
+      "fromCharacterId": "HERO_002",
+      "toCharacterId": "HERO_008",
+      "axes": {
+        "trust": 47,
+        "respect": 67,
+        "affection": 47,
+        "fear": 15,
+        "resentment": 11,
+        "rivalry": 20,
+        "dependence": 41,
+        "ideologicalAlignment": 43,
+        "operationalSynergy": 76,
+        "intimacy": 5,
+        "debt": 13
+      },
+      "state": "cooperative",
+      "memories": [
+        {
+          "eventId": "SEED_BACKSTORY",
+          "summary": "Bastião e Farol concluíram uma operação difícil sem ruptura.",
+          "valence": 36,
+          "weight": 55,
+          "decay": 0.02,
+          "tags": [
+            "backstory",
+            "seed"
+          ]
+        }
+      ],
+      "boundaries": [],
+      "unresolvedIssues": [],
+      "lastUpdatedTick": 0
+    },
+    {
+      "id": "REL_HERO_003_HERO_001",
+      "fromCharacterId": "HERO_003",
+      "toCharacterId": "HERO_001",
+      "axes": {
+        "trust": 67,
+        "respect": 43,
+        "affection": 22,
+        "fear": 7,
+        "resentment": -2,
+        "rivalry": 42,
+        "dependence": 26,
+        "ideologicalAlignment": 46,
+        "operationalSynergy": 74,
+        "intimacy": 39,
+        "debt": -4
+      },
+      "state": "cooperative",
+      "memories": [
+        {
+          "eventId": "SEED_BACKSTORY",
+          "summary": "Vértice e Aurora concluíram uma operação difícil sem ruptura.",
+          "valence": 69,
+          "weight": 55,
+          "decay": 0.02,
+          "tags": [
+            "backstory",
+            "seed"
+          ]
+        }
+      ],
+      "boundaries": [],
+      "unresolvedIssues": [],
+      "lastUpdatedTick": 0
+    },
+    {
+      "id": "REL_HERO_003_HERO_002",
+      "fromCharacterId": "HERO_003",
+      "toCharacterId": "HERO_002",
+      "axes": {
+        "trust": 48,
+        "respect": 47,
+        "affection": 39,
+        "fear": 6,
+        "resentment": 12,
+        "rivalry": 17,
+        "dependence": 36,
+        "ideologicalAlignment": 40,
+        "operationalSynergy": 61,
+        "intimacy": 27,
+        "debt": 23
+      },
+      "state": "cooperative",
+      "memories": [
+        {
+          "eventId": "SEED_BACKSTORY",
+          "summary": "Vértice e Bastião concluíram uma operação difícil sem ruptura.",
+          "valence": 36,
+          "weight": 55,
+          "decay": 0.02,
+          "tags": [
+            "backstory",
+            "seed"
+          ]
+        }
+      ],
+      "boundaries": [],
+      "unresolvedIssues": [],
+      "lastUpdatedTick": 0
+    },
+    {
+      "id": "REL_HERO_003_HERO_004",
+      "fromCharacterId": "HERO_003",
+      "toCharacterId": "HERO_004",
+      "axes": {
+        "trust": 48,
+        "respect": 75,
+        "affection": 48,
+        "fear": -2,
+        "resentment": 4,
+        "rivalry": 20,
+        "dependence": 8,
+        "ideologicalAlignment": 57,
+        "operationalSynergy": 50,
+        "intimacy": 42,
+        "debt": 24
+      },
+      "state": "cooperative",
+      "memories": [
+        {
+          "eventId": "SEED_BACKSTORY",
+          "summary": "Vértice e Nexo concluíram uma operação difícil sem ruptura.",
+          "valence": 44,
+          "weight": 55,
+          "decay": 0.02,
+          "tags": [
+            "backstory",
+            "seed"
+          ]
+        }
+      ],
+      "boundaries": [],
+      "unresolvedIssues": [],
+      "lastUpdatedTick": 0
+    },
+    {
+      "id": "REL_HERO_003_HERO_005",
+      "fromCharacterId": "HERO_003",
+      "toCharacterId": "HERO_005",
+      "axes": {
+        "trust": 68,
+        "respect": 53,
+        "affection": 63,
+        "fear": 14,
+        "resentment": 9,
+        "rivalry": 11,
+        "dependence": 20,
+        "ideologicalAlignment": 74,
+        "operationalSynergy": 64,
+        "intimacy": 55,
+        "debt": 30
+      },
+      "state": "cooperative",
+      "memories": [
+        {
+          "eventId": "SEED_BACKSTORY",
+          "summary": "Vértice e Maré concluíram uma operação difícil sem ruptura.",
+          "valence": 59,
+          "weight": 55,
+          "decay": 0.02,
+          "tags": [
+            "backstory",
+            "seed"
+          ]
+        }
+      ],
+      "boundaries": [],
+      "unresolvedIssues": [],
+      "lastUpdatedTick": 0
+    },
+    {
+      "id": "REL_HERO_003_HERO_006",
+      "fromCharacterId": "HERO_003",
+      "toCharacterId": "HERO_006",
+      "axes": {
+        "trust": 84,
+        "respect": 66,
+        "affection": 88,
+        "fear": 0,
+        "resentment": 7,
+        "rivalry": 31,
+        "dependence": 42,
+        "ideologicalAlignment": 79,
+        "operationalSynergy": 81,
+        "intimacy": 77,
+        "debt": 18
+      },
+      "state": "close",
+      "memories": [
+        {
+          "eventId": "SEED_BACKSTORY",
+          "summary": "Eco manteve Vértice falando durante uma crise de confinamento.",
+          "valence": 77,
+          "weight": 55,
+          "decay": 0.02,
+          "tags": [
+            "backstory",
+            "seed"
+          ]
+        }
+      ],
+      "boundaries": [],
+      "unresolvedIssues": [],
+      "lastUpdatedTick": 0
+    },
+    {
+      "id": "REL_HERO_003_HERO_007",
+      "fromCharacterId": "HERO_003",
+      "toCharacterId": "HERO_007",
+      "axes": {
+        "trust": 53,
+        "respect": 48,
+        "affection": 20,
+        "fear": 0,
+        "resentment": 11,
+        "rivalry": 34,
+        "dependence": 13,
+        "ideologicalAlignment": 78,
+        "operationalSynergy": 80,
+        "intimacy": 31,
+        "debt": -4
+      },
+      "state": "cooperative",
+      "memories": [
+        {
+          "eventId": "SEED_BACKSTORY",
+          "summary": "Vértice e Cinza concluíram uma operação difícil sem ruptura.",
+          "valence": 42,
+          "weight": 55,
+          "decay": 0.02,
+          "tags": [
+            "backstory",
+            "seed"
+          ]
+        }
+      ],
+      "boundaries": [],
+      "unresolvedIssues": [],
+      "lastUpdatedTick": 0
+    },
+    {
+      "id": "REL_HERO_003_HERO_008",
+      "fromCharacterId": "HERO_003",
+      "toCharacterId": "HERO_008",
+      "axes": {
+        "trust": 48,
+        "respect": 51,
+        "affection": 38,
+        "fear": 16,
+        "resentment": 21,
+        "rivalry": 3,
+        "dependence": 35,
+        "ideologicalAlignment": 30,
+        "operationalSynergy": 55,
+        "intimacy": 43,
+        "debt": -3
+      },
+      "state": "cooperative",
+      "memories": [
+        {
+          "eventId": "SEED_BACKSTORY",
+          "summary": "Vértice e Farol concluíram uma operação difícil sem ruptura.",
+          "valence": 27,
+          "weight": 55,
+          "decay": 0.02,
+          "tags": [
+            "backstory",
+            "seed"
+          ]
+        }
+      ],
+      "boundaries": [],
+      "unresolvedIssues": [],
+      "lastUpdatedTick": 0
+    },
+    {
+      "id": "REL_HERO_004_HERO_001",
+      "fromCharacterId": "HERO_004",
+      "toCharacterId": "HERO_001",
+      "axes": {
+        "trust": 66,
+        "respect": 48,
+        "affection": 50,
+        "fear": 6,
+        "resentment": 22,
+        "rivalry": 25,
+        "dependence": 21,
+        "ideologicalAlignment": 39,
+        "operationalSynergy": 66,
+        "intimacy": 16,
+        "debt": 10
+      },
+      "state": "cooperative",
+      "memories": [
+        {
+          "eventId": "SEED_BACKSTORY",
+          "summary": "Nexo e Aurora concluíram uma operação difícil sem ruptura.",
+          "valence": 44,
+          "weight": 55,
+          "decay": 0.02,
+          "tags": [
+            "backstory",
+            "seed"
+          ]
+        }
+      ],
+      "boundaries": [],
+      "unresolvedIssues": [],
+      "lastUpdatedTick": 0
+    },
+    {
+      "id": "REL_HERO_004_HERO_002",
+      "fromCharacterId": "HERO_004",
+      "toCharacterId": "HERO_002",
+      "axes": {
+        "trust": 35,
+        "respect": 68,
+        "affection": 31,
+        "fear": -4,
+        "resentment": 16,
+        "rivalry": 48,
+        "dependence": 42,
+        "ideologicalAlignment": 35,
+        "operationalSynergy": 84,
+        "intimacy": 25,
+        "debt": 18
+      },
+      "state": "cooperative",
+      "memories": [
+        {
+          "eventId": "SEED_BACKSTORY",
+          "summary": "Nexo e Bastião concluíram uma operação difícil sem ruptura.",
+          "valence": 19,
+          "weight": 55,
+          "decay": 0.02,
+          "tags": [
+            "backstory",
+            "seed"
+          ]
+        }
+      ],
+      "boundaries": [],
+      "unresolvedIssues": [],
+      "lastUpdatedTick": 0
+    },
+    {
+      "id": "REL_HERO_004_HERO_003",
+      "fromCharacterId": "HERO_004",
+      "toCharacterId": "HERO_003",
+      "axes": {
+        "trust": 51,
+        "respect": 41,
+        "affection": 48,
+        "fear": 9,
+        "resentment": 22,
+        "rivalry": 33,
+        "dependence": 42,
+        "ideologicalAlignment": 40,
+        "operationalSynergy": 59,
+        "intimacy": 35,
+        "debt": 9
+      },
+      "state": "cooperative",
+      "memories": [
+        {
+          "eventId": "SEED_BACKSTORY",
+          "summary": "Nexo e Vértice concluíram uma operação difícil sem ruptura.",
+          "valence": 29,
+          "weight": 55,
+          "decay": 0.02,
+          "tags": [
+            "backstory",
+            "seed"
+          ]
+        }
+      ],
+      "boundaries": [],
+      "unresolvedIssues": [],
+      "lastUpdatedTick": 0
+    },
+    {
+      "id": "REL_HERO_004_HERO_005",
+      "fromCharacterId": "HERO_004",
+      "toCharacterId": "HERO_005",
+      "axes": {
+        "trust": 63,
+        "respect": 51,
+        "affection": 53,
+        "fear": -4,
+        "resentment": -3,
+        "rivalry": 29,
+        "dependence": 6,
+        "ideologicalAlignment": 43,
+        "operationalSynergy": 60,
+        "intimacy": 50,
+        "debt": 3
+      },
+      "state": "cooperative",
+      "memories": [
+        {
+          "eventId": "SEED_BACKSTORY",
+          "summary": "Nexo e Maré concluíram uma operação difícil sem ruptura.",
+          "valence": 66,
+          "weight": 55,
+          "decay": 0.02,
+          "tags": [
+            "backstory",
+            "seed"
+          ]
+        }
+      ],
+      "boundaries": [],
+      "unresolvedIssues": [],
+      "lastUpdatedTick": 0
+    },
+    {
+      "id": "REL_HERO_004_HERO_006",
+      "fromCharacterId": "HERO_004",
+      "toCharacterId": "HERO_006",
+      "axes": {
+        "trust": 68,
+        "respect": 38,
+        "affection": 68,
+        "fear": -5,
+        "resentment": 12,
+        "rivalry": 8,
+        "dependence": 20,
+        "ideologicalAlignment": 53,
+        "operationalSynergy": 47,
+        "intimacy": 36,
+        "debt": 6
+      },
+      "state": "cooperative",
+      "memories": [
+        {
+          "eventId": "SEED_BACKSTORY",
+          "summary": "Nexo e Eco concluíram uma operação difícil sem ruptura.",
+          "valence": 56,
+          "weight": 55,
+          "decay": 0.02,
+          "tags": [
+            "backstory",
+            "seed"
+          ]
+        }
+      ],
+      "boundaries": [],
+      "unresolvedIssues": [],
+      "lastUpdatedTick": 0
+    },
+    {
+      "id": "REL_HERO_004_HERO_007",
+      "fromCharacterId": "HERO_004",
+      "toCharacterId": "HERO_007",
+      "axes": {
+        "trust": 59,
+        "respect": 66,
+        "affection": 49,
+        "fear": 13,
+        "resentment": 7,
+        "rivalry": 32,
+        "dependence": 33,
+        "ideologicalAlignment": 50,
+        "operationalSynergy": 38,
+        "intimacy": 16,
+        "debt": 20
+      },
+      "state": "cooperative",
+      "memories": [
+        {
+          "eventId": "SEED_BACKSTORY",
+          "summary": "Nexo e Cinza concluíram uma operação difícil sem ruptura.",
+          "valence": 52,
+          "weight": 55,
+          "decay": 0.02,
+          "tags": [
+            "backstory",
+            "seed"
+          ]
+        }
+      ],
+      "boundaries": [],
+      "unresolvedIssues": [],
+      "lastUpdatedTick": 0
+    },
+    {
+      "id": "REL_HERO_004_HERO_008",
+      "fromCharacterId": "HERO_004",
+      "toCharacterId": "HERO_008",
+      "axes": {
+        "trust": 67,
+        "respect": 82,
+        "affection": 31,
+        "fear": 5,
+        "resentment": 12,
+        "rivalry": 45,
+        "dependence": 19,
+        "ideologicalAlignment": 56,
+        "operationalSynergy": 86,
+        "intimacy": 23,
+        "debt": 4
+      },
+      "state": "cooperative",
+      "memories": [
+        {
+          "eventId": "SEED_BACKSTORY",
+          "summary": "Farol convenceu Nexo a atrasar uma divulgação até proteger testemunhas.",
+          "valence": 55,
+          "weight": 55,
+          "decay": 0.02,
+          "tags": [
+            "backstory",
+            "seed"
+          ]
+        }
+      ],
+      "boundaries": [],
+      "unresolvedIssues": [],
+      "lastUpdatedTick": 0
+    },
+    {
+      "id": "REL_HERO_005_HERO_001",
+      "fromCharacterId": "HERO_005",
+      "toCharacterId": "HERO_001",
+      "axes": {
+        "trust": 48,
+        "respect": 51,
+        "affection": 63,
+        "fear": -3,
+        "resentment": 4,
+        "rivalry": 7,
+        "dependence": 32,
+        "ideologicalAlignment": 25,
+        "operationalSynergy": 50,
+        "intimacy": 44,
+        "debt": -7
+      },
+      "state": "cooperative",
+      "memories": [
+        {
+          "eventId": "SEED_BACKSTORY",
+          "summary": "Maré e Aurora concluíram uma operação difícil sem ruptura.",
+          "valence": 44,
+          "weight": 55,
+          "decay": 0.02,
+          "tags": [
+            "backstory",
+            "seed"
+          ]
+        }
+      ],
+      "boundaries": [],
+      "unresolvedIssues": [],
+      "lastUpdatedTick": 0
+    },
+    {
+      "id": "REL_HERO_005_HERO_002",
+      "fromCharacterId": "HERO_005",
+      "toCharacterId": "HERO_002",
+      "axes": {
+        "trust": 58,
+        "respect": 38,
+        "affection": 64,
+        "fear": 17,
+        "resentment": 19,
+        "rivalry": 33,
+        "dependence": 30,
+        "ideologicalAlignment": 48,
+        "operationalSynergy": 82,
+        "intimacy": 21,
+        "debt": 1
+      },
+      "state": "cooperative",
+      "memories": [
+        {
+          "eventId": "SEED_BACKSTORY",
+          "summary": "Maré e Bastião concluíram uma operação difícil sem ruptura.",
+          "valence": 39,
+          "weight": 55,
+          "decay": 0.02,
+          "tags": [
+            "backstory",
+            "seed"
+          ]
+        }
+      ],
+      "boundaries": [],
+      "unresolvedIssues": [],
+      "lastUpdatedTick": 0
+    },
+    {
+      "id": "REL_HERO_005_HERO_003",
+      "fromCharacterId": "HERO_005",
+      "toCharacterId": "HERO_003",
+      "axes": {
+        "trust": 60,
+        "respect": 50,
+        "affection": 68,
+        "fear": 17,
+        "resentment": 9,
+        "rivalry": 40,
+        "dependence": 42,
+        "ideologicalAlignment": 30,
+        "operationalSynergy": 57,
+        "intimacy": 29,
+        "debt": 17
+      },
+      "state": "cooperative",
+      "memories": [
+        {
+          "eventId": "SEED_BACKSTORY",
+          "summary": "Maré e Vértice concluíram uma operação difícil sem ruptura.",
+          "valence": 51,
+          "weight": 55,
+          "decay": 0.02,
+          "tags": [
+            "backstory",
+            "seed"
+          ]
+        }
+      ],
+      "boundaries": [],
+      "unresolvedIssues": [],
+      "lastUpdatedTick": 0
+    },
+    {
+      "id": "REL_HERO_005_HERO_004",
+      "fromCharacterId": "HERO_005",
+      "toCharacterId": "HERO_004",
+      "axes": {
+        "trust": 30,
+        "respect": 46,
+        "affection": 57,
+        "fear": 13,
+        "resentment": -1,
+        "rivalry": 17,
+        "dependence": 32,
+        "ideologicalAlignment": 67,
+        "operationalSynergy": 69,
+        "intimacy": 13,
+        "debt": 8
+      },
+      "state": "cooperative",
+      "memories": [
+        {
+          "eventId": "SEED_BACKSTORY",
+          "summary": "Maré e Nexo concluíram uma operação difícil sem ruptura.",
+          "valence": 31,
+          "weight": 55,
+          "decay": 0.02,
+          "tags": [
+            "backstory",
+            "seed"
+          ]
+        }
+      ],
+      "boundaries": [],
+      "unresolvedIssues": [],
+      "lastUpdatedTick": 0
+    },
+    {
+      "id": "REL_HERO_005_HERO_006",
+      "fromCharacterId": "HERO_005",
+      "toCharacterId": "HERO_006",
+      "axes": {
+        "trust": 31,
+        "respect": 60,
+        "affection": 57,
+        "fear": 5,
+        "resentment": 19,
+        "rivalry": 35,
+        "dependence": 37,
+        "ideologicalAlignment": 65,
+        "operationalSynergy": 42,
+        "intimacy": 7,
+        "debt": -2
+      },
+      "state": "cooperative",
+      "memories": [
+        {
+          "eventId": "SEED_BACKSTORY",
+          "summary": "Maré e Eco concluíram uma operação difícil sem ruptura.",
+          "valence": 12,
+          "weight": 55,
+          "decay": 0.02,
+          "tags": [
+            "backstory",
+            "seed"
+          ]
+        }
+      ],
+      "boundaries": [],
+      "unresolvedIssues": [],
+      "lastUpdatedTick": 0
+    },
+    {
+      "id": "REL_HERO_005_HERO_007",
+      "fromCharacterId": "HERO_005",
+      "toCharacterId": "HERO_007",
+      "axes": {
+        "trust": 73,
+        "respect": 79,
+        "affection": 68,
+        "fear": 8,
+        "resentment": 4,
+        "rivalry": 3,
+        "dependence": 38,
+        "ideologicalAlignment": 82,
+        "operationalSynergy": 76,
+        "intimacy": 65,
+        "debt": 31
+      },
+      "state": "close",
+      "memories": [
+        {
+          "eventId": "SEED_BACKSTORY",
+          "summary": "Maré foi a primeira pessoa da Central a tratar Cinza como colega, não como risco.",
+          "valence": 69,
+          "weight": 55,
+          "decay": 0.02,
+          "tags": [
+            "backstory",
+            "seed"
+          ]
+        }
+      ],
+      "boundaries": [],
+      "unresolvedIssues": [],
+      "lastUpdatedTick": 0
+    },
+    {
+      "id": "REL_HERO_005_HERO_008",
+      "fromCharacterId": "HERO_005",
+      "toCharacterId": "HERO_008",
+      "axes": {
+        "trust": 29,
+        "respect": 47,
+        "affection": 52,
+        "fear": 4,
+        "resentment": -5,
+        "rivalry": 10,
+        "dependence": 21,
+        "ideologicalAlignment": 48,
+        "operationalSynergy": 65,
+        "intimacy": 51,
+        "debt": -9
+      },
+      "state": "cooperative",
+      "memories": [
+        {
+          "eventId": "SEED_BACKSTORY",
+          "summary": "Maré e Farol concluíram uma operação difícil sem ruptura.",
+          "valence": 34,
+          "weight": 55,
+          "decay": 0.02,
+          "tags": [
+            "backstory",
+            "seed"
+          ]
+        }
+      ],
+      "boundaries": [],
+      "unresolvedIssues": [],
+      "lastUpdatedTick": 0
+    },
+    {
+      "id": "REL_HERO_006_HERO_001",
+      "fromCharacterId": "HERO_006",
+      "toCharacterId": "HERO_001",
+      "axes": {
+        "trust": 48,
+        "respect": 82,
+        "affection": 49,
+        "fear": 10,
+        "resentment": 10,
+        "rivalry": 31,
+        "dependence": 30,
+        "ideologicalAlignment": 75,
+        "operationalSynergy": 83,
+        "intimacy": 47,
+        "debt": 25
+      },
+      "state": "cooperative",
+      "memories": [
+        {
+          "eventId": "SEED_BACKSTORY",
+          "summary": "Eco e Aurora concluíram uma operação difícil sem ruptura.",
+          "valence": 38,
+          "weight": 55,
+          "decay": 0.02,
+          "tags": [
+            "backstory",
+            "seed"
+          ]
+        }
+      ],
+      "boundaries": [],
+      "unresolvedIssues": [],
+      "lastUpdatedTick": 0
+    },
+    {
+      "id": "REL_HERO_006_HERO_002",
+      "fromCharacterId": "HERO_006",
+      "toCharacterId": "HERO_002",
+      "axes": {
+        "trust": 39,
+        "respect": 75,
+        "affection": 65,
+        "fear": -5,
+        "resentment": 27,
+        "rivalry": 48,
+        "dependence": 23,
+        "ideologicalAlignment": 41,
+        "operationalSynergy": 85,
+        "intimacy": 44,
+        "debt": -6
+      },
+      "state": "cooperative",
+      "memories": [
+        {
+          "eventId": "SEED_BACKSTORY",
+          "summary": "Eco e Bastião concluíram uma operação difícil sem ruptura.",
+          "valence": 12,
+          "weight": 55,
+          "decay": 0.02,
+          "tags": [
+            "backstory",
+            "seed"
+          ]
+        }
+      ],
+      "boundaries": [],
+      "unresolvedIssues": [],
+      "lastUpdatedTick": 0
+    },
+    {
+      "id": "REL_HERO_006_HERO_003",
+      "fromCharacterId": "HERO_006",
+      "toCharacterId": "HERO_003",
+      "axes": {
+        "trust": 89,
+        "respect": 71,
+        "affection": 91,
+        "fear": 0,
+        "resentment": 3,
+        "rivalry": 34,
+        "dependence": 49,
+        "ideologicalAlignment": 81,
+        "operationalSynergy": 85,
+        "intimacy": 82,
+        "debt": 24
+      },
+      "state": "close",
+      "memories": [
+        {
+          "eventId": "SEED_BACKSTORY",
+          "summary": "Vértice abriu um portal sem retorno garantido para retirar Eco de um palco em colapso.",
+          "valence": 80,
+          "weight": 55,
+          "decay": 0.02,
+          "tags": [
+            "backstory",
+            "seed"
+          ]
+        }
+      ],
+      "boundaries": [],
+      "unresolvedIssues": [],
+      "lastUpdatedTick": 0
+    },
+    {
+      "id": "REL_HERO_006_HERO_004",
+      "fromCharacterId": "HERO_006",
+      "toCharacterId": "HERO_004",
+      "axes": {
+        "trust": 41,
+        "respect": 50,
+        "affection": 36,
+        "fear": -5,
+        "resentment": -5,
+        "rivalry": 14,
+        "dependence": 7,
+        "ideologicalAlignment": 43,
+        "operationalSynergy": 66,
+        "intimacy": 48,
+        "debt": 18
+      },
+      "state": "cooperative",
+      "memories": [
+        {
+          "eventId": "SEED_BACKSTORY",
+          "summary": "Eco e Nexo concluíram uma operação difícil sem ruptura.",
+          "valence": 46,
+          "weight": 55,
+          "decay": 0.02,
+          "tags": [
+            "backstory",
+            "seed"
+          ]
+        }
+      ],
+      "boundaries": [],
+      "unresolvedIssues": [],
+      "lastUpdatedTick": 0
+    },
+    {
+      "id": "REL_HERO_006_HERO_005",
+      "fromCharacterId": "HERO_006",
+      "toCharacterId": "HERO_005",
+      "axes": {
+        "trust": 38,
+        "respect": 43,
+        "affection": 33,
+        "fear": 10,
+        "resentment": 22,
+        "rivalry": 34,
+        "dependence": 37,
+        "ideologicalAlignment": 65,
+        "operationalSynergy": 66,
+        "intimacy": 16,
+        "debt": 25
+      },
+      "state": "cooperative",
+      "memories": [
+        {
+          "eventId": "SEED_BACKSTORY",
+          "summary": "Eco e Maré concluíram uma operação difícil sem ruptura.",
+          "valence": 16,
+          "weight": 55,
+          "decay": 0.02,
+          "tags": [
+            "backstory",
+            "seed"
+          ]
+        }
+      ],
+      "boundaries": [],
+      "unresolvedIssues": [],
+      "lastUpdatedTick": 0
+    },
+    {
+      "id": "REL_HERO_006_HERO_007",
+      "fromCharacterId": "HERO_006",
+      "toCharacterId": "HERO_007",
+      "axes": {
+        "trust": 59,
+        "respect": 71,
+        "affection": 17,
+        "fear": 10,
+        "resentment": 23,
+        "rivalry": 40,
+        "dependence": 10,
+        "ideologicalAlignment": 42,
+        "operationalSynergy": 73,
+        "intimacy": 52,
+        "debt": 13
+      },
+      "state": "cooperative",
+      "memories": [
+        {
+          "eventId": "SEED_BACKSTORY",
+          "summary": "Eco e Cinza concluíram uma operação difícil sem ruptura.",
+          "valence": 36,
+          "weight": 55,
+          "decay": 0.02,
+          "tags": [
+            "backstory",
+            "seed"
+          ]
+        }
+      ],
+      "boundaries": [],
+      "unresolvedIssues": [],
+      "lastUpdatedTick": 0
+    },
+    {
+      "id": "REL_HERO_006_HERO_008",
+      "fromCharacterId": "HERO_006",
+      "toCharacterId": "HERO_008",
+      "axes": {
+        "trust": 67,
+        "respect": 49,
+        "affection": 53,
+        "fear": 15,
+        "resentment": -2,
+        "rivalry": 23,
+        "dependence": 34,
+        "ideologicalAlignment": 59,
+        "operationalSynergy": 73,
+        "intimacy": 14,
+        "debt": 23
+      },
+      "state": "cooperative",
+      "memories": [
+        {
+          "eventId": "SEED_BACKSTORY",
+          "summary": "Eco e Farol concluíram uma operação difícil sem ruptura.",
+          "valence": 69,
+          "weight": 55,
+          "decay": 0.02,
+          "tags": [
+            "backstory",
+            "seed"
+          ]
+        }
+      ],
+      "boundaries": [],
+      "unresolvedIssues": [],
+      "lastUpdatedTick": 0
+    },
+    {
+      "id": "REL_HERO_007_HERO_001",
+      "fromCharacterId": "HERO_007",
+      "toCharacterId": "HERO_001",
+      "axes": {
+        "trust": 54,
+        "respect": 49,
+        "affection": 55,
+        "fear": 6,
+        "resentment": -2,
+        "rivalry": 27,
+        "dependence": 18,
+        "ideologicalAlignment": 65,
+        "operationalSynergy": 65,
+        "intimacy": 27,
+        "debt": 30
+      },
+      "state": "cooperative",
+      "memories": [
+        {
+          "eventId": "SEED_BACKSTORY",
+          "summary": "Cinza e Aurora concluíram uma operação difícil sem ruptura.",
+          "valence": 56,
+          "weight": 55,
+          "decay": 0.02,
+          "tags": [
+            "backstory",
+            "seed"
+          ]
+        }
+      ],
+      "boundaries": [],
+      "unresolvedIssues": [],
+      "lastUpdatedTick": 0
+    },
+    {
+      "id": "REL_HERO_007_HERO_002",
+      "fromCharacterId": "HERO_007",
+      "toCharacterId": "HERO_002",
+      "axes": {
+        "trust": 22,
+        "respect": 72,
+        "affection": 11,
+        "fear": 31,
+        "resentment": 39,
+        "rivalry": 25,
+        "dependence": 6,
+        "ideologicalAlignment": 5,
+        "operationalSynergy": 71,
+        "intimacy": -18,
+        "debt": 9
+      },
+      "state": "tense",
+      "memories": [
+        {
+          "eventId": "SEED_BACKSTORY",
+          "summary": "Bastião recusou tratá-la como culpada sem prova, apesar da desconfiança.",
+          "valence": -17,
+          "weight": 55,
+          "decay": 0.02,
+          "tags": [
+            "backstory",
+            "seed"
+          ]
+        }
+      ],
+      "boundaries": [],
+      "unresolvedIssues": [],
+      "lastUpdatedTick": 0
+    },
+    {
+      "id": "REL_HERO_007_HERO_003",
+      "fromCharacterId": "HERO_007",
+      "toCharacterId": "HERO_003",
+      "axes": {
+        "trust": 52,
+        "respect": 41,
+        "affection": 29,
+        "fear": 9,
+        "resentment": 19,
+        "rivalry": 18,
+        "dependence": 6,
+        "ideologicalAlignment": 31,
+        "operationalSynergy": 59,
+        "intimacy": 44,
+        "debt": 18
+      },
+      "state": "cooperative",
+      "memories": [
+        {
+          "eventId": "SEED_BACKSTORY",
+          "summary": "Cinza e Vértice concluíram uma operação difícil sem ruptura.",
+          "valence": 33,
+          "weight": 55,
+          "decay": 0.02,
+          "tags": [
+            "backstory",
+            "seed"
+          ]
+        }
+      ],
+      "boundaries": [],
+      "unresolvedIssues": [],
+      "lastUpdatedTick": 0
+    },
+    {
+      "id": "REL_HERO_007_HERO_004",
+      "fromCharacterId": "HERO_007",
+      "toCharacterId": "HERO_004",
+      "axes": {
+        "trust": 53,
+        "respect": 42,
+        "affection": 37,
+        "fear": 16,
+        "resentment": 1,
+        "rivalry": 17,
+        "dependence": 7,
+        "ideologicalAlignment": 32,
+        "operationalSynergy": 67,
+        "intimacy": 25,
+        "debt": -9
+      },
+      "state": "cooperative",
+      "memories": [
+        {
+          "eventId": "SEED_BACKSTORY",
+          "summary": "Cinza e Nexo concluíram uma operação difícil sem ruptura.",
+          "valence": 52,
+          "weight": 55,
+          "decay": 0.02,
+          "tags": [
+            "backstory",
+            "seed"
+          ]
+        }
+      ],
+      "boundaries": [],
+      "unresolvedIssues": [],
+      "lastUpdatedTick": 0
+    },
+    {
+      "id": "REL_HERO_007_HERO_005",
+      "fromCharacterId": "HERO_007",
+      "toCharacterId": "HERO_005",
+      "axes": {
+        "trust": 81,
+        "respect": 86,
+        "affection": 72,
+        "fear": 2,
+        "resentment": 0,
+        "rivalry": 0,
+        "dependence": 56,
+        "ideologicalAlignment": 74,
+        "operationalSynergy": 73,
+        "intimacy": 71,
+        "debt": 62
+      },
+      "state": "close",
+      "memories": [
+        {
+          "eventId": "SEED_BACKSTORY",
+          "summary": "Maré protegeu a liberdade condicional de Cinza durante uma investigação interna.",
+          "valence": 80,
+          "weight": 55,
+          "decay": 0.02,
+          "tags": [
+            "backstory",
+            "seed"
+          ]
+        }
+      ],
+      "boundaries": [],
+      "unresolvedIssues": [],
+      "lastUpdatedTick": 0
+    },
+    {
+      "id": "REL_HERO_007_HERO_006",
+      "fromCharacterId": "HERO_007",
+      "toCharacterId": "HERO_006",
+      "axes": {
+        "trust": 53,
+        "respect": 56,
+        "affection": 25,
+        "fear": 17,
+        "resentment": 23,
+        "rivalry": 32,
+        "dependence": 19,
+        "ideologicalAlignment": 58,
+        "operationalSynergy": 58,
+        "intimacy": 28,
+        "debt": 2
+      },
+      "state": "cooperative",
+      "memories": [
+        {
+          "eventId": "SEED_BACKSTORY",
+          "summary": "Cinza e Eco concluíram uma operação difícil sem ruptura.",
+          "valence": 30,
+          "weight": 55,
+          "decay": 0.02,
+          "tags": [
+            "backstory",
+            "seed"
+          ]
+        }
+      ],
+      "boundaries": [],
+      "unresolvedIssues": [],
+      "lastUpdatedTick": 0
+    },
+    {
+      "id": "REL_HERO_007_HERO_008",
+      "fromCharacterId": "HERO_007",
+      "toCharacterId": "HERO_008",
+      "axes": {
+        "trust": 34,
+        "respect": 71,
+        "affection": 35,
+        "fear": 6,
+        "resentment": 16,
+        "rivalry": 42,
+        "dependence": 9,
+        "ideologicalAlignment": 37,
+        "operationalSynergy": 62,
+        "intimacy": 40,
+        "debt": 29
+      },
+      "state": "cooperative",
+      "memories": [
+        {
+          "eventId": "SEED_BACKSTORY",
+          "summary": "Cinza e Farol concluíram uma operação difícil sem ruptura.",
+          "valence": 18,
+          "weight": 55,
+          "decay": 0.02,
+          "tags": [
+            "backstory",
+            "seed"
+          ]
+        }
+      ],
+      "boundaries": [],
+      "unresolvedIssues": [],
+      "lastUpdatedTick": 0
+    },
+    {
+      "id": "REL_HERO_008_HERO_001",
+      "fromCharacterId": "HERO_008",
+      "toCharacterId": "HERO_001",
+      "axes": {
+        "trust": 75,
+        "respect": 89,
+        "affection": 61,
+        "fear": 2,
+        "resentment": 14,
+        "rivalry": 15,
+        "dependence": 31,
+        "ideologicalAlignment": 69,
+        "operationalSynergy": 90,
+        "intimacy": 57,
+        "debt": 12
+      },
+      "state": "close",
+      "memories": [
+        {
+          "eventId": "SEED_BACKSTORY",
+          "summary": "Aurora assumiu uma decisão impopular para preservar a autonomia clínica de Farol.",
+          "valence": 61,
+          "weight": 55,
+          "decay": 0.02,
+          "tags": [
+            "backstory",
+            "seed"
+          ]
+        }
+      ],
+      "boundaries": [],
+      "unresolvedIssues": [],
+      "lastUpdatedTick": 0
+    },
+    {
+      "id": "REL_HERO_008_HERO_002",
+      "fromCharacterId": "HERO_008",
+      "toCharacterId": "HERO_002",
+      "axes": {
+        "trust": 67,
+        "respect": 57,
+        "affection": 43,
+        "fear": 15,
+        "resentment": 3,
+        "rivalry": 6,
+        "dependence": 16,
+        "ideologicalAlignment": 53,
+        "operationalSynergy": 48,
+        "intimacy": 48,
+        "debt": 23
+      },
+      "state": "cooperative",
+      "memories": [
+        {
+          "eventId": "SEED_BACKSTORY",
+          "summary": "Farol e Bastião concluíram uma operação difícil sem ruptura.",
+          "valence": 64,
+          "weight": 55,
+          "decay": 0.02,
+          "tags": [
+            "backstory",
+            "seed"
+          ]
+        }
+      ],
+      "boundaries": [],
+      "unresolvedIssues": [],
+      "lastUpdatedTick": 0
+    },
+    {
+      "id": "REL_HERO_008_HERO_003",
+      "fromCharacterId": "HERO_008",
+      "toCharacterId": "HERO_003",
+      "axes": {
+        "trust": 56,
+        "respect": 47,
+        "affection": 60,
+        "fear": 5,
+        "resentment": -8,
+        "rivalry": 7,
+        "dependence": 5,
+        "ideologicalAlignment": 45,
+        "operationalSynergy": 45,
+        "intimacy": 33,
+        "debt": 1
+      },
+      "state": "cooperative",
+      "memories": [
+        {
+          "eventId": "SEED_BACKSTORY",
+          "summary": "Farol e Vértice concluíram uma operação difícil sem ruptura.",
+          "valence": 64,
+          "weight": 55,
+          "decay": 0.02,
+          "tags": [
+            "backstory",
+            "seed"
+          ]
+        }
+      ],
+      "boundaries": [],
+      "unresolvedIssues": [],
+      "lastUpdatedTick": 0
+    },
+    {
+      "id": "REL_HERO_008_HERO_004",
+      "fromCharacterId": "HERO_008",
+      "toCharacterId": "HERO_004",
+      "axes": {
+        "trust": 74,
+        "respect": 87,
+        "affection": 44,
+        "fear": 0,
+        "resentment": 4,
+        "rivalry": 19,
+        "dependence": 16,
+        "ideologicalAlignment": 68,
+        "operationalSynergy": 84,
+        "intimacy": 37,
+        "debt": 8
+      },
+      "state": "close",
+      "memories": [
+        {
+          "eventId": "SEED_BACKSTORY",
+          "summary": "Nexo provou que uma visão provável de Farol havia sido contaminada por dados falsos.",
+          "valence": 70,
+          "weight": 55,
+          "decay": 0.02,
+          "tags": [
+            "backstory",
+            "seed"
+          ]
+        }
+      ],
+      "boundaries": [],
+      "unresolvedIssues": [],
+      "lastUpdatedTick": 0
+    },
+    {
+      "id": "REL_HERO_008_HERO_005",
+      "fromCharacterId": "HERO_008",
+      "toCharacterId": "HERO_005",
+      "axes": {
+        "trust": 44,
+        "respect": 67,
+        "affection": 34,
+        "fear": 4,
+        "resentment": 1,
+        "rivalry": 18,
+        "dependence": 10,
+        "ideologicalAlignment": 30,
+        "operationalSynergy": 40,
+        "intimacy": 51,
+        "debt": -8
+      },
+      "state": "cooperative",
+      "memories": [
+        {
+          "eventId": "SEED_BACKSTORY",
+          "summary": "Farol e Maré concluíram uma operação difícil sem ruptura.",
+          "valence": 43,
+          "weight": 55,
+          "decay": 0.02,
+          "tags": [
+            "backstory",
+            "seed"
+          ]
+        }
+      ],
+      "boundaries": [],
+      "unresolvedIssues": [],
+      "lastUpdatedTick": 0
+    },
+    {
+      "id": "REL_HERO_008_HERO_006",
+      "fromCharacterId": "HERO_008",
+      "toCharacterId": "HERO_006",
+      "axes": {
+        "trust": 49,
+        "respect": 54,
+        "affection": 55,
+        "fear": 12,
+        "resentment": 22,
+        "rivalry": 2,
+        "dependence": 42,
+        "ideologicalAlignment": 28,
+        "operationalSynergy": 44,
+        "intimacy": 44,
+        "debt": 9
+      },
+      "state": "cooperative",
+      "memories": [
+        {
+          "eventId": "SEED_BACKSTORY",
+          "summary": "Farol e Eco concluíram uma operação difícil sem ruptura.",
+          "valence": 27,
+          "weight": 55,
+          "decay": 0.02,
+          "tags": [
+            "backstory",
+            "seed"
+          ]
+        }
+      ],
+      "boundaries": [],
+      "unresolvedIssues": [],
+      "lastUpdatedTick": 0
+    },
+    {
+      "id": "REL_HERO_008_HERO_007",
+      "fromCharacterId": "HERO_008",
+      "toCharacterId": "HERO_007",
+      "axes": {
+        "trust": 33,
+        "respect": 72,
+        "affection": 64,
+        "fear": 4,
+        "resentment": 13,
+        "rivalry": 36,
+        "dependence": 20,
+        "ideologicalAlignment": 64,
+        "operationalSynergy": 53,
+        "intimacy": 23,
+        "debt": 29
+      },
+      "state": "cooperative",
+      "memories": [
+        {
+          "eventId": "SEED_BACKSTORY",
+          "summary": "Farol e Cinza concluíram uma operação difícil sem ruptura.",
+          "valence": 20,
+          "weight": 55,
+          "decay": 0.02,
+          "tags": [
+            "backstory",
+            "seed"
+          ]
+        }
+      ],
+      "boundaries": [],
+      "unresolvedIssues": [],
+      "lastUpdatedTick": 0
+    },
+    {
+      "id": "REL_HERO_001_VILLAIN_001",
+      "fromCharacterId": "HERO_001",
+      "toCharacterId": "VILLAIN_001",
+      "axes": {
+        "trust": -72,
+        "respect": 64,
+        "affection": -38,
+        "fear": 31,
+        "resentment": 70,
+        "rivalry": 88,
+        "dependence": -10,
+        "ideologicalAlignment": -54,
+        "operationalSynergy": -20,
+        "intimacy": -40,
+        "debt": 0
+      },
+      "state": "hostile",
+      "memories": [
+        {
+          "eventId": "SEED_BACKSTORY",
+          "summary": "oposição ideológica; ambos acreditam que alguém precisa decidir em crises",
+          "valence": -100,
+          "weight": 80,
+          "decay": 0.01,
+          "tags": [
+            "backstory",
+            "hero_villain"
+          ]
+        }
+      ],
+      "boundaries": [],
+      "unresolvedIssues": [
+        "oposição ideológica; ambos acreditam que alguém precisa decidir em crises"
+      ],
+      "lastUpdatedTick": 0
+    },
+    {
+      "id": "REL_VILLAIN_001_HERO_001",
+      "fromCharacterId": "VILLAIN_001",
+      "toCharacterId": "HERO_001",
+      "axes": {
+        "trust": -86,
+        "respect": 70,
+        "affection": -29,
+        "fear": 45,
+        "resentment": 58,
+        "rivalry": 91,
+        "dependence": 11,
+        "ideologicalAlignment": -70,
+        "operationalSynergy": -17,
+        "intimacy": -58,
+        "debt": 13
+      },
+      "state": "hostile",
+      "memories": [
+        {
+          "eventId": "SEED_BACKSTORY",
+          "summary": "oposição ideológica; ambos acreditam que alguém precisa decidir em crises",
+          "valence": -100,
+          "weight": 80,
+          "decay": 0.01,
+          "tags": [
+            "backstory",
+            "villain_hero"
+          ]
+        }
+      ],
+      "boundaries": [],
+      "unresolvedIssues": [
+        "oposição ideológica; ambos acreditam que alguém precisa decidir em crises"
+      ],
+      "lastUpdatedTick": 0
+    },
+    {
+      "id": "REL_HERO_004_VILLAIN_006",
+      "fromCharacterId": "HERO_004",
+      "toCharacterId": "VILLAIN_006",
+      "axes": {
+        "trust": -35,
+        "respect": 79,
+        "affection": -12,
+        "fear": 19,
+        "resentment": 48,
+        "rivalry": 96,
+        "dependence": 11,
+        "ideologicalAlignment": 52,
+        "operationalSynergy": 22,
+        "intimacy": -18,
+        "debt": 4
+      },
+      "state": "tense",
+      "memories": [
+        {
+          "eventId": "SEED_BACKSTORY",
+          "summary": "rivalidade técnica e respeito negado",
+          "valence": -83,
+          "weight": 80,
+          "decay": 0.01,
+          "tags": [
+            "backstory",
+            "hero_villain"
+          ]
+        }
+      ],
+      "boundaries": [],
+      "unresolvedIssues": [
+        "rivalidade técnica e respeito negado"
+      ],
+      "lastUpdatedTick": 0
+    },
+    {
+      "id": "REL_VILLAIN_006_HERO_004",
+      "fromCharacterId": "VILLAIN_006",
+      "toCharacterId": "HERO_004",
+      "axes": {
+        "trust": -45,
+        "respect": 81,
+        "affection": -25,
+        "fear": 33,
+        "resentment": 60,
+        "rivalry": 88,
+        "dependence": 8,
+        "ideologicalAlignment": 69,
+        "operationalSynergy": 37,
+        "intimacy": -19,
+        "debt": 14
+      },
+      "state": "hostile",
+      "memories": [
+        {
+          "eventId": "SEED_BACKSTORY",
+          "summary": "rivalidade técnica e respeito negado",
+          "valence": -100,
+          "weight": 80,
+          "decay": 0.01,
+          "tags": [
+            "backstory",
+            "villain_hero"
+          ]
+        }
+      ],
+      "boundaries": [],
+      "unresolvedIssues": [
+        "rivalidade técnica e respeito negado"
+      ],
+      "lastUpdatedTick": 0
+    },
+    {
+      "id": "REL_HERO_006_VILLAIN_011",
+      "fromCharacterId": "HERO_006",
+      "toCharacterId": "VILLAIN_011",
+      "axes": {
+        "trust": -64,
+        "respect": 37,
+        "affection": -31,
+        "fear": 8,
+        "resentment": 61,
+        "rivalry": 97,
+        "dependence": 2,
+        "ideologicalAlignment": -18,
+        "operationalSynergy": -11,
+        "intimacy": -36,
+        "debt": 0
+      },
+      "state": "hostile",
+      "memories": [
+        {
+          "eventId": "SEED_BACKSTORY",
+          "summary": "rivalidade pública pela narrativa",
+          "valence": -100,
+          "weight": 80,
+          "decay": 0.01,
+          "tags": [
+            "backstory",
+            "hero_villain"
+          ]
+        }
+      ],
+      "boundaries": [],
+      "unresolvedIssues": [
+        "rivalidade pública pela narrativa"
+      ],
+      "lastUpdatedTick": 0
+    },
+    {
+      "id": "REL_VILLAIN_011_HERO_006",
+      "fromCharacterId": "VILLAIN_011",
+      "toCharacterId": "HERO_006",
+      "axes": {
+        "trust": -74,
+        "respect": 29,
+        "affection": -44,
+        "fear": 14,
+        "resentment": 75,
+        "rivalry": 100,
+        "dependence": -2,
+        "ideologicalAlignment": -19,
+        "operationalSynergy": 4,
+        "intimacy": -35,
+        "debt": -8
+      },
+      "state": "hostile",
+      "memories": [
+        {
+          "eventId": "SEED_BACKSTORY",
+          "summary": "rivalidade pública pela narrativa",
+          "valence": -100,
+          "weight": 80,
+          "decay": 0.01,
+          "tags": [
+            "backstory",
+            "villain_hero"
+          ]
+        }
+      ],
+      "boundaries": [],
+      "unresolvedIssues": [
+        "rivalidade pública pela narrativa"
+      ],
+      "lastUpdatedTick": 0
+    },
+    {
+      "id": "REL_HERO_007_VILLAIN_016",
+      "fromCharacterId": "HERO_007",
+      "toCharacterId": "VILLAIN_016",
+      "axes": {
+        "trust": -18,
+        "respect": 71,
+        "affection": 46,
+        "fear": 53,
+        "resentment": 66,
+        "rivalry": 35,
+        "dependence": 44,
+        "ideologicalAlignment": 28,
+        "operationalSynergy": 67,
+        "intimacy": 83,
+        "debt": 58
+      },
+      "state": "hostile",
+      "memories": [
+        {
+          "eventId": "SEED_BACKSTORY",
+          "summary": "vínculo íntimo antigo, afeto residual e risco de manipulação",
+          "valence": -84,
+          "weight": 80,
+          "decay": 0.01,
+          "tags": [
+            "backstory",
+            "hero_villain"
+          ]
+        }
+      ],
+      "boundaries": [],
+      "unresolvedIssues": [
+        "vínculo íntimo antigo, afeto residual e risco de manipulação"
+      ],
+      "lastUpdatedTick": 0
+    },
+    {
+      "id": "REL_VILLAIN_016_HERO_007",
+      "fromCharacterId": "VILLAIN_016",
+      "toCharacterId": "HERO_007",
+      "axes": {
+        "trust": -7,
+        "respect": 58,
+        "affection": 49,
+        "fear": 48,
+        "resentment": 61,
+        "rivalry": 29,
+        "dependence": 65,
+        "ideologicalAlignment": 37,
+        "operationalSynergy": 68,
+        "intimacy": 97,
+        "debt": 55
+      },
+      "state": "tense",
+      "memories": [
+        {
+          "eventId": "SEED_BACKSTORY",
+          "summary": "vínculo íntimo antigo, afeto residual e risco de manipulação",
+          "valence": -68,
+          "weight": 80,
+          "decay": 0.01,
+          "tags": [
+            "backstory",
+            "villain_hero"
+          ]
+        }
+      ],
+      "boundaries": [],
+      "unresolvedIssues": [
+        "vínculo íntimo antigo, afeto residual e risco de manipulação"
+      ],
+      "lastUpdatedTick": 0
+    },
+    {
+      "id": "REL_HERO_007_VILLAIN_002",
+      "fromCharacterId": "HERO_007",
+      "toCharacterId": "VILLAIN_002",
+      "axes": {
+        "trust": 22,
+        "respect": 82,
+        "affection": 19,
+        "fear": 17,
+        "resentment": 31,
+        "rivalry": 42,
+        "dependence": 9,
+        "ideologicalAlignment": 37,
+        "operationalSynergy": 88,
+        "intimacy": 21,
+        "debt": 36
+      },
+      "state": "cooperative",
+      "memories": [
+        {
+          "eventId": "SEED_BACKSTORY",
+          "summary": "antiga relação profissional no Mercado Rubro",
+          "valence": -9,
+          "weight": 80,
+          "decay": 0.01,
+          "tags": [
+            "backstory",
+            "hero_villain"
+          ]
+        }
+      ],
+      "boundaries": [],
+      "unresolvedIssues": [
+        "antiga relação profissional no Mercado Rubro"
+      ],
+      "lastUpdatedTick": 0
+    },
+    {
+      "id": "REL_VILLAIN_002_HERO_007",
+      "fromCharacterId": "VILLAIN_002",
+      "toCharacterId": "HERO_007",
+      "axes": {
+        "trust": 33,
+        "respect": 90,
+        "affection": 29,
+        "fear": 35,
+        "resentment": 20,
+        "rivalry": 37,
+        "dependence": 12,
+        "ideologicalAlignment": 42,
+        "operationalSynergy": 100,
+        "intimacy": 13,
+        "debt": 33
+      },
+      "state": "cooperative",
+      "memories": [
+        {
+          "eventId": "SEED_BACKSTORY",
+          "summary": "antiga relação profissional no Mercado Rubro",
+          "valence": 13,
+          "weight": 80,
+          "decay": 0.01,
+          "tags": [
+            "backstory",
+            "villain_hero"
+          ]
+        }
+      ],
+      "boundaries": [],
+      "unresolvedIssues": [
+        "antiga relação profissional no Mercado Rubro"
+      ],
+      "lastUpdatedTick": 0
+    },
+    {
+      "id": "REL_HERO_008_VILLAIN_003",
+      "fromCharacterId": "HERO_008",
+      "toCharacterId": "VILLAIN_003",
+      "axes": {
+        "trust": -44,
+        "respect": 73,
+        "affection": 18,
+        "fear": 61,
+        "resentment": 52,
+        "rivalry": 41,
+        "dependence": 20,
+        "ideologicalAlignment": -46,
+        "operationalSynergy": -34,
+        "intimacy": 48,
+        "debt": 7
+      },
+      "state": "hostile",
+      "memories": [
+        {
+          "eventId": "SEED_BACKSTORY",
+          "summary": "histórico clínico interrompido e disputa sobre consentimento",
+          "valence": -96,
+          "weight": 80,
+          "decay": 0.01,
+          "tags": [
+            "backstory",
+            "hero_villain"
+          ]
+        }
+      ],
+      "boundaries": [],
+      "unresolvedIssues": [
+        "histórico clínico interrompido e disputa sobre consentimento"
+      ],
+      "lastUpdatedTick": 0
+    },
+    {
+      "id": "REL_VILLAIN_003_HERO_008",
+      "fromCharacterId": "VILLAIN_003",
+      "toCharacterId": "HERO_008",
+      "axes": {
+        "trust": -62,
+        "respect": 82,
+        "affection": 8,
+        "fear": 67,
+        "resentment": 46,
+        "rivalry": 59,
+        "dependence": 42,
+        "ideologicalAlignment": -32,
+        "operationalSynergy": -25,
+        "intimacy": 65,
+        "debt": 9
+      },
+      "state": "hostile",
+      "memories": [
+        {
+          "eventId": "SEED_BACKSTORY",
+          "summary": "histórico clínico interrompido e disputa sobre consentimento",
+          "valence": -100,
+          "weight": 80,
+          "decay": 0.01,
+          "tags": [
+            "backstory",
+            "villain_hero"
+          ]
+        }
+      ],
+      "boundaries": [],
+      "unresolvedIssues": [
+        "histórico clínico interrompido e disputa sobre consentimento"
+      ],
+      "lastUpdatedTick": 0
+    },
+    {
+      "id": "REL_HERO_002_VILLAIN_012",
+      "fromCharacterId": "HERO_002",
+      "toCharacterId": "VILLAIN_012",
+      "axes": {
+        "trust": -29,
+        "respect": 74,
+        "affection": -4,
+        "fear": 15,
+        "resentment": 44,
+        "rivalry": 36,
+        "dependence": 4,
+        "ideologicalAlignment": 22,
+        "operationalSynergy": 51,
+        "intimacy": -25,
+        "debt": 0
+      },
+      "state": "tense",
+      "memories": [
+        {
+          "eventId": "SEED_BACKSTORY",
+          "summary": "respeito pela disciplina, repulsa pela obediência cega",
+          "valence": -73,
+          "weight": 80,
+          "decay": 0.01,
+          "tags": [
+            "backstory",
+            "hero_villain"
+          ]
+        }
+      ],
+      "boundaries": [],
+      "unresolvedIssues": [
+        "respeito pela disciplina, repulsa pela obediência cega"
+      ],
+      "lastUpdatedTick": 0
+    },
+    {
+      "id": "REL_VILLAIN_012_HERO_002",
+      "fromCharacterId": "VILLAIN_012",
+      "toCharacterId": "HERO_002",
+      "axes": {
+        "trust": -31,
+        "respect": 64,
+        "affection": -5,
+        "fear": 26,
+        "resentment": 34,
+        "rivalry": 32,
+        "dependence": 14,
+        "ideologicalAlignment": 19,
+        "operationalSynergy": 49,
+        "intimacy": -7,
+        "debt": -2
+      },
+      "state": "tense",
+      "memories": [
+        {
+          "eventId": "SEED_BACKSTORY",
+          "summary": "respeito pela disciplina, repulsa pela obediência cega",
+          "valence": -65,
+          "weight": 80,
+          "decay": 0.01,
+          "tags": [
+            "backstory",
+            "villain_hero"
+          ]
+        }
+      ],
+      "boundaries": [],
+      "unresolvedIssues": [
+        "respeito pela disciplina, repulsa pela obediência cega"
+      ],
+      "lastUpdatedTick": 0
+    },
+    {
+      "id": "REL_HERO_003_VILLAIN_015",
+      "fromCharacterId": "HERO_003",
+      "toCharacterId": "VILLAIN_015",
+      "axes": {
+        "trust": -12,
+        "respect": 68,
+        "affection": 21,
+        "fear": 10,
+        "resentment": 25,
+        "rivalry": 91,
+        "dependence": 6,
+        "ideologicalAlignment": 56,
+        "operationalSynergy": 72,
+        "intimacy": 11,
+        "debt": 0
+      },
+      "state": "tense",
+      "memories": [
+        {
+          "eventId": "SEED_BACKSTORY",
+          "summary": "rivalidade acrobática e possibilidade real de mentoria",
+          "valence": -37,
+          "weight": 80,
+          "decay": 0.01,
+          "tags": [
+            "backstory",
+            "hero_villain"
+          ]
+        }
+      ],
+      "boundaries": [],
+      "unresolvedIssues": [
+        "rivalidade acrobática e possibilidade real de mentoria"
+      ],
+      "lastUpdatedTick": 0
+    },
+    {
+      "id": "REL_VILLAIN_015_HERO_003",
+      "fromCharacterId": "VILLAIN_015",
+      "toCharacterId": "HERO_003",
+      "axes": {
+        "trust": 6,
+        "respect": 64,
+        "affection": 11,
+        "fear": 32,
+        "resentment": 26,
+        "rivalry": 100,
+        "dependence": 15,
+        "ideologicalAlignment": 40,
+        "operationalSynergy": 55,
+        "intimacy": 7,
+        "debt": 1
+      },
+      "state": "neutral",
+      "memories": [
+        {
+          "eventId": "SEED_BACKSTORY",
+          "summary": "rivalidade acrobática e possibilidade real de mentoria",
+          "valence": -20,
+          "weight": 80,
+          "decay": 0.01,
+          "tags": [
+            "backstory",
+            "villain_hero"
+          ]
+        }
+      ],
+      "boundaries": [],
+      "unresolvedIssues": [
+        "rivalidade acrobática e possibilidade real de mentoria"
+      ],
+      "lastUpdatedTick": 0
+    },
+    {
+      "id": "REL_HERO_005_VILLAIN_019",
+      "fromCharacterId": "HERO_005",
+      "toCharacterId": "VILLAIN_019",
+      "axes": {
+        "trust": 18,
+        "respect": 55,
+        "affection": 42,
+        "fear": 27,
+        "resentment": 19,
+        "rivalry": 4,
+        "dependence": 31,
+        "ideologicalAlignment": 61,
+        "operationalSynergy": 20,
+        "intimacy": 35,
+        "debt": 12
+      },
+      "state": "cooperative",
+      "memories": [
+        {
+          "eventId": "SEED_BACKSTORY",
+          "summary": "compaixão clínica sem tolerar vítimas",
+          "valence": -1,
+          "weight": 80,
+          "decay": 0.01,
+          "tags": [
+            "backstory",
+            "hero_villain"
+          ]
+        }
+      ],
+      "boundaries": [],
+      "unresolvedIssues": [
+        "compaixão clínica sem tolerar vítimas"
+      ],
+      "lastUpdatedTick": 0
+    },
+    {
+      "id": "REL_VILLAIN_019_HERO_005",
+      "fromCharacterId": "VILLAIN_019",
+      "toCharacterId": "HERO_005",
+      "axes": {
+        "trust": 36,
+        "respect": 48,
+        "affection": 51,
+        "fear": 21,
+        "resentment": 20,
+        "rivalry": 6,
+        "dependence": 32,
+        "ideologicalAlignment": 62,
+        "operationalSynergy": 17,
+        "intimacy": 36,
+        "debt": 30
+      },
+      "state": "cooperative",
+      "memories": [
+        {
+          "eventId": "SEED_BACKSTORY",
+          "summary": "compaixão clínica sem tolerar vítimas",
+          "valence": 16,
+          "weight": 80,
+          "decay": 0.01,
+          "tags": [
+            "backstory",
+            "villain_hero"
+          ]
+        }
+      ],
+      "boundaries": [],
+      "unresolvedIssues": [
+        "compaixão clínica sem tolerar vítimas"
+      ],
+      "lastUpdatedTick": 0
+    },
+    {
+      "id": "REL_HERO_005_VILLAIN_009",
+      "fromCharacterId": "HERO_005",
+      "toCharacterId": "VILLAIN_009",
+      "axes": {
+        "trust": 39,
+        "respect": 48,
+        "affection": 56,
+        "fear": 8,
+        "resentment": 7,
+        "rivalry": 0,
+        "dependence": 34,
+        "ideologicalAlignment": 63,
+        "operationalSynergy": 31,
+        "intimacy": 42,
+        "debt": 0
+      },
+      "state": "cooperative",
+      "memories": [
+        {
+          "eventId": "SEED_BACKSTORY",
+          "summary": "vínculo de cuidado e alto potencial de segunda chance",
+          "valence": 32,
+          "weight": 80,
+          "decay": 0.01,
+          "tags": [
+            "backstory",
+            "hero_villain"
+          ]
+        }
+      ],
+      "boundaries": [],
+      "unresolvedIssues": [
+        "vínculo de cuidado e alto potencial de segunda chance"
+      ],
+      "lastUpdatedTick": 0
+    },
+    {
+      "id": "REL_VILLAIN_009_HERO_005",
+      "fromCharacterId": "VILLAIN_009",
+      "toCharacterId": "HERO_005",
+      "axes": {
+        "trust": 52,
+        "respect": 54,
+        "affection": 50,
+        "fear": 15,
+        "resentment": 12,
+        "rivalry": -8,
+        "dependence": 48,
+        "ideologicalAlignment": 54,
+        "operationalSynergy": 16,
+        "intimacy": 46,
+        "debt": 9
+      },
+      "state": "cooperative",
+      "memories": [
+        {
+          "eventId": "SEED_BACKSTORY",
+          "summary": "vínculo de cuidado e alto potencial de segunda chance",
+          "valence": 40,
+          "weight": 80,
+          "decay": 0.01,
+          "tags": [
+            "backstory",
+            "villain_hero"
+          ]
+        }
+      ],
+      "boundaries": [],
+      "unresolvedIssues": [
+        "vínculo de cuidado e alto potencial de segunda chance"
+      ],
+      "lastUpdatedTick": 0
+    },
+    {
+      "id": "REL_HERO_001_VILLAIN_002",
+      "fromCharacterId": "HERO_001",
+      "toCharacterId": "VILLAIN_002",
+      "axes": {
+        "trust": -18,
+        "respect": 81,
+        "affection": -6,
+        "fear": 14,
+        "resentment": 38,
+        "rivalry": 54,
+        "dependence": 3,
+        "ideologicalAlignment": 29,
+        "operationalSynergy": 77,
+        "intimacy": -12,
+        "debt": 0
+      },
+      "state": "tense",
+      "memories": [
+        {
+          "eventId": "SEED_BACKSTORY",
+          "summary": "respeito entre líderes de campo e conflito sobre contratos",
+          "valence": -56,
+          "weight": 80,
+          "decay": 0.01,
+          "tags": [
+            "backstory",
+            "hero_villain"
+          ]
+        }
+      ],
+      "boundaries": [],
+      "unresolvedIssues": [
+        "respeito entre líderes de campo e conflito sobre contratos"
+      ],
+      "lastUpdatedTick": 0
+    },
+    {
+      "id": "REL_VILLAIN_002_HERO_001",
+      "fromCharacterId": "VILLAIN_002",
+      "toCharacterId": "HERO_001",
+      "axes": {
+        "trust": -13,
+        "respect": 90,
+        "affection": -13,
+        "fear": 27,
+        "resentment": 20,
+        "rivalry": 48,
+        "dependence": 4,
+        "ideologicalAlignment": 46,
+        "operationalSynergy": 81,
+        "intimacy": -19,
+        "debt": -17
+      },
+      "state": "tense",
+      "memories": [
+        {
+          "eventId": "SEED_BACKSTORY",
+          "summary": "respeito entre líderes de campo e conflito sobre contratos",
+          "valence": -33,
+          "weight": 80,
+          "decay": 0.01,
+          "tags": [
+            "backstory",
+            "villain_hero"
+          ]
+        }
+      ],
+      "boundaries": [],
+      "unresolvedIssues": [
+        "respeito entre líderes de campo e conflito sobre contratos"
+      ],
+      "lastUpdatedTick": 0
+    },
+    {
+      "id": "REL_HERO_005_VILLAIN_010",
+      "fromCharacterId": "HERO_005",
+      "toCharacterId": "VILLAIN_010",
+      "axes": {
+        "trust": -21,
+        "respect": 77,
+        "affection": 17,
+        "fear": 22,
+        "resentment": 36,
+        "rivalry": 30,
+        "dependence": 5,
+        "ideologicalAlignment": 72,
+        "operationalSynergy": 49,
+        "intimacy": 12,
+        "debt": 0
+      },
+      "state": "tense",
+      "memories": [
+        {
+          "eventId": "SEED_BACKSTORY",
+          "summary": "causa ambiental compartilhada, métodos incompatíveis",
+          "valence": -57,
+          "weight": 80,
+          "decay": 0.01,
+          "tags": [
+            "backstory",
+            "hero_villain"
+          ]
+        }
+      ],
+      "boundaries": [],
+      "unresolvedIssues": [
+        "causa ambiental compartilhada, métodos incompatíveis"
+      ],
+      "lastUpdatedTick": 0
+    },
+    {
+      "id": "REL_VILLAIN_010_HERO_005",
+      "fromCharacterId": "VILLAIN_010",
+      "toCharacterId": "HERO_005",
+      "axes": {
+        "trust": -12,
+        "respect": 90,
+        "affection": 34,
+        "fear": 37,
+        "resentment": 38,
+        "rivalry": 32,
+        "dependence": 2,
+        "ideologicalAlignment": 65,
+        "operationalSynergy": 66,
+        "intimacy": -2,
+        "debt": -6
+      },
+      "state": "tense",
+      "memories": [
+        {
+          "eventId": "SEED_BACKSTORY",
+          "summary": "causa ambiental compartilhada, métodos incompatíveis",
+          "valence": -50,
+          "weight": 80,
+          "decay": 0.01,
+          "tags": [
+            "backstory",
+            "villain_hero"
+          ]
+        }
+      ],
+      "boundaries": [],
+      "unresolvedIssues": [
+        "causa ambiental compartilhada, métodos incompatíveis"
+      ],
+      "lastUpdatedTick": 0
+    },
+    {
+      "id": "REL_VILLAIN_001_VILLAIN_006",
+      "fromCharacterId": "VILLAIN_001",
+      "toCharacterId": "VILLAIN_006",
+      "axes": {
+        "trust": 41,
+        "respect": 88,
+        "affection": 4,
+        "fear": 3,
+        "resentment": 19,
+        "rivalry": 45,
+        "dependence": 31,
+        "ideologicalAlignment": 63,
+        "operationalSynergy": 92,
+        "intimacy": -5,
+        "debt": 47
+      },
+      "state": "cooperative",
+      "memories": [
+        {
+          "eventId": "SEED_BACKSTORY",
+          "summary": "mentor técnico que trata Cifra como recurso",
+          "valence": 22,
+          "weight": 75,
+          "decay": 0.015,
+          "tags": [
+            "backstory",
+            "villain_villain"
+          ]
+        }
+      ],
+      "boundaries": [],
+      "unresolvedIssues": [
+        "mentor técnico que trata Cifra como recurso"
+      ],
+      "lastUpdatedTick": 0
+    },
+    {
+      "id": "REL_VILLAIN_006_VILLAIN_001",
+      "fromCharacterId": "VILLAIN_006",
+      "toCharacterId": "VILLAIN_001",
+      "axes": {
+        "trust": 18,
+        "respect": 77,
+        "affection": 6,
+        "fear": 24,
+        "resentment": 48,
+        "rivalry": 68,
+        "dependence": 19,
+        "ideologicalAlignment": 58,
+        "operationalSynergy": 89,
+        "intimacy": 2,
+        "debt": -22
+      },
+      "state": "tense",
+      "memories": [
+        {
+          "eventId": "SEED_BACKSTORY",
+          "summary": "admiração antiga convertida em suspeita",
+          "valence": -30,
+          "weight": 75,
+          "decay": 0.015,
+          "tags": [
+            "backstory",
+            "villain_villain"
+          ]
+        }
+      ],
+      "boundaries": [],
+      "unresolvedIssues": [
+        "admiração antiga convertida em suspeita"
+      ],
+      "lastUpdatedTick": 0
+    },
+    {
+      "id": "REL_VILLAIN_002_VILLAIN_016",
+      "fromCharacterId": "VILLAIN_002",
+      "toCharacterId": "VILLAIN_016",
+      "axes": {
+        "trust": 52,
+        "respect": 86,
+        "affection": 18,
+        "fear": 16,
+        "resentment": 12,
+        "rivalry": 28,
+        "dependence": 21,
+        "ideologicalAlignment": 61,
+        "operationalSynergy": 94,
+        "intimacy": 33,
+        "debt": 14
+      },
+      "state": "cooperative",
+      "memories": [
+        {
+          "eventId": "SEED_BACKSTORY",
+          "summary": "aliança eficiente com confiança limitada",
+          "valence": 40,
+          "weight": 75,
+          "decay": 0.015,
+          "tags": [
+            "backstory",
+            "villain_villain"
+          ]
+        }
+      ],
+      "boundaries": [],
+      "unresolvedIssues": [
+        "aliança eficiente com confiança limitada"
+      ],
+      "lastUpdatedTick": 0
+    },
+    {
+      "id": "REL_VILLAIN_016_VILLAIN_002",
+      "fromCharacterId": "VILLAIN_016",
+      "toCharacterId": "VILLAIN_002",
+      "axes": {
+        "trust": 61,
+        "respect": 78,
+        "affection": 24,
+        "fear": 6,
+        "resentment": 8,
+        "rivalry": 19,
+        "dependence": 57,
+        "ideologicalAlignment": 55,
+        "operationalSynergy": 91,
+        "intimacy": 28,
+        "debt": 66
+      },
+      "state": "cooperative",
+      "memories": [
+        {
+          "eventId": "SEED_BACKSTORY",
+          "summary": "vê Vespa como rota de fuga confiável",
+          "valence": 53,
+          "weight": 75,
+          "decay": 0.015,
+          "tags": [
+            "backstory",
+            "villain_villain"
+          ]
+        }
+      ],
+      "boundaries": [],
+      "unresolvedIssues": [
+        "vê Vespa como rota de fuga confiável"
+      ],
+      "lastUpdatedTick": 0
+    },
+    {
+      "id": "REL_VILLAIN_017_VILLAIN_009",
+      "fromCharacterId": "VILLAIN_017",
+      "toCharacterId": "VILLAIN_009",
+      "axes": {
+        "trust": 78,
+        "respect": 51,
+        "affection": 72,
+        "fear": 1,
+        "resentment": 5,
+        "rivalry": 0,
+        "dependence": 23,
+        "ideologicalAlignment": 69,
+        "operationalSynergy": 64,
+        "intimacy": 57,
+        "debt": 8
+      },
+      "state": "close",
+      "memories": [
+        {
+          "eventId": "SEED_BACKSTORY",
+          "summary": "proteção comunitária quase paternal",
+          "valence": 73,
+          "weight": 75,
+          "decay": 0.015,
+          "tags": [
+            "backstory",
+            "villain_villain"
+          ]
+        }
+      ],
+      "boundaries": [],
+      "unresolvedIssues": [
+        "proteção comunitária quase paternal"
+      ],
+      "lastUpdatedTick": 0
+    },
+    {
+      "id": "REL_VILLAIN_009_VILLAIN_017",
+      "fromCharacterId": "VILLAIN_009",
+      "toCharacterId": "VILLAIN_017",
+      "axes": {
+        "trust": 87,
+        "respect": 88,
+        "affection": 79,
+        "fear": 9,
+        "resentment": 2,
+        "rivalry": 4,
+        "dependence": 76,
+        "ideologicalAlignment": 71,
+        "operationalSynergy": 67,
+        "intimacy": 68,
+        "debt": 72
+      },
+      "state": "dependent",
+      "memories": [
+        {
+          "eventId": "SEED_BACKSTORY",
+          "summary": "enxerga Pedreira como adulto que não o descartou",
+          "valence": 85,
+          "weight": 75,
+          "decay": 0.015,
+          "tags": [
+            "backstory",
+            "villain_villain"
+          ]
+        }
+      ],
+      "boundaries": [],
+      "unresolvedIssues": [
+        "enxerga Pedreira como adulto que não o descartou"
+      ],
+      "lastUpdatedTick": 0
+    },
+    {
+      "id": "REL_VILLAIN_010_VILLAIN_020",
+      "fromCharacterId": "VILLAIN_010",
+      "toCharacterId": "VILLAIN_020",
+      "axes": {
+        "trust": 63,
+        "respect": 74,
+        "affection": 22,
+        "fear": 3,
+        "resentment": 16,
+        "rivalry": 13,
+        "dependence": 24,
+        "ideologicalAlignment": 77,
+        "operationalSynergy": 79,
+        "intimacy": 18,
+        "debt": 9
+      },
+      "state": "cooperative",
+      "memories": [
+        {
+          "eventId": "SEED_BACKSTORY",
+          "summary": "aliança ambiental com limite no tráfico humano",
+          "valence": 47,
+          "weight": 75,
+          "decay": 0.015,
+          "tags": [
+            "backstory",
+            "villain_villain"
+          ]
+        }
+      ],
+      "boundaries": [],
+      "unresolvedIssues": [
+        "aliança ambiental com limite no tráfico humano"
+      ],
+      "lastUpdatedTick": 0
+    },
+    {
+      "id": "REL_VILLAIN_020_VILLAIN_010",
+      "fromCharacterId": "VILLAIN_020",
+      "toCharacterId": "VILLAIN_010",
+      "axes": {
+        "trust": 48,
+        "respect": 81,
+        "affection": 19,
+        "fear": 22,
+        "resentment": 29,
+        "rivalry": 8,
+        "dependence": 17,
+        "ideologicalAlignment": 68,
+        "operationalSynergy": 76,
+        "intimacy": 15,
+        "debt": 5
+      },
+      "state": "cooperative",
+      "memories": [
+        {
+          "eventId": "SEED_BACKSTORY",
+          "summary": "apoia a causa, teme escalada contra portos civis",
+          "valence": 19,
+          "weight": 75,
+          "decay": 0.015,
+          "tags": [
+            "backstory",
+            "villain_villain"
+          ]
+        }
+      ],
+      "boundaries": [],
+      "unresolvedIssues": [
+        "apoia a causa, teme escalada contra portos civis"
+      ],
+      "lastUpdatedTick": 0
+    },
+    {
+      "id": "REL_VILLAIN_005_VILLAIN_003",
+      "fromCharacterId": "VILLAIN_005",
+      "toCharacterId": "VILLAIN_003",
+      "axes": {
+        "trust": 12,
+        "respect": 58,
+        "affection": -9,
+        "fear": 0,
+        "resentment": 14,
+        "rivalry": 17,
+        "dependence": 39,
+        "ideologicalAlignment": 67,
+        "operationalSynergy": 84,
+        "intimacy": -12,
+        "debt": 0
+      },
+      "state": "neutral",
+      "memories": [
+        {
+          "eventId": "SEED_BACKSTORY",
+          "summary": "trata Mnemósine como instrumento doutrinário",
+          "valence": -2,
+          "weight": 75,
+          "decay": 0.015,
+          "tags": [
+            "backstory",
+            "villain_villain"
+          ]
+        }
+      ],
+      "boundaries": [],
+      "unresolvedIssues": [
+        "trata Mnemósine como instrumento doutrinário"
+      ],
+      "lastUpdatedTick": 0
+    },
+    {
+      "id": "REL_VILLAIN_003_VILLAIN_005",
+      "fromCharacterId": "VILLAIN_003",
+      "toCharacterId": "VILLAIN_005",
+      "axes": {
+        "trust": 35,
+        "respect": 71,
+        "affection": 31,
+        "fear": 76,
+        "resentment": 44,
+        "rivalry": 9,
+        "dependence": 81,
+        "ideologicalAlignment": 53,
+        "operationalSynergy": 78,
+        "intimacy": 49,
+        "debt": 63
+      },
+      "state": "dependent",
+      "memories": [
+        {
+          "eventId": "SEED_BACKSTORY",
+          "summary": "mistura dependência, medo e crença de que pode curá-lo",
+          "valence": -9,
+          "weight": 75,
+          "decay": 0.015,
+          "tags": [
+            "backstory",
+            "villain_villain"
+          ]
+        }
+      ],
+      "boundaries": [],
+      "unresolvedIssues": [
+        "mistura dependência, medo e crença de que pode curá-lo"
+      ],
+      "lastUpdatedTick": 0
+    }
+  ]
+}

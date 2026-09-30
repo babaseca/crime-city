@@ -1,0 +1,311 @@
+{
+  "schemaVersion": "1.2",
+  "eventEnvelope": {
+    "required": [
+      "eventId",
+      "eventType",
+      "tick",
+      "campaignSeed",
+      "actorIds",
+      "subjectIds",
+      "payload",
+      "causationId",
+      "correlationId"
+    ],
+    "rules": [
+      "append-only",
+      "immutable after commit",
+      "schema-validated before reducers",
+      "narrative generated after commit"
+    ]
+  },
+  "events": [
+    {
+      "eventType": "MISSION_ASSIGNED",
+      "payloadRequired": [
+        "missionId",
+        "teamIds",
+        "leaderId",
+        "reactionResults"
+      ]
+    },
+    {
+      "eventType": "MISSION_REACTION_CALCULATED",
+      "payloadRequired": [
+        "characterId",
+        "score",
+        "band",
+        "factors",
+        "stateDelta"
+      ]
+    },
+    {
+      "eventType": "MISSION_REFUSED",
+      "payloadRequired": [
+        "characterId",
+        "reason",
+        "redLineConflict",
+        "playerResponse"
+      ]
+    },
+    {
+      "eventType": "RELATIONSHIP_AXIS_CHANGED",
+      "payloadRequired": [
+        "relationshipId",
+        "axis",
+        "before",
+        "after",
+        "cause"
+      ]
+    },
+    {
+      "eventType": "RELATIONSHIP_MEMORY_ADDED",
+      "payloadRequired": [
+        "relationshipId",
+        "memory"
+      ]
+    },
+    {
+      "eventType": "MORAL_CONFLICT_TRIGGERED",
+      "payloadRequired": [
+        "characterId",
+        "axis",
+        "missionDemand",
+        "severity"
+      ]
+    },
+    {
+      "eventType": "POWER_LIMIT_CROSSED",
+      "payloadRequired": [
+        "characterId",
+        "limit",
+        "cost"
+      ]
+    },
+    {
+      "eventType": "MISSION_DOMAIN_STEP",
+      "payloadRequired": [
+        "missionId",
+        "stepType",
+        "result",
+        "contextSnapshotId"
+      ]
+    },
+    {
+      "eventType": "PBP_LINE_EMITTED",
+      "payloadRequired": [
+        "templateId",
+        "text",
+        "speakerRole",
+        "selectionTrace"
+      ],
+      "domainMutationAllowed": false
+    },
+    {
+      "eventType": "VILLAIN_CAPTURED",
+      "payloadRequired": [
+        "villainId",
+        "missionId",
+        "captureCondition",
+        "injuries",
+        "evidenceIds"
+      ]
+    },
+    {
+      "eventType": "CUSTODY_INTAKE_COMPLETED",
+      "payloadRequired": [
+        "caseId",
+        "securityLevel",
+        "needs",
+        "rightsAcknowledged"
+      ]
+    },
+    {
+      "eventType": "CUSTODY_INCIDENT",
+      "payloadRequired": [
+        "caseId",
+        "incidentType",
+        "causeIds",
+        "controlsFailed",
+        "harm",
+        "response"
+      ]
+    },
+    {
+      "eventType": "ESCAPE_ATTEMPTED",
+      "payloadRequired": [
+        "caseId",
+        "vector",
+        "pressureScore",
+        "controls",
+        "result"
+      ]
+    },
+    {
+      "eventType": "ESCAPE_COMPLETED",
+      "payloadRequired": [
+        "caseId",
+        "vector",
+        "failedControls",
+        "newAtLargeState"
+      ]
+    },
+    {
+      "eventType": "INTERROGATION_STARTED",
+      "payloadRequired": [
+        "sessionId",
+        "caseId",
+        "interrogators",
+        "approach",
+        "objectives",
+        "legalAuthorization"
+      ]
+    },
+    {
+      "eventType": "INTERROGATION_RESOLVED",
+      "payloadRequired": [
+        "sessionId",
+        "cooperation",
+        "truthReliability",
+        "intelIds",
+        "costs",
+        "legalValidity"
+      ]
+    },
+    {
+      "eventType": "INTEL_CREATED",
+      "payloadRequired": [
+        "intelItem"
+      ]
+    },
+    {
+      "eventType": "INTEL_CORROBORATED",
+      "payloadRequired": [
+        "intelId",
+        "sourceId",
+        "confidenceBefore",
+        "confidenceAfter",
+        "stateAfter"
+      ]
+    },
+    {
+      "eventType": "INTEL_COMPROMISED",
+      "payloadRequired": [
+        "intelId",
+        "reason",
+        "dependentIntelIds",
+        "dependentMissionIds"
+      ]
+    },
+    {
+      "eventType": "REHAB_PLAN_CREATED",
+      "payloadRequired": [
+        "caseId",
+        "stage",
+        "goals",
+        "programIds",
+        "mentorId"
+      ]
+    },
+    {
+      "eventType": "REHAB_DIMENSION_CHANGED",
+      "payloadRequired": [
+        "caseId",
+        "dimension",
+        "before",
+        "after",
+        "evidenceIds"
+      ]
+    },
+    {
+      "eventType": "REHAB_STAGE_CHANGED",
+      "payloadRequired": [
+        "caseId",
+        "before",
+        "after",
+        "evidenceIds",
+        "approverIds"
+      ]
+    },
+    {
+      "eventType": "MENTOR_ASSIGNED",
+      "payloadRequired": [
+        "caseId",
+        "heroId",
+        "fitScore",
+        "risks",
+        "boundaries"
+      ]
+    },
+    {
+      "eventType": "MENTOR_SESSION_COMPLETED",
+      "payloadRequired": [
+        "sessionId",
+        "caseId",
+        "heroId",
+        "sessionType",
+        "observations",
+        "stateDeltas"
+      ]
+    },
+    {
+      "eventType": "RELAPSE_WARNING_ADDED",
+      "payloadRequired": [
+        "caseId",
+        "warningSign",
+        "sourceEventId"
+      ]
+    },
+    {
+      "eventType": "RELAPSE_OCCURRED",
+      "payloadRequired": [
+        "caseId",
+        "relapseType",
+        "severity",
+        "triggers",
+        "harm",
+        "progressPreserved",
+        "response"
+      ]
+    },
+    {
+      "eventType": "INFORMANT_RECRUITED",
+      "payloadRequired": [
+        "caseId",
+        "handlerId",
+        "motivation",
+        "boundaries",
+        "riskScores"
+      ]
+    },
+    {
+      "eventType": "INFORMANT_REPORT_RECEIVED",
+      "payloadRequired": [
+        "reportId",
+        "caseId",
+        "claims",
+        "reliability",
+        "exposureDelta"
+      ]
+    },
+    {
+      "eventType": "INFORMANT_COMPROMISED",
+      "payloadRequired": [
+        "caseId",
+        "cause",
+        "exposure",
+        "extractionOptions"
+      ]
+    },
+    {
+      "eventType": "PROGRESS_REPORT_GENERATED",
+      "payloadRequired": [
+        "reportId",
+        "caseId",
+        "sourceEventIds",
+        "confidence",
+        "recommendations"
+      ]
+    }
+  ]
+}

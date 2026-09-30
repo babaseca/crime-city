@@ -1,5 +1,5 @@
 import baseScenes from "../data/baseScenes.json";
-import { clampRelationship, pairKey } from "./relationships";
+import { adjustRelationshipProfile, pairKey } from "./relationships";
 
 const sceneKey = (day, heroCount) => (day * 11 + heroCount * 7) % baseScenes.length;
 
@@ -36,7 +36,7 @@ export const applyBaseScene = (state, scene) => {
     ...state,
     relationships: {
       ...state.relationships,
-      [key]: clampRelationship((state.relationships[key] ?? 0) + scene.effects.relationship),
+      [key]: adjustRelationshipProfile(state.relationships[key], scene.effects.relationship),
     },
     heroes: state.heroes.map((hero) =>
       scene.heroIds.includes(hero.id)

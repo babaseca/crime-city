@@ -15,6 +15,7 @@ import {
   Users,
   Zap,
 } from "lucide-react";
+import { normalizeDisplayText } from "../../utils/formatters";
 
 const iconByPhase = {
   chamado: Radio,
@@ -37,10 +38,10 @@ const iconByPhase = {
 };
 
 const phaseLabel = (phase = "") =>
-  String(phase)
+  normalizeDisplayText(String(phase)
     .replace(/_/g, " ")
     .replace("faccao", "facção")
-    .replace(/\b\w/g, (letter) => letter.toUpperCase());
+    .replace(/\b\w/g, (letter) => letter.toUpperCase()));
 
 export default function PlayByPlayBeat({ beat, highlightCritical = false }) {
   const phase = beat.phase ?? "registro";
@@ -57,7 +58,7 @@ export default function PlayByPlayBeat({ beat, highlightCritical = false }) {
           <time>{beat.time}</time>
           <strong>{phaseLabel(phase)}</strong>
         </header>
-        <p>{beat.text}</p>
+        <p>{normalizeDisplayText(beat.text)}</p>
       </div>
     </article>
   );

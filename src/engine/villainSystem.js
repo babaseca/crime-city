@@ -1,5 +1,7 @@
-import { dispatcherBudgetDiscount, dispatcherReformBonus } from "./dispatcherSystem";
+﻿import { dispatcherBudgetDiscount, dispatcherReformBonus } from "./dispatcherSystem";
 import { baseUpgradeEffect } from "./baseUpgradeSystem";
+import { calculateScaledCost } from "./economySystem";
+import { resolveVillainPortrait } from "../data/portraitAssets";
 
 const activeTeamStatuses = ["active_team", "assigned_by_command", "reformed_villain"];
 
@@ -32,13 +34,13 @@ const factionNameById = {
   rede_dos_altofalantes: "Rede dos Alto-Falantes",
   oficina_da_mare_seca: "Oficina da Maré Seca",
   irmandade_do_vidro: "Irmandade do Vidro",
-  sindicato_do_apagao: "Sindicato do Apagão",
+  sindicato_do_apagão: "Sindicato do Apagão",
   jardim_das_mascaras: "Jardim das Máscaras",
 };
 
 export const normalizeVillain = (villain) => ({
   ...villain,
-  imageUrl: villain.imageUrl || villainImage(initials(villain.alcunha), villain.periculosidade),
+  imageUrl: resolveVillainPortrait(villain, villainImage(initials(villain.alcunha), villain.periculosidade)),
   historicoEncontros: villain.historicoEncontros ?? [],
   relacoesHerois: villain.relacoesHerois ?? {},
   tentativasReforma: villain.tentativasReforma ?? 0,
@@ -47,10 +49,14 @@ export const normalizeVillain = (villain) => ({
 });
 
 export const chooseVillainForMission = (villains, event) => {
-  const fugitives = villains.filter((villain) => villain.estadoAtual === "fugitivo");
-  const pool = fugitives.length > 0 ? fugitives : villains.filter((villain) => villain.estadoAtual !== "reformado");
+  const activeVillains = villains.filter((villain) => villain.spawnEnabled !== false && villain.archivedLegacy !== true);
+  const fugitives = activeVillains.filter((villain) => villain.estadoAtual === "fugitivo");
+  const pool = fugitives.length > 0 ? fugitives : activeVillains.filter((villain) => villain.estadoAtual !== "reformado");
 
   if (pool.length === 0) return null;
+
+  const eventVillain = event.villainId ? pool.find((villain) => villain.id === event.villainId) : null;
+  if (eventVillain) return eventVillain;
 
   const factionName = factionNameById[event.factionId];
   const factionMatch = factionName ? pool.find((villain) => villain.faccao === factionName) : null;
@@ -59,7 +65,7 @@ export const chooseVillainForMission = (villains, event) => {
   const districtMatch = pool.find((villain) => villain.bairroAtuacao === event.bairro);
   if (districtMatch) return districtMatch;
 
-  return pool[(event.dificuldade + event.nivelRisco) % pool.length];
+  return pool[(event.dificuldade + event.nívelRisco) % pool.length];
 };
 
 export const captureVillain = (villains, villainId, mission) =>
@@ -68,6 +74,7 @@ export const captureVillain = (villains, villainId, mission) =>
       ? {
           ...villain,
           estadoAtual: "capturado",
+          visibility: "capturado",
           riscoFuga: Math.max(10, villain.riscoFuga - 8),
           historicoEncontros: [
             ...villain.historicoEncontros,
@@ -94,7 +101,7 @@ export const interrogateVillain = (state, villainId) => ({
             ...villain.historicoEncontros,
             {
               day: state.day,
-              eventTitle: "Interrogatorio na Central",
+              eventTitle: "Interrogatório na Central",
               result: villain.chanceReforma > 58 ? "cedeu informacao util" : "resistiu, mas revelou rotina",
               heroes: [],
             },
@@ -105,7 +112,7 @@ export const interrogateVillain = (state, villainId) => ({
 });
 
 export const keepVillainContained = (state, villainId, mode) => {
-  const cost = dispatcherBudgetDiscount(state.dispatcher, 6500);
+  const cost = dispatcherBudgetDiscount(state.dispatcher, calculateScaledCost(6500, "treatmentCostMultiplier"));
 
   return {
     ...state,
@@ -127,7 +134,7 @@ export const keepVillainContained = (state, villainId, mode) => {
               id: `budget-containment-${villainId}-${Date.now()}`,
               day: state.day,
               type: "expense",
-              label: "Transferencia para seguranca maxima",
+              label: "Transferencia para segurança maxima",
               amount: cost,
             },
           ]
@@ -148,7 +155,7 @@ const villainToAlly = (villain, teamStatus) => {
     nomeCivil: villain.nome,
     imageUrl: villain.imageUrl,
     funcao: danger >= 4 ? "anti-heroi de contencao" : "aliado reformado",
-    bio: `${villain.alcunha} aceitou o programa de reparacao da Central. A confianca ainda precisa ser conquistada em campo.`,
+    bio: `${villain.alcunha} aceitou o programa de reparação da Central. A confiança ainda precisa ser conquistada em campo.`,
     atributos: {
       forca: Math.min(10, 4 + danger),
       mobilidade: Math.max(3, 8 - Math.floor(danger / 2)),
@@ -160,7 +167,7 @@ const villainToAlly = (villain, teamStatus) => {
     energia: 82,
     estresse: 24,
     moral: 58,
-    status: "disponivel",
+    status: "disponível",
     teamStatus,
     rosterStatus: teamStatus,
     scheduleStatus: teamStatus === "reformed_villain" || teamStatus === "active_team" ? "on_duty" : "reserve",
@@ -176,7 +183,7 @@ const villainToAlly = (villain, teamStatus) => {
     civisSalvos: 0,
     ferimentos: [],
     injuries: [],
-    medicalStatus: "liberado",
+    médicalStatus: "liberado",
     recoveryDays: 0,
     traumas: [{ day: 0, source: "Passado no Arquivo de Viloes" }],
     nemeses: [],
@@ -197,9 +204,9 @@ const villainToAlly = (villain, teamStatus) => {
 export const attemptVillainReform = (state, villainId) => {
   const villain = state.villains.find((record) => record.id === villainId);
   const baseCost = 4200 + (villain?.periculosidade ?? 1) * 900;
-  const cost = dispatcherBudgetDiscount(state.dispatcher, baseCost);
-  if (!villain) return { state, message: "Arquivo nao encontrado." };
-  if (state.budget < cost) return { state, message: "Orcamento insuficiente para reabilitacao." };
+  const cost = dispatcherBudgetDiscount(state.dispatcher, calculateScaledCost(baseCost, "reformProgramCostMultiplier"));
+  if (!villain) return { state, message: "Arquivo não encontrado." };
+  if (state.budget < cost) return { state, message: "Orçamento insuficiente para reabilitacao." };
 
   const empathyPool = [...state.heroes]
     .filter((hero) => hero.status !== "morto")
@@ -230,11 +237,13 @@ export const attemptVillainReform = (state, villainId) => {
     budget: state.budget - cost,
     reputation: Math.max(0, Math.min(100, state.reputation + (success ? 3 : -1))),
     heroes: allyHero ? [...state.heroes, allyHero] : state.heroes,
+    knownVillainIds: [...new Set([...(state.knownVillainIds ?? []), villainId])],
     villains: state.villains.map((record) =>
       record.id === villainId
         ? {
             ...record,
             estadoAtual: success ? "reformado" : "em reabilitacao",
+            visibility: success ? "reformado" : "em_reabilitacao",
             informante: success ? true : record.informante,
             allyHeroId,
             riscoFuga: success ? Math.max(3, record.riscoFuga - 22) : Math.min(95, record.riscoFuga + 9),
@@ -244,7 +253,7 @@ export const attemptVillainReform = (state, villainId) => {
               {
                 day: state.day,
                 eventTitle: "Programa de reforma",
-                result: success ? "aceitou acordo de reparacao" : "reagiu mal a tentativa",
+                result: success ? "aceitou acordo de reparação" : "reagiu mal a tentativa",
                 heroes: empathyPool.map((hero) => hero.codinome),
               },
             ],
@@ -267,8 +276,10 @@ export const attemptVillainReform = (state, villainId) => {
     state: nextState,
     message: success
       ? shouldBecomeAlly
-        ? `${villain.alcunha} aceitou reparacao e virou ${teamStatus === "reformed_villain" ? "aliado de campo" : "aliado em reserva"}.`
-        : `${villain.alcunha} aceitou iniciar reparacao e virou informante.`
+        ? `${villain.alcunha} aceitou reparação e virou ${teamStatus === "reformed_villain" ? "aliado de campo" : "aliado em reserva"}.`
+        : `${villain.alcunha} aceitou iniciar reparação e virou informante.`
       : `${villain.alcunha} resistiu ao processo. O risco de fuga subiu.`,
   };
 };
+
+

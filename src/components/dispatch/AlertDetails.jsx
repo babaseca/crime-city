@@ -1,17 +1,19 @@
-import { AlertTriangle, HeartPulse, MapPinned, RadioTower, Send, ShieldAlert, Swords, Users } from "lucide-react";
+import { AlertTriangle, Clock3, HelpCircle, MapPinned, RadioTower, ShieldAlert, Swords, Users } from "lucide-react";
+import { getOccurrenceVisual } from "../../data/occurrenceVisuals";
 import { attributeLabels } from "../../engine/mission";
-import { relationTone, relationshipLabel, relationshipValue } from "../../engine/relationships";
-import Button from "../common/Button";
-import ProgressBar from "../common/ProgressBar";
-import RiskBadge from "../common/RiskBadge";
+import { moralSummaryLabel } from "../../engine/moralSystem";
+import { relationshipLabel, relationshipProfile, relationshipValue } from "../../engine/relationships";
 import { formatFactionName, titleCase } from "../../utils/formatters";
+import RiskBadge from "../common/RiskBadge";
 
-export default function AlertDetails({ event, team, preview, relationships, onSend, game, dispatching = false }) {
+const riskToCivilianLabel = (risk) => (risk >= 4 ? "Alto" : risk >= 3 ? "Médio" : "Controlado");
+
+export default function AlertDetails({ event, team, preview, relationships, game }) {
   if (!event) {
     return (
-      <section className="alert-details empty">
+      <section className="alert-details alert-details--ops empty">
         <h3>Nenhum alerta selecionado</h3>
-        <p>Escolha uma ocorrência no painel esquerdo para planejar a resposta.</p>
+        <p>Escolha uma ocorrência no radar para abrir a triagem tática.</p>
       </section>
     );
   }
@@ -20,104 +22,146 @@ export default function AlertDetails({ event, team, preview, relationships, onSe
   for (let i = 0; i < team.length; i += 1) {
     for (let j = i + 1; j < team.length; j += 1) {
       const value = relationshipValue(relationships, team[i].id, team[j].id);
-      pairs.push({ names: `${team[i].codinome} + ${team[j].codinome}`, value, label: relationshipLabel(value) });
+      const axes = relationshipProfile(relationships, team[i].id, team[j].id);
+      pairs.push({ names: `${team[i].codinome} + ${team[j].codinome}`, value, label: relationshipLabel(value), axes });
     }
   }
 
-  const warning = preview?.deathRisk >= 12 || preview?.injuryRisk >= 28;
   const district = game?.districts?.find((item) => item.id === event.districtId || item.name === event.bairro);
   const factionLabel = event.factionId ? formatFactionName(event.factionId, game?.factions ?? []) : "Sem facção suspeita";
+  const warning = preview?.deathRisk >= 12 || preview?.injuryRisk >= 28 || (event.nivelRisco ?? 0) >= 4;
+  const civilianRisk = riskToCivilianLabel(event.nivelRisco ?? 1);
+  const visual = getOccurrenceVisual(event);
+  const moralAnalysis = preview?.moralAnalysis ?? null;
+  const displayTags = (event.tags ?? []).filter((tag) => !/^alpha\d+/i.test(tag));
+  const primaryTag = displayTags[0] ?? event.tags?.[0];
 
   return (
-    <section className="alert-details">
-      <div className="details-heading">
+    <section className="alert-details alert-details--ops">
+      <header className="selected-alert-header">
+        <figure className={`selected-alert-media selected-alert-media--${visual.tone}`}>
+          <img src={visual.src} alt={visual.alt} />
+          <span className="selected-alert-icon"><AlertTriangle size={30} aria-hidden="true" /></span>
+          <figcaption>{visual.label}</figcaption>
+        </figure>
         <div>
-          <p className="eyebrow">ocorrência selecionada</p>
+          <p className="eyebrow">Ocorrência selecionada</p>
+          <small>{event.bairro}</small>
           <h2>{event.titulo}</h2>
+          <p><MapPinned size={14} aria-hidden="true" /> {district?.name ?? event.bairro} · {factionLabel}</p>
         </div>
         <RiskBadge level={event.nivelRisco} />
-      </div>
-      <p className="details-description">{event.descricao}</p>
-      <div className="details-grid">
-        <span><MapPinned size={15} aria-hidden="true" /> {district?.name ?? event.bairro}</span>
-        <span><RadioTower size={15} aria-hidden="true" /> {factionLabel}</span>
-        <span><Swords size={15} aria-hidden="true" /> dificuldade {event.dificuldade}</span>
-        <span><ShieldAlert size={15} aria-hidden="true" /> tempo: {event.limiteTempoNarrativo}</span>
-        <span><Users size={15} aria-hidden="true" /> equipe: {team.length}/3</span>
-      </div>
-      <div className="chip-row">
-        {event.requisitosPrincipais.map((requirement) => (
-          <span className="chip requirement" key={requirement}>{attributeLabels[requirement]}</span>
-        ))}
-        {event.tags.map((tag) => <span className="chip" key={tag}>{titleCase(tag)}</span>)}
+      </header>
+
+      <p className="selected-alert-description">{event.descricao}</p>
+
+      <div className="selected-alert-metrics">
+        <article>
+          <span>Dificuldade</span>
+          <strong>{event.dificuldade}</strong>
+          <small>{event.dificuldade >= 68 ? "Alta" : event.dificuldade >= 55 ? "Média" : "Baixa"}</small>
+        </article>
+        <article>
+          <span>Facção suspeita</span>
+          <strong>{factionLabel}</strong>
+          <small>{event.factionId ? "Atividade confirmada" : "Sem assinatura"}</small>
+        </article>
+        <article>
+          <span>Risco para civis</span>
+          <strong>{civilianRisk}</strong>
+          <small>{event.tags?.includes("civis") ? "População próxima" : "Área monitorada"}</small>
+        </article>
+        <article>
+          <span>Valores da equipe</span>
+          <strong>{moralSummaryLabel(moralAnalysis)}</strong>
+          <small>{moralAnalysis ? `bônus ${moralAnalysis.bonus > 0 ? "+" : ""}${moralAnalysis.bonus} · tensão ${moralAnalysis.tensionRisk}` : "Selecione heróis"}</small>
+        </article>
       </div>
 
-      <Button className="send-mission-button top-action" icon={Send} disabled={!team.length || dispatching} onClick={onSend}>
-        {dispatching ? "Enviando..." : "Enviar equipe"}
-      </Button>
-
-      {preview ? (
-        <section className="mission-preview">
-          <div className="chance-ring">
-            <strong>{preview.chance}%</strong>
-            <span>chance</span>
+      <section className="triage-panel">
+        <header>
+          <div>
+            <p className="eyebrow">Triagem tática</p>
+            <h3>Classificação dinâmica deste evento</h3>
           </div>
-          <div className="preview-breakdown">
-            <p>Capacidade <strong>+{preview.capability}</strong></p>
-            <p>Cansaço <strong>-{preview.fatiguePenalty}</strong></p>
-            <p>Relação <strong>{preview.relationBonus >= 0 ? "+" : ""}{preview.relationBonus}</strong></p>
-            <p>Função <strong>+{preview.roleBonus}</strong></p>
-            <p>Dispatcher <strong>{preview.dispatcherBonus >= 0 ? "+" : ""}{preview.dispatcherBonus}</strong></p>
-            <p>Central <strong>+{preview.upgradeBonus ?? 0}</strong></p>
-          </div>
-          <div className="expected-effects">
-            <strong>Efeitos esperados</strong>
-            <p>
-              {preview.chance >= 75
-                ? "Boa janela de sucesso. Dano colateral deve ficar administrável se a equipe mantiver ritmo."
-                : preview.chance >= 50
-                  ? "Operação viável, mas com margem pequena. Sinergias e descanso fazem diferença."
-                  : "Resposta arriscada. Considere trocar heróis ou aceitar consequências no bairro."}
-            </p>
-            <span>{district ? `Impacto local: confiança ${district.trustInCentral}% · infraestrutura ${district.infrastructure}%` : "Impacto local será registrado após a missão."}</span>
-          </div>
-          {preview.activeCombos?.length ? (
-            <div className="combo-preview">
-              <strong>Sinergias ativas</strong>
-              {preview.activeCombos.map((combo) => <span className="chip requirement" key={combo.id}>{combo.name}</span>)}
-            </div>
-          ) : null}
-          <div className="risk-forecast">
-            <span><HeartPulse size={15} aria-hidden="true" /> Lesão grave: <RiskBadge label={preview.woundRiskLabel} level={preview.woundRiskLabel} /></span>
-            <span><AlertTriangle size={15} aria-hidden="true" /> Morte: <RiskBadge label={preview.deathRiskLabel} level={preview.deathRiskLabel} /></span>
-          </div>
-          <ProgressBar value={preview.injuryRisk} tone="injury" label="Risco de ferimento" />
-          <ProgressBar value={preview.deathRisk * 2.5} tone="death" label="Risco de morte" />
-          {warning ? (
-            <div className="danger-warning">
-              <AlertTriangle size={18} aria-hidden="true" />
-              <p>Alerta tático: há risco real de lesão grave ou morte. Revise cansaço, ferimentos e compatibilidade antes de enviar.</p>
-            </div>
-          ) : null}
-        </section>
-      ) : (
-        <section className="mission-preview muted-preview">Selecione de 1 a 3 heróis para calcular a chance de sucesso.</section>
-      )}
-
-      <section className="pair-list">
-        <h3>Relações em campo</h3>
-        {pairs.length ? (
-          pairs.map((pair) => (
-            <p className={relationTone(pair.value)} key={pair.names}>
-              <span>{pair.names}</span>
-              <strong>{pair.value > 0 ? "+" : ""}{pair.value} · {pair.label}</strong>
-            </p>
-          ))
-        ) : (
-          <p className="muted">Duas ou mais pessoas revelam sinergias, piadas internas ou atritos.</p>
-        )}
+          <HelpCircle size={18} aria-hidden="true" />
+        </header>
+        <div className="triage-chip-stack">
+          <span className="triage-chip triage-chip--danger"><Users size={15} aria-hidden="true" /> Risco a civis <strong>{civilianRisk}</strong></span>
+          <span className="triage-chip triage-chip--warn"><Clock3 size={15} aria-hidden="true" /> Tempo crítico <strong>{event.limiteTempoNarrativo}</strong></span>
+          <span className="triage-chip triage-chip--amber"><Swords size={15} aria-hidden="true" /> Infraestrutura <strong>{primaryTag ? titleCase(primaryTag) : "Importante"}</strong></span>
+          <span className="triage-chip triage-chip--info"><RadioTower size={15} aria-hidden="true" /> Facção suspeita <strong>{factionLabel}</strong></span>
+          <span className="triage-chip triage-chip--cyan"><ShieldAlert size={15} aria-hidden="true" /> Ambiente hostil <strong>{displayTags.slice(0, 2).map(titleCase).join(", ") || "Monitorado"}</strong></span>
+        </div>
       </section>
 
+      <section className="recommended-roles">
+        <h3>Papéis recomendados</h3>
+        <div>
+          {(event.requisitosPrincipais ?? []).map((requirement) => (
+            <span className="role-token" key={requirement}>{attributeLabels[requirement] ?? titleCase(requirement)}</span>
+          ))}
+          {displayTags.slice(0, 3).map((tag) => <span className="role-token secondary" key={tag}>{titleCase(tag)}</span>)}
+        </div>
+      </section>
+
+      <section className="command-recommendation">
+        <span><RadioTower size={20} aria-hidden="true" /></span>
+        <div>
+          <strong>Recomendação do Comando</strong>
+          <p>
+            {preview
+              ? preview.chance >= 75
+                ? "Resposta rápida recomendada. A janela de sucesso está favorável."
+                : preview.chance >= 50
+                  ? "Resposta viável, mas revise fadiga e sinergia antes do despacho."
+                  : "Risco elevado. O Comando recomenda reforçar a equipe antes de transmitir a ordem."
+              : "Monte uma equipe para calcular sinergia, risco de ferimento e janela de sucesso."}
+          </p>
+        </div>
+      </section>
+
+      {pairs.length ? (
+        <section className="field-relations">
+          <h3>Sinergias em campo</h3>
+          {pairs.map((pair) => (
+            <p key={pair.names}>
+              <span>{pair.names}</span>
+              <strong>{pair.value > 0 ? "+" : ""}{pair.value} · {pair.label}</strong>
+              <small>confiança {pair.axes.trust} · respeito {pair.axes.respect} · proximidade {pair.axes.closeness} · tensão {pair.axes.tension}</small>
+            </p>
+          ))}
+        </section>
+      ) : null}
+
+      {moralAnalysis?.pairFriction?.length || moralAnalysis?.heroFits?.some((fit) => fit.notes?.length) ? (
+        <section className="moral-pressure-panel">
+          <h3>Pressão moral prevista</h3>
+          {moralAnalysis.pairFriction.map((friction) => (
+            <p key={friction.heroIds.join("-")}>
+              <span>{friction.names.join(" + ")}</span>
+              <strong>tensão {friction.score}</strong>
+              <small>{friction.notes.join(", ")}</small>
+            </p>
+          ))}
+          {moralAnalysis.heroFits
+            .filter((fit) => fit.notes?.length)
+            .map((fit) => (
+              <p key={fit.heroId}>
+                <span>{fit.heroName}</span>
+                <strong>{fit.bonus > 0 ? "+" : ""}{fit.bonus}</strong>
+                <small>{fit.notes.join(", ")}</small>
+              </p>
+            ))}
+        </section>
+      ) : null}
+
+      {warning ? (
+        <div className="dispatch-danger-note">
+          <AlertTriangle size={18} aria-hidden="true" />
+          <p>Alerta tático: risco real de ferimento grave ou falha pública. Use equipe com cobertura complementar.</p>
+        </div>
+      ) : null}
     </section>
   );
 }

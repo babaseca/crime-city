@@ -5,6 +5,7 @@ import { initializeFactions } from "./factionSystem";
 import { normalizeHeroFame } from "./heroFameSystem";
 import { migrateSaveTo070 } from "./saveMigration070";
 import { migrateSaveTo090 } from "./saveMigration090";
+import { migrateSaveTo095 } from "./saveMigration095";
 
 export const migrateSaveTo050 = (oldSave) => {
   if (!oldSave) return null;
@@ -28,4 +29,23 @@ export const migrateSaveTo050 = (oldSave) => {
   };
 };
 
-export const migrateSaveToCurrent = (oldSave) => migrateSaveTo090(migrateSaveTo070(migrateSaveTo050(oldSave)));
+export const migrateSaveTo120 = (oldSave) => {
+  const base = migrateSaveTo095(migrateSaveTo090(migrateSaveTo070(migrateSaveTo050(oldSave))));
+  if (!base) return base;
+  return {
+    ...base,
+    saveVersion: "1.2.0",
+    alphaMigration: {
+      idempotencyKey: "central-crise-roster-8x20-alpha-1-1",
+      completed: true,
+      completedAt: new Date().toISOString(),
+    },
+    alphaEventLog: base.alphaEventLog ?? [],
+    caseRecords: base.caseRecords ?? [],
+    intelItems: base.intelItems ?? [],
+    interrogationSessions: base.interrogationSessions ?? [],
+    progressReports: base.progressReports ?? [],
+  };
+};
+
+export const migrateSaveToCurrent = (oldSave) => migrateSaveTo120(oldSave);

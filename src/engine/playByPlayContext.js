@@ -84,6 +84,10 @@ export const mapMissionResultToPlayByPlayResult = (missionResult = {}) => {
   if (missionResult.injuries?.length) types.add("heroi_ferido");
   if (missionResult.deaths?.length) types.add("heroi_morto");
   if (missionResult.activeCombos?.length) types.add("combo_ativado");
+  if (missionResult.moralAnalysis?.tensionRisk >= 16) types.add("conflito_moral");
+  if (missionResult.moralAnalysis?.bonus >= 4) types.add("valores_alinhados");
+  if (missionResult.moralAnalysis?.bonus <= -4) types.add("valores_pressionados");
+  (missionResult.missionFacts ?? []).forEach((fact) => types.add(fact.type));
   if (missionResult.success && (missionResult.event?.nivelRisco ?? 0) >= 4) types.add("crise_contida");
   if (!missionResult.success && (missionResult.event?.nivelRisco ?? 0) >= 4) types.add("crise_expandida");
   if (!types.size) types.add(missionResult.success ? "missao_controlada" : "falha_parcial");
@@ -95,7 +99,11 @@ export function buildMissionNarrativeContext(event, missionResult, gameState) {
   const district = findDistrict(event, missionResult, gameState);
   const faction = findFaction(event, missionResult, gameState);
   const selectedHeroes = selectedHeroesForMission(missionResult, gameState);
-  const villain = missionResult?.capturedVillain ?? null;
+  const villain =
+    missionResult?.capturedVillain ??
+    gameState?.villains?.find((record) => record.id === event?.villainId) ??
+    event?.vilao ??
+    null;
   const resultTypes = mapMissionResultToPlayByPlayResult(missionResult);
   const rawResult = missionResult?.resultType ?? missionResult?.outcome ?? (missionResult?.success ? "sucesso" : "falha");
   const margin =
@@ -110,7 +118,7 @@ export function buildMissionNarrativeContext(event, missionResult, gameState) {
     districtName: district?.name ?? event?.bairro ?? "a área da ocorrência",
     factionId: faction?.id ?? event?.factionId,
     factionName: faction?.name ?? missionResult?.factionImpact?.factionName,
-    villainId: villain?.id,
+    villainId: villain?.id ?? event?.villainId,
     villainName: villain?.alcunha ?? villain?.nome,
     risk: event?.nivelRisco ?? 1,
     difficulty: event?.dificuldade ?? 0,
@@ -126,7 +134,13 @@ export function buildMissionNarrativeContext(event, missionResult, gameState) {
     heroCount: selectedHeroes.length,
     heroRoles: selectedHeroes.map((hero) => hero.funcao).filter(Boolean),
     requiredAttributes: event?.requisitosPrincipais ?? [],
-    missionTags: event?.tags ?? [],
+    missionTags: [
+      ...(event?.tags ?? []),
+      ...(missionResult?.missionFacts ?? []).flatMap((fact) => [fact.type, ...(fact.tags ?? [])]),
+      ...(missionResult?.moralAnalysis?.tensionRisk >= 16 ? ["conflito_moral"] : []),
+      ...(missionResult?.moralAnalysis?.bonus >= 4 ? ["valores_alinhados"] : []),
+      ...(missionResult?.moralAnalysis?.bonus <= -4 ? ["valores_pressionados"] : []),
+    ],
     activeCombos: missionResult?.activeCombos ?? [],
     injuries: missionResult?.injuries ?? [],
     captures: missionResult?.capturedVillain ? [missionResult.capturedVillain] : [],
@@ -137,6 +151,7 @@ export function buildMissionNarrativeContext(event, missionResult, gameState) {
     day: gameState?.day ?? missionResult?.day ?? 1,
     timeLimit: event?.limiteTempoNarrativo ?? "fim da ocorrência",
     relationships: missionResult?.relationshipChanges ?? [],
+    missionFacts: missionResult?.missionFacts ?? [],
     relationshipTone: relationshipTone(missionResult),
     districtState: district,
     factionState: faction,

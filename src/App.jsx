@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import { Database, HardDriveDownload, RotateCcw, Save, ShieldCheck, UserCog } from "lucide-react";
-import { eventCount } from "./data/events";
+import { activeEventCount } from "./data/eventCatalog";
 import BaseInfrastructureApp from "./components/base/BaseInfrastructureApp";
 import CityMapApp from "./components/city/CityMapApp";
 import TerminalScreen from "./components/desktop/TerminalScreen";
@@ -41,7 +41,7 @@ function SettingsApp({ game, onSave, onClearSave, onReset, onUpgrade }) {
         </div>
       </header>
       <div className="stats-grid compact">
-        <StatCard icon={Database} label="Eventos no banco" value={eventCount} />
+        <StatCard icon={Database} label="Eventos no banco" value={activeEventCount} />
         <StatCard icon={ShieldCheck} label="Versão" value={game.version} />
         <StatCard icon={HardDriveDownload} label="Missões registradas" value={game.history.length} />
       </div>
@@ -162,8 +162,8 @@ export default function App() {
     setNewspaper(null);
   };
 
-  const handleEndDay = () => {
-    const next = endDay(game);
+  const handleEndDay = async () => {
+    const next = await endDay(game);
     setGame(next);
     setActiveApp("reports");
     setNewspaper(next.lastNewspaper);

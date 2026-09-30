@@ -6,6 +6,7 @@ import NewspaperArchive from "../news/NewspaperArchive";
 import SocialPostCard from "../social/SocialPostCard";
 import StatCard from "../common/StatCard";
 import { getCampaignLegacySummary } from "../../engine/legacySystem";
+import { formatStatusLabel, normalizeDisplayText } from "../../utils/formatters";
 import DayReportCard from "./DayReportCard";
 import MissionHistoryTable from "./MissionHistoryTable";
 
@@ -131,7 +132,7 @@ export default function ReportsApp({ game }) {
                 <img src={hero.imageUrl} alt="" />
                 <span>
                   <strong>{hero.codinome}</strong>
-                  <small>{hero.publicImage} · {hero.status}</small>
+                  <small>{normalizeDisplayText(hero.publicImage)} · {formatStatusLabel(hero.status)}</small>
                 </span>
                 <span>{hero.missoes ?? 0} missões</span>
                 <span>Fama {hero.fame ?? 0}</span>

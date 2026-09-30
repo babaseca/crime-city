@@ -1,0 +1,40 @@
+{
+  "eventId": "RELAPSE_CASE_014_001",
+  "caseId": "CASE_014",
+  "type": "behavioral",
+  "severity": 47,
+  "triggerIds": [
+    "TRIGGER_EVICTION_NEWS",
+    "TRIGGER_VIRAL_PROTEST"
+  ],
+  "warningSignsObserved": [
+    "missed_sessions",
+    "idealization_of_old_network",
+    "power_testing"
+  ],
+  "harm": {
+    "peopleInjured": 0,
+    "propertyDamage": 18,
+    "victimIds": [],
+    "description": "Lamparina incendiou uma escultura própria durante manifestação não autorizada."
+  },
+  "voluntaryDisclosure": true,
+  "response": [
+    "crisis_session",
+    "review_triggers",
+    "temporary_reduction_of_unsupervised_access"
+  ],
+  "progressPreserved": 76,
+  "newSafeguards": [
+    "contato com coletivo somente acompanhado",
+    "plano de manifestação legal",
+    "sessão extra com mentor reserva"
+  ],
+  "effects": {
+    "honestyDelta": 5,
+    "selfRegulationDelta": -9,
+    "networkStabilityDelta": -4,
+    "mentorStressDelta": 8,
+    "publicTrustDelta": -3
+  }
+}

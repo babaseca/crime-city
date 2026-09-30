@@ -1,0 +1,54 @@
+{
+  "sessionId": "INTERROGATION_CASE_004_001",
+  "caseId": "CASE_004",
+  "subjectId": "VILLAIN_004",
+  "interrogatorIds": [
+    "HERO_002",
+    "HERO_005"
+  ],
+  "approach": "rapport",
+  "objectives": [
+    "localizar depósito do Mercado Rubro",
+    "identificar risco à mãe do sujeito"
+  ],
+  "evidenceIds": [
+    "EVIDENCE_WAREHOUSE_KEY_01"
+  ],
+  "legalAuthorization": {
+    "authorized": true,
+    "counselStatus": "waived_with_record",
+    "recording": true
+  },
+  "durationMinutes": 42,
+  "environment": {
+    "medicalNeedsMet": true,
+    "familyThreatsProhibited": true,
+    "observers": 2
+  },
+  "resolved": {
+    "cooperation": 71,
+    "truthReliability": 82,
+    "intelYield": 64,
+    "legalValidity": 98,
+    "intelIds": [
+      "INTEL_MERCADO_DEPOT_01"
+    ],
+    "costs": [
+      "Ferrolho exige confirmação de proteção legítima para a mãe antes de nova sessão."
+    ],
+    "relationshipDeltas": [
+      {
+        "relationshipId": "REL_VILLAIN_004_HERO_002",
+        "axis": "respect",
+        "delta": 5,
+        "cause": "Bastião recusou usar a família como ameaça."
+      },
+      {
+        "relationshipId": "REL_VILLAIN_004_HERO_005",
+        "axis": "trust",
+        "delta": 7,
+        "cause": "Maré explicou limites do acordo sem prometer pena."
+      }
+    ]
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "schemaVersion": "1.1",
+  "formula": {
+    "reactionScore": "50 + preference + moralAlignment + relationshipSupport + competenceFit - stressPenalty - fatiguePenalty - traumaPenalty + commandTrustModifier + seededVariance",
+    "seededVariance": {
+      "min": -6,
+      "max": 6
+    },
+    "clamp": [
+      0,
+      100
+    ]
+  },
+  "bands": [
+    {
+      "min": 0,
+      "max": 19,
+      "label": "refusal",
+      "behavior": [
+        "refuse_assignment",
+        "demand_reassignment",
+        "disobey_if_forced"
+      ],
+      "stateEffects": {
+        "stress": 12,
+        "morale": -10,
+        "trustInCommand": -12
+      }
+    },
+    {
+      "min": 20,
+      "max": 39,
+      "label": "resistant",
+      "behavior": [
+        "accept_with_objection",
+        "reduced_initiative",
+        "challenge_briefing"
+      ],
+      "stateEffects": {
+        "stress": 8,
+        "morale": -5
+      }
+    },
+    {
+      "min": 40,
+      "max": 59,
+      "label": "professional",
+      "behavior": [
+        "accept",
+        "follow_plan",
+        "limited_dialogue"
+      ],
+      "stateEffects": {
+        "stress": 3
+      }
+    },
+    {
+      "min": 60,
+      "max": 79,
+      "label": "engaged",
+      "behavior": [
+        "accept",
+        "offer_plan",
+        "support_team"
+      ],
+      "stateEffects": {
+        "morale": 4,
+        "operationalFocus": 6
+      }
+    },
+    {
+      "min": 80,
+      "max": 100,
+      "label": "committed",
+      "behavior": [
+        "volunteer",
+        "take_personal_risk",
+        "inspire_team"
+      ],
+      "stateEffects": {
+        "morale": 8,
+        "relationshipSupport": 4
+      }
+    }
+  ],
+  "components": {
+    "preference": {
+      "favoredMissionType": 12,
+      "dislikedMissionType": -12,
+      "ethicalTagBonuses": "from character.missionPreferences.bonuses",
+      "ethicalTagPenalties": "from character.missionPreferences.penalties"
+    },
+    "moralAlignment": {
+      "preservationOfLife": "compare civilianRisk and lethalAuthorization",
+      "ruleOfLaw": "compare warrantStatus, evidenceQuality and illegal_order",
+      "truthTransparency": "compare secret_order, deceptionRequirement and mediaDisclosure",
+      "loyalty": "compare threatenedAlly and relationship axes",
+      "proportionality": "compare forceLevel and collateralForecast",
+      "autonomy": "compare coercion, surrender and consent",
+      "redemption": "compare surrender_possible and targetRehabEvidence",
+      "collectiveGood": "compare scaleOfThreat and individualCost"
+    },
+    "relationshipSupport": {
+      "trustedLeader": 8,
+      "closeTeammate": 6,
+      "resentedLeader": -10,
+      "fearedTeammate": -5,
+      "mentorPresent": 7,
+      "unresolvedBetrayal": -12
+    },
+    "competenceFit": {
+      "primaryRole": 10,
+      "secondaryRole": 5,
+      "powerCountered": -8,
+      "knownLocation": 4
+    },
+    "stressPenalty": "floor(stress / 10) * 2 above 40",
+    "fatiguePenalty": "floor(fatigue / 10) above 30",
+    "traumaPenalty": "0..18 based on trigger match",
+    "commandTrustModifier": "round((trustInCommand - 50) / 5)"
+  },
+  "mandatoryOutputs": [
+    "reactionScore",
+    "reactionBand",
+    "topPositiveFactors",
+    "topNegativeFactors",
+    "spokenReactionId",
+    "stateDelta",
+    "possibleRefusal"
+  ],
+  "refusalPolicy": {
+    "neverRandom": true,
+    "requires": [
+      "score <= 19 OR redLineConflict",
+      "logged_reason"
+    ],
+    "playerOptions": [
+      "replace_character",
+      "change_plan",
+      "negotiate",
+      "force_order"
+    ],
+    "forceOrderConsequences": [
+      "trust loss",
+      "stress",
+      "possible disobedience during mission",
+      "public or legal fallout"
+    ]
+  }
+}
